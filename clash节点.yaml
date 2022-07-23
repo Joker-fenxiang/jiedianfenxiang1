@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
-#  创建者：https://t.me/jokersfantastichome
-#  创建时间：2022-07-22 17:03:13
+#  创建者：Joker的白嫖百宝箱频道
+#  创建时间：2022-07-23 12:15:09
 #  模版：v2rayse默认模版
-#  节点数量：95
+#  节点数量：176
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,101 +13,182 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1","server":"ustr0623.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"ustr0623.moonfree.top"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2","server":"hncu.zz8.shop","port":57888,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_3","server":"103.186.187.52","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4","server":"rn1107.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"rn1107.moonfree.top"}
-  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5","server":"138.68.248.130","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6","server":"hncu.zz8.shop","port":59333,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7","server":"38.143.66.20","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8","server":"38.143.66.20","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"电报频道：https://t.me/jokersfantastichome_9","ws-opts":{"path":"/","headers":{"host":"v6d1.moonfree.top"}},"server":"v6d1.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10","server":"aodaliya.oppc.gq","port":46205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11","server":"45.88.148.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12","ws-opts":{"path":"/vmess-ws-makae","headers":{"host":"bn-id01.ipv2ray.xyz"}},"server":"api.qiscus.com","port":"443","uuid":"8f9b60e6-1db3-42e4-97b9-1e311f427649","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14","server":"hlu.bgp2.liuliangzhuanfa.xyz","port":31097,"password":"c810fe45-44c3-4fe0-a680-a3ebf8bd461a","udp":true,"skip-cert-verify":true,"sni":"aa1.liumeit.xyz"}
-  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15","server":"196.247.59.154","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"电报频道：https://t.me/jokersfantastichome_16","ws-opts":{"path":"/v116-DtoEwAEX"},"server":"v116.v2dns.bar","port":"80","uuid":"c97cf46e-1554-36cb-8b36-c3556b883dc4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17","server":"hncu.zz8.shop","port":59888,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18","server":"212.90.123.130","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19","server":"aaa-666.txwd.xyz","port":30006,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20","server":"s43.bohe666.xyz","port":10086,"password":"58e32a0b-e014-3350-baf9-25032935b56a","udp":true,"skip-cert-verify":true,"sni":"s43.bohe666.xyz"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21","server":"hncu.zz8.shop","port":59666,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22","server":"gzct.zz8.shop","port":59666,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23","server":"hncu.zz8.shop","port":59555,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25","server":"gzcm.zz8.shop","port":59778,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26","server":"gzcm.zz8.shop","port":59444,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27","ws-opts":{"path":"/v2ray"},"server":"y.yuzex.top","port":"2087","uuid":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28","server":"tw-2.oppc.ml","port":36236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29","server":"aaa-666.txwd.xyz","port":30014,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30","server":"gzcm.zz8.shop","port":59911,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32","ws-opts":{"path":"/","headers":{"host":"fr1t.moonfree.top"}},"server":"fr1t.moonfree.top","port":"8443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33","server":"hncu.zz8.shop","port":59111,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34","server":"shcu.zz8.shop","port":59816,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uslsj.zzk8.me"}
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35","server":"node.sin.entrance.cyou","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36","server":"gzct.zz8.shop","port":59111,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37","server":"shcu.zz8.shop","port":59818,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uska.zzk8.me"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38","server":"gzcm.zz8.shop","port":59922,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_39","server":"103.173.255.21","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40","server":"gzyd1.52147.top","port":30010,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_41","server":"103.173.255.21","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42","server":"aws-xjp-1.oppc.ga","port":46328,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43","server":"80.78.132.177","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_44","server":"103.173.255.127","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45","server":"jpli.zzk8.me","port":59813,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"jpli.zzk8.me"}
-  - {"type":"ss","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_47","server":"103.173.255.228","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48","server":"45.82.253.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49","server":"gzct.zz8.shop","port":59333,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50","server":"shcu.zz8.shop","port":59815,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"sgaws.zzk8.me"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51","server":"gzyd1.52147.top","port":30080,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_52","server":"103.173.255.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_53","server":"103.173.255.127","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54","server":"hnyd.52147.top","port":30080,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55","server":"gzyd1.52147.top","port":30080,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_56","server":"103.173.255.234","port":443,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57","server":"hncu.zz8.shop","port":59566,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58","ws-opts":{"path":"/"},"server":"103.152.226.173","port":"80","uuid":"afd73771-0c10-4104-bd35-38371e71c616","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_59","server":"103.173.255.228","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60","server":"jpdb.oppc.ml","port":51205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61","server":"az-jp-2.oppc.ga","port":51256,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62","server":"az-hk-4.oppc.ml","port":33520,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63","server":"hnyd.52147.top","port":30080,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64","server":"gzyd2.52147.top","port":30150,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65","ws-opts":{"path":"/","headers":{"host":"ocrb1.moonfree.top"}},"server":"ocrb1.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66","server":"gzyd1.52147.top","port":30120,"password":"bd46e748-798b-408b-9704-1146b8344165","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67","server":"aws-hg-1.oppc.ga","port":53253,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68","server":"aaa-666.txwd.xyz","port":30004,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"vmess","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"ocrb2.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70","server":"sgaws.zzk8.me","port":59815,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"sgaws.zzk8.me"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72","server":"az-jp-1.oppc.ga","port":32101,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73","server":"gzyd1.52147.top","port":30120,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74","server":"shcu.zz8.shop","port":59813,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"jpli.zzk8.me"}
-  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75","server":"38.143.66.20","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76","server":"shcu.zz8.shop","port":59965,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"nl.zzk8.me"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77","server":"gzcm.zz8.shop","port":59936,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78","server":"std.zz8.shop","port":59967,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"ua1.zzk8.me"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79","server":"hlu.bgp2.liuliangzhuanfa.xyz","port":42167,"password":"c810fe45-44c3-4fe0-a680-a3ebf8bd461a","udp":true,"skip-cert-verify":true,"sni":"els1.eluosi1.xyz"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80","server":"yindu.oppc.gq","port":50236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81","server":"hlu.bgp2.liuliangzhuanfa.xyz","port":45379,"password":"c810fe45-44c3-4fe0-a680-a3ebf8bd461a","udp":true,"skip-cert-verify":true,"sni":"xg1.xianggang1.xyz"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82","server":"pp1.zhengzhongfeizhu.xyz","port":34003,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
-  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83","server":"111.45.29.75","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true,"sni":"tw.speedasia.xyz"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84","server":"u6.yuzex.top","port":2311,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u6.yuzex.top"}
-  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85","server":"hinet.52147.top","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86","server":"196.247.59.154","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"trojan","name":"🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87","server":"baxi-1.oppc.gq","port":32165,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88","server":"u5.yuzex.top","port":12311,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u5.yuzex.top"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89","server":"u5.yuzex.top","port":47212,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u5.yuzex.top"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90","server":"u2.yuzex.top","port":31312,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u2.yuzex.top"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91","server":"aaa-666.txwd.xyz","port":32002,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92","server":"uska.zzk8.me","port":59818,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uska.zzk8.me"}
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93","server":"gzcm.zz8.shop","port":59222,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94","server":"uscera.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"uscera.moonfree.top"}
-  - {"type":"trojan","name":"🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95","server":"in-01.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"in-01.licom.ml"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1","server":"aodaliya.oppc.gq","port":46205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1","server":"hk14.bp777.buzz","port":"21665","uuid":"2ec815bf-2d87-4e89-afb1-a81fae36c437","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2","server":"hk20.bp777.buzz","port":"21665","uuid":"a78952bb-1d27-4968-919e-184741e02408","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1","server":"hk12.bp777.buzz","port":"21665","uuid":"84658a9a-67da-4dbf-bcd6-9b096ab86e57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2","server":"hnyd.52147.top","port":30080,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3","server":"45.88.148.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4","server":"hk18.bp777.buzz","port":"21665","uuid":"a78952bb-1d27-4968-919e-184741e02408","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2","server":"196.247.59.154","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5","server":"212.90.123.130","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2","server":"hk13.bp777.buzz","port":"21665","uuid":"a78952bb-1d27-4968-919e-184741e02408","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6","server":"hk18.bp777.buzz","port":"21665","uuid":"20edc1c0-9fa6-4d06-b8e0-a2e3d5b78487","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3","server":"gzcm.zz8.shop","port":59778,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7","server":"hk10.bp777.buzz","port":"21665","uuid":"7e1c11f5-6520-4503-8d82-b21f62eac947","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5","server":"aaa-666.txwd.xyz","port":32002,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3","server":"hk16.bp777.buzz","port":"21665","uuid":"6f578b5a-5ba5-40df-a757-2a5c6544ca82","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8","ws-opts":{"path":"/","headers":{"host":"fr1t.moonfree.top"}},"server":"fr1t.moonfree.top","port":"8443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4","server":"hk09.bp777.buzz","port":"21665","uuid":"84658a9a-67da-4dbf-bcd6-9b096ab86e57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1","server":"tw-2.oppc.ml","port":36236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7","server":"shcu.zz8.shop","port":59818,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uska.zzk8.me"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8","server":"gzcm.zz8.shop","port":59922,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9","server":"hncu.zz8.shop","port":59666,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10","server":"gzyd1.52147.top","port":30080,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9","server":"hk10.bp777.buzz","port":"21665","uuid":"3af8366b-a51e-4915-bfb0-0d6c518fab7f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11","server":"gzcm.zz8.shop","port":59911,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12","server":"gzyd1.52147.top","port":30080,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5","server":"hk06.bp777.buzz","port":"21665","uuid":"a78952bb-1d27-4968-919e-184741e02408","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13","server":"gzyd1.52147.top","port":30180,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1","server":"hk19.bp777.buzz","port":"21665","uuid":"a2f887a0-5c1a-47cc-80d6-f148d60d8499","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14","server":"111.45.29.75","port":30003,"password":"c9a3a61d-5d49-4158-9e60-6fa32684b122","udp":true,"skip-cert-verify":true,"sni":"tw.speedasia.xyz"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15","server":"gzyd2.52147.top","port":30080,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16","server":"gzyd1.52147.top","port":30080,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17","server":"hncu.zz8.shop","port":59555,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18","server":"hnyd.52147.top","port":30010,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1","server":"aws-xjp-1.oppc.ga","port":46328,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19","server":"hncu.zz8.shop","port":59333,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6","server":"hk14.bp777.buzz","port":"21665","uuid":"0d5a1e20-2dee-4cea-b9f0-48c1b9b755ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20","server":"gzct.zz8.shop","port":59333,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21","server":"gzyd2.52147.top","port":30010,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1","server":"157.120.35.234","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2","server":"node.sin.entrance.cyou","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10","server":"az-jp-2.oppc.ga","port":51256,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22","server":"gzyd1.52147.top","port":30010,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23","server":"hnyd.52147.top","port":30180,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24","server":"hnyd.52147.top","port":30180,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25","server":"gzyd1.52147.top","port":30010,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2","server":"hk19.bp777.buzz","port":"21665","uuid":"2ec815bf-2d87-4e89-afb1-a81fae36c437","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2","server":"157.120.35.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3","server":"node.sin.entrance.cyou","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11","server":"45.82.253.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26","server":"gzyd2.52147.top","port":30010,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7","server":"hk09.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12","server":"hk10.bp777.buzz","port":"21665","uuid":"7db998be-b5d2-4bfa-9ac5-31b812cd5c64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome","server":"80.78.132.177","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_1","server":"103.186.187.52","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8","server":"hk11.bp777.buzz","port":"21665","uuid":"823f5e59-0c96-4fb2-8333-70b6815fd904","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3","server":"jpdb.oppc.ml","port":51205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9","server":"hk11.bp777.buzz","port":"21665","uuid":"7e1c11f5-6520-4503-8d82-b21f62eac947","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13","server":"hk20.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10","server":"hk13.bp777.buzz","port":"21665","uuid":"14ea418f-d80b-465b-951f-2d2b2617b658","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11","server":"hk11.bp777.buzz","port":"21665","uuid":"547eee89-9e6f-45eb-bb30-4a5e71d844b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12","server":"hk01.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2","server":"hk12.bp777.buzz","port":"21665","uuid":"7db998be-b5d2-4bfa-9ac5-31b812cd5c64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_2","server":"103.173.255.127","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14","server":"az-jp-1.oppc.ga","port":32101,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_3","server":"103.173.255.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4","server":"sgaws.zzk8.me","port":59815,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"sgaws.zzk8.me"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_4","server":"103.173.255.127","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5","server":"jpli.zzk8.me","port":59813,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"jpli.zzk8.me"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27","server":"aaa-666.txwd.xyz","port":30006,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28","server":"gzyd1.52147.top","port":30180,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29","server":"gzct.zz8.shop","port":59666,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_5","server":"103.173.255.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13","server":"hk13.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_6","server":"103.173.255.127","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14","server":"hk13.bp777.buzz","port":"21665","uuid":"0d5a1e20-2dee-4cea-b9f0-48c1b9b755ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_7","server":"103.173.255.234","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30","server":"hnyd.52147.top","port":30010,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15","server":"hk04.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16","server":"hk14.bp777.buzz","port":"21665","uuid":"a78952bb-1d27-4968-919e-184741e02408","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31","server":"hncu.zz8.shop","port":59566,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_8","server":"103.173.255.228","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17","server":"aws-hg-1.oppc.ga","port":53253,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18","server":"hk13.bp777.buzz","port":"21665","uuid":"dc263ba7-3119-4f1a-a690-0153fbbaf5cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_9","server":"103.173.255.21","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15","ws-opts":{"path":"/","headers":{"host":"ocrb1.moonfree.top"}},"server":"ocrb1.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_10","server":"103.173.255.21","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_11","server":"103.173.255.228","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_12","server":"103.173.255.21","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19","server":"hk13.bp777.buzz","port":"21665","uuid":"547eee89-9e6f-45eb-bb30-4a5e71d844b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20","server":"hk04.bp777.buzz","port":"21665","uuid":"0d5a1e20-2dee-4cea-b9f0-48c1b9b755ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_13","server":"103.173.255.228","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21","server":"hk13.bp777.buzz","port":"21665","uuid":"2ec815bf-2d87-4e89-afb1-a81fae36c437","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1","server":"hkt.52147.top","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3","server":"hk12.bp777.buzz","port":"21665","uuid":"a2f887a0-5c1a-47cc-80d6-f148d60d8499","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32","ws-opts":{"path":"/"},"server":"103.152.226.173","port":"80","uuid":"afd73771-0c10-4104-bd35-38371e71c616","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16","server":"az-hk-4.oppc.ml","port":33520,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22","server":"hk16.bp777.buzz","port":"21665","uuid":"05fea7bd-3ece-44ca-b273-6296b19acc3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4","server":"hk12.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23","server":"hk06.bp777.buzz","port":"21665","uuid":"547eee89-9e6f-45eb-bb30-4a5e71d844b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17","ws-opts":{"path":"/v2ray"},"server":"y.yuzex.top","port":"2087","uuid":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5","server":"hk12.bp777.buzz","port":"21665","uuid":"05fea7bd-3ece-44ca-b273-6296b19acc3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6","server":"hk12.bp777.buzz","port":"21665","uuid":"d0804e52-82cc-406e-bdac-0ed3e2112273","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2","server":"hinet.52147.top","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7","server":"hk12.bp777.buzz","port":"21665","uuid":"14ea418f-d80b-465b-951f-2d2b2617b658","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8","server":"hk12.bp777.buzz","port":"21665","uuid":"dc263ba7-3119-4f1a-a690-0153fbbaf5cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18","server":"hk10.bp777.buzz","port":"21665","uuid":"14ea418f-d80b-465b-951f-2d2b2617b658","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24","server":"hk06.bp777.buzz","port":"21665","uuid":"05fea7bd-3ece-44ca-b273-6296b19acc3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9","server":"hk12.bp777.buzz","port":"21665","uuid":"3af8366b-a51e-4915-bfb0-0d6c518fab7f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25","server":"hk09.bp777.buzz","port":"21665","uuid":"6f578b5a-5ba5-40df-a757-2a5c6544ca82","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26","server":"hk11.bp777.buzz","port":"21665","uuid":"7790d5cd-677c-4c9e-a1ac-c42f2830d16a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27","server":"hk11.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33","server":"gzyd1.52147.top","port":30120,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19","server":"yindu.oppc.gq","port":50236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3","server":"196.247.59.154","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34","server":"gzct.zz8.shop","port":59111,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10","server":"hk12.bp777.buzz","port":"21665","uuid":"158173b5-bdcd-4a13-b408-c123e5874cd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35","server":"hncu.zz8.shop","port":57888,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28","server":"hk13.bp777.buzz","port":"21665","uuid":"7e1c11f5-6520-4503-8d82-b21f62eac947","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20","server":"ustr0623.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"ustr0623.moonfree.top"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36","server":"hncu.zz8.shop","port":59888,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"trojan","name":"🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2","server":"std.zz8.shop","port":59967,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"ua1.zzk8.me"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37","server":"shcu.zz8.shop","port":59965,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"nl.zzk8.me"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29","server":"hk04.bp777.buzz","port":"21665","uuid":"05fea7bd-3ece-44ca-b273-6296b19acc3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30","server":"hk04.bp777.buzz","port":"21665","uuid":"dc263ba7-3119-4f1a-a690-0153fbbaf5cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38","server":"gzyd1.52147.top","port":30120,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31","server":"hk13.bp777.buzz","port":"21665","uuid":"a2f887a0-5c1a-47cc-80d6-f148d60d8499","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39","server":"gzcm.zz8.shop","port":59936,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21","server":"hk10.bp777.buzz","port":"21665","uuid":"158173b5-bdcd-4a13-b408-c123e5874cd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32","server":"hk07.bp777.buzz","port":"21665","uuid":"84658a9a-67da-4dbf-bcd6-9b096ab86e57","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33","server":"hk14.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22","server":"hk10.bp777.buzz","port":"21665","uuid":"2d99faa3-779c-4e8a-8852-264e944f61f9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23","server":"hk18.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24","server":"hk10.bp777.buzz","port":"21665","uuid":"d0804e52-82cc-406e-bdac-0ed3e2112273","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25","server":"hk18.bp777.buzz","port":"21665","uuid":"dc263ba7-3119-4f1a-a690-0153fbbaf5cc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26","ws-opts":{"path":"/v116-DtoEwAEX"},"server":"v116.v2dns.bar","port":"80","uuid":"c97cf46e-1554-36cb-8b36-c3556b883dc4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27","server":"uska.zzk8.me","port":59818,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uska.zzk8.me"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3","server":"hinet.52147.top","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11","server":"hk12.bp777.buzz","port":"21665","uuid":"20edc1c0-9fa6-4d06-b8e0-a2e3d5b78487","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40","server":"gzyd1.52147.top","port":30120,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28","server":"hk10.bp777.buzz","port":"21665","uuid":"9a367b0b-6f76-4a8c-af3d-f02e95e2bc5f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29","server":"hk10.bp777.buzz","port":"21665","uuid":"05fea7bd-3ece-44ca-b273-6296b19acc3d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41","server":"shcu.zz8.shop","port":59816,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"uslsj.zzk8.me"}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4","server":"hinet.52147.top","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30","server":"hk10.bp777.buzz","port":"21665","uuid":"6f578b5a-5ba5-40df-a757-2a5c6544ca82","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31","server":"38.143.66.20","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32","server":"45.88.148.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34","server":"hk09.bp777.buzz","port":"21665","uuid":"7db998be-b5d2-4bfa-9ac5-31b812cd5c64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42","server":"shcu.zz8.shop","port":59815,"password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e","udp":true,"skip-cert-verify":true,"sni":"sgaws.zzk8.me"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35","server":"hk16.bp777.buzz","port":"21665","uuid":"2d99faa3-779c-4e8a-8852-264e944f61f9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33","server":"hk10.bp777.buzz","port":"21665","uuid":"0d5a1e20-2dee-4cea-b9f0-48c1b9b755ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34","server":"38.143.66.20","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35","server":"38.143.66.20","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43","server":"hncu.zz8.shop","port":59111,"cipher":"chacha20-ietf-poly1305","password":"44b00949-15fc-4c6a-aa46-d6d50e2b0c4e"}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"ocrb2.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36","server":"hk11.bp777.buzz","port":"21665","uuid":"6f578b5a-5ba5-40df-a757-2a5c6544ca82","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36","server":"u6.yuzex.top","port":2311,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u6.yuzex.top"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37","server":"hk10.bp777.buzz","port":"21665","uuid":"161dc5ee-7aba-4682-a4fc-4229e6f76aa1","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome","server":"baxi-1.oppc.gq","port":32165,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12","server":"hk12.bp777.buzz","port":"21665","uuid":"6f578b5a-5ba5-40df-a757-2a5c6544ca82","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38","server":"hk20.bp777.buzz","port":"21665","uuid":"2d99faa3-779c-4e8a-8852-264e944f61f9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39","server":"hk10.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40","server":"uscera.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"uscera.moonfree.top"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37","server":"hk09.bp777.buzz","port":"21665","uuid":"0d5a1e20-2dee-4cea-b9f0-48c1b9b755ae","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38","server":"hk14.bp777.buzz","port":"21665","uuid":"20edc1c0-9fa6-4d06-b8e0-a2e3d5b78487","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39","server":"hk14.bp777.buzz","port":"21665","uuid":"d0804e52-82cc-406e-bdac-0ed3e2112273","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13","server":"hk12.bp777.buzz","port":"21665","uuid":"0a990251-2338-4e1d-9deb-6635427fd91d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40","server":"hk14.bp777.buzz","port":"21665","uuid":"2d99faa3-779c-4e8a-8852-264e944f61f9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41","server":"212.90.123.130","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42","server":"rn1107.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"rn1107.moonfree.top"}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41","server":"hk01.bp777.buzz","port":"21665","uuid":"158173b5-bdcd-4a13-b408-c123e5874cd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14","server":"hk12.bp777.buzz","port":"21665","uuid":"823f5e59-0c96-4fb2-8333-70b6815fd904","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -115,100 +196,181 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -216,100 +378,181 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -317,400 +560,724 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -734,100 +1301,181 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_2
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_4
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_3
       - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_8
-      - 电报频道：https://t.me/jokersfantastichome_9
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_4
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_1
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_5
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_14
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_15
-      - 电报频道：https://t.me/jokersfantastichome_16
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_17
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_1
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_19
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_20
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_6
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_1
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_10
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_22
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_24
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_24
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇬🇧_GB_英国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_2
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_26
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_28
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome
+      - 电报频道：https://t.me/jokersfantastichome_1
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_8
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_3
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_10
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_11
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_12
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_2
+      - 电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_3
+      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_4
+      - 电报频道：https://t.me/jokersfantastichome_4
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_5
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_28
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_29
+      - 电报频道：https://t.me/jokersfantastichome_5
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_13
+      - 电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_14
+      - 电报频道：https://t.me/jokersfantastichome_7
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_15
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_16
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_31
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 电报频道：https://t.me/jokersfantastichome_8
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_18
+      - 电报频道：https://t.me/jokersfantastichome_9
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_15
+      - 电报频道：https://t.me/jokersfantastichome_10
+      - 电报频道：https://t.me/jokersfantastichome_11
+      - 电报频道：https://t.me/jokersfantastichome_12
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_20
+      - 电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_1
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_3
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_16
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_4
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_17
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_5
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_6
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_2
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_7
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_8
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_18
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_9
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_27
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_19
+      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_3
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_34
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_35
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_20
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_2
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_30
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_38
-      - 电报频道：https://t.me/jokersfantastichome_39
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_21
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_22
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_23
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_24
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_25
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_26
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_27
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_3
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_11
       - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_40
-      - 电报频道：https://t.me/jokersfantastichome_41
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_42
-      - 🇩🇪_DE_德国_电报频道：https://t.me/jokersfantastichome_43
-      - 电报频道：https://t.me/jokersfantastichome_44
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_45
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 电报频道：https://t.me/jokersfantastichome_47
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_50
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_51
-      - 电报频道：https://t.me/jokersfantastichome_52
-      - 电报频道：https://t.me/jokersfantastichome_53
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_54
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_55
-      - 电报频道：https://t.me/jokersfantastichome_56
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_57
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_58
-      - 电报频道：https://t.me/jokersfantastichome_59
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_60
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_61
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_62
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_63
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_64
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_65
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_66
-      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_67
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_68
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_69
-      - 🇸🇬_SG_新加坡_电报频道：https://t.me/jokersfantastichome_70
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_71
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_72
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_73
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_74
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_75
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_76
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_77
-      - 🇭🇰_HK_香港_电报频道：https://t.me/jokersfantastichome_78
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_79
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_80
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_82
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_83
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_84
-      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_85
-      - 🇨🇦_CA_加拿大_电报频道：https://t.me/jokersfantastichome_86
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome_87
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_88
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_89
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_90
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_91
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_92
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_93
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_94
-      - 🇮🇳_IN_印度_电报频道：https://t.me/jokersfantastichome_95
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_28
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_29
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇹🇼_TW_台湾_电报频道：https://t.me/jokersfantastichome_4
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_30
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_31
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_32
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_33
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_34
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_35
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_43
+      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome_6
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_36
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_12
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_37
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_38
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_39
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_13
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_40
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_42
+      - 🇰🇷_KR_韩国_电报频道：https://t.me/jokersfantastichome_41
+      - 🇦🇺_AU_澳大利亚_电报频道：https://t.me/jokersfantastichome_14
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
