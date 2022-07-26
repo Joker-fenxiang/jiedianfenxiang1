@@ -6,110 +6,204 @@ log-level: silent
 dns:
   enable: false
 proxies:
-  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"ss","name":"大萝卜鸡🇺🇸美国高速","server":"us01.wol1.ml","port":443,"cipher":"chacha20-ietf-poly1305","password":"54134721-a8c0-4e67-9d15-3b75ef13c0d6"}
-  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_84","server":"aodaliya.oppc.gq","port":46205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/freefq+-+塞舌尔++25","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_121","server":"196.247.59.154","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1","server":"45.88.148.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"美国西雅图-3号|解锁流媒体","server":"212.90.123.130","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_97","server":"u6.yuzex.top","port":2311,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u6.yuzex.top"}
-  - {"type":"trojan","name":"美国洛杉矶-1号|解锁流媒体","server":"45.88.148.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2","server":"212.90.123.130","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"台湾Hinet|解锁流媒体_1","server":"hinet.52147.top","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_81","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_1","server":"103.173.255.127","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"香港HKT-广移2|解锁流媒体","server":"gzyd2.52147.top","port":30180,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"台湾Hinet|解锁流媒体_2","server":"hinet.52147.top","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇹🇼_台湾_电报频道：https://t.me/jokersfantastichome_26","server":"tw-2.oppc.ml","port":36236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_44","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3","server":"uscera.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"uscera.moonfree.top"}
-  - {"type":"trojan","name":"德国-河移双线负载均衡|解锁流媒体","server":"hnyd.52147.top","port":30080,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"香港HKT-河移|解锁流媒体","server":"hnyd.52147.top","port":30180,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4","server":"38.143.66.20","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"大萝卜鸡🇯🇵日本高速02","server":"jp02.wol1.ml","port":443,"cipher":"chacha20-ietf-poly1305","password":"54134721-a8c0-4e67-9d15-3b75ef13c0d6"}
-  - {"type":"trojan","name":"🇸🇬_新加坡_电报频道：https://t.me/jokersfantastichome_56","server":"aws-xjp-1.oppc.ga","port":46328,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"大萝卜鸡🇭🇰香港高速02","server":"hk02.wol1.ml","port":443,"cipher":"chacha20-ietf-poly1305","password":"54134721-a8c0-4e67-9d15-3b75ef13c0d6"}
-  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_2","server":"103.173.255.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_130","server":"196.247.59.154","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"trojan","name":"越南-3号_1","server":"103.173.255.228","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"ss","name":"大萝卜鸡🇭🇰香港高速04","server":"hk04.wol1.ml","port":443,"cipher":"chacha20-ietf-poly1305","password":"54134721-a8c0-4e67-9d15-3b75ef13c0d6"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2","ws-opts":{"path":"/"},"server":"103.152.226.173","port":"80","uuid":"afd73771-0c10-4104-bd35-38371e71c616","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇯🇵_日本_电报频道：https://t.me/jokersfantastichome_46","server":"jpdb.oppc.ml","port":51205,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_23","server":"az-jp-2.oppc.ga","port":51256,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5","server":"az-jp-1.oppc.ga","port":32101,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"电报频道：https://t.me/jokersfantastichome_3","server":"103.173.255.21","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome","server":"157.120.35.234","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-3号_2","server":"103.173.255.228","port":443,"password":"0ecc6dac-81c5-4d81-a368-6d86b763a828","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇸🇬新加坡-核心访问DP","server":"trasg1.bitznet.cloud","port":32007,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇭🇰香港-核心访问HKT","server":"trahk5.bitznet.cloud","port":32000,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇨🇳CN+1+|+@Airproxies","server":"120.232.211.224","port":38080,"password":"4a959834-497a-4a60-bf28-9190d272dea5","udp":true,"skip-cert-verify":true,"sni":"hk01-node.rssray.top"}
+  - {"type":"trojan","name":"🇯🇵日本-核心访问DP","server":"trajp1.bitznet.cloud","port":32004,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇰🇷韩国-核心访问VUKR","server":"trask1.bitznet.cloud","port":32005,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"越南1G-广州移动负载均衡三线(中转)|解锁流媒体","server":"gzyd1.52147.top","port":30060,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇭🇰香港-核心访问DP","server":"trahk1.bitznet.cloud","port":32443,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇹🇼台湾-边缘访问HiNet","server":"dttw1.bitznet.cloud","port":33003,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇮🇳印度-核心访问DOIN","server":"train1.bitznet.cloud","port":32017,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"越南|广州移动(中转)","server":"gzyd1.52147.top","port":30120,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇮🇳印度-边缘访问DOIN","server":"dtin1.bitznet.cloud","port":33017,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"vmess","name":"免费-日本","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"ocrb2.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇯🇵_🇯🇵JP4→TG@jokersfantastichome","server":"supernortheast.xn--mesv7f5toqlp.club","port":12002,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"越南1G-河南移动负载均衡三线(中转)|解锁流媒体","server":"hnyd.52147.top","port":30060,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1","ws-opts":{"path":"/","headers":{"host":"ocrb1.moonfree.top"}},"server":"ocrb1.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇦🇺澳大利亚-边缘访问VUAU","server":"dtau1.bitznet.cloud","port":33012,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_44","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"trojan","name":"🇦🇺澳大利亚-核心访问VUAU","server":"traau1.bitznet.cloud","port":32012,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"IN02|1X|TR","server":"in-02.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true,"sni":"in-02.licom.ml"}
+  - {"type":"trojan","name":"🇯🇵_🇯🇵JP2→TG@jokersfantastichome","server":"supernortheast.xn--mesv7f5toqlp.club","port":12001,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"越南-3号","server":"103.173.255.228","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"trojan","name":"🇯🇵_🇯🇵JP5→TG@jokersfantastichome","server":"supernortheast.xn--mesv7f5toqlp.club","port":12004,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_49","server":"aaa-666.txwd.xyz","port":30006,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
-  - {"type":"trojan","name":"🇰🇷_韩国_电报频道：https://t.me/jokersfantastichome_85","server":"aws-hg-1.oppc.ga","port":53253,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"美国圣何塞-2号|解锁流媒体","server":"45.82.253.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"日本NTT-2号|解锁流媒体","server":"157.120.35.234","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":443,"password":"841ebe18-3372-4e26-a174-6a3944e70788","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_25","server":"az-hk-4.oppc.ml","port":33520,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"大萝卜鸡🇭🇰香港高速01","server":"hk01.wol1.ml","port":443,"cipher":"chacha20-ietf-poly1305","password":"54134721-a8c0-4e67-9d15-3b75ef13c0d6"}
-  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_48","server":"yindu.oppc.gq","port":50236,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6","ws-opts":{"path":"/","headers":{"host":"ocrb1.moonfree.top"}},"server":"ocrb1.moonfree.top","port":"443","uuid":"c599e33c-e881-4cb5-87a7-a6e3711879e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇺🇸美国-边缘访问Aper","server":"dtus1.bitznet.cloud","port":33001,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_133","server":"rn1107.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"rn1107.moonfree.top"}
-  - {"type":"trojan","name":"🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome","server":"baxi-1.oppc.gq","port":32165,"password":"lololo10&zxcvbnm1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸美国-核心访问Aper","server":"traus1.bitznet.cloud","port":32001,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_60","server":"ustr0623.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"ustr0623.moonfree.top"}
+  - {"type":"trojan","name":"🇫🇷法国-核心访问VUFR","server":"trafr1.bitznet.cloud","port":32009,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-广州移动双线负载均衡(中转)|解锁流媒体","server":"gzyd1.52147.top","port":30080,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"德国-河南移动双线负载均衡(中转)|解锁流媒体","server":"hnyd.52147.top","port":30080,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"日本NTT-2号|解锁流媒体","server":"157.120.35.234","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇫🇷法国-边缘访问VUFR","server":"dtfr1.bitznet.cloud","port":33009,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇯🇵_🇦🇺AU3→TG@jokersfantastichome","server":"jp2.autlinzh.xyz","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇫🇷_FR_法国","server":"62.210.113.98","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"trojan","name":"🇺🇦乌克兰-核心访问Vik","server":"traua1.bitznet.cloud","port":32019,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇵🇭菲律宾-核心访问Comfac","server":"traph1.bitznet.cloud","port":32013,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_81","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"eZorvvcCTp37grUu"}
+  - {"type":"trojan","name":"🇺🇦乌克兰-边缘访问Vik","server":"dtua1.bitznet.cloud","port":33019,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-仅支持法国地区NF自制剧","server":"195.154.200.150","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"🇵🇭菲律宾-边缘访问Comfac","server":"dtph1.bitznet.cloud","port":33013,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇹🇷土耳其-核心访问HTG","server":"tratr1.bitznet.cloud","port":32014,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_1","server":"193.108.117.75","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"trojan","name":"🇫🇷_🇬🇧GB2→TG@jokersfantastichome","server":"us-05.licom.ml","port":12501,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵_🇯🇵JP3→TG@jokersfantastichome","server":"supernortheast.xn--mesv7f5toqlp.club","port":12003,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇹🇷土耳其-边缘访问HTG","server":"dttr1.bitznet.cloud","port":33014,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇩🇪德国-边缘访问VUDE","server":"dtde1.bitznet.cloud","port":33011,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_2","server":"193.108.117.75","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_3","server":"193.108.117.75","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_4","server":"193.108.117.75","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"trojan","name":"🇩🇪德国-核心访问VUDE","server":"trade1.bitznet.cloud","port":32011,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_5","server":"193.108.117.75","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_1","server":"134.195.196.149","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_2","server":"134.195.196.149","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_3","server":"134.195.196.89","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_4","server":"134.195.196.149","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_US_美国_1","server":"169.197.141.5","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"🇧🇷巴西-核心访问GCore","server":"trabr1.bitznet.cloud","port":32016,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_5","server":"134.195.196.149","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_6","server":"134.195.196.149","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇯🇵_JP_日本","server":"85.208.108.93","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"trojan","name":"香港HKT|解锁流媒体","server":"hkt.52147.top","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"🇩🇪_DE_德国_6","server":"193.108.117.75","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_US_美国_2","server":"172.99.188.71","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"trojan","name":"🇧🇷巴西-边缘访问GCore","server":"dtbr1.bitznet.cloud","port":33016,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇦🇷阿根廷-核心访问DonWeb","server":"traar1.bitznet.cloud","port":32015,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_97","server":"u6.yuzex.top","port":2311,"password":"dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998","udp":true,"skip-cert-verify":true,"sni":"u6.yuzex.top"}
+  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"172.99.188.71","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"trojan","name":"🇦🇷阿根廷-边缘访问DonWeb","server":"dtar1.bitznet.cloud","port":33015,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇺🇸_US_美国_4","server":"172.99.188.71","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_US_美国_5","server":"172.99.188.71","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇺🇸_US_美国_6","server":"172.99.188.71","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇺🇸_US_美国_7","server":"172.99.188.71","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2","server":"uscera.moonfree.top","port":443,"password":"c599e33c-e881-4cb5-87a7-a6e3711879e2","udp":true,"skip-cert-verify":true,"sni":"uscera.moonfree.top"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_7","server":"134.195.196.149","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"trojan","name":"🇺🇸_🇨🇦CA1→TG@jokersfantastichome","server":"625us.ok365.cyou","port":443,"password":"6a582cd4-559f-4874-98e7-76f3465412ae","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"越南1G-广州移动2负载均衡三线(中转)|解锁流媒体","server":"gzyd2.52147.top","port":30060,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_8","server":"134.195.196.149","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"trojan","name":"台湾Hinet～广州移动(中转)|解锁流媒体","server":"gzyd1.52147.top","port":30010,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"ss","name":"github.com/freefq+-+塞舌尔++25","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_9","server":"134.195.196.149","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"trojan","name":"🇷🇺俄罗斯-核心访问GCore","server":"traru1.bitznet.cloud","port":32008,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇷🇺俄罗斯-边缘访问GCore","server":"dtru1.bitznet.cloud","port":33008,"password":"010dec47-1eba-40af-8be1-847a9b171d56","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大_10","server":"134.195.196.149","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"vmess","name":"🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2","ws-opts":{"path":"/"},"server":"103.152.226.173","port":"80","uuid":"afd73771-0c10-4104-bd35-38371e71c616","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3","server":"38.143.66.20","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇺🇸_US_美国_8","server":"38.143.66.20","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇺🇸_US_美国_9","server":"38.143.66.20","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"trojan","name":"🇮🇳_🇯🇵JP6→TG@jokersfantastichome","server":"in-01.licom.ml","port":8443,"password":"ce433528-39fa-4711-bc0d-25a5b1579574","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"台湾Hinet～广州移动2(中转)|解锁流媒体","server":"gzyd2.52147.top","port":30010,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"trojan","name":"德国-1号|解锁流媒体","server":"80.78.132.177","port":443,"password":"6937d050-a0ea-4ece-9b7a-f6578efb6900","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
+  - {"type":"vmess","name":"捷克02|深港专线","ws-opts":{"path":"/rocket"},"server":"best02.downloadmovie.cn","port":"65077","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_130","server":"196.247.59.154","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"🇸🇬_🇸🇬SG5→TG@jokersfantastichome","server":"supersouth.xn--mesv7f5toqlp.club","port":12003,"password":"dd04c158-1bac-47cd-99c1-5c4f64796dd5","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: test
     type: url-test
     proxies:
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
-      - 大萝卜鸡🇺🇸美国高速
-      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_84
-      - github.com/freefq+-+塞舌尔++25
-      - 🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_121
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
-      - 美国西雅图-3号|解锁流媒体
-      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_97
-      - 美国洛杉矶-1号|解锁流媒体
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
-      - 台湾Hinet|解锁流媒体_1
-      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_81
-      - 电报频道：https://t.me/jokersfantastichome_1
-      - 香港HKT-广移2|解锁流媒体
-      - 台湾Hinet|解锁流媒体_2
-      - 🇹🇼_台湾_电报频道：https://t.me/jokersfantastichome_26
-      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_44
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
-      - 德国-河移双线负载均衡|解锁流媒体
-      - 香港HKT-河移|解锁流媒体
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_4
-      - 大萝卜鸡🇯🇵日本高速02
-      - 🇸🇬_新加坡_电报频道：https://t.me/jokersfantastichome_56
-      - 大萝卜鸡🇭🇰香港高速02
-      - 越南-4号
-      - 电报频道：https://t.me/jokersfantastichome_2
-      - 🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_130
-      - 越南-3号_1
-      - 大萝卜鸡🇭🇰香港高速04
-      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
-      - 🇯🇵_日本_电报频道：https://t.me/jokersfantastichome_46
-      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_23
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_5
-      - 电报频道：https://t.me/jokersfantastichome_3
-      - 🇯🇵_JP_日本_电报频道：https://t.me/jokersfantastichome
-      - 越南-3号_2
+      - 🇸🇬新加坡-核心访问DP
+      - 🇭🇰香港-核心访问HKT
+      - 🇨🇳CN+1+|+@Airproxies
+      - 🇯🇵日本-核心访问DP
+      - 🇰🇷韩国-核心访问VUKR
+      - 越南1G-广州移动负载均衡三线(中转)|解锁流媒体
+      - 🇭🇰香港-核心访问DP
+      - 🇹🇼台湾-边缘访问HiNet
+      - 🇮🇳印度-核心访问DOIN
+      - 越南|广州移动(中转)
+      - 🇮🇳印度-边缘访问DOIN
       - 免费-日本
-      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_49
-      - 🇰🇷_韩国_电报频道：https://t.me/jokersfantastichome_85
-      - 美国圣何塞-2号|解锁流媒体
-      - 越南-2号
-      - 日本NTT-2号|解锁流媒体
+      - 🇯🇵_🇯🇵JP4→TG@jokersfantastichome
+      - 越南1G-河南移动负载均衡三线(中转)|解锁流媒体
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_1
       - 越南-1号
-      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_25
-      - 大萝卜鸡🇭🇰香港高速01
-      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_48
-      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_6
+      - 越南-2号
+      - 越南-4号
+      - 🇦🇺澳大利亚-边缘访问VUAU
+      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_44
+      - 🇦🇺澳大利亚-核心访问VUAU
+      - IN02|1X|TR
+      - 🇯🇵_🇯🇵JP2→TG@jokersfantastichome
+      - 越南-3号
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_1
+      - 🇯🇵_🇯🇵JP5→TG@jokersfantastichome
+      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_49
+      - 🇺🇸美国-边缘访问Aper
       - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_133
-      - 🇧🇷_BR_巴西_电报频道：https://t.me/jokersfantastichome
+      - 🇺🇸美国-核心访问Aper
       - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_60
+      - 🇫🇷法国-核心访问VUFR
+      - 德国-广州移动双线负载均衡(中转)|解锁流媒体
+      - 德国-河南移动双线负载均衡(中转)|解锁流媒体
+      - 日本NTT-2号|解锁流媒体
+      - 🇫🇷法国-边缘访问VUFR
+      - 🇯🇵_🇦🇺AU3→TG@jokersfantastichome
+      - 🇫🇷_FR_法国
+      - 🇺🇦乌克兰-核心访问Vik
+      - 🇵🇭菲律宾-核心访问Comfac
+      - 🇨🇳_中国_电报频道：https://t.me/jokersfantastichome_81
+      - 🇺🇦乌克兰-边缘访问Vik
+      - 🇫🇷:法国-ss-195.154.200.150:2376-可用-直连-仅支持法国地区NF自制剧
+      - 🇵🇭菲律宾-边缘访问Comfac
+      - 🇹🇷土耳其-核心访问HTG
+      - 🇩🇪_DE_德国_1
+      - 🇫🇷_🇬🇧GB2→TG@jokersfantastichome
+      - 🇯🇵_🇯🇵JP3→TG@jokersfantastichome
+      - 🇹🇷土耳其-边缘访问HTG
+      - 🇩🇪德国-边缘访问VUDE
+      - 🇩🇪_DE_德国_2
+      - 🇩🇪_DE_德国_3
+      - 🇩🇪_DE_德国_4
+      - 🇩🇪德国-核心访问VUDE
+      - 🇩🇪_DE_德国_5
+      - 🇨🇦_CA_加拿大_1
+      - 🇨🇦_CA_加拿大_2
+      - 🇨🇦_CA_加拿大_3
+      - 🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_1
+      - 🇧🇷巴西-核心访问GCore
+      - 🇨🇦_CA_加拿大_5
+      - 🇨🇦_CA_加拿大_6
+      - 🇯🇵_JP_日本
+      - 香港HKT|解锁流媒体
+      - 🇩🇪_DE_德国_6
+      - 🇺🇸_US_美国_2
+      - 🇧🇷巴西-边缘访问GCore
+      - 🇦🇷阿根廷-核心访问DonWeb
+      - 🇺🇸_美国_电报频道：https://t.me/jokersfantastichome_97
+      - 🇺🇸_US_美国_3
+      - 🇦🇷阿根廷-边缘访问DonWeb
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇨🇦_CA_加拿大_7
+      - 🇺🇸_🇨🇦CA1→TG@jokersfantastichome
+      - 越南1G-广州移动2负载均衡三线(中转)|解锁流媒体
+      - 🇨🇦_CA_加拿大_8
+      - 台湾Hinet～广州移动(中转)|解锁流媒体
+      - github.com/freefq+-+塞舌尔++25
+      - 🇨🇦_CA_加拿大_9
+      - 🇷🇺俄罗斯-核心访问GCore
+      - 🇷🇺俄罗斯-边缘访问GCore
+      - 🇨🇦_CA_加拿大_10
+      - 🇨🇳_CN_中国_电报频道：https://t.me/jokersfantastichome_2
+      - 🇺🇸_US_美国_电报频道：https://t.me/jokersfantastichome_3
+      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国_9
+      - 🇮🇳_🇯🇵JP6→TG@jokersfantastichome
+      - 台湾Hinet～广州移动2(中转)|解锁流媒体
+      - 德国-1号|解锁流媒体
+      - 捷克02|深港专线
+      - 🇨🇦_加拿大_电报频道：https://t.me/jokersfantastichome_130
+      - 🇸🇬_🇸🇬SG5→TG@jokersfantastichome
     url: http://www.gstatic.com/generate_204
     interval: 300
 rules:
