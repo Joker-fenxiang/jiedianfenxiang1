@@ -5,364 +5,52 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"ss","name":"Singapore06|Media","server":"iepl.sg.1312.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"Singapore02|Media","server":"iepl.sg.d6e4.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong15","server":"iepl.hk.7512.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong06","server":"iepl.hk.0686.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong02","server":"iepl.hk.c474.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong01","server":"iepl.hk.02d0.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong13","server":"iepl.hk.31c4.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"HKHKGGZ.HKHKTV2A(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"hk-hkg-gz-hk-hkt-v2.node.inforun.work","port":"60088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"Singapore04|Media","server":"iepl.sg.e0c4.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong10","server":"iepl.hk.fda0.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong04","server":"iepl.hk.a934.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"香港02丨1xHK","server":"activity.huawei.daanyht.com","port":12023,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"HongKong14","server":"iepl.hk.71bc.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"香港01丨1xHK","server":"activity.huawei.daanyht.com","port":12022,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Singapore01|Media","server":"iepl.sg.21ce.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"香港12丨1xHK","server":"activity.huawei.daanyht.com","port":12033,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"HongKong09","server":"iepl.hk.023d.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"日本07丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12016,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港11丨1xHK","server":"activity.huawei.daanyht.com","port":12032,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本02丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12010,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港08丨1xHK","server":"activity.huawei.daanyht.com","port":12029,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港13丨1xHK","server":"activity.huawei.daanyht.com","port":12721,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港09丨1xHK","server":"activity.huawei.daanyht.com","port":12030,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本05丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12014,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港家宽02丨1xHK","server":"activity.huawei.daanyht.com","port":13105,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港14丨1xHK","server":"activity.huawei.daanyht.com","port":12722,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本03丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12012,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本01丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12011,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港10丨1xHK","server":"activity.huawei.daanyht.com","port":12031,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本04丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12013,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"HKHKGIT2SVMV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"hk-hkg-it2-svm-v2.node.inforun.work","port":"13888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"日本09丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12018,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港家宽03丨1xHK","server":"activity.huawei.daanyht.com","port":13112,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"澳门家宽丨3xMO","server":"activity.huawei.daanyht.com","port":50227,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"🇭🇰HKHKGSH-HK02V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"hk-hkg-sh-hk-02-v2.cdn.savoy.click","port":"21088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"香港06丨1xHK","server":"activity.huawei.daanyht.com","port":12027,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本08丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12017,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港07丨1xHK","server":"activity.huawei.daanyht.com","port":12028,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港商宽丨1xHK","server":"activity.huawei.daanyht.com","port":12405,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"TWTPEHTR(trojan)","server":"tw-tpe-h-tr.cdn.savoy.click","port":10089,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"日本06丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12015,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港03丨1xHK","server":"activity.huawei.daanyht.com","port":12024,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"香港05丨1xHK","server":"activity.huawei.daanyht.com","port":12026,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本14丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13018,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"🇯🇵日本Tokyo急速-05.Ss.1.0x","server":"52.81.179.243","port":10005,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"ss","name":"日本15丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13026,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本11丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":13019,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本13丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13100,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾15丨1xTW","server":"activity.huawei.daanyht.com","port":12418,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾12丨1xTW","server":"activity.huawei.daanyht.com","port":12415,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾13丨1xTW","server":"activity.huawei.daanyht.com","port":12416,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾11丨1xTW","server":"activity.huawei.daanyht.com","port":12414,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾16丨1xTW","server":"activity.huawei.daanyht.com","port":12419,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡03丨1xSG","server":"activity.huawei.daanyht.com","port":12002,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾14丨1xTW","server":"activity.huawei.daanyht.com","port":12417,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾05丨1xTW","server":"activity.huawei.daanyht.com","port":12308,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"菲律宾-奎松丨1xPH","server":"activity.huawei.daanyht.com","port":12404,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾01丨1xTW","server":"activity.huawei.daanyht.com","port":12304,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾02丨1xTW","server":"activity.huawei.daanyht.com","port":12305,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾03丨1xTW","server":"activity.huawei.daanyht.com","port":12306,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾10丨1xTW","server":"activity.huawei.daanyht.com","port":12413,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"HKHKGGZ.HKHKTTRB(trojan)","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"台湾04丨1xTW","server":"activity.huawei.daanyht.com","port":12307,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"越南|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20125","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HKHKGGZ.HKHKTV2B(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"hk-gz-hk-hkt-v2-b.cdn.savoy.click","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"香港BGP②|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20149,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"香港04丨1xHK","server":"activity.huawei.daanyht.com","port":12025,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"新加坡-智能","server":"g.mjmjmjmj.cyou","port":"16618","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"台湾08丨1xTW","server":"activity.huawei.daanyht.com","port":12311,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡05丨1xSG","server":"activity.huawei.daanyht.com","port":12004,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"新加坡②|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20123","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"新加坡02丨1xSG","server":"activity.huawei.daanyht.com","port":12001,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"香港HKT-优化","server":"u.mjmjmjmj.cyou","port":"16620","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"香港家宽01丨1xHK","server":"activity.huawei.daanyht.com","port":12729,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"韩国05丨1xKR","server":"asusjobhr.0064.shuyue521.com","port":12800,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本家宽丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13101,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾07丨1xTW","server":"activity.huawei.daanyht.com","port":12310,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"新加坡-优化","server":"u.mjmjmjmj.cyou","port":"16618","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"菲律宾-克拉克丨1xPH","server":"activity.huawei.daanyht.com","port":12406,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡04丨1xSG","server":"activity.huawei.daanyht.com","port":12003,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Taiwan06","server":"iepl.tw.93f2.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"新加坡①|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20121","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"柬埔寨丨3xKH","server":"activity.huawei.daanyht.com","port":12701,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡09丨1xSG","server":"activity.huawei.daanyht.com","port":12009,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Taiwan02","server":"iepl.tw.a4a2.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"日本①|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20117,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"新加坡家宽丨3xSG","server":"activity.huawei.daanyht.com","port":12726,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡12丨1xSG","server":"activity.huawei.daanyht.com","port":12111,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡08丨1xSG","server":"activity.huawei.daanyht.com","port":12007,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Taiwan04","server":"iepl.tw.9548.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"🇭🇰HKHKGGZ.HKHKTV2B(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"hk-gz-hk-hkt-v2-b.cdn.savoy.click","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"新加坡06丨1xSG","server":"activity.huawei.daanyht.com","port":12005,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡10丨1xSG","server":"activity.huawei.daanyht.com","port":12008,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾09丨1xTW","server":"activity.huawei.daanyht.com","port":12412,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡07丨1xSG","server":"activity.huawei.daanyht.com","port":12006,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡11丨1xSG","server":"activity.huawei.daanyht.com","port":12110,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"台湾②|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20143,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"新加坡13丨1xSG","server":"activity.huawei.daanyht.com","port":12728,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"马来西亚03丨1xMY","server":"activity.huawei.daanyht.com","port":12323,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"韩国03丨3xKR","server":"asusjobhr.0064.shuyue521.com","port":12319,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Taiwan05","server":"iepl.tw.8eb5.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"🇯🇵日本Tokyo急速-01.Ss.1.0x","server":"52.81.179.243","port":10001,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"ss","name":"Japan06|Media","server":"iepl.jp.22e5.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong16","server":"iepl.hk.f663.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"Taiwan03","server":"iepl.tw.5e24.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"Japan05|Media","server":"iepl.jp.ab0c.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"香港BGP①|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20157,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"菲律宾-马尼拉丨1xPH","server":"activity.huawei.daanyht.com","port":12020,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本10丨1xJP","server":"asusjobhr.0064.shuyue521.com","port":12019,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"日本17丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13020,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"马来西亚02丨1xMY","server":"activity.huawei.daanyht.com","port":12322,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"马来西亚01丨1xMY","server":"activity.huawei.daanyht.com","port":12321,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"印度-班加罗尔丨1xIN","server":"activity.huawei.daanyht.com","port":13107,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"TWTPEHV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"tw-tpe-h-v2.cdn.savoy.click","port":"10088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"Japan02|Media","server":"iepl.jp.f43f.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"Japan01|Media","server":"iepl.jp.883b.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"香港HKT|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20111","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"马来西亚04丨1xMY","server":"activity.huawei.daanyht.com","port":13031,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20154,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"Taiwan07","server":"iepl.tw.s9f3.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"倍率2_免费-日本(中转)","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"sh.moonfree.top","port":"11262","uuid":"a8992338-0d89-4585-a571-11348842d8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16617","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"Japan03|Media","server":"iepl.jp.44cc.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"🇨🇳TWTPEHV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"tw-tpe-h-v2.cdn.savoy.click","port":"10088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"JPTYO04TR(trojan)","server":"jp-tyo-04-tr.cdn.savoy.click","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"柬埔寨-优化","server":"u.mjmjmjmj.cyou","port":"16634","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"泰国03丨3xTH","server":"activity.huawei.daanyht.com","port":13109,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"印尼-雅加达丨1xID","server":"activity.huawei.daanyht.com","port":12301,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"日本2|解锁2|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20131","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"[trojan][vip3][上海]印度","server":"sh.moonfree.top","port":10002,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trydv3.moonfree.top"}
-  - {"type":"trojan","name":"[trojan][vip3][上海]新加坡","server":"sh.moonfree.top","port":10001,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trsgv3.moonfree.top"}
-  - {"type":"vmess","name":"USSJCAPV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"us-sjc-ap-v2.node.inforun.work","port":"788","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"Japan04|Media","server":"iepl.jp.e688.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"🇸🇬新加坡狮城高级03.Ss.1.0x","server":"111.45.30.41","port":20008,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"trojan","name":"[trojan][vip3][上海]日本","server":"sh.moonfree.top","port":10000,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trrbv3.moonfree.top"}
-  - {"type":"ss","name":"印度-孟买丨1xIN","server":"activity.huawei.daanyht.com","port":12302,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"日本-优化","server":"u.mjmjmjmj.cyou","port":"16617","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"印度-海得拉巴丨1xIN","server":"activity.huawei.daanyht.com","port":13106,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"UnitedStates04|Media","server":"iepl.us.6e28.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"印尼-棉兰丨1xID","server":"activity.huawei.daanyht.com","port":12300,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"倍率2_免费-日本(中转广移)","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"gy.moonfree.top","port":"17252","uuid":"a8992338-0d89-4585-a571-11348842d8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"台湾06丨1xTW","server":"activity.huawei.daanyht.com","port":12309,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡01丨1xSG","server":"activity.huawei.daanyht.com","port":12000,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-柯汶纳家宽丨3xUS","server":"asusjobhr.0064.shuyue521.com","port":13114,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"🇯🇵JPTYO04V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"jp-nrt-04-v2.cdn.savoy.click","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"马来西亚家宽丨3xMY","server":"activity.huawei.daanyht.com","port":12727,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-圣何塞丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13008,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"印度-智能","server":"g.mjmjmjmj.cyou","port":"16626","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20133","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸USSJCNAV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB"},"server":"us-sjc-na-v2.cdn.savoy.click","port":"10688","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"日本|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20139,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"trojan","name":"[trojan][vip3][广移]日本","server":"gy.moonfree.top","port":10000,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trrbv3.moonfree.top"}
-  - {"type":"vmess","name":"香港BPG②|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20115","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国-洛杉矶丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13007,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"[trojan][vip3][广移]新加坡","server":"gy.moonfree.top","port":10001,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trsgv3.moonfree.top"}
-  - {"type":"vmess","name":"美国SJA-优化","server":"u.mjmjmjmj.cyou","port":"16651","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾②|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20119","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"香港HGC|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20127,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"🇭🇰香港EquinixHK2-02.Ss.1.0x","server":"111.45.30.41","port":10002,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"vmess","name":"FR01V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"fr-cdg-01-v2.node.inforun.work","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"SGSINKRNV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"sg-sin-krn-v2.node.inforun.work","port":"12888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国D-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16650","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国-奥格登丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13107,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"🇭🇰香港BGP优秀-03.Ss.0.5x","server":"20.205.56.124","port":10003,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"ss","name":"香港HKT|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20135,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"美国-西雅图丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13111,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"印度-优化","server":"u.mjmjmjmj.cyou","port":"16626","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"USSJC01-TR(trojan)","server":"us-sjc-01-tr.cdn.savoy.click","port":889,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"USSJC01-V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"us-sjc-01-v2.node.inforun.work","port":"888","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"USSJCNAV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"us-sjc-na-v2.cdn.savoy.click","port":"10688","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"美国-芝加哥丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13112,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
+  - {"type":"vmess","name":"中转B莞台1.5x","server":"download-oss-2.pbimpnr.cn","port":"38002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"莞新丨狮城02丨1x","server":"dgcm.20220512.cyou","port":34460,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
+  - {"type":"ss","name":"Ofly.xyz-🇭🇰香港01【2LB】","server":"aaa-666.txwd.xyz","port":30014,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"ss","name":"广港丨香港03丨1x","server":"gzcm.20220512.cyou","port":64884,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
+  - {"type":"ss","name":"莞新丨狮城01丨1x","server":"dgcm.20220512.cyou","port":34460,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
+  - {"type":"vmess","name":"中转Y广日1.5x","server":"download-oss-1.pbimpnr.cn","port":"38003","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中转C中台1.5x","server":"download-oss-1.pbimpnr.cn","port":"38002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中转S莞台1.5x","server":"download-oss-2.pbimpnr.cn","port":"38001","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中转B沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28001","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇯🇵日本1-Trojan","server":"jpaz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"专线S沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28003","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇯🇵日本4-Trojan","server":"jpaz1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"莞港丨香港04丨1x","server":"gzcm.20220512.cyou","port":64884,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
+  - {"type":"trojan","name":"🇭🇰香港3-Trojan","server":"hkaz-m3.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"中转U沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28008","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇭🇰香港5-Trojan","server":"hkvps1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵日本2-Trojan","server":"jpaz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"[量子]香港041x","server":"hongkong.bpnet.club","port":35470,"password":"666964ea-478a-4915-8777-0a205105918a","udp":true,"skip-cert-verify":true,"sni":"hongkong.bpnet.club"}
+  - {"type":"ss","name":"Ofly.xyz-🇰🇷韩国春川01【4LB】","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"trojan","name":"🇰🇷韩国2-Trojan","server":"kraz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰香港1-Trojan","server":"hkaz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"Ofly.xyz-🇯🇵日本大阪01【4LB】","server":"aaa-666.txwd.xyz","port":30005,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"vmess","name":"中转D中美1.5x","server":"download-oss-1.pbimpnr.cn","port":"38004","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"日本²-mojie.ws赞助","server":"jpgmo.crunode.top","port":1400,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi","server":"in.do.cl0udf1are.cf","port":"53","uuid":"f984bcb1-f339-43e7-986d-3d92adffc849","alterId":"0","cipher":"auto","network":"kcp"}
-  - {"type":"ss","name":"UnitedStates02|Media","server":"iepl.us.e8c3.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"美国-底特律丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":12705,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-夏威夷丨10xUS","server":"asusjobhr.0064.shuyue521.com","port":13108,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-斯波坎丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13010,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新加坡①|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20141,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"美国-丹佛丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13110,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"俄罗斯RU3-优化2","server":"u.mjmjmjmj.cyou","port":"16649","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国-硅谷丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13009,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"巴基斯坦02丨5xPK","server":"activity.huawei.daanyht.com","port":12605,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"阿联酋-阿布扎比丨3xAE","server":"activity.huawei.daanyht.com","port":13100,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"尼泊尔丨1xNP","server":"activity.huawei.daanyht.com","port":12720,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"UnitedStates05|Media","server":"iepl.us.4bcf.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"美国-费城丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13005,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":443,"password":"87f6eb37-36af-4347-95c7-8b3b0a3e9194","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"[trojan][vip3][广移]印度","server":"gy.moonfree.top","port":10002,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"trydv3.moonfree.top"}
-  - {"type":"ss","name":"加拿大-温哥华丨2xCA","server":"asusjobhr.0064.shuyue521.com","port":13001,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"土耳其-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16630","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"巴基斯坦01丨5xPK","server":"activity.huawei.daanyht.com","port":12604,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"澳大利亚-悉尼丨2xAU","server":"activity.huawei.daanyht.com","port":12324,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"荷兰-优化","server":"u.mjmjmjmj.cyou","port":"16642","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本16丨3xJP","server":"asusjobhr.0064.shuyue521.com","port":13023,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-密尔沃基丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13012,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-达拉斯丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13011,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"澳大利亚-布里斯班丨2xAU","server":"activity.huawei.daanyht.com","port":12325,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"瑞士丨2xCH","server":"inspurcloud.api.xjshihuifang.com","port":12630,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"俄罗斯RU2-优化","server":"u.mjmjmjmj.cyou","port":"16647","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰香港2-Trojan","server":"hkaz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"Ofly.xyz-🇩🇪德国法兰克福01【4LB】","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"ss","name":"Ofly.xyz-🇺🇲美国洛杉矶01","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"trojan","name":"美国INAP","server":"us2.nodegz.top","port":14001,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"中转F沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28000","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇰🇷韩国1-Trojan","server":"kraz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"中转C沪美1.5x","server":"snode-cn-sh2.nmp.pw","port":"28006","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸美国西2-Trojan","server":"uswestaz2.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"vmess","name":"法国-优化","server":"u.mjmjmjmj.cyou","port":"16645","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国|USA|V2","ws-opts":{"path":"/zcjd"},"server":"usa.jcnf.app","port":"443","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"越南家宽丨3xVN","server":"activity.huawei.daanyht.com","port":12700,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"柬埔寨-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16634","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"加拿大-多伦多丨1xCA","server":"asusjobhr.0064.shuyue521.com","port":13000,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"日本|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20113","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"俄罗斯-库页岛丨1xRU","server":"asusjobhr.0064.shuyue521.com","port":12327,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"[trojan][vip1]台湾","server":"tw0716.moonfree.top","port":20079,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"tw0716.moonfree.top"}
-  - {"type":"vmess","name":"韩国|解锁|V2","ws-opts":{"path":"/zcjd"},"server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":"20129","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"英国-考文垂丨1xGB","server":"inspurcloud.api.xjshihuifang.com","port":12736,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"英国-伍尔弗汉普顿丨1xGB","server":"inspurcloud.api.xjshihuifang.com","port":12266,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新西兰丨2xNZ","server":"activity.huawei.daanyht.com","port":12326,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"沙特阿拉伯丨3xSA","server":"activity.huawei.daanyht.com","port":13032,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"卢森堡丨2xLU","server":"inspurcloud.api.xjshihuifang.com","port":12629,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"英国|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20137,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"vmess","name":"德国-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"23309","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JK1-V4-沪新GIA01|v2ray","ws-opts":{"path":"/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8","headers":{"host":"jike1-giasg01.kiki789.com"}},"server":"j.v4.2.kiki789.com","port":"29851","uuid":"6b55b791-af4a-358a-b296-d2a1179c42ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"巴林丨10xBH","server":"activity.huawei.daanyht.com","port":13108,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"美国-凤凰城丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":13109,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"阿联酋-迪拜丨3xAE","server":"activity.huawei.daanyht.com","port":12400,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"加拿大家宽丨3xCA","server":"asusjobhr.0064.shuyue521.com","port":10140,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"美国LA-优化3","server":"u.mjmjmjmj.cyou","port":"16648","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"加拿大-蒙特利尔丨1xCA","server":"asusjobhr.0064.shuyue521.com","port":13102,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"乌克兰丨1xUA","server":"inspurcloud.api.xjshihuifang.com","port":12614,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"斯洛文尼亚丨2xSI","server":"inspurcloud.api.xjshihuifang.com","port":12653,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"印度-新德里丨1xIN","server":"activity.huawei.daanyht.com","port":12303,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"奥地利丨2xAT","server":"inspurcloud.api.xjshihuifang.com","port":12628,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"德国02丨1xDE","server":"inspurcloud.api.xjshihuifang.com","port":12620,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"荷兰丨1xNL","server":"inspurcloud.api.xjshihuifang.com","port":12622,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"斯洛伐克丨1xSK","server":"inspurcloud.api.xjshihuifang.com","port":12650,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"保加利亚丨1xBG","server":"inspurcloud.api.xjshihuifang.com","port":12634,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"英国家宽丨3xGB","server":"inspurcloud.api.xjshihuifang.com","port":12640,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"塞尔维亚丨2xRS","server":"inspurcloud.api.xjshihuifang.com","port":12647,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"库拉索丨2xCW","server":"asusjobhr.0064.shuyue521.com","port":13115,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"土耳其-优化","server":"u.mjmjmjmj.cyou","port":"16630","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度|India|V2","ws-opts":{"path":"/zcjd"},"server":"india.jcnf.app","port":"443","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"美国-圣克拉拉丨1xUS","server":"asusjobhr.0064.shuyue521.com","port":12706,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"意大利丨1xIT","server":"inspurcloud.api.xjshihuifang.com","port":12616,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"英国-梅登黑德丨2xGB","server":"inspurcloud.api.xjshihuifang.com","port":12470,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"克罗地亚丨2xHR","server":"inspurcloud.api.xjshihuifang.com","port":12646,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"加拿大-优化3","server":"u.mjmjmjmj.cyou","port":"16641","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"匈牙利丨1xHU","server":"inspurcloud.api.xjshihuifang.com","port":12631,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"冰岛丨2xIS","server":"inspurcloud.api.xjshihuifang.com","port":12607,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"埃及丨3xEG","server":"inspurcloud.api.xjshihuifang.com","port":12718,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"捷克丨1xCZ","server":"inspurcloud.api.xjshihuifang.com","port":12613,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"俄罗斯-莫斯科丨1xRU","server":"inspurcloud.api.xjshihuifang.com","port":12034,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"丹麦丨1xDK","server":"inspurcloud.api.xjshihuifang.com","port":12608,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"新西兰家宽丨3xNZ","server":"activity.huawei.daanyht.com","port":20023,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"波多黎各丨5xPR","server":"asusjobhr.0064.shuyue521.com","port":13105,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"尼日利亚丨2xNG","server":"inspurcloud.api.xjshihuifang.com","port":12648,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"加拿大-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16641","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"波兰丨1xPL","server":"inspurcloud.api.xjshihuifang.com","port":12261,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"德国01丨1xDE","server":"inspurcloud.api.xjshihuifang.com","port":12619,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"秘鲁丨5xPE","server":"asusjobhr.0064.shuyue521.com","port":13016,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"土耳其-伊斯坦布尔丨1xTR","server":"inspurcloud.api.xjshihuifang.com","port":12655,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"波兰-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16646","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇱🇺卢森堡-低热度-01","server":"107.189.14.180","port":9929,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"ss","name":"突尼斯丨2xTN","server":"inspurcloud.api.xjshihuifang.com","port":12703,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"瑞典丨1xSE","server":"inspurcloud.api.xjshihuifang.com","port":12611,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"芬兰丨2xFI","server":"inspurcloud.api.xjshihuifang.com","port":12609,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"哥伦比亚丨1xCO","server":"asusjobhr.0064.shuyue521.com","port":13050,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"摩尔多瓦丨2xMD","server":"inspurcloud.api.xjshihuifang.com","port":12651,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"卢森堡|Luxemburg|V2","ws-opts":{"path":"/zcjd"},"server":"lsb.jcnf.app","port":"443","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"北马其顿丨2xMK","server":"inspurcloud.api.xjshihuifang.com","port":12645,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"挪威丨1xNO","server":"inspurcloud.api.xjshihuifang.com","port":12610,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"拉脱维亚丨1xLV","server":"inspurcloud.api.xjshihuifang.com","port":12649,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"葡萄牙丨1xPT","server":"inspurcloud.api.xjshihuifang.com","port":12624,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"英国-伦敦丨1xGB","server":"inspurcloud.api.xjshihuifang.com","port":12710,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"英国-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16644","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"澳大利亚-墨尔本丨2xAU","server":"activity.huawei.daanyht.com","port":12401,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"[trojan]美国|电信联通","server":"ustr0623.moonfree.top","port":443,"password":"a8992338-0d89-4585-a571-11348842d8b3","udp":true,"skip-cert-verify":true,"sni":"ustr0623.moonfree.top"}
-  - {"type":"ss","name":"英国-加的夫丨1xGB","server":"inspurcloud.api.xjshihuifang.com","port":12267,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"西班牙丨1xES","server":"inspurcloud.api.xjshihuifang.com","port":12625,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"智利丨2xCL","server":"asusjobhr.0064.shuyue521.com","port":13104,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"爱沙尼亚丨1xEE","server":"inspurcloud.api.xjshihuifang.com","port":12635,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"以色列-海法丨1xIL","server":"inspurcloud.api.xjshihuifang.com","port":12600,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"马恩岛丨2xIM","server":"inspurcloud.api.xjshihuifang.com","port":12623,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"立陶宛丨1xLT","server":"inspurcloud.api.xjshihuifang.com","port":12652,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"以色列-佩塔提克瓦丨1xIL","server":"inspurcloud.api.xjshihuifang.com","port":12735,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"以色列-特拉维夫丨1xIL","server":"inspurcloud.api.xjshihuifang.com","port":12733,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"亚美尼亚丨2xAM","server":"inspurcloud.api.xjshihuifang.com","port":12737,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"以色列-耶路撒冷丨1xIL","server":"inspurcloud.api.xjshihuifang.com","port":12734,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"荷兰-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16642","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"越南|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20145,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"ss","name":"法国丨1xFR","server":"inspurcloud.api.xjshihuifang.com","port":12621,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"比利时丨1xBE","server":"inspurcloud.api.xjshihuifang.com","port":12618,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"希腊丨2xGR","server":"inspurcloud.api.xjshihuifang.com","port":12615,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"英国-优化","server":"u.mjmjmjmj.cyou","port":"16644","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"澳大利亚-优化","ws-opts":{"path":"/mjp","headers":{"host":"pull.free.video.10010.com"}},"server":"u.mjmjmjmj.cyou","port":"16638","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"阿根廷丨5xAR","server":"asusjobhr.0064.shuyue521.com","port":13015,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"阿塞拜疆丨2xAZ","server":"activity.huawei.daanyht.com","port":12606,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"尼日利亚-优化","server":"u.mjmjmjmj.cyou","port":"16639","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国D-优化","server":"u.mjmjmjmj.cyou","port":"16650","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JK1-V4-广俄01|v2ray","ws-opts":{"path":"/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8","headers":{"host":"jike1-ru02.kiki789.com"}},"server":"j.v4.2.kiki789.com","port":"31303","uuid":"6b55b791-af4a-358a-b296-d2a1179c42ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"俄罗斯RU2-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"16647","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"南非-优化","server":"u.mjmjmjmj.cyou","port":"16640","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"阿尔巴尼亚丨1xAL","server":"inspurcloud.api.xjshihuifang.com","port":12642,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"罗马尼亚丨1xRO","server":"inspurcloud.api.xjshihuifang.com","port":12641,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"巴西-维涅杜丨1xBR","server":"asusjobhr.0064.shuyue521.com","port":13103,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"德国-优化","server":"u.mjmjmjmj.cyou","port":"23309","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"阿根廷-优化2","server":"u.mjmjmjmj.cyou","port":"16628","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"孟加拉丨2xBD","server":"activity.huawei.daanyht.com","port":12724,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"南非-约翰内斯堡丨1xZA","server":"activity.huawei.daanyht.com","port":12036,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"爱尔兰丨2xIE","server":"inspurcloud.api.xjshihuifang.com","port":12617,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"HongKong11","server":"iepl.hk.206f.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong12","server":"iepl.hk.b22f.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"哥斯达黎加丨1xCR","server":"asusjobhr.0064.shuyue521.com","port":12719,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"🇭🇰香港EquinixHK2-01.Ss.1.0x","server":"111.45.30.41","port":10001,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"ss","name":"厄瓜多尔丨5xEC","server":"asusjobhr.0064.shuyue521.com","port":13106,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"HongKong05","server":"iepl.hk.f6e8.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"波黑共和国丨2xBA","server":"inspurcloud.api.xjshihuifang.com","port":12643,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"巴西-优化1","server":"u.mjmjmjmj.cyou","port":"16635","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"韩国|解锁|SS","server":"uydyfkghjrtcsdx.gdjxjjsnxjen.cyou","port":20152,"cipher":"chacha20-ietf-poly1305","password":"236f844c-5264-4d39-869d-f30f303310e2"}
-  - {"type":"vmess","name":"波兰-优化","server":"u.mjmjmjmj.cyou","port":"16646","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"澳大利亞|Australia|V2","ws-opts":{"path":"/zcjd"},"server":"australia.jcnf.app","port":"443","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"HongKong08","server":"iepl.hk.4a75.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"ss","name":"HongKong07","server":"iepl.hk.cc38.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"马来西亚-优化2","server":"120-241-236-214.nhost.00cdn.com","port":"26623","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"澳大利亚-优化2","ws-opts":{"path":"/mjp","headers":{"host":"pull.free.video.10010.com"}},"server":"120-241-236-214.nhost.00cdn.com","port":"16638","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"南非-开普敦丨1xZA","server":"activity.huawei.daanyht.com","port":13104,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"Taiwan01","server":"iepl.tw.4edb.enp4s0f1.in","port":27014,"cipher":"xchacha20-ietf-poly1305","password":"Jl7jth"}
-  - {"type":"vmess","name":"日本-智能","server":"g.mjmjmjmj.cyou","port":"16617","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"巴拿马丨3xPA","server":"asusjobhr.0064.shuyue521.com","port":12704,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"JK1-V4-沪俄01|v2ray","ws-opts":{"path":"/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8","headers":{"host":"jike1-ru01.kiki789.com"}},"server":"j.v4.2.kiki789.com","port":"39999","uuid":"6b55b791-af4a-358a-b296-d2a1179c42ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"巴拉圭丨2xPY","server":"asusjobhr.0064.shuyue521.com","port":13113,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"马来西亚-优化","server":"u.mjmjmjmj.cyou","port":"26623","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JK1-V4-沪德GIA01|v2ray","ws-opts":{"path":"/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8","headers":{"host":"jike1-de01.kiki789.com"}},"server":"j.v4.2.kiki789.com","port":"29891","uuid":"6b55b791-af4a-358a-b296-d2a1179c42ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇸🇬新加坡狮城高级01.Ss.1.0x","server":"111.45.30.41","port":20006,"cipher":"aes-128-gcm","password":"61e2d024-31ac-4c8a-8ca8-6ea85ae7941b"}
-  - {"type":"vmess","name":"香港Az-优化3","server":"t.mjmjmjmj.cyou","port":"16627","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"白俄罗斯丨2xBY","server":"inspurcloud.api.xjshihuifang.com","port":12633,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"蒙古丨1xMN","server":"activity.huawei.daanyht.com","port":12328,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"约旦丨2xJO","server":"inspurcloud.api.xjshihuifang.com","port":12708,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"澳大利亚-阿德莱德丨2xAU","server":"activity.huawei.daanyht.com","port":12403,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"墨西哥-优化1","server":"u.mjmjmjmj.cyou","port":"16636","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"吉尔吉斯斯坦丨1xKG","server":"inspurcloud.api.xjshihuifang.com","port":12717,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"HKHKGSH-HK02V2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"hk-hkg-sh-hk-02-v2.cdn.savoy.click","port":"21088","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"HKHKGSH-HK02TR(trojan)","server":"hk-hkg-sh-hk-02-tr.cdn.savoy.click","port":21089,"password":"RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"香港环电-隧道3","server":"t.mjmjmjmj.cyou","port":"26622","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国D-优化3","server":"t.mjmjmjmj.cyou","port":"16650","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"JK1-V4-广日01|v2ray","ws-opts":{"path":"/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8","headers":{"host":"jike1-azjp01.kiki789.com"}},"server":"j.v4.2.kiki789.com","port":"39401","uuid":"6b55b791-af4a-358a-b296-d2a1179c42ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"芬兰-优化","server":"u.mjmjmjmj.cyou","port":"16643","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"委内瑞拉丨3xVE","server":"asusjobhr.0064.shuyue521.com","port":12720,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"肯尼亚丨1xKE","server":"activity.huawei.daanyht.com","port":12716,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"以色列-罗什艾因丨1xIL","server":"inspurcloud.api.xjshihuifang.com","port":12732,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"塞浦路斯丨1xCY","server":"inspurcloud.api.xjshihuifang.com","port":12654,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"格鲁吉亚丨1xGE","server":"inspurcloud.api.xjshihuifang.com","port":12644,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"trojan","name":"香港HKT-广移(中转)|解锁流媒体","server":"gzyd1.52147.top","port":30180,"password":"87f6eb37-36af-4347-95c7-8b3b0a3e9194","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":443,"password":"87f6eb37-36af-4347-95c7-8b3b0a3e9194","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"vmess","name":"TWTPEHQV2(vmess)","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"tw-tpe-hq-v2.node.inforun.work","port":"10188","uuid":"f7c7998f-573f-4a50-b45a-b45296d9a0b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"越南-3号","server":"103.173.255.228","port":443,"password":"87f6eb37-36af-4347-95c7-8b3b0a3e9194","udp":true,"skip-cert-verify":true,"sni":"download.windowsupdate1.com"}
-  - {"type":"ss","name":"澳大利亚-珀斯丨2xAU","server":"activity.huawei.daanyht.com","port":12402,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"ss","name":"巴西-里约热内卢丨1xBR","server":"asusjobhr.0064.shuyue521.com","port":13013,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
-  - {"type":"vmess","name":"免费-日本","ws-opts":{"path":"/","headers":{"host":"ocrb2.moonfree.top"}},"server":"ocrb2.moonfree.top","port":"443","uuid":"a8992338-0d89-4585-a571-11348842d8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"免费-日本2","ws-opts":{"path":"/","headers":{"host":"ocrb1.moonfree.top"}},"server":"ocrb1.moonfree.top","port":"443","uuid":"a8992338-0d89-4585-a571-11348842d8b3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"土耳其|Turkey|V2","ws-opts":{"path":"/zcjd"},"server":"turkey.jcnf.app","port":"443","uuid":"236f844c-5264-4d39-869d-f30f303310e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"土耳其-优化3","server":"t.mjmjmjmj.cyou","port":"16630","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"以色列-优化","server":"u.mjmjmjmj.cyou","port":"16629","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"马来西亚-优化3","server":"t.mjmjmjmj.cyou","port":"26623","uuid":"98509a1f-ec90-4a54-b367-da9414debb97","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"斯里兰卡丨5xLK","server":"activity.huawei.daanyht.com","port":13111,"cipher":"aes-128-gcm","password":"haMLMXirByn6rGVh"}
+  - {"type":"trojan","name":"柬埔寨-mojie.ws赞助","server":"kh1.nodegz.top","port":443,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸美国西1-Trojan","server":"uswestaz1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"中转D沪美1.5x","server":"snode-cn-sh2.nmp.pw","port":"28007","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"Ofly.xyz-🇺🇲美国水牛城01","server":"aaa-666.txwd.xyz","port":32002,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
+  - {"type":"trojan","name":"🇭🇰香港4-Trojan","server":"hkkama1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"中转E阿根廷1.5x","server":"download-oss-1.pbimpnr.cn","port":"38007","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中转B中英1.5x","server":"download-oss-1.pbimpnr.cn","port":"38005","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇬🇧英国伦敦2-Trojan","server":"oraukgo.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"洛杉矶","server":"us1.crunode.top","port":1200,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"专线N莞台1.5x","server":"download-oss-1.pbimpnr.cn","port":"38006","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"专线S沪台100m|iepl","server":"snode-cn-sh2.nmp.pw","port":"28002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"中转T沪泰1.5x","server":"snode-cn-sh2.nmp.pw","port":"28009","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -371,1454 +59,206 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Singapore06|Media
-      - Singapore02|Media
-      - HongKong15
-      - HongKong06
-      - HongKong02
-      - HongKong01
-      - HongKong13
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - Singapore04|Media
-      - HongKong10
-      - HongKong04
-      - 香港02丨1xHK
-      - HongKong14
-      - 香港01丨1xHK
-      - Singapore01|Media
-      - 香港12丨1xHK
-      - HongKong09
-      - 日本07丨1xJP
-      - 香港11丨1xHK
-      - 日本02丨1xJP
-      - 香港08丨1xHK
-      - 香港13丨1xHK
-      - 香港09丨1xHK
-      - 日本05丨1xJP
-      - 香港家宽02丨1xHK
-      - 香港14丨1xHK
-      - 日本03丨1xJP
-      - 日本01丨1xJP
-      - 香港10丨1xHK
-      - 日本04丨1xJP
-      - HKHKGIT2SVMV2(vmess)
-      - 日本09丨1xJP
-      - 香港家宽03丨1xHK
-      - 澳门家宽丨3xMO
-      - 🇭🇰HKHKGSH-HK02V2(vmess)
-      - 香港06丨1xHK
-      - 日本08丨1xJP
-      - 香港07丨1xHK
-      - 香港商宽丨1xHK
-      - TWTPEHTR(trojan)
-      - 日本06丨1xJP
-      - 香港03丨1xHK
-      - 香港05丨1xHK
-      - 日本14丨3xJP
-      - 🇯🇵日本Tokyo急速-05.Ss.1.0x
-      - 日本15丨3xJP
-      - 日本11丨1xJP
-      - 日本13丨3xJP
-      - 台湾15丨1xTW
-      - 台湾12丨1xTW
-      - 台湾13丨1xTW
-      - 台湾11丨1xTW
-      - 台湾16丨1xTW
-      - 新加坡03丨1xSG
-      - 台湾14丨1xTW
-      - 台湾05丨1xTW
-      - 菲律宾-奎松丨1xPH
-      - 台湾01丨1xTW
-      - 台湾02丨1xTW
-      - 台湾03丨1xTW
-      - 台湾10丨1xTW
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - 台湾04丨1xTW
-      - 越南|解锁|V2
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - 香港BGP②|解锁|SS
-      - 香港04丨1xHK
-      - 新加坡-智能
-      - 台湾08丨1xTW
-      - 新加坡05丨1xSG
-      - 新加坡②|解锁|V2
-      - 新加坡02丨1xSG
-      - 香港HKT-优化
-      - 香港家宽01丨1xHK
-      - 韩国05丨1xKR
-      - 日本家宽丨3xJP
-      - 台湾07丨1xTW
-      - 新加坡-优化
-      - 菲律宾-克拉克丨1xPH
-      - 新加坡04丨1xSG
-      - Taiwan06
-      - 新加坡①|解锁|V2
-      - 柬埔寨丨3xKH
-      - 新加坡09丨1xSG
-      - Taiwan02
-      - 日本①|SS
-      - 新加坡家宽丨3xSG
-      - 新加坡12丨1xSG
-      - 新加坡08丨1xSG
-      - Taiwan04
-      - 🇭🇰HKHKGGZ.HKHKTV2B(vmess)
-      - 新加坡06丨1xSG
-      - 新加坡10丨1xSG
-      - 台湾09丨1xTW
-      - 新加坡07丨1xSG
-      - 新加坡11丨1xSG
-      - 台湾②|解锁|SS
-      - 新加坡13丨1xSG
-      - 马来西亚03丨1xMY
-      - 韩国03丨3xKR
-      - Taiwan05
-      - 🇯🇵日本Tokyo急速-01.Ss.1.0x
-      - Japan06|Media
-      - HongKong16
-      - Taiwan03
-      - Japan05|Media
-      - 香港BGP①|解锁|SS
-      - 菲律宾-马尼拉丨1xPH
-      - 日本10丨1xJP
-      - 日本17丨3xJP
-      - 马来西亚02丨1xMY
-      - 马来西亚01丨1xMY
-      - 印度-班加罗尔丨1xIN
-      - TWTPEHV2(vmess)
-      - Japan02|Media
-      - Japan01|Media
-      - 香港HKT|解锁|V2
-      - 马来西亚04丨1xMY
-      - 美国|解锁|SS
-      - Taiwan07
-      - 倍率2_免费-日本(中转)
-      - 日本-优化2
-      - Japan03|Media
-      - 🇨🇳TWTPEHV2(vmess)
-      - JPTYO04TR(trojan)
-      - 柬埔寨-优化
-      - 泰国03丨3xTH
-      - 印尼-雅加达丨1xID
-      - 日本2|解锁2|V2
-      - '[trojan][vip3][上海]印度'
-      - '[trojan][vip3][上海]新加坡'
-      - USSJCAPV2(vmess)
-      - Japan04|Media
-      - 🇸🇬新加坡狮城高级03.Ss.1.0x
-      - '[trojan][vip3][上海]日本'
-      - 印度-孟买丨1xIN
-      - 日本-优化
-      - 印度-海得拉巴丨1xIN
-      - UnitedStates04|Media
-      - 印尼-棉兰丨1xID
-      - 倍率2_免费-日本(中转广移)
-      - 台湾06丨1xTW
-      - 新加坡01丨1xSG
-      - 美国-柯汶纳家宽丨3xUS
-      - 🇯🇵JPTYO04V2(vmess)
-      - 马来西亚家宽丨3xMY
-      - 美国-圣何塞丨1xUS
-      - 印度-智能
-      - 美国|解锁|V2
-      - 🇺🇸USSJCNAV2(vmess)
-      - 日本|解锁|SS
-      - '[trojan][vip3][广移]日本'
-      - 香港BPG②|解锁|V2
-      - 美国-洛杉矶丨1xUS
-      - '[trojan][vip3][广移]新加坡'
-      - 美国SJA-优化
-      - 台湾②|解锁|V2
-      - 香港HGC|解锁|SS
-      - 🇭🇰香港EquinixHK2-02.Ss.1.0x
-      - FR01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - 美国D-优化2
-      - 美国-奥格登丨1xUS
-      - 🇭🇰香港BGP优秀-03.Ss.0.5x
-      - 香港HKT|解锁|SS
-      - 美国-西雅图丨1xUS
-      - 印度-优化
-      - USSJC01-TR(trojan)
-      - USSJC01-V2(vmess)
-      - USSJCNAV2(vmess)
-      - 美国-芝加哥丨1xUS
+      - 中转B莞台1.5x
+      - 莞新丨狮城02丨1x
+      - Ofly.xyz-🇭🇰香港01【2LB】
+      - 广港丨香港03丨1x
+      - 莞新丨狮城01丨1x
+      - 中转Y广日1.5x
+      - 中转C中台1.5x
+      - 中转S莞台1.5x
+      - 中转B沪台1.5x
+      - 🇯🇵日本1-Trojan
+      - 专线S沪台1.5x
+      - 🇯🇵日本4-Trojan
+      - 莞港丨香港04丨1x
+      - 🇭🇰香港3-Trojan
+      - 中转U沪台1.5x
+      - 🇭🇰香港5-Trojan
+      - 🇯🇵日本2-Trojan
+      - '[量子]香港041x'
+      - Ofly.xyz-🇰🇷韩国春川01【4LB】
+      - 🇰🇷韩国2-Trojan
+      - 🇭🇰香港1-Trojan
+      - Ofly.xyz-🇯🇵日本大阪01【4LB】
+      - 中转D中美1.5x
+      - 日本²-mojie.ws赞助
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - UnitedStates02|Media
-      - 美国-底特律丨1xUS
-      - 美国-夏威夷丨10xUS
-      - 美国-斯波坎丨1xUS
-      - 新加坡①|解锁|SS
-      - 美国-丹佛丨1xUS
-      - 俄罗斯RU3-优化2
-      - 美国-硅谷丨1xUS
-      - 巴基斯坦02丨5xPK
-      - 阿联酋-阿布扎比丨3xAE
-      - 尼泊尔丨1xNP
-      - UnitedStates05|Media
-      - 美国-费城丨1xUS
-      - 越南-1号
-      - '[trojan][vip3][广移]印度'
-      - 加拿大-温哥华丨2xCA
-      - 土耳其-优化2
-      - 巴基斯坦01丨5xPK
-      - 澳大利亚-悉尼丨2xAU
-      - 荷兰-优化
-      - 日本16丨3xJP
-      - 美国-密尔沃基丨1xUS
-      - 美国-达拉斯丨1xUS
-      - 澳大利亚-布里斯班丨2xAU
-      - 瑞士丨2xCH
-      - 俄罗斯RU2-优化
+      - 🇭🇰香港2-Trojan
+      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
+      - Ofly.xyz-🇺🇲美国洛杉矶01
+      - 美国INAP
+      - 中转F沪台1.5x
+      - 🇰🇷韩国1-Trojan
+      - 中转C沪美1.5x
+      - 🇺🇸美国西2-Trojan
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 法国-优化
-      - 美国|USA|V2
-      - 越南家宽丨3xVN
-      - 柬埔寨-优化2
-      - 加拿大-多伦多丨1xCA
-      - 日本|解锁|V2
-      - 俄罗斯-库页岛丨1xRU
-      - '[trojan][vip1]台湾'
-      - 韩国|解锁|V2
-      - 英国-考文垂丨1xGB
-      - 英国-伍尔弗汉普顿丨1xGB
-      - 新西兰丨2xNZ
-      - 沙特阿拉伯丨3xSA
-      - 卢森堡丨2xLU
-      - 英国|解锁|SS
-      - 德国-优化2
-      - JK1-V4-沪新GIA01|v2ray
-      - 巴林丨10xBH
-      - 美国-凤凰城丨1xUS
-      - 阿联酋-迪拜丨3xAE
-      - 加拿大家宽丨3xCA
-      - 美国LA-优化3
-      - 加拿大-蒙特利尔丨1xCA
-      - 乌克兰丨1xUA
-      - 斯洛文尼亚丨2xSI
-      - 印度-新德里丨1xIN
-      - 奥地利丨2xAT
-      - 德国02丨1xDE
-      - 荷兰丨1xNL
-      - 斯洛伐克丨1xSK
-      - 保加利亚丨1xBG
-      - 英国家宽丨3xGB
-      - 塞尔维亚丨2xRS
-      - 库拉索丨2xCW
-      - 土耳其-优化
-      - 印度|India|V2
-      - 美国-圣克拉拉丨1xUS
-      - 意大利丨1xIT
-      - 英国-梅登黑德丨2xGB
-      - 克罗地亚丨2xHR
-      - 加拿大-优化3
-      - 匈牙利丨1xHU
-      - 冰岛丨2xIS
-      - 埃及丨3xEG
-      - 捷克丨1xCZ
-      - 俄罗斯-莫斯科丨1xRU
-      - 丹麦丨1xDK
-      - 新西兰家宽丨3xNZ
-      - 波多黎各丨5xPR
-      - 尼日利亚丨2xNG
-      - 加拿大-优化2
-      - 波兰丨1xPL
-      - 德国01丨1xDE
-      - 秘鲁丨5xPE
-      - 土耳其-伊斯坦布尔丨1xTR
-      - 波兰-优化2
-      - 🇱🇺卢森堡-低热度-01
-      - 突尼斯丨2xTN
-      - 瑞典丨1xSE
-      - 芬兰丨2xFI
-      - 哥伦比亚丨1xCO
-      - 摩尔多瓦丨2xMD
-      - 卢森堡|Luxemburg|V2
-      - 北马其顿丨2xMK
-      - 挪威丨1xNO
-      - 拉脱维亚丨1xLV
-      - 葡萄牙丨1xPT
-      - 英国-伦敦丨1xGB
-      - 英国-优化2
-      - 澳大利亚-墨尔本丨2xAU
-      - '[trojan]美国|电信联通'
-      - 英国-加的夫丨1xGB
-      - 西班牙丨1xES
-      - 智利丨2xCL
-      - 爱沙尼亚丨1xEE
-      - 以色列-海法丨1xIL
-      - 马恩岛丨2xIM
-      - 立陶宛丨1xLT
-      - 以色列-佩塔提克瓦丨1xIL
-      - 以色列-特拉维夫丨1xIL
-      - 亚美尼亚丨2xAM
-      - 以色列-耶路撒冷丨1xIL
-      - 荷兰-优化2
-      - 越南|解锁|SS
-      - 法国丨1xFR
-      - 比利时丨1xBE
-      - 希腊丨2xGR
-      - 英国-优化
-      - 澳大利亚-优化
-      - 阿根廷丨5xAR
-      - 阿塞拜疆丨2xAZ
-      - 尼日利亚-优化
-      - 美国D-优化
-      - JK1-V4-广俄01|v2ray
-      - 俄罗斯RU2-优化2
-      - 南非-优化
-      - 阿尔巴尼亚丨1xAL
-      - 罗马尼亚丨1xRO
-      - 巴西-维涅杜丨1xBR
-      - 德国-优化
-      - 阿根廷-优化2
-      - 孟加拉丨2xBD
-      - 南非-约翰内斯堡丨1xZA
-      - 爱尔兰丨2xIE
-      - HongKong11
-      - HongKong12
-      - 哥斯达黎加丨1xCR
-      - 🇭🇰香港EquinixHK2-01.Ss.1.0x
-      - 厄瓜多尔丨5xEC
-      - HongKong05
-      - 波黑共和国丨2xBA
-      - 巴西-优化1
-      - 韩国|解锁|SS
-      - 波兰-优化
-      - 澳大利亞|Australia|V2
-      - HongKong08
-      - HongKong07
-      - 马来西亚-优化2
-      - 澳大利亚-优化2
-      - 南非-开普敦丨1xZA
-      - Taiwan01
-      - 日本-智能
-      - 巴拿马丨3xPA
-      - JK1-V4-沪俄01|v2ray
-      - 巴拉圭丨2xPY
-      - 马来西亚-优化
-      - JK1-V4-沪德GIA01|v2ray
-      - 🇸🇬新加坡狮城高级01.Ss.1.0x
-      - 香港Az-优化3
-      - 白俄罗斯丨2xBY
-      - 蒙古丨1xMN
-      - 约旦丨2xJO
-      - 澳大利亚-阿德莱德丨2xAU
-      - 墨西哥-优化1
-      - 吉尔吉斯斯坦丨1xKG
-      - HKHKGSH-HK02V2(vmess)
-      - HKHKGSH-HK02TR(trojan)
-      - 香港环电-隧道3
-      - 美国D-优化3
-      - JK1-V4-广日01|v2ray
-      - 芬兰-优化
-      - 委内瑞拉丨3xVE
-      - 肯尼亚丨1xKE
-      - 以色列-罗什艾因丨1xIL
-      - 塞浦路斯丨1xCY
-      - 格鲁吉亚丨1xGE
-      - 香港HKT-广移(中转)|解锁流媒体
-      - 越南-2号
-      - TWTPEHQV2(vmess)
-      - 越南-3号
-      - 澳大利亚-珀斯丨2xAU
-      - 巴西-里约热内卢丨1xBR
-      - 免费-日本
-      - 免费-日本2
-      - 土耳其|Turkey|V2
-      - 土耳其-优化3
-      - 以色列-优化
-      - 马来西亚-优化3
-      - 斯里兰卡丨5xLK
+      - 柬埔寨-mojie.ws赞助
+      - 🇺🇸美国西1-Trojan
+      - 中转D沪美1.5x
+      - Ofly.xyz-🇺🇲美国水牛城01
+      - 🇭🇰香港4-Trojan
+      - 中转E阿根廷1.5x
+      - 中转B中英1.5x
+      - 🇬🇧英国伦敦2-Trojan
+      - 洛杉矶
+      - 专线N莞台1.5x
+      - 专线S沪台100m|iepl
+      - 中转T沪泰1.5x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Singapore06|Media
-      - Singapore02|Media
-      - HongKong15
-      - HongKong06
-      - HongKong02
-      - HongKong01
-      - HongKong13
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - Singapore04|Media
-      - HongKong10
-      - HongKong04
-      - 香港02丨1xHK
-      - HongKong14
-      - 香港01丨1xHK
-      - Singapore01|Media
-      - 香港12丨1xHK
-      - HongKong09
-      - 日本07丨1xJP
-      - 香港11丨1xHK
-      - 日本02丨1xJP
-      - 香港08丨1xHK
-      - 香港13丨1xHK
-      - 香港09丨1xHK
-      - 日本05丨1xJP
-      - 香港家宽02丨1xHK
-      - 香港14丨1xHK
-      - 日本03丨1xJP
-      - 日本01丨1xJP
-      - 香港10丨1xHK
-      - 日本04丨1xJP
-      - HKHKGIT2SVMV2(vmess)
-      - 日本09丨1xJP
-      - 香港家宽03丨1xHK
-      - 澳门家宽丨3xMO
-      - 🇭🇰HKHKGSH-HK02V2(vmess)
-      - 香港06丨1xHK
-      - 日本08丨1xJP
-      - 香港07丨1xHK
-      - 香港商宽丨1xHK
-      - TWTPEHTR(trojan)
-      - 日本06丨1xJP
-      - 香港03丨1xHK
-      - 香港05丨1xHK
-      - 日本14丨3xJP
-      - 🇯🇵日本Tokyo急速-05.Ss.1.0x
-      - 日本15丨3xJP
-      - 日本11丨1xJP
-      - 日本13丨3xJP
-      - 台湾15丨1xTW
-      - 台湾12丨1xTW
-      - 台湾13丨1xTW
-      - 台湾11丨1xTW
-      - 台湾16丨1xTW
-      - 新加坡03丨1xSG
-      - 台湾14丨1xTW
-      - 台湾05丨1xTW
-      - 菲律宾-奎松丨1xPH
-      - 台湾01丨1xTW
-      - 台湾02丨1xTW
-      - 台湾03丨1xTW
-      - 台湾10丨1xTW
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - 台湾04丨1xTW
-      - 越南|解锁|V2
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - 香港BGP②|解锁|SS
-      - 香港04丨1xHK
-      - 新加坡-智能
-      - 台湾08丨1xTW
-      - 新加坡05丨1xSG
-      - 新加坡②|解锁|V2
-      - 新加坡02丨1xSG
-      - 香港HKT-优化
-      - 香港家宽01丨1xHK
-      - 韩国05丨1xKR
-      - 日本家宽丨3xJP
-      - 台湾07丨1xTW
-      - 新加坡-优化
-      - 菲律宾-克拉克丨1xPH
-      - 新加坡04丨1xSG
-      - Taiwan06
-      - 新加坡①|解锁|V2
-      - 柬埔寨丨3xKH
-      - 新加坡09丨1xSG
-      - Taiwan02
-      - 日本①|SS
-      - 新加坡家宽丨3xSG
-      - 新加坡12丨1xSG
-      - 新加坡08丨1xSG
-      - Taiwan04
-      - 🇭🇰HKHKGGZ.HKHKTV2B(vmess)
-      - 新加坡06丨1xSG
-      - 新加坡10丨1xSG
-      - 台湾09丨1xTW
-      - 新加坡07丨1xSG
-      - 新加坡11丨1xSG
-      - 台湾②|解锁|SS
-      - 新加坡13丨1xSG
-      - 马来西亚03丨1xMY
-      - 韩国03丨3xKR
-      - Taiwan05
-      - 🇯🇵日本Tokyo急速-01.Ss.1.0x
-      - Japan06|Media
-      - HongKong16
-      - Taiwan03
-      - Japan05|Media
-      - 香港BGP①|解锁|SS
-      - 菲律宾-马尼拉丨1xPH
-      - 日本10丨1xJP
-      - 日本17丨3xJP
-      - 马来西亚02丨1xMY
-      - 马来西亚01丨1xMY
-      - 印度-班加罗尔丨1xIN
-      - TWTPEHV2(vmess)
-      - Japan02|Media
-      - Japan01|Media
-      - 香港HKT|解锁|V2
-      - 马来西亚04丨1xMY
-      - 美国|解锁|SS
-      - Taiwan07
-      - 倍率2_免费-日本(中转)
-      - 日本-优化2
-      - Japan03|Media
-      - 🇨🇳TWTPEHV2(vmess)
-      - JPTYO04TR(trojan)
-      - 柬埔寨-优化
-      - 泰国03丨3xTH
-      - 印尼-雅加达丨1xID
-      - 日本2|解锁2|V2
-      - '[trojan][vip3][上海]印度'
-      - '[trojan][vip3][上海]新加坡'
-      - USSJCAPV2(vmess)
-      - Japan04|Media
-      - 🇸🇬新加坡狮城高级03.Ss.1.0x
-      - '[trojan][vip3][上海]日本'
-      - 印度-孟买丨1xIN
-      - 日本-优化
-      - 印度-海得拉巴丨1xIN
-      - UnitedStates04|Media
-      - 印尼-棉兰丨1xID
-      - 倍率2_免费-日本(中转广移)
-      - 台湾06丨1xTW
-      - 新加坡01丨1xSG
-      - 美国-柯汶纳家宽丨3xUS
-      - 🇯🇵JPTYO04V2(vmess)
-      - 马来西亚家宽丨3xMY
-      - 美国-圣何塞丨1xUS
-      - 印度-智能
-      - 美国|解锁|V2
-      - 🇺🇸USSJCNAV2(vmess)
-      - 日本|解锁|SS
-      - '[trojan][vip3][广移]日本'
-      - 香港BPG②|解锁|V2
-      - 美国-洛杉矶丨1xUS
-      - '[trojan][vip3][广移]新加坡'
-      - 美国SJA-优化
-      - 台湾②|解锁|V2
-      - 香港HGC|解锁|SS
-      - 🇭🇰香港EquinixHK2-02.Ss.1.0x
-      - FR01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - 美国D-优化2
-      - 美国-奥格登丨1xUS
-      - 🇭🇰香港BGP优秀-03.Ss.0.5x
-      - 香港HKT|解锁|SS
-      - 美国-西雅图丨1xUS
-      - 印度-优化
-      - USSJC01-TR(trojan)
-      - USSJC01-V2(vmess)
-      - USSJCNAV2(vmess)
-      - 美国-芝加哥丨1xUS
+      - 中转B莞台1.5x
+      - 莞新丨狮城02丨1x
+      - Ofly.xyz-🇭🇰香港01【2LB】
+      - 广港丨香港03丨1x
+      - 莞新丨狮城01丨1x
+      - 中转Y广日1.5x
+      - 中转C中台1.5x
+      - 中转S莞台1.5x
+      - 中转B沪台1.5x
+      - 🇯🇵日本1-Trojan
+      - 专线S沪台1.5x
+      - 🇯🇵日本4-Trojan
+      - 莞港丨香港04丨1x
+      - 🇭🇰香港3-Trojan
+      - 中转U沪台1.5x
+      - 🇭🇰香港5-Trojan
+      - 🇯🇵日本2-Trojan
+      - '[量子]香港041x'
+      - Ofly.xyz-🇰🇷韩国春川01【4LB】
+      - 🇰🇷韩国2-Trojan
+      - 🇭🇰香港1-Trojan
+      - Ofly.xyz-🇯🇵日本大阪01【4LB】
+      - 中转D中美1.5x
+      - 日本²-mojie.ws赞助
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - UnitedStates02|Media
-      - 美国-底特律丨1xUS
-      - 美国-夏威夷丨10xUS
-      - 美国-斯波坎丨1xUS
-      - 新加坡①|解锁|SS
-      - 美国-丹佛丨1xUS
-      - 俄罗斯RU3-优化2
-      - 美国-硅谷丨1xUS
-      - 巴基斯坦02丨5xPK
-      - 阿联酋-阿布扎比丨3xAE
-      - 尼泊尔丨1xNP
-      - UnitedStates05|Media
-      - 美国-费城丨1xUS
-      - 越南-1号
-      - '[trojan][vip3][广移]印度'
-      - 加拿大-温哥华丨2xCA
-      - 土耳其-优化2
-      - 巴基斯坦01丨5xPK
-      - 澳大利亚-悉尼丨2xAU
-      - 荷兰-优化
-      - 日本16丨3xJP
-      - 美国-密尔沃基丨1xUS
-      - 美国-达拉斯丨1xUS
-      - 澳大利亚-布里斯班丨2xAU
-      - 瑞士丨2xCH
-      - 俄罗斯RU2-优化
+      - 🇭🇰香港2-Trojan
+      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
+      - Ofly.xyz-🇺🇲美国洛杉矶01
+      - 美国INAP
+      - 中转F沪台1.5x
+      - 🇰🇷韩国1-Trojan
+      - 中转C沪美1.5x
+      - 🇺🇸美国西2-Trojan
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 法国-优化
-      - 美国|USA|V2
-      - 越南家宽丨3xVN
-      - 柬埔寨-优化2
-      - 加拿大-多伦多丨1xCA
-      - 日本|解锁|V2
-      - 俄罗斯-库页岛丨1xRU
-      - '[trojan][vip1]台湾'
-      - 韩国|解锁|V2
-      - 英国-考文垂丨1xGB
-      - 英国-伍尔弗汉普顿丨1xGB
-      - 新西兰丨2xNZ
-      - 沙特阿拉伯丨3xSA
-      - 卢森堡丨2xLU
-      - 英国|解锁|SS
-      - 德国-优化2
-      - JK1-V4-沪新GIA01|v2ray
-      - 巴林丨10xBH
-      - 美国-凤凰城丨1xUS
-      - 阿联酋-迪拜丨3xAE
-      - 加拿大家宽丨3xCA
-      - 美国LA-优化3
-      - 加拿大-蒙特利尔丨1xCA
-      - 乌克兰丨1xUA
-      - 斯洛文尼亚丨2xSI
-      - 印度-新德里丨1xIN
-      - 奥地利丨2xAT
-      - 德国02丨1xDE
-      - 荷兰丨1xNL
-      - 斯洛伐克丨1xSK
-      - 保加利亚丨1xBG
-      - 英国家宽丨3xGB
-      - 塞尔维亚丨2xRS
-      - 库拉索丨2xCW
-      - 土耳其-优化
-      - 印度|India|V2
-      - 美国-圣克拉拉丨1xUS
-      - 意大利丨1xIT
-      - 英国-梅登黑德丨2xGB
-      - 克罗地亚丨2xHR
-      - 加拿大-优化3
-      - 匈牙利丨1xHU
-      - 冰岛丨2xIS
-      - 埃及丨3xEG
-      - 捷克丨1xCZ
-      - 俄罗斯-莫斯科丨1xRU
-      - 丹麦丨1xDK
-      - 新西兰家宽丨3xNZ
-      - 波多黎各丨5xPR
-      - 尼日利亚丨2xNG
-      - 加拿大-优化2
-      - 波兰丨1xPL
-      - 德国01丨1xDE
-      - 秘鲁丨5xPE
-      - 土耳其-伊斯坦布尔丨1xTR
-      - 波兰-优化2
-      - 🇱🇺卢森堡-低热度-01
-      - 突尼斯丨2xTN
-      - 瑞典丨1xSE
-      - 芬兰丨2xFI
-      - 哥伦比亚丨1xCO
-      - 摩尔多瓦丨2xMD
-      - 卢森堡|Luxemburg|V2
-      - 北马其顿丨2xMK
-      - 挪威丨1xNO
-      - 拉脱维亚丨1xLV
-      - 葡萄牙丨1xPT
-      - 英国-伦敦丨1xGB
-      - 英国-优化2
-      - 澳大利亚-墨尔本丨2xAU
-      - '[trojan]美国|电信联通'
-      - 英国-加的夫丨1xGB
-      - 西班牙丨1xES
-      - 智利丨2xCL
-      - 爱沙尼亚丨1xEE
-      - 以色列-海法丨1xIL
-      - 马恩岛丨2xIM
-      - 立陶宛丨1xLT
-      - 以色列-佩塔提克瓦丨1xIL
-      - 以色列-特拉维夫丨1xIL
-      - 亚美尼亚丨2xAM
-      - 以色列-耶路撒冷丨1xIL
-      - 荷兰-优化2
-      - 越南|解锁|SS
-      - 法国丨1xFR
-      - 比利时丨1xBE
-      - 希腊丨2xGR
-      - 英国-优化
-      - 澳大利亚-优化
-      - 阿根廷丨5xAR
-      - 阿塞拜疆丨2xAZ
-      - 尼日利亚-优化
-      - 美国D-优化
-      - JK1-V4-广俄01|v2ray
-      - 俄罗斯RU2-优化2
-      - 南非-优化
-      - 阿尔巴尼亚丨1xAL
-      - 罗马尼亚丨1xRO
-      - 巴西-维涅杜丨1xBR
-      - 德国-优化
-      - 阿根廷-优化2
-      - 孟加拉丨2xBD
-      - 南非-约翰内斯堡丨1xZA
-      - 爱尔兰丨2xIE
-      - HongKong11
-      - HongKong12
-      - 哥斯达黎加丨1xCR
-      - 🇭🇰香港EquinixHK2-01.Ss.1.0x
-      - 厄瓜多尔丨5xEC
-      - HongKong05
-      - 波黑共和国丨2xBA
-      - 巴西-优化1
-      - 韩国|解锁|SS
-      - 波兰-优化
-      - 澳大利亞|Australia|V2
-      - HongKong08
-      - HongKong07
-      - 马来西亚-优化2
-      - 澳大利亚-优化2
-      - 南非-开普敦丨1xZA
-      - Taiwan01
-      - 日本-智能
-      - 巴拿马丨3xPA
-      - JK1-V4-沪俄01|v2ray
-      - 巴拉圭丨2xPY
-      - 马来西亚-优化
-      - JK1-V4-沪德GIA01|v2ray
-      - 🇸🇬新加坡狮城高级01.Ss.1.0x
-      - 香港Az-优化3
-      - 白俄罗斯丨2xBY
-      - 蒙古丨1xMN
-      - 约旦丨2xJO
-      - 澳大利亚-阿德莱德丨2xAU
-      - 墨西哥-优化1
-      - 吉尔吉斯斯坦丨1xKG
-      - HKHKGSH-HK02V2(vmess)
-      - HKHKGSH-HK02TR(trojan)
-      - 香港环电-隧道3
-      - 美国D-优化3
-      - JK1-V4-广日01|v2ray
-      - 芬兰-优化
-      - 委内瑞拉丨3xVE
-      - 肯尼亚丨1xKE
-      - 以色列-罗什艾因丨1xIL
-      - 塞浦路斯丨1xCY
-      - 格鲁吉亚丨1xGE
-      - 香港HKT-广移(中转)|解锁流媒体
-      - 越南-2号
-      - TWTPEHQV2(vmess)
-      - 越南-3号
-      - 澳大利亚-珀斯丨2xAU
-      - 巴西-里约热内卢丨1xBR
-      - 免费-日本
-      - 免费-日本2
-      - 土耳其|Turkey|V2
-      - 土耳其-优化3
-      - 以色列-优化
-      - 马来西亚-优化3
-      - 斯里兰卡丨5xLK
+      - 柬埔寨-mojie.ws赞助
+      - 🇺🇸美国西1-Trojan
+      - 中转D沪美1.5x
+      - Ofly.xyz-🇺🇲美国水牛城01
+      - 🇭🇰香港4-Trojan
+      - 中转E阿根廷1.5x
+      - 中转B中英1.5x
+      - 🇬🇧英国伦敦2-Trojan
+      - 洛杉矶
+      - 专线N莞台1.5x
+      - 专线S沪台100m|iepl
+      - 中转T沪泰1.5x
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Singapore06|Media
-      - Singapore02|Media
-      - HongKong15
-      - HongKong06
-      - HongKong02
-      - HongKong01
-      - HongKong13
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - Singapore04|Media
-      - HongKong10
-      - HongKong04
-      - 香港02丨1xHK
-      - HongKong14
-      - 香港01丨1xHK
-      - Singapore01|Media
-      - 香港12丨1xHK
-      - HongKong09
-      - 日本07丨1xJP
-      - 香港11丨1xHK
-      - 日本02丨1xJP
-      - 香港08丨1xHK
-      - 香港13丨1xHK
-      - 香港09丨1xHK
-      - 日本05丨1xJP
-      - 香港家宽02丨1xHK
-      - 香港14丨1xHK
-      - 日本03丨1xJP
-      - 日本01丨1xJP
-      - 香港10丨1xHK
-      - 日本04丨1xJP
-      - HKHKGIT2SVMV2(vmess)
-      - 日本09丨1xJP
-      - 香港家宽03丨1xHK
-      - 澳门家宽丨3xMO
-      - 🇭🇰HKHKGSH-HK02V2(vmess)
-      - 香港06丨1xHK
-      - 日本08丨1xJP
-      - 香港07丨1xHK
-      - 香港商宽丨1xHK
-      - TWTPEHTR(trojan)
-      - 日本06丨1xJP
-      - 香港03丨1xHK
-      - 香港05丨1xHK
-      - 日本14丨3xJP
-      - 🇯🇵日本Tokyo急速-05.Ss.1.0x
-      - 日本15丨3xJP
-      - 日本11丨1xJP
-      - 日本13丨3xJP
-      - 台湾15丨1xTW
-      - 台湾12丨1xTW
-      - 台湾13丨1xTW
-      - 台湾11丨1xTW
-      - 台湾16丨1xTW
-      - 新加坡03丨1xSG
-      - 台湾14丨1xTW
-      - 台湾05丨1xTW
-      - 菲律宾-奎松丨1xPH
-      - 台湾01丨1xTW
-      - 台湾02丨1xTW
-      - 台湾03丨1xTW
-      - 台湾10丨1xTW
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - 台湾04丨1xTW
-      - 越南|解锁|V2
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - 香港BGP②|解锁|SS
-      - 香港04丨1xHK
-      - 新加坡-智能
-      - 台湾08丨1xTW
-      - 新加坡05丨1xSG
-      - 新加坡②|解锁|V2
-      - 新加坡02丨1xSG
-      - 香港HKT-优化
-      - 香港家宽01丨1xHK
-      - 韩国05丨1xKR
-      - 日本家宽丨3xJP
-      - 台湾07丨1xTW
-      - 新加坡-优化
-      - 菲律宾-克拉克丨1xPH
-      - 新加坡04丨1xSG
-      - Taiwan06
-      - 新加坡①|解锁|V2
-      - 柬埔寨丨3xKH
-      - 新加坡09丨1xSG
-      - Taiwan02
-      - 日本①|SS
-      - 新加坡家宽丨3xSG
-      - 新加坡12丨1xSG
-      - 新加坡08丨1xSG
-      - Taiwan04
-      - 🇭🇰HKHKGGZ.HKHKTV2B(vmess)
-      - 新加坡06丨1xSG
-      - 新加坡10丨1xSG
-      - 台湾09丨1xTW
-      - 新加坡07丨1xSG
-      - 新加坡11丨1xSG
-      - 台湾②|解锁|SS
-      - 新加坡13丨1xSG
-      - 马来西亚03丨1xMY
-      - 韩国03丨3xKR
-      - Taiwan05
-      - 🇯🇵日本Tokyo急速-01.Ss.1.0x
-      - Japan06|Media
-      - HongKong16
-      - Taiwan03
-      - Japan05|Media
-      - 香港BGP①|解锁|SS
-      - 菲律宾-马尼拉丨1xPH
-      - 日本10丨1xJP
-      - 日本17丨3xJP
-      - 马来西亚02丨1xMY
-      - 马来西亚01丨1xMY
-      - 印度-班加罗尔丨1xIN
-      - TWTPEHV2(vmess)
-      - Japan02|Media
-      - Japan01|Media
-      - 香港HKT|解锁|V2
-      - 马来西亚04丨1xMY
-      - 美国|解锁|SS
-      - Taiwan07
-      - 倍率2_免费-日本(中转)
-      - 日本-优化2
-      - Japan03|Media
-      - 🇨🇳TWTPEHV2(vmess)
-      - JPTYO04TR(trojan)
-      - 柬埔寨-优化
-      - 泰国03丨3xTH
-      - 印尼-雅加达丨1xID
-      - 日本2|解锁2|V2
-      - '[trojan][vip3][上海]印度'
-      - '[trojan][vip3][上海]新加坡'
-      - USSJCAPV2(vmess)
-      - Japan04|Media
-      - 🇸🇬新加坡狮城高级03.Ss.1.0x
-      - '[trojan][vip3][上海]日本'
-      - 印度-孟买丨1xIN
-      - 日本-优化
-      - 印度-海得拉巴丨1xIN
-      - UnitedStates04|Media
-      - 印尼-棉兰丨1xID
-      - 倍率2_免费-日本(中转广移)
-      - 台湾06丨1xTW
-      - 新加坡01丨1xSG
-      - 美国-柯汶纳家宽丨3xUS
-      - 🇯🇵JPTYO04V2(vmess)
-      - 马来西亚家宽丨3xMY
-      - 美国-圣何塞丨1xUS
-      - 印度-智能
-      - 美国|解锁|V2
-      - 🇺🇸USSJCNAV2(vmess)
-      - 日本|解锁|SS
-      - '[trojan][vip3][广移]日本'
-      - 香港BPG②|解锁|V2
-      - 美国-洛杉矶丨1xUS
-      - '[trojan][vip3][广移]新加坡'
-      - 美国SJA-优化
-      - 台湾②|解锁|V2
-      - 香港HGC|解锁|SS
-      - 🇭🇰香港EquinixHK2-02.Ss.1.0x
-      - FR01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - 美国D-优化2
-      - 美国-奥格登丨1xUS
-      - 🇭🇰香港BGP优秀-03.Ss.0.5x
-      - 香港HKT|解锁|SS
-      - 美国-西雅图丨1xUS
-      - 印度-优化
-      - USSJC01-TR(trojan)
-      - USSJC01-V2(vmess)
-      - USSJCNAV2(vmess)
-      - 美国-芝加哥丨1xUS
+      - 中转B莞台1.5x
+      - 莞新丨狮城02丨1x
+      - Ofly.xyz-🇭🇰香港01【2LB】
+      - 广港丨香港03丨1x
+      - 莞新丨狮城01丨1x
+      - 中转Y广日1.5x
+      - 中转C中台1.5x
+      - 中转S莞台1.5x
+      - 中转B沪台1.5x
+      - 🇯🇵日本1-Trojan
+      - 专线S沪台1.5x
+      - 🇯🇵日本4-Trojan
+      - 莞港丨香港04丨1x
+      - 🇭🇰香港3-Trojan
+      - 中转U沪台1.5x
+      - 🇭🇰香港5-Trojan
+      - 🇯🇵日本2-Trojan
+      - '[量子]香港041x'
+      - Ofly.xyz-🇰🇷韩国春川01【4LB】
+      - 🇰🇷韩国2-Trojan
+      - 🇭🇰香港1-Trojan
+      - Ofly.xyz-🇯🇵日本大阪01【4LB】
+      - 中转D中美1.5x
+      - 日本²-mojie.ws赞助
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - UnitedStates02|Media
-      - 美国-底特律丨1xUS
-      - 美国-夏威夷丨10xUS
-      - 美国-斯波坎丨1xUS
-      - 新加坡①|解锁|SS
-      - 美国-丹佛丨1xUS
-      - 俄罗斯RU3-优化2
-      - 美国-硅谷丨1xUS
-      - 巴基斯坦02丨5xPK
-      - 阿联酋-阿布扎比丨3xAE
-      - 尼泊尔丨1xNP
-      - UnitedStates05|Media
-      - 美国-费城丨1xUS
-      - 越南-1号
-      - '[trojan][vip3][广移]印度'
-      - 加拿大-温哥华丨2xCA
-      - 土耳其-优化2
-      - 巴基斯坦01丨5xPK
-      - 澳大利亚-悉尼丨2xAU
-      - 荷兰-优化
-      - 日本16丨3xJP
-      - 美国-密尔沃基丨1xUS
-      - 美国-达拉斯丨1xUS
-      - 澳大利亚-布里斯班丨2xAU
-      - 瑞士丨2xCH
-      - 俄罗斯RU2-优化
+      - 🇭🇰香港2-Trojan
+      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
+      - Ofly.xyz-🇺🇲美国洛杉矶01
+      - 美国INAP
+      - 中转F沪台1.5x
+      - 🇰🇷韩国1-Trojan
+      - 中转C沪美1.5x
+      - 🇺🇸美国西2-Trojan
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 法国-优化
-      - 美国|USA|V2
-      - 越南家宽丨3xVN
-      - 柬埔寨-优化2
-      - 加拿大-多伦多丨1xCA
-      - 日本|解锁|V2
-      - 俄罗斯-库页岛丨1xRU
-      - '[trojan][vip1]台湾'
-      - 韩国|解锁|V2
-      - 英国-考文垂丨1xGB
-      - 英国-伍尔弗汉普顿丨1xGB
-      - 新西兰丨2xNZ
-      - 沙特阿拉伯丨3xSA
-      - 卢森堡丨2xLU
-      - 英国|解锁|SS
-      - 德国-优化2
-      - JK1-V4-沪新GIA01|v2ray
-      - 巴林丨10xBH
-      - 美国-凤凰城丨1xUS
-      - 阿联酋-迪拜丨3xAE
-      - 加拿大家宽丨3xCA
-      - 美国LA-优化3
-      - 加拿大-蒙特利尔丨1xCA
-      - 乌克兰丨1xUA
-      - 斯洛文尼亚丨2xSI
-      - 印度-新德里丨1xIN
-      - 奥地利丨2xAT
-      - 德国02丨1xDE
-      - 荷兰丨1xNL
-      - 斯洛伐克丨1xSK
-      - 保加利亚丨1xBG
-      - 英国家宽丨3xGB
-      - 塞尔维亚丨2xRS
-      - 库拉索丨2xCW
-      - 土耳其-优化
-      - 印度|India|V2
-      - 美国-圣克拉拉丨1xUS
-      - 意大利丨1xIT
-      - 英国-梅登黑德丨2xGB
-      - 克罗地亚丨2xHR
-      - 加拿大-优化3
-      - 匈牙利丨1xHU
-      - 冰岛丨2xIS
-      - 埃及丨3xEG
-      - 捷克丨1xCZ
-      - 俄罗斯-莫斯科丨1xRU
-      - 丹麦丨1xDK
-      - 新西兰家宽丨3xNZ
-      - 波多黎各丨5xPR
-      - 尼日利亚丨2xNG
-      - 加拿大-优化2
-      - 波兰丨1xPL
-      - 德国01丨1xDE
-      - 秘鲁丨5xPE
-      - 土耳其-伊斯坦布尔丨1xTR
-      - 波兰-优化2
-      - 🇱🇺卢森堡-低热度-01
-      - 突尼斯丨2xTN
-      - 瑞典丨1xSE
-      - 芬兰丨2xFI
-      - 哥伦比亚丨1xCO
-      - 摩尔多瓦丨2xMD
-      - 卢森堡|Luxemburg|V2
-      - 北马其顿丨2xMK
-      - 挪威丨1xNO
-      - 拉脱维亚丨1xLV
-      - 葡萄牙丨1xPT
-      - 英国-伦敦丨1xGB
-      - 英国-优化2
-      - 澳大利亚-墨尔本丨2xAU
-      - '[trojan]美国|电信联通'
-      - 英国-加的夫丨1xGB
-      - 西班牙丨1xES
-      - 智利丨2xCL
-      - 爱沙尼亚丨1xEE
-      - 以色列-海法丨1xIL
-      - 马恩岛丨2xIM
-      - 立陶宛丨1xLT
-      - 以色列-佩塔提克瓦丨1xIL
-      - 以色列-特拉维夫丨1xIL
-      - 亚美尼亚丨2xAM
-      - 以色列-耶路撒冷丨1xIL
-      - 荷兰-优化2
-      - 越南|解锁|SS
-      - 法国丨1xFR
-      - 比利时丨1xBE
-      - 希腊丨2xGR
-      - 英国-优化
-      - 澳大利亚-优化
-      - 阿根廷丨5xAR
-      - 阿塞拜疆丨2xAZ
-      - 尼日利亚-优化
-      - 美国D-优化
-      - JK1-V4-广俄01|v2ray
-      - 俄罗斯RU2-优化2
-      - 南非-优化
-      - 阿尔巴尼亚丨1xAL
-      - 罗马尼亚丨1xRO
-      - 巴西-维涅杜丨1xBR
-      - 德国-优化
-      - 阿根廷-优化2
-      - 孟加拉丨2xBD
-      - 南非-约翰内斯堡丨1xZA
-      - 爱尔兰丨2xIE
-      - HongKong11
-      - HongKong12
-      - 哥斯达黎加丨1xCR
-      - 🇭🇰香港EquinixHK2-01.Ss.1.0x
-      - 厄瓜多尔丨5xEC
-      - HongKong05
-      - 波黑共和国丨2xBA
-      - 巴西-优化1
-      - 韩国|解锁|SS
-      - 波兰-优化
-      - 澳大利亞|Australia|V2
-      - HongKong08
-      - HongKong07
-      - 马来西亚-优化2
-      - 澳大利亚-优化2
-      - 南非-开普敦丨1xZA
-      - Taiwan01
-      - 日本-智能
-      - 巴拿马丨3xPA
-      - JK1-V4-沪俄01|v2ray
-      - 巴拉圭丨2xPY
-      - 马来西亚-优化
-      - JK1-V4-沪德GIA01|v2ray
-      - 🇸🇬新加坡狮城高级01.Ss.1.0x
-      - 香港Az-优化3
-      - 白俄罗斯丨2xBY
-      - 蒙古丨1xMN
-      - 约旦丨2xJO
-      - 澳大利亚-阿德莱德丨2xAU
-      - 墨西哥-优化1
-      - 吉尔吉斯斯坦丨1xKG
-      - HKHKGSH-HK02V2(vmess)
-      - HKHKGSH-HK02TR(trojan)
-      - 香港环电-隧道3
-      - 美国D-优化3
-      - JK1-V4-广日01|v2ray
-      - 芬兰-优化
-      - 委内瑞拉丨3xVE
-      - 肯尼亚丨1xKE
-      - 以色列-罗什艾因丨1xIL
-      - 塞浦路斯丨1xCY
-      - 格鲁吉亚丨1xGE
-      - 香港HKT-广移(中转)|解锁流媒体
-      - 越南-2号
-      - TWTPEHQV2(vmess)
-      - 越南-3号
-      - 澳大利亚-珀斯丨2xAU
-      - 巴西-里约热内卢丨1xBR
-      - 免费-日本
-      - 免费-日本2
-      - 土耳其|Turkey|V2
-      - 土耳其-优化3
-      - 以色列-优化
-      - 马来西亚-优化3
-      - 斯里兰卡丨5xLK
+      - 柬埔寨-mojie.ws赞助
+      - 🇺🇸美国西1-Trojan
+      - 中转D沪美1.5x
+      - Ofly.xyz-🇺🇲美国水牛城01
+      - 🇭🇰香港4-Trojan
+      - 中转E阿根廷1.5x
+      - 中转B中英1.5x
+      - 🇬🇧英国伦敦2-Trojan
+      - 洛杉矶
+      - 专线N莞台1.5x
+      - 专线S沪台100m|iepl
+      - 中转T沪泰1.5x
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Singapore06|Media
-      - Singapore02|Media
-      - HongKong15
-      - HongKong06
-      - HongKong02
-      - HongKong01
-      - HongKong13
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - Singapore04|Media
-      - HongKong10
-      - HongKong04
-      - 香港02丨1xHK
-      - HongKong14
-      - 香港01丨1xHK
-      - Singapore01|Media
-      - 香港12丨1xHK
-      - HongKong09
-      - 日本07丨1xJP
-      - 香港11丨1xHK
-      - 日本02丨1xJP
-      - 香港08丨1xHK
-      - 香港13丨1xHK
-      - 香港09丨1xHK
-      - 日本05丨1xJP
-      - 香港家宽02丨1xHK
-      - 香港14丨1xHK
-      - 日本03丨1xJP
-      - 日本01丨1xJP
-      - 香港10丨1xHK
-      - 日本04丨1xJP
-      - HKHKGIT2SVMV2(vmess)
-      - 日本09丨1xJP
-      - 香港家宽03丨1xHK
-      - 澳门家宽丨3xMO
-      - 🇭🇰HKHKGSH-HK02V2(vmess)
-      - 香港06丨1xHK
-      - 日本08丨1xJP
-      - 香港07丨1xHK
-      - 香港商宽丨1xHK
-      - TWTPEHTR(trojan)
-      - 日本06丨1xJP
-      - 香港03丨1xHK
-      - 香港05丨1xHK
-      - 日本14丨3xJP
-      - 🇯🇵日本Tokyo急速-05.Ss.1.0x
-      - 日本15丨3xJP
-      - 日本11丨1xJP
-      - 日本13丨3xJP
-      - 台湾15丨1xTW
-      - 台湾12丨1xTW
-      - 台湾13丨1xTW
-      - 台湾11丨1xTW
-      - 台湾16丨1xTW
-      - 新加坡03丨1xSG
-      - 台湾14丨1xTW
-      - 台湾05丨1xTW
-      - 菲律宾-奎松丨1xPH
-      - 台湾01丨1xTW
-      - 台湾02丨1xTW
-      - 台湾03丨1xTW
-      - 台湾10丨1xTW
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - 台湾04丨1xTW
-      - 越南|解锁|V2
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - 香港BGP②|解锁|SS
-      - 香港04丨1xHK
-      - 新加坡-智能
-      - 台湾08丨1xTW
-      - 新加坡05丨1xSG
-      - 新加坡②|解锁|V2
-      - 新加坡02丨1xSG
-      - 香港HKT-优化
-      - 香港家宽01丨1xHK
-      - 韩国05丨1xKR
-      - 日本家宽丨3xJP
-      - 台湾07丨1xTW
-      - 新加坡-优化
-      - 菲律宾-克拉克丨1xPH
-      - 新加坡04丨1xSG
-      - Taiwan06
-      - 新加坡①|解锁|V2
-      - 柬埔寨丨3xKH
-      - 新加坡09丨1xSG
-      - Taiwan02
-      - 日本①|SS
-      - 新加坡家宽丨3xSG
-      - 新加坡12丨1xSG
-      - 新加坡08丨1xSG
-      - Taiwan04
-      - 🇭🇰HKHKGGZ.HKHKTV2B(vmess)
-      - 新加坡06丨1xSG
-      - 新加坡10丨1xSG
-      - 台湾09丨1xTW
-      - 新加坡07丨1xSG
-      - 新加坡11丨1xSG
-      - 台湾②|解锁|SS
-      - 新加坡13丨1xSG
-      - 马来西亚03丨1xMY
-      - 韩国03丨3xKR
-      - Taiwan05
-      - 🇯🇵日本Tokyo急速-01.Ss.1.0x
-      - Japan06|Media
-      - HongKong16
-      - Taiwan03
-      - Japan05|Media
-      - 香港BGP①|解锁|SS
-      - 菲律宾-马尼拉丨1xPH
-      - 日本10丨1xJP
-      - 日本17丨3xJP
-      - 马来西亚02丨1xMY
-      - 马来西亚01丨1xMY
-      - 印度-班加罗尔丨1xIN
-      - TWTPEHV2(vmess)
-      - Japan02|Media
-      - Japan01|Media
-      - 香港HKT|解锁|V2
-      - 马来西亚04丨1xMY
-      - 美国|解锁|SS
-      - Taiwan07
-      - 倍率2_免费-日本(中转)
-      - 日本-优化2
-      - Japan03|Media
-      - 🇨🇳TWTPEHV2(vmess)
-      - JPTYO04TR(trojan)
-      - 柬埔寨-优化
-      - 泰国03丨3xTH
-      - 印尼-雅加达丨1xID
-      - 日本2|解锁2|V2
-      - '[trojan][vip3][上海]印度'
-      - '[trojan][vip3][上海]新加坡'
-      - USSJCAPV2(vmess)
-      - Japan04|Media
-      - 🇸🇬新加坡狮城高级03.Ss.1.0x
-      - '[trojan][vip3][上海]日本'
-      - 印度-孟买丨1xIN
-      - 日本-优化
-      - 印度-海得拉巴丨1xIN
-      - UnitedStates04|Media
-      - 印尼-棉兰丨1xID
-      - 倍率2_免费-日本(中转广移)
-      - 台湾06丨1xTW
-      - 新加坡01丨1xSG
-      - 美国-柯汶纳家宽丨3xUS
-      - 🇯🇵JPTYO04V2(vmess)
-      - 马来西亚家宽丨3xMY
-      - 美国-圣何塞丨1xUS
-      - 印度-智能
-      - 美国|解锁|V2
-      - 🇺🇸USSJCNAV2(vmess)
-      - 日本|解锁|SS
-      - '[trojan][vip3][广移]日本'
-      - 香港BPG②|解锁|V2
-      - 美国-洛杉矶丨1xUS
-      - '[trojan][vip3][广移]新加坡'
-      - 美国SJA-优化
-      - 台湾②|解锁|V2
-      - 香港HGC|解锁|SS
-      - 🇭🇰香港EquinixHK2-02.Ss.1.0x
-      - FR01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - 美国D-优化2
-      - 美国-奥格登丨1xUS
-      - 🇭🇰香港BGP优秀-03.Ss.0.5x
-      - 香港HKT|解锁|SS
-      - 美国-西雅图丨1xUS
-      - 印度-优化
-      - USSJC01-TR(trojan)
-      - USSJC01-V2(vmess)
-      - USSJCNAV2(vmess)
-      - 美国-芝加哥丨1xUS
+      - 中转B莞台1.5x
+      - 莞新丨狮城02丨1x
+      - Ofly.xyz-🇭🇰香港01【2LB】
+      - 广港丨香港03丨1x
+      - 莞新丨狮城01丨1x
+      - 中转Y广日1.5x
+      - 中转C中台1.5x
+      - 中转S莞台1.5x
+      - 中转B沪台1.5x
+      - 🇯🇵日本1-Trojan
+      - 专线S沪台1.5x
+      - 🇯🇵日本4-Trojan
+      - 莞港丨香港04丨1x
+      - 🇭🇰香港3-Trojan
+      - 中转U沪台1.5x
+      - 🇭🇰香港5-Trojan
+      - 🇯🇵日本2-Trojan
+      - '[量子]香港041x'
+      - Ofly.xyz-🇰🇷韩国春川01【4LB】
+      - 🇰🇷韩国2-Trojan
+      - 🇭🇰香港1-Trojan
+      - Ofly.xyz-🇯🇵日本大阪01【4LB】
+      - 中转D中美1.5x
+      - 日本²-mojie.ws赞助
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - UnitedStates02|Media
-      - 美国-底特律丨1xUS
-      - 美国-夏威夷丨10xUS
-      - 美国-斯波坎丨1xUS
-      - 新加坡①|解锁|SS
-      - 美国-丹佛丨1xUS
-      - 俄罗斯RU3-优化2
-      - 美国-硅谷丨1xUS
-      - 巴基斯坦02丨5xPK
-      - 阿联酋-阿布扎比丨3xAE
-      - 尼泊尔丨1xNP
-      - UnitedStates05|Media
-      - 美国-费城丨1xUS
-      - 越南-1号
-      - '[trojan][vip3][广移]印度'
-      - 加拿大-温哥华丨2xCA
-      - 土耳其-优化2
-      - 巴基斯坦01丨5xPK
-      - 澳大利亚-悉尼丨2xAU
-      - 荷兰-优化
-      - 日本16丨3xJP
-      - 美国-密尔沃基丨1xUS
-      - 美国-达拉斯丨1xUS
-      - 澳大利亚-布里斯班丨2xAU
-      - 瑞士丨2xCH
-      - 俄罗斯RU2-优化
+      - 🇭🇰香港2-Trojan
+      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
+      - Ofly.xyz-🇺🇲美国洛杉矶01
+      - 美国INAP
+      - 中转F沪台1.5x
+      - 🇰🇷韩国1-Trojan
+      - 中转C沪美1.5x
+      - 🇺🇸美国西2-Trojan
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 法国-优化
-      - 美国|USA|V2
-      - 越南家宽丨3xVN
-      - 柬埔寨-优化2
-      - 加拿大-多伦多丨1xCA
-      - 日本|解锁|V2
-      - 俄罗斯-库页岛丨1xRU
-      - '[trojan][vip1]台湾'
-      - 韩国|解锁|V2
-      - 英国-考文垂丨1xGB
-      - 英国-伍尔弗汉普顿丨1xGB
-      - 新西兰丨2xNZ
-      - 沙特阿拉伯丨3xSA
-      - 卢森堡丨2xLU
-      - 英国|解锁|SS
-      - 德国-优化2
-      - JK1-V4-沪新GIA01|v2ray
-      - 巴林丨10xBH
-      - 美国-凤凰城丨1xUS
-      - 阿联酋-迪拜丨3xAE
-      - 加拿大家宽丨3xCA
-      - 美国LA-优化3
-      - 加拿大-蒙特利尔丨1xCA
-      - 乌克兰丨1xUA
-      - 斯洛文尼亚丨2xSI
-      - 印度-新德里丨1xIN
-      - 奥地利丨2xAT
-      - 德国02丨1xDE
-      - 荷兰丨1xNL
-      - 斯洛伐克丨1xSK
-      - 保加利亚丨1xBG
-      - 英国家宽丨3xGB
-      - 塞尔维亚丨2xRS
-      - 库拉索丨2xCW
-      - 土耳其-优化
-      - 印度|India|V2
-      - 美国-圣克拉拉丨1xUS
-      - 意大利丨1xIT
-      - 英国-梅登黑德丨2xGB
-      - 克罗地亚丨2xHR
-      - 加拿大-优化3
-      - 匈牙利丨1xHU
-      - 冰岛丨2xIS
-      - 埃及丨3xEG
-      - 捷克丨1xCZ
-      - 俄罗斯-莫斯科丨1xRU
-      - 丹麦丨1xDK
-      - 新西兰家宽丨3xNZ
-      - 波多黎各丨5xPR
-      - 尼日利亚丨2xNG
-      - 加拿大-优化2
-      - 波兰丨1xPL
-      - 德国01丨1xDE
-      - 秘鲁丨5xPE
-      - 土耳其-伊斯坦布尔丨1xTR
-      - 波兰-优化2
-      - 🇱🇺卢森堡-低热度-01
-      - 突尼斯丨2xTN
-      - 瑞典丨1xSE
-      - 芬兰丨2xFI
-      - 哥伦比亚丨1xCO
-      - 摩尔多瓦丨2xMD
-      - 卢森堡|Luxemburg|V2
-      - 北马其顿丨2xMK
-      - 挪威丨1xNO
-      - 拉脱维亚丨1xLV
-      - 葡萄牙丨1xPT
-      - 英国-伦敦丨1xGB
-      - 英国-优化2
-      - 澳大利亚-墨尔本丨2xAU
-      - '[trojan]美国|电信联通'
-      - 英国-加的夫丨1xGB
-      - 西班牙丨1xES
-      - 智利丨2xCL
-      - 爱沙尼亚丨1xEE
-      - 以色列-海法丨1xIL
-      - 马恩岛丨2xIM
-      - 立陶宛丨1xLT
-      - 以色列-佩塔提克瓦丨1xIL
-      - 以色列-特拉维夫丨1xIL
-      - 亚美尼亚丨2xAM
-      - 以色列-耶路撒冷丨1xIL
-      - 荷兰-优化2
-      - 越南|解锁|SS
-      - 法国丨1xFR
-      - 比利时丨1xBE
-      - 希腊丨2xGR
-      - 英国-优化
-      - 澳大利亚-优化
-      - 阿根廷丨5xAR
-      - 阿塞拜疆丨2xAZ
-      - 尼日利亚-优化
-      - 美国D-优化
-      - JK1-V4-广俄01|v2ray
-      - 俄罗斯RU2-优化2
-      - 南非-优化
-      - 阿尔巴尼亚丨1xAL
-      - 罗马尼亚丨1xRO
-      - 巴西-维涅杜丨1xBR
-      - 德国-优化
-      - 阿根廷-优化2
-      - 孟加拉丨2xBD
-      - 南非-约翰内斯堡丨1xZA
-      - 爱尔兰丨2xIE
-      - HongKong11
-      - HongKong12
-      - 哥斯达黎加丨1xCR
-      - 🇭🇰香港EquinixHK2-01.Ss.1.0x
-      - 厄瓜多尔丨5xEC
-      - HongKong05
-      - 波黑共和国丨2xBA
-      - 巴西-优化1
-      - 韩国|解锁|SS
-      - 波兰-优化
-      - 澳大利亞|Australia|V2
-      - HongKong08
-      - HongKong07
-      - 马来西亚-优化2
-      - 澳大利亚-优化2
-      - 南非-开普敦丨1xZA
-      - Taiwan01
-      - 日本-智能
-      - 巴拿马丨3xPA
-      - JK1-V4-沪俄01|v2ray
-      - 巴拉圭丨2xPY
-      - 马来西亚-优化
-      - JK1-V4-沪德GIA01|v2ray
-      - 🇸🇬新加坡狮城高级01.Ss.1.0x
-      - 香港Az-优化3
-      - 白俄罗斯丨2xBY
-      - 蒙古丨1xMN
-      - 约旦丨2xJO
-      - 澳大利亚-阿德莱德丨2xAU
-      - 墨西哥-优化1
-      - 吉尔吉斯斯坦丨1xKG
-      - HKHKGSH-HK02V2(vmess)
-      - HKHKGSH-HK02TR(trojan)
-      - 香港环电-隧道3
-      - 美国D-优化3
-      - JK1-V4-广日01|v2ray
-      - 芬兰-优化
-      - 委内瑞拉丨3xVE
-      - 肯尼亚丨1xKE
-      - 以色列-罗什艾因丨1xIL
-      - 塞浦路斯丨1xCY
-      - 格鲁吉亚丨1xGE
-      - 香港HKT-广移(中转)|解锁流媒体
-      - 越南-2号
-      - TWTPEHQV2(vmess)
-      - 越南-3号
-      - 澳大利亚-珀斯丨2xAU
-      - 巴西-里约热内卢丨1xBR
-      - 免费-日本
-      - 免费-日本2
-      - 土耳其|Turkey|V2
-      - 土耳其-优化3
-      - 以色列-优化
-      - 马来西亚-优化3
-      - 斯里兰卡丨5xLK
+      - 柬埔寨-mojie.ws赞助
+      - 🇺🇸美国西1-Trojan
+      - 中转D沪美1.5x
+      - Ofly.xyz-🇺🇲美国水牛城01
+      - 🇭🇰香港4-Trojan
+      - 中转E阿根廷1.5x
+      - 中转B中英1.5x
+      - 🇬🇧英国伦敦2-Trojan
+      - 洛杉矶
+      - 专线N莞台1.5x
+      - 专线S沪台100m|iepl
+      - 中转T沪泰1.5x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1838,364 +278,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Singapore06|Media
-      - Singapore02|Media
-      - HongKong15
-      - HongKong06
-      - HongKong02
-      - HongKong01
-      - HongKong13
-      - HKHKGGZ.HKHKTV2A(vmess)
-      - Singapore04|Media
-      - HongKong10
-      - HongKong04
-      - 香港02丨1xHK
-      - HongKong14
-      - 香港01丨1xHK
-      - Singapore01|Media
-      - 香港12丨1xHK
-      - HongKong09
-      - 日本07丨1xJP
-      - 香港11丨1xHK
-      - 日本02丨1xJP
-      - 香港08丨1xHK
-      - 香港13丨1xHK
-      - 香港09丨1xHK
-      - 日本05丨1xJP
-      - 香港家宽02丨1xHK
-      - 香港14丨1xHK
-      - 日本03丨1xJP
-      - 日本01丨1xJP
-      - 香港10丨1xHK
-      - 日本04丨1xJP
-      - HKHKGIT2SVMV2(vmess)
-      - 日本09丨1xJP
-      - 香港家宽03丨1xHK
-      - 澳门家宽丨3xMO
-      - 🇭🇰HKHKGSH-HK02V2(vmess)
-      - 香港06丨1xHK
-      - 日本08丨1xJP
-      - 香港07丨1xHK
-      - 香港商宽丨1xHK
-      - TWTPEHTR(trojan)
-      - 日本06丨1xJP
-      - 香港03丨1xHK
-      - 香港05丨1xHK
-      - 日本14丨3xJP
-      - 🇯🇵日本Tokyo急速-05.Ss.1.0x
-      - 日本15丨3xJP
-      - 日本11丨1xJP
-      - 日本13丨3xJP
-      - 台湾15丨1xTW
-      - 台湾12丨1xTW
-      - 台湾13丨1xTW
-      - 台湾11丨1xTW
-      - 台湾16丨1xTW
-      - 新加坡03丨1xSG
-      - 台湾14丨1xTW
-      - 台湾05丨1xTW
-      - 菲律宾-奎松丨1xPH
-      - 台湾01丨1xTW
-      - 台湾02丨1xTW
-      - 台湾03丨1xTW
-      - 台湾10丨1xTW
-      - HKHKGGZ.HKHKTTRB(trojan)
-      - 台湾04丨1xTW
-      - 越南|解锁|V2
-      - HKHKGGZ.HKHKTV2B(vmess)
-      - 香港BGP②|解锁|SS
-      - 香港04丨1xHK
-      - 新加坡-智能
-      - 台湾08丨1xTW
-      - 新加坡05丨1xSG
-      - 新加坡②|解锁|V2
-      - 新加坡02丨1xSG
-      - 香港HKT-优化
-      - 香港家宽01丨1xHK
-      - 韩国05丨1xKR
-      - 日本家宽丨3xJP
-      - 台湾07丨1xTW
-      - 新加坡-优化
-      - 菲律宾-克拉克丨1xPH
-      - 新加坡04丨1xSG
-      - Taiwan06
-      - 新加坡①|解锁|V2
-      - 柬埔寨丨3xKH
-      - 新加坡09丨1xSG
-      - Taiwan02
-      - 日本①|SS
-      - 新加坡家宽丨3xSG
-      - 新加坡12丨1xSG
-      - 新加坡08丨1xSG
-      - Taiwan04
-      - 🇭🇰HKHKGGZ.HKHKTV2B(vmess)
-      - 新加坡06丨1xSG
-      - 新加坡10丨1xSG
-      - 台湾09丨1xTW
-      - 新加坡07丨1xSG
-      - 新加坡11丨1xSG
-      - 台湾②|解锁|SS
-      - 新加坡13丨1xSG
-      - 马来西亚03丨1xMY
-      - 韩国03丨3xKR
-      - Taiwan05
-      - 🇯🇵日本Tokyo急速-01.Ss.1.0x
-      - Japan06|Media
-      - HongKong16
-      - Taiwan03
-      - Japan05|Media
-      - 香港BGP①|解锁|SS
-      - 菲律宾-马尼拉丨1xPH
-      - 日本10丨1xJP
-      - 日本17丨3xJP
-      - 马来西亚02丨1xMY
-      - 马来西亚01丨1xMY
-      - 印度-班加罗尔丨1xIN
-      - TWTPEHV2(vmess)
-      - Japan02|Media
-      - Japan01|Media
-      - 香港HKT|解锁|V2
-      - 马来西亚04丨1xMY
-      - 美国|解锁|SS
-      - Taiwan07
-      - 倍率2_免费-日本(中转)
-      - 日本-优化2
-      - Japan03|Media
-      - 🇨🇳TWTPEHV2(vmess)
-      - JPTYO04TR(trojan)
-      - 柬埔寨-优化
-      - 泰国03丨3xTH
-      - 印尼-雅加达丨1xID
-      - 日本2|解锁2|V2
-      - '[trojan][vip3][上海]印度'
-      - '[trojan][vip3][上海]新加坡'
-      - USSJCAPV2(vmess)
-      - Japan04|Media
-      - 🇸🇬新加坡狮城高级03.Ss.1.0x
-      - '[trojan][vip3][上海]日本'
-      - 印度-孟买丨1xIN
-      - 日本-优化
-      - 印度-海得拉巴丨1xIN
-      - UnitedStates04|Media
-      - 印尼-棉兰丨1xID
-      - 倍率2_免费-日本(中转广移)
-      - 台湾06丨1xTW
-      - 新加坡01丨1xSG
-      - 美国-柯汶纳家宽丨3xUS
-      - 🇯🇵JPTYO04V2(vmess)
-      - 马来西亚家宽丨3xMY
-      - 美国-圣何塞丨1xUS
-      - 印度-智能
-      - 美国|解锁|V2
-      - 🇺🇸USSJCNAV2(vmess)
-      - 日本|解锁|SS
-      - '[trojan][vip3][广移]日本'
-      - 香港BPG②|解锁|V2
-      - 美国-洛杉矶丨1xUS
-      - '[trojan][vip3][广移]新加坡'
-      - 美国SJA-优化
-      - 台湾②|解锁|V2
-      - 香港HGC|解锁|SS
-      - 🇭🇰香港EquinixHK2-02.Ss.1.0x
-      - FR01V2(vmess)
-      - SGSINKRNV2(vmess)
-      - 美国D-优化2
-      - 美国-奥格登丨1xUS
-      - 🇭🇰香港BGP优秀-03.Ss.0.5x
-      - 香港HKT|解锁|SS
-      - 美国-西雅图丨1xUS
-      - 印度-优化
-      - USSJC01-TR(trojan)
-      - USSJC01-V2(vmess)
-      - USSJCNAV2(vmess)
-      - 美国-芝加哥丨1xUS
+      - 中转B莞台1.5x
+      - 莞新丨狮城02丨1x
+      - Ofly.xyz-🇭🇰香港01【2LB】
+      - 广港丨香港03丨1x
+      - 莞新丨狮城01丨1x
+      - 中转Y广日1.5x
+      - 中转C中台1.5x
+      - 中转S莞台1.5x
+      - 中转B沪台1.5x
+      - 🇯🇵日本1-Trojan
+      - 专线S沪台1.5x
+      - 🇯🇵日本4-Trojan
+      - 莞港丨香港04丨1x
+      - 🇭🇰香港3-Trojan
+      - 中转U沪台1.5x
+      - 🇭🇰香港5-Trojan
+      - 🇯🇵日本2-Trojan
+      - '[量子]香港041x'
+      - Ofly.xyz-🇰🇷韩国春川01【4LB】
+      - 🇰🇷韩国2-Trojan
+      - 🇭🇰香港1-Trojan
+      - Ofly.xyz-🇯🇵日本大阪01【4LB】
+      - 中转D中美1.5x
+      - 日本²-mojie.ws赞助
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - UnitedStates02|Media
-      - 美国-底特律丨1xUS
-      - 美国-夏威夷丨10xUS
-      - 美国-斯波坎丨1xUS
-      - 新加坡①|解锁|SS
-      - 美国-丹佛丨1xUS
-      - 俄罗斯RU3-优化2
-      - 美国-硅谷丨1xUS
-      - 巴基斯坦02丨5xPK
-      - 阿联酋-阿布扎比丨3xAE
-      - 尼泊尔丨1xNP
-      - UnitedStates05|Media
-      - 美国-费城丨1xUS
-      - 越南-1号
-      - '[trojan][vip3][广移]印度'
-      - 加拿大-温哥华丨2xCA
-      - 土耳其-优化2
-      - 巴基斯坦01丨5xPK
-      - 澳大利亚-悉尼丨2xAU
-      - 荷兰-优化
-      - 日本16丨3xJP
-      - 美国-密尔沃基丨1xUS
-      - 美国-达拉斯丨1xUS
-      - 澳大利亚-布里斯班丨2xAU
-      - 瑞士丨2xCH
-      - 俄罗斯RU2-优化
+      - 🇭🇰香港2-Trojan
+      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
+      - Ofly.xyz-🇺🇲美国洛杉矶01
+      - 美国INAP
+      - 中转F沪台1.5x
+      - 🇰🇷韩国1-Trojan
+      - 中转C沪美1.5x
+      - 🇺🇸美国西2-Trojan
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 法国-优化
-      - 美国|USA|V2
-      - 越南家宽丨3xVN
-      - 柬埔寨-优化2
-      - 加拿大-多伦多丨1xCA
-      - 日本|解锁|V2
-      - 俄罗斯-库页岛丨1xRU
-      - '[trojan][vip1]台湾'
-      - 韩国|解锁|V2
-      - 英国-考文垂丨1xGB
-      - 英国-伍尔弗汉普顿丨1xGB
-      - 新西兰丨2xNZ
-      - 沙特阿拉伯丨3xSA
-      - 卢森堡丨2xLU
-      - 英国|解锁|SS
-      - 德国-优化2
-      - JK1-V4-沪新GIA01|v2ray
-      - 巴林丨10xBH
-      - 美国-凤凰城丨1xUS
-      - 阿联酋-迪拜丨3xAE
-      - 加拿大家宽丨3xCA
-      - 美国LA-优化3
-      - 加拿大-蒙特利尔丨1xCA
-      - 乌克兰丨1xUA
-      - 斯洛文尼亚丨2xSI
-      - 印度-新德里丨1xIN
-      - 奥地利丨2xAT
-      - 德国02丨1xDE
-      - 荷兰丨1xNL
-      - 斯洛伐克丨1xSK
-      - 保加利亚丨1xBG
-      - 英国家宽丨3xGB
-      - 塞尔维亚丨2xRS
-      - 库拉索丨2xCW
-      - 土耳其-优化
-      - 印度|India|V2
-      - 美国-圣克拉拉丨1xUS
-      - 意大利丨1xIT
-      - 英国-梅登黑德丨2xGB
-      - 克罗地亚丨2xHR
-      - 加拿大-优化3
-      - 匈牙利丨1xHU
-      - 冰岛丨2xIS
-      - 埃及丨3xEG
-      - 捷克丨1xCZ
-      - 俄罗斯-莫斯科丨1xRU
-      - 丹麦丨1xDK
-      - 新西兰家宽丨3xNZ
-      - 波多黎各丨5xPR
-      - 尼日利亚丨2xNG
-      - 加拿大-优化2
-      - 波兰丨1xPL
-      - 德国01丨1xDE
-      - 秘鲁丨5xPE
-      - 土耳其-伊斯坦布尔丨1xTR
-      - 波兰-优化2
-      - 🇱🇺卢森堡-低热度-01
-      - 突尼斯丨2xTN
-      - 瑞典丨1xSE
-      - 芬兰丨2xFI
-      - 哥伦比亚丨1xCO
-      - 摩尔多瓦丨2xMD
-      - 卢森堡|Luxemburg|V2
-      - 北马其顿丨2xMK
-      - 挪威丨1xNO
-      - 拉脱维亚丨1xLV
-      - 葡萄牙丨1xPT
-      - 英国-伦敦丨1xGB
-      - 英国-优化2
-      - 澳大利亚-墨尔本丨2xAU
-      - '[trojan]美国|电信联通'
-      - 英国-加的夫丨1xGB
-      - 西班牙丨1xES
-      - 智利丨2xCL
-      - 爱沙尼亚丨1xEE
-      - 以色列-海法丨1xIL
-      - 马恩岛丨2xIM
-      - 立陶宛丨1xLT
-      - 以色列-佩塔提克瓦丨1xIL
-      - 以色列-特拉维夫丨1xIL
-      - 亚美尼亚丨2xAM
-      - 以色列-耶路撒冷丨1xIL
-      - 荷兰-优化2
-      - 越南|解锁|SS
-      - 法国丨1xFR
-      - 比利时丨1xBE
-      - 希腊丨2xGR
-      - 英国-优化
-      - 澳大利亚-优化
-      - 阿根廷丨5xAR
-      - 阿塞拜疆丨2xAZ
-      - 尼日利亚-优化
-      - 美国D-优化
-      - JK1-V4-广俄01|v2ray
-      - 俄罗斯RU2-优化2
-      - 南非-优化
-      - 阿尔巴尼亚丨1xAL
-      - 罗马尼亚丨1xRO
-      - 巴西-维涅杜丨1xBR
-      - 德国-优化
-      - 阿根廷-优化2
-      - 孟加拉丨2xBD
-      - 南非-约翰内斯堡丨1xZA
-      - 爱尔兰丨2xIE
-      - HongKong11
-      - HongKong12
-      - 哥斯达黎加丨1xCR
-      - 🇭🇰香港EquinixHK2-01.Ss.1.0x
-      - 厄瓜多尔丨5xEC
-      - HongKong05
-      - 波黑共和国丨2xBA
-      - 巴西-优化1
-      - 韩国|解锁|SS
-      - 波兰-优化
-      - 澳大利亞|Australia|V2
-      - HongKong08
-      - HongKong07
-      - 马来西亚-优化2
-      - 澳大利亚-优化2
-      - 南非-开普敦丨1xZA
-      - Taiwan01
-      - 日本-智能
-      - 巴拿马丨3xPA
-      - JK1-V4-沪俄01|v2ray
-      - 巴拉圭丨2xPY
-      - 马来西亚-优化
-      - JK1-V4-沪德GIA01|v2ray
-      - 🇸🇬新加坡狮城高级01.Ss.1.0x
-      - 香港Az-优化3
-      - 白俄罗斯丨2xBY
-      - 蒙古丨1xMN
-      - 约旦丨2xJO
-      - 澳大利亚-阿德莱德丨2xAU
-      - 墨西哥-优化1
-      - 吉尔吉斯斯坦丨1xKG
-      - HKHKGSH-HK02V2(vmess)
-      - HKHKGSH-HK02TR(trojan)
-      - 香港环电-隧道3
-      - 美国D-优化3
-      - JK1-V4-广日01|v2ray
-      - 芬兰-优化
-      - 委内瑞拉丨3xVE
-      - 肯尼亚丨1xKE
-      - 以色列-罗什艾因丨1xIL
-      - 塞浦路斯丨1xCY
-      - 格鲁吉亚丨1xGE
-      - 香港HKT-广移(中转)|解锁流媒体
-      - 越南-2号
-      - TWTPEHQV2(vmess)
-      - 越南-3号
-      - 澳大利亚-珀斯丨2xAU
-      - 巴西-里约热内卢丨1xBR
-      - 免费-日本
-      - 免费-日本2
-      - 土耳其|Turkey|V2
-      - 土耳其-优化3
-      - 以色列-优化
-      - 马来西亚-优化3
-      - 斯里兰卡丨5xLK
+      - 柬埔寨-mojie.ws赞助
+      - 🇺🇸美国西1-Trojan
+      - 中转D沪美1.5x
+      - Ofly.xyz-🇺🇲美国水牛城01
+      - 🇭🇰香港4-Trojan
+      - 中转E阿根廷1.5x
+      - 中转B中英1.5x
+      - 🇬🇧英国伦敦2-Trojan
+      - 洛杉矶
+      - 专线N莞台1.5x
+      - 专线S沪台100m|iepl
+      - 中转T沪泰1.5x
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
