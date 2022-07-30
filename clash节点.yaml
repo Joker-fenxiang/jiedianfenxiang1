@@ -5,52 +5,21 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"vmess","name":"中转B莞台1.5x","server":"download-oss-2.pbimpnr.cn","port":"38002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"莞新丨狮城02丨1x","server":"dgcm.20220512.cyou","port":34460,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
-  - {"type":"ss","name":"Ofly.xyz-🇭🇰香港01【2LB】","server":"aaa-666.txwd.xyz","port":30014,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"ss","name":"广港丨香港03丨1x","server":"gzcm.20220512.cyou","port":64884,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
-  - {"type":"ss","name":"莞新丨狮城01丨1x","server":"dgcm.20220512.cyou","port":34460,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
-  - {"type":"vmess","name":"中转Y广日1.5x","server":"download-oss-1.pbimpnr.cn","port":"38003","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中转C中台1.5x","server":"download-oss-1.pbimpnr.cn","port":"38002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中转S莞台1.5x","server":"download-oss-2.pbimpnr.cn","port":"38001","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中转B沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28001","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇯🇵日本1-Trojan","server":"jpaz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"专线S沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28003","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇯🇵日本4-Trojan","server":"jpaz1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"莞港丨香港04丨1x","server":"gzcm.20220512.cyou","port":64884,"cipher":"aes-128-gcm","password":"66570ddf-9a1a-4d90-9c3c-7cba6b8445df"}
-  - {"type":"trojan","name":"🇭🇰香港3-Trojan","server":"hkaz-m3.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"中转U沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28008","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇭🇰香港5-Trojan","server":"hkvps1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵日本2-Trojan","server":"jpaz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"[量子]香港041x","server":"hongkong.bpnet.club","port":35470,"password":"666964ea-478a-4915-8777-0a205105918a","udp":true,"skip-cert-verify":true,"sni":"hongkong.bpnet.club"}
-  - {"type":"ss","name":"Ofly.xyz-🇰🇷韩国春川01【4LB】","server":"aaa-666.txwd.xyz","port":30007,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"trojan","name":"🇰🇷韩国2-Trojan","server":"kraz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇭🇰香港1-Trojan","server":"hkaz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"Ofly.xyz-🇯🇵日本大阪01【4LB】","server":"aaa-666.txwd.xyz","port":30005,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"vmess","name":"中转D中美1.5x","server":"download-oss-1.pbimpnr.cn","port":"38004","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇭🇰香港1","server":"hk1gcp.nana7micloud.online","port":443,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵日本1","server":"jp1gcp.nana7micloud.online","port":443,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"日本²-mojie.ws赞助","server":"jpgmo.crunode.top","port":1400,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi","server":"in.do.cl0udf1are.cf","port":"53","uuid":"f984bcb1-f339-43e7-986d-3d92adffc849","alterId":"0","cipher":"auto","network":"kcp"}
-  - {"type":"trojan","name":"🇭🇰香港2-Trojan","server":"hkaz-m2.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"Ofly.xyz-🇩🇪德国法兰克福01【4LB】","server":"aaa-666.txwd.xyz","port":30008,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"ss","name":"Ofly.xyz-🇺🇲美国洛杉矶01","server":"aaa-666.txwd.xyz","port":30015,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"trojan","name":"美国INAP","server":"us2.nodegz.top","port":14001,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"中转F沪台1.5x","server":"snode-cn-sh2.nmp.pw","port":"28000","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇰🇷韩国1-Trojan","server":"kraz-m1.clergyhan.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"中转C沪美1.5x","server":"snode-cn-sh2.nmp.pw","port":"28006","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸美国西2-Trojan","server":"uswestaz2.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇯🇵日本1广日2x","server":"cn1.node.zeroteam.top","port":20446,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"jp1gcp.nana7micloud.online"}
   - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"vmess","name":"Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi","server":"in.do.cl0udf1are.cf","port":"53","uuid":"f984bcb1-f339-43e7-986d-3d92adffc849","alterId":"0","cipher":"auto","network":"kcp"}
   - {"type":"trojan","name":"柬埔寨-mojie.ws赞助","server":"kh1.nodegz.top","port":443,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸美国西1-Trojan","server":"uswestaz1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"中转D沪美1.5x","server":"snode-cn-sh2.nmp.pw","port":"28007","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"Ofly.xyz-🇺🇲美国水牛城01","server":"aaa-666.txwd.xyz","port":32002,"cipher":"aes-128-gcm","password":"PXRNVeNo6HHaBaxP"}
-  - {"type":"trojan","name":"🇭🇰香港4-Trojan","server":"hkkama1.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"中转E阿根廷1.5x","server":"download-oss-1.pbimpnr.cn","port":"38007","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中转B中英1.5x","server":"download-oss-1.pbimpnr.cn","port":"38005","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇬🇧英国伦敦2-Trojan","server":"oraukgo.flazewang.xyz","port":443,"password":"fa1f2e20-ae8c-415a-bcae-ce756429576c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"洛杉矶","server":"us1.crunode.top","port":1200,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"专线N莞台1.5x","server":"download-oss-1.pbimpnr.cn","port":"38006","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"专线S沪台100m|iepl","server":"snode-cn-sh2.nmp.pw","port":"28002","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"中转T沪泰1.5x","server":"snode-cn-sh2.nmp.pw","port":"28009","uuid":"fb88cab3-228e-4e1e-8c0b-97f3ac1e8e77","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇩🇪德国1豫德2x","server":"cn2.node.zeroteam.top","port":46769,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"ger1gcp.nana7micloud.online"}
+  - {"type":"trojan","name":"美汁源+|+悉尼+|+解锁流媒体","server":"194.195.123.118","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇬🇧英国1豫德2x","server":"cn2.node.zeroteam.top","port":40718,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"london1gcp.nana7micloud.online"}
+  - {"type":"trojan","name":"🇭🇰香港1广港2x","server":"cn1.node.zeroteam.top","port":45992,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"hk1gcp.nana7micloud.online"}
+  - {"type":"trojan","name":"🇲🇳蒙古1广港","server":"cn1.node.zeroteam.top","port":53822,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"mn1.nana7micloud.online"}
+  - {"type":"trojan","name":"香港","server":"azgy001.xiba1.xyz","port":20713,"password":"7497242f-3044-3c77-bf48-14bb26c92a83","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"trojan","name":"美汁源+超低价月付正在进行中","server":"172.104.64.167","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美汁源+|+新加坡+|+解锁流媒体","server":"172.104.63.112","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,206 +28,82 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 中转B莞台1.5x
-      - 莞新丨狮城02丨1x
-      - Ofly.xyz-🇭🇰香港01【2LB】
-      - 广港丨香港03丨1x
-      - 莞新丨狮城01丨1x
-      - 中转Y广日1.5x
-      - 中转C中台1.5x
-      - 中转S莞台1.5x
-      - 中转B沪台1.5x
-      - 🇯🇵日本1-Trojan
-      - 专线S沪台1.5x
-      - 🇯🇵日本4-Trojan
-      - 莞港丨香港04丨1x
-      - 🇭🇰香港3-Trojan
-      - 中转U沪台1.5x
-      - 🇭🇰香港5-Trojan
-      - 🇯🇵日本2-Trojan
-      - '[量子]香港041x'
-      - Ofly.xyz-🇰🇷韩国春川01【4LB】
-      - 🇰🇷韩国2-Trojan
-      - 🇭🇰香港1-Trojan
-      - Ofly.xyz-🇯🇵日本大阪01【4LB】
-      - 中转D中美1.5x
+      - 🇭🇰香港1
+      - 🇯🇵日本1
       - 日本²-mojie.ws赞助
-      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 🇭🇰香港2-Trojan
-      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
-      - Ofly.xyz-🇺🇲美国洛杉矶01
-      - 美国INAP
-      - 中转F沪台1.5x
-      - 🇰🇷韩国1-Trojan
-      - 中转C沪美1.5x
-      - 🇺🇸美国西2-Trojan
+      - 🇯🇵日本1广日2x
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
       - 柬埔寨-mojie.ws赞助
-      - 🇺🇸美国西1-Trojan
-      - 中转D沪美1.5x
-      - Ofly.xyz-🇺🇲美国水牛城01
-      - 🇭🇰香港4-Trojan
-      - 中转E阿根廷1.5x
-      - 中转B中英1.5x
-      - 🇬🇧英国伦敦2-Trojan
-      - 洛杉矶
-      - 专线N莞台1.5x
-      - 专线S沪台100m|iepl
-      - 中转T沪泰1.5x
+      - 🇩🇪德国1豫德2x
+      - 美汁源+|+悉尼+|+解锁流媒体
+      - 🇬🇧英国1豫德2x
+      - 🇭🇰香港1广港2x
+      - 🇲🇳蒙古1广港
+      - 香港
+      - 美汁源+超低价月付正在进行中
+      - 美汁源+|+新加坡+|+解锁流媒体
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中转B莞台1.5x
-      - 莞新丨狮城02丨1x
-      - Ofly.xyz-🇭🇰香港01【2LB】
-      - 广港丨香港03丨1x
-      - 莞新丨狮城01丨1x
-      - 中转Y广日1.5x
-      - 中转C中台1.5x
-      - 中转S莞台1.5x
-      - 中转B沪台1.5x
-      - 🇯🇵日本1-Trojan
-      - 专线S沪台1.5x
-      - 🇯🇵日本4-Trojan
-      - 莞港丨香港04丨1x
-      - 🇭🇰香港3-Trojan
-      - 中转U沪台1.5x
-      - 🇭🇰香港5-Trojan
-      - 🇯🇵日本2-Trojan
-      - '[量子]香港041x'
-      - Ofly.xyz-🇰🇷韩国春川01【4LB】
-      - 🇰🇷韩国2-Trojan
-      - 🇭🇰香港1-Trojan
-      - Ofly.xyz-🇯🇵日本大阪01【4LB】
-      - 中转D中美1.5x
+      - 🇭🇰香港1
+      - 🇯🇵日本1
       - 日本²-mojie.ws赞助
-      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 🇭🇰香港2-Trojan
-      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
-      - Ofly.xyz-🇺🇲美国洛杉矶01
-      - 美国INAP
-      - 中转F沪台1.5x
-      - 🇰🇷韩国1-Trojan
-      - 中转C沪美1.5x
-      - 🇺🇸美国西2-Trojan
+      - 🇯🇵日本1广日2x
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
       - 柬埔寨-mojie.ws赞助
-      - 🇺🇸美国西1-Trojan
-      - 中转D沪美1.5x
-      - Ofly.xyz-🇺🇲美国水牛城01
-      - 🇭🇰香港4-Trojan
-      - 中转E阿根廷1.5x
-      - 中转B中英1.5x
-      - 🇬🇧英国伦敦2-Trojan
-      - 洛杉矶
-      - 专线N莞台1.5x
-      - 专线S沪台100m|iepl
-      - 中转T沪泰1.5x
+      - 🇩🇪德国1豫德2x
+      - 美汁源+|+悉尼+|+解锁流媒体
+      - 🇬🇧英国1豫德2x
+      - 🇭🇰香港1广港2x
+      - 🇲🇳蒙古1广港
+      - 香港
+      - 美汁源+超低价月付正在进行中
+      - 美汁源+|+新加坡+|+解锁流媒体
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 中转B莞台1.5x
-      - 莞新丨狮城02丨1x
-      - Ofly.xyz-🇭🇰香港01【2LB】
-      - 广港丨香港03丨1x
-      - 莞新丨狮城01丨1x
-      - 中转Y广日1.5x
-      - 中转C中台1.5x
-      - 中转S莞台1.5x
-      - 中转B沪台1.5x
-      - 🇯🇵日本1-Trojan
-      - 专线S沪台1.5x
-      - 🇯🇵日本4-Trojan
-      - 莞港丨香港04丨1x
-      - 🇭🇰香港3-Trojan
-      - 中转U沪台1.5x
-      - 🇭🇰香港5-Trojan
-      - 🇯🇵日本2-Trojan
-      - '[量子]香港041x'
-      - Ofly.xyz-🇰🇷韩国春川01【4LB】
-      - 🇰🇷韩国2-Trojan
-      - 🇭🇰香港1-Trojan
-      - Ofly.xyz-🇯🇵日本大阪01【4LB】
-      - 中转D中美1.5x
+      - 🇭🇰香港1
+      - 🇯🇵日本1
       - 日本²-mojie.ws赞助
-      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 🇭🇰香港2-Trojan
-      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
-      - Ofly.xyz-🇺🇲美国洛杉矶01
-      - 美国INAP
-      - 中转F沪台1.5x
-      - 🇰🇷韩国1-Trojan
-      - 中转C沪美1.5x
-      - 🇺🇸美国西2-Trojan
+      - 🇯🇵日本1广日2x
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
       - 柬埔寨-mojie.ws赞助
-      - 🇺🇸美国西1-Trojan
-      - 中转D沪美1.5x
-      - Ofly.xyz-🇺🇲美国水牛城01
-      - 🇭🇰香港4-Trojan
-      - 中转E阿根廷1.5x
-      - 中转B中英1.5x
-      - 🇬🇧英国伦敦2-Trojan
-      - 洛杉矶
-      - 专线N莞台1.5x
-      - 专线S沪台100m|iepl
-      - 中转T沪泰1.5x
+      - 🇩🇪德国1豫德2x
+      - 美汁源+|+悉尼+|+解锁流媒体
+      - 🇬🇧英国1豫德2x
+      - 🇭🇰香港1广港2x
+      - 🇲🇳蒙古1广港
+      - 香港
+      - 美汁源+超低价月付正在进行中
+      - 美汁源+|+新加坡+|+解锁流媒体
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 中转B莞台1.5x
-      - 莞新丨狮城02丨1x
-      - Ofly.xyz-🇭🇰香港01【2LB】
-      - 广港丨香港03丨1x
-      - 莞新丨狮城01丨1x
-      - 中转Y广日1.5x
-      - 中转C中台1.5x
-      - 中转S莞台1.5x
-      - 中转B沪台1.5x
-      - 🇯🇵日本1-Trojan
-      - 专线S沪台1.5x
-      - 🇯🇵日本4-Trojan
-      - 莞港丨香港04丨1x
-      - 🇭🇰香港3-Trojan
-      - 中转U沪台1.5x
-      - 🇭🇰香港5-Trojan
-      - 🇯🇵日本2-Trojan
-      - '[量子]香港041x'
-      - Ofly.xyz-🇰🇷韩国春川01【4LB】
-      - 🇰🇷韩国2-Trojan
-      - 🇭🇰香港1-Trojan
-      - Ofly.xyz-🇯🇵日本大阪01【4LB】
-      - 中转D中美1.5x
+      - 🇭🇰香港1
+      - 🇯🇵日本1
       - 日本²-mojie.ws赞助
-      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 🇭🇰香港2-Trojan
-      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
-      - Ofly.xyz-🇺🇲美国洛杉矶01
-      - 美国INAP
-      - 中转F沪台1.5x
-      - 🇰🇷韩国1-Trojan
-      - 中转C沪美1.5x
-      - 🇺🇸美国西2-Trojan
+      - 🇯🇵日本1广日2x
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
       - 柬埔寨-mojie.ws赞助
-      - 🇺🇸美国西1-Trojan
-      - 中转D沪美1.5x
-      - Ofly.xyz-🇺🇲美国水牛城01
-      - 🇭🇰香港4-Trojan
-      - 中转E阿根廷1.5x
-      - 中转B中英1.5x
-      - 🇬🇧英国伦敦2-Trojan
-      - 洛杉矶
-      - 专线N莞台1.5x
-      - 专线S沪台100m|iepl
-      - 中转T沪泰1.5x
+      - 🇩🇪德国1豫德2x
+      - 美汁源+|+悉尼+|+解锁流媒体
+      - 🇬🇧英国1豫德2x
+      - 🇭🇰香港1广港2x
+      - 🇲🇳蒙古1广港
+      - 香港
+      - 美汁源+超低价月付正在进行中
+      - 美汁源+|+新加坡+|+解锁流媒体
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -278,52 +123,21 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 中转B莞台1.5x
-      - 莞新丨狮城02丨1x
-      - Ofly.xyz-🇭🇰香港01【2LB】
-      - 广港丨香港03丨1x
-      - 莞新丨狮城01丨1x
-      - 中转Y广日1.5x
-      - 中转C中台1.5x
-      - 中转S莞台1.5x
-      - 中转B沪台1.5x
-      - 🇯🇵日本1-Trojan
-      - 专线S沪台1.5x
-      - 🇯🇵日本4-Trojan
-      - 莞港丨香港04丨1x
-      - 🇭🇰香港3-Trojan
-      - 中转U沪台1.5x
-      - 🇭🇰香港5-Trojan
-      - 🇯🇵日本2-Trojan
-      - '[量子]香港041x'
-      - Ofly.xyz-🇰🇷韩国春川01【4LB】
-      - 🇰🇷韩国2-Trojan
-      - 🇭🇰香港1-Trojan
-      - Ofly.xyz-🇯🇵日本大阪01【4LB】
-      - 中转D中美1.5x
+      - 🇭🇰香港1
+      - 🇯🇵日本1
       - 日本²-mojie.ws赞助
-      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 🇭🇰香港2-Trojan
-      - Ofly.xyz-🇩🇪德国法兰克福01【4LB】
-      - Ofly.xyz-🇺🇲美国洛杉矶01
-      - 美国INAP
-      - 中转F沪台1.5x
-      - 🇰🇷韩国1-Trojan
-      - 中转C沪美1.5x
-      - 🇺🇸美国西2-Trojan
+      - 🇯🇵日本1广日2x
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
       - 柬埔寨-mojie.ws赞助
-      - 🇺🇸美国西1-Trojan
-      - 中转D沪美1.5x
-      - Ofly.xyz-🇺🇲美国水牛城01
-      - 🇭🇰香港4-Trojan
-      - 中转E阿根廷1.5x
-      - 中转B中英1.5x
-      - 🇬🇧英国伦敦2-Trojan
-      - 洛杉矶
-      - 专线N莞台1.5x
-      - 专线S沪台100m|iepl
-      - 中转T沪泰1.5x
+      - 🇩🇪德国1豫德2x
+      - 美汁源+|+悉尼+|+解锁流媒体
+      - 🇬🇧英国1豫德2x
+      - 🇭🇰香港1广港2x
+      - 🇲🇳蒙古1广港
+      - 香港
+      - 美汁源+超低价月付正在进行中
+      - 美汁源+|+新加坡+|+解锁流媒体
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
