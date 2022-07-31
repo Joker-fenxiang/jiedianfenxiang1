@@ -1,25 +1,173 @@
 port: 7890
-socks-port: 7891
+socks-port: 1080
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"trojan","name":"🇭🇰香港1","server":"hk1gcp.nana7micloud.online","port":443,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵日本1","server":"jp1gcp.nana7micloud.online","port":443,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"日本²-mojie.ws赞助","server":"jpgmo.crunode.top","port":1400,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵日本1广日2x","server":"cn1.node.zeroteam.top","port":20446,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"jp1gcp.nana7micloud.online"}
+  - {"type":"ss","name":"US-美国2","server":"36.138.177.146","port":25341,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"US-美国2-沪_1","server":"183.245.147.52","port":10155,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率","server":"gzyd1.52147.top","port":30030,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"德国-广移双线负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30080,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"IN-印度_1","server":"36.138.177.146","port":26600,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"土耳其+Kadir","server":"103-56-62-105.nhost.00cdn.com","port":35030,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"菲律宾-V1Comfac","server":"dtph1.bitznet.cloud","port":33013,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-河移双线负载均衡|解锁流媒体","server":"hnyd.52147.top","port":30080,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"澳大利亚-V2VUAU","server":"traau1.bitznet.cloud","port":32012,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"澳大利亚-V1VUAU","server":"dtau1.bitznet.cloud","port":33012,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"IN-印度_2","server":"183.240.220.209","port":26600,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"US-美国2-沪_2","server":"36.138.177.146","port":16309,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"日本NTT-广州移动负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30130,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"🇦🇺澳大利亚|流解","server":"14.119.87.171","port":55535,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"auoci.tgads123.com"}
+  - {"type":"ss","name":"IPLC丨香港04丨20x","server":"iplc.gg.20220512.cyou","port":38084,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"trojan","name":"🇭🇰香港1|IEPL|流解|2x","server":"14.119.87.171","port":34800,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"hk1.tgads123.com"}
+  - {"type":"ss","name":"日本+DMIT","server":"36-138-222-125.nhost.00cdn.com","port":35008,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"巴西-V1GCore","server":"dtbr1.bitznet.cloud","port":33016,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"香港+HKT","server":"183-232-230-214.nhost.00cdn.com","port":35001,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
   - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"trojan","name":"香港-V2DP","server":"trahk1.bitznet.cloud","port":32443,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"新加坡-V3DP","server":"iplcsg1.bitznet.cloud","port":34006,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"挪威-80","ws-opts":{"path":"/"},"server":"51.120.248.83","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"阿根廷+FDC","server":"36-138-222-125.nhost.00cdn.com","port":35019,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"香港+Neko","server":"183-232-230-214.nhost.00cdn.com","port":35000,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"日本NTT-1号|解锁流媒体","server":"203.138.98.199","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"LU-卢森堡2-沪日1x","server":"hzcm.20220512.cyou","port":37750,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"LU-卢森堡2-沪日1X","server":"hzcm.20220512.cyou","port":37750,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"巴西-V2GCore","server":"trabr1.bitznet.cloud","port":32016,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"香港+Akari","server":"183-232-230-214.nhost.00cdn.com","port":35004,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"捷克共和国","server":"hzcm.20220512.cyou","port":15584,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"vmess","name":"新加坡1-80","ws-opts":{"path":"/"},"server":"102.37.146.226","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"日本+Oracle","server":"36-138-222-125.nhost.00cdn.com","port":35020,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"美国-V1Aper","server":"dtus1.bitznet.cloud","port":33001,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国-V2Aper","server":"traus1.bitznet.cloud","port":32001,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"沪港丨美国02丨1x","server":"dgcm.20220512.cyou","port":31618,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"ss","name":"日本+IDCF","server":"36-138-222-125.nhost.00cdn.com","port":35006,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"俄罗斯-V1GCore","server":"dtru1.bitznet.cloud","port":33008,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"日本+Sphere","server":"36-138-222-125.nhost.00cdn.com","port":35007,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"US-美国-沪日1x","server":"cn1.node.zeroteam.top","port":51450,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"日本+Linode","server":"36-138-222-125.nhost.00cdn.com","port":35005,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"香港+HGC","server":"183-232-230-214.nhost.00cdn.com","port":35002,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"JP-日本3","server":"183.245.147.52","port":10158,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"日本+Softbank","server":"36-138-222-125.nhost.00cdn.com","port":35011,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"UK-英国","server":"hzcm.20220512.cyou","port":36623,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"JP-日本2_1","server":"183.245.147.52","port":10183,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"澳大利亚-V3VUAU","server":"iplcau1.bitznet.cloud","port":34012,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"香港-V3HKT","server":"iplchk3.bitznet.cloud","port":34000,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"台湾+Scloud","server":"183-232-230-214.nhost.00cdn.com","port":35014,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"JP-日本2_2","server":"36.138.177.146","port":35521,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"新加坡+Melbicom","server":"183-232-230-214.nhost.00cdn.com","port":35022,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"新加坡+Starhub","server":"183-232-230-214.nhost.00cdn.com","port":35009,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"沪港丨美国04丨1x","server":"dgcm.20220512.cyou","port":27750,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"trojan","name":"香港-V2HKT","server":"trahk5.bitznet.cloud","port":32000,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"台湾+HiNET","server":"183-232-230-214.nhost.00cdn.com","port":35013,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"新加坡Az|解锁流媒体","server":"20.205.233.12","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"阿根廷-V2DonWeb","server":"traar1.bitznet.cloud","port":32015,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国-V3Aper","server":"iplcus1.bitznet.cloud","port":34001,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"SG-新加坡3_1","server":"cn1.node.zeroteam.top","port":17387,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"新加坡+Oracle","server":"183-232-230-214.nhost.00cdn.com","port":35010,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"default_name","server":"iplchk1.bitznet.cloud","port":32443,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"日本5-80","ws-opts":{"path":"/"},"server":"20.243.200.245","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本4-80","ws-opts":{"path":"/"},"server":"20.243.200.103","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"俄罗斯-V2GCore","server":"traru1.bitznet.cloud","port":32008,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇸🇬新加坡1|流解","server":"54.255.175.137","port":10800,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"sga.publicss.cc"}
+  - {"type":"trojan","name":"🇯🇵日本2流解","server":"18.181.170.156","port":10800,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"jpawsb.tgads123.com"}
+  - {"type":"ss","name":"新加坡+Linode","server":"183-232-230-214.nhost.00cdn.com","port":35018,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"RU-俄罗斯1X-沪日","server":"hzcm.20220512.cyou","port":37753,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"香港-V3DP","server":"iplchk1.bitznet.cloud","port":34443,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"SG-新加坡2","server":"hzcm.20220512.cyou","port":36210,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"日本NTT-广州移动2负载均衡|解锁流媒体","server":"gzyd2.52147.top","port":30130,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"随缘直连节点_1","server":"sgzl.prprcheng.top","port":36695,"password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3","udp":true,"skip-cert-verify":true,"sni":"sgzl.prprcheng.top"}
+  - {"type":"ss","name":"莞新丨狮城02丨1x","server":"dgcm.20220512.cyou","port":34460,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"ss","name":"美国+Apernet","server":"36-138-222-125.nhost.00cdn.com","port":35027,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"法国-V1VUFR","server":"dtfr1.bitznet.cloud","port":33009,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"RU-俄罗斯1x-沪日","server":"hzcm.20220512.cyou","port":37753,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"法国-V2VUFR","server":"trafr1.bitznet.cloud","port":32009,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"日本1-80","ws-opts":{"path":"/"},"server":"20.243.202.80","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"菲律宾+Eastern","server":"183-232-230-214.nhost.00cdn.com","port":35012,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"TR-土耳其1x","server":"36.138.177.146","port":16310,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"🇿🇦南非|流解","server":"14.119.87.171","port":10694,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"saoci.tgads123.com"}
+  - {"type":"vmess","name":"日本3-80","ws-opts":{"path":"/"},"server":"20.243.200.8","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"日本NTT-河南移动负载均衡|解锁流媒体","server":"hnyd.52147.top","port":30130,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"香港4-80","ws-opts":{"path":"/"},"server":"20.2.71.124","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"JP-日本1","server":"183.240.220.209","port":15680,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"vmess","name":"香港3-80","ws-opts":{"path":"/"},"server":"20.2.71.224","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"香港1-80","ws-opts":{"path":"/"},"server":"20.2.70.92","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"乌克兰-V2Vik","server":"traua1.bitznet.cloud","port":32019,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"TW-台湾1_1","server":"cn1.node.zeroteam.top","port":29835,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"TR-土耳其1X","server":"36.138.177.146","port":16310,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"德国+Oracle","server":"103-56-62-105.nhost.00cdn.com","port":35028,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"HK-香港原生佛港","server":"125.124.254.166","port":25034,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"HK-原生香港-沪","server":"36.138.177.146","port":19930,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"印度+Linode","server":"183-232-230-214.nhost.00cdn.com","port":35020,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"越南-3号","server":"103.173.255.228","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"EE-爱沙尼亚1x","server":"36.138.177.146","port":25340,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"ss","name":"美国+Linode","server":"36-138-222-125.nhost.00cdn.com","port":35015,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"法国-V3VUFR","server":"iplcfr1.bitznet.cloud","port":34009,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"乌克兰-V1Vik","server":"dtua1.bitznet.cloud","port":33019,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"荷兰+LiteServer","server":"103-56-62-105.nhost.00cdn.com","port":35031,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"美国+Oracle","server":"36-138-222-125.nhost.00cdn.com","port":35016,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"美国+Flexential","server":"36-138-222-125.nhost.00cdn.com","port":35014,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"随缘直连节点_2","server":"sgzl.prprcheng.top","port":36695,"password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5","udp":true,"skip-cert-verify":true,"sni":"sgzl.prprcheng.top"}
+  - {"type":"ss","name":"IEPL丨香港02丨1x","server":"dgcm.20220512.cyou","port":44708,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"trojan","name":"fffffx2","server":"iplcsk1.bitznet.cloud","port":32005,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"沪港丨美国06丨1x","server":"dgcm.20220512.cyou","port":18897,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"HKT-香港家宽1_1","server":"183.240.220.209","port":18800,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"美国+Alchemy","server":"36-138-222-125.nhost.00cdn.com","port":35012,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"西班牙+Ncxcloud","server":"103-56-62-105.nhost.00cdn.com","port":35013,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"SG-新加坡1-2X","server":"125.124.254.166","port":25021,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"阿根廷-V1DonWeb","server":"dtar1.bitznet.cloud","port":33015,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"英国+Linode","server":"103-56-62-105.nhost.00cdn.com","port":35029,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"vmess","name":"多伦多-80","ws-opts":{"path":"/"},"server":"20.244.41.55","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本2-80","ws-opts":{"path":"/"},"server":"20.244.10.73","port":"80","uuid":"bc4167fa-7394-3869-b9c0-67ae18b40f2f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"巴西-V3GCore","server":"iplcbr1.bitznet.cloud","port":34016,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"🇯🇵日本1|流解","server":"54.238.109.68","port":10800,"password":"38e5eb65-0a42-4b0d-9840-9131e338b542","udp":true,"skip-cert-verify":true,"sni":"jpawsp.tgads123.com"}
+  - {"type":"ss","name":"沪港丨菲国02丨1x","server":"dgcm.20220512.cyou","port":50202,"cipher":"aes-128-gcm","password":"4087ef96-6a11-4cc9-9393-e55fb28c6e63"}
+  - {"type":"ss","name":"UA-乌克兰1X","server":"183.240.220.209","port":25300,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"HK-原生香港2","server":"183.240.220.209","port":19930,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"TW-台湾2_1","server":"183.240.220.209","port":15520,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"HKT-香港家宽1_2","server":"36.138.177.146","port":18800,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"节点分享频道@fffffx2","server":"iplctw1.bitznet.cloud","port":32003,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"台湾-V2HiNet","server":"tratw1.bitznet.cloud","port":32003,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"vmess","name":"Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi","server":"in.do.cl0udf1are.cf","port":"53","uuid":"f984bcb1-f339-43e7-986d-3d92adffc849","alterId":"0","cipher":"auto","network":"kcp"}
-  - {"type":"trojan","name":"柬埔寨-mojie.ws赞助","server":"kh1.nodegz.top","port":443,"password":"85de110f-e370-3463-acb2-06c2d7e3c31e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇩🇪德国1豫德2x","server":"cn2.node.zeroteam.top","port":46769,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"ger1gcp.nana7micloud.online"}
-  - {"type":"trojan","name":"美汁源+|+悉尼+|+解锁流媒体","server":"194.195.123.118","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"🇬🇧英国1豫德2x","server":"cn2.node.zeroteam.top","port":40718,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"london1gcp.nana7micloud.online"}
-  - {"type":"trojan","name":"🇭🇰香港1广港2x","server":"cn1.node.zeroteam.top","port":45992,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"hk1gcp.nana7micloud.online"}
-  - {"type":"trojan","name":"🇲🇳蒙古1广港","server":"cn1.node.zeroteam.top","port":53822,"password":"f3008f98-25e1-45d6-929b-c5ba196bccf5","udp":true,"skip-cert-verify":true,"sni":"mn1.nana7micloud.online"}
-  - {"type":"trojan","name":"香港","server":"azgy001.xiba1.xyz","port":20713,"password":"7497242f-3044-3c77-bf48-14bb26c92a83","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
-  - {"type":"trojan","name":"美汁源+超低价月付正在进行中","server":"172.104.64.167","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"美汁源+|+新加坡+|+解锁流媒体","server":"172.104.63.112","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"台湾-V3HiNet","server":"iplctw1.bitznet.cloud","port":34003,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-V1VUDE","server":"dtde1.bitznet.cloud","port":33011,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"越南|广州移动","server":"gzyd1.52147.top","port":30120,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"韩国+Vultr","server":"36-138-222-125.nhost.00cdn.com","port":35024,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"trojan","name":"台湾Hinet|解锁流媒体","server":"hinet.52147.top","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"台湾-V1HiNet","server":"dttw1.bitznet.cloud","port":33003,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-V2VUDE","server":"trade1.bitznet.cloud","port":32011,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"HK-香港1","server":"36.138.177.146","port":49862,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"印度-V1DOIN","server":"dtin1.bitznet.cloud","port":33017,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"印度-V2DOIN","server":"train1.bitznet.cloud","port":32017,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"HK-专线IEPL限速测试版","server":"dgcm.20220512.cyou","port":38820,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"SG-新加坡5","server":"183.240.220.209","port":26601,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"加拿大+Linode","server":"36-138-222-125.nhost.00cdn.com","port":35025,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"AU-新加坡解锁2X","server":"183.245.147.52","port":10141,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"TW-台湾1_2","server":"183.245.147.52","port":10182,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"日本-V2DP","server":"trajp1.bitznet.cloud","port":32004,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"AU-澳大利亚-杭2X","server":"hzcm.20220512.cyou","port":37751,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"美国+Madcity","server":"36-138-222-125.nhost.00cdn.com","port":35026,"cipher":"aes-256-gcm","password":"7bae837d-f22c-4d82-8b13-584dea1848fc"}
+  - {"type":"ss","name":"AU-澳大利亚-杭2x","server":"hzcm.20220512.cyou","port":37751,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"日本-V3DP","server":"iplcjp1.bitznet.cloud","port":34004,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"SG-新加坡3_2","server":"183.240.220.209","port":49862,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"US-美国-沪日1X","server":"183.245.147.52","port":10157,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"新加坡-V2DP","server":"trasg1.bitznet.cloud","port":32007,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"TW-台湾2_2","server":"36.138.177.146","port":15520,"cipher":"chacha20-ietf-poly1305","password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5"}
+  - {"type":"trojan","name":"韩国-V2VUKR","server":"trask1.bitznet.cloud","port":32005,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国圣何塞-2号|解锁流媒体|0.1倍率","server":"45.82.253.234","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"EE-爱沙尼亚1X","server":"183.240.220.209","port":25340,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"US-美国T-1x","server":"usssa.prprcheng.top","port":36285,"password":"1ecc5f0f-890f-4626-8d7c-e9dd6b2f6bb5","udp":true,"skip-cert-verify":true,"sni":"usssa.prprcheng.top"}
+  - {"type":"ss","name":"HK-原生香港1","server":"gzcm.20220512.cyou","port":36250,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"ss","name":"SG-2号新加坡(1)","server":"dgcm.20220512.cyou","port":49982,"cipher":"chacha20-ietf-poly1305","password":"902b5aa1-6c53-4c3a-93ec-b9b14cc318f3"}
+  - {"type":"trojan","name":"韩国-V3VUKR","server":"iplcsk1.bitznet.cloud","port":34005,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国洛杉矶-1号|解锁流媒体|0.1倍率","server":"45.88.148.234","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"日本NTT-2号|解锁流媒体","server":"157.120.35.234","port":443,"password":"2ad895a4-90e1-460d-9291-bbfb3463190e","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"菲律宾-V2Comfac","server":"traph1.bitznet.cloud","port":32013,"password":"5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"ss","name":"香港特别行政区|HK-C2|×1","server":"gy.mmjs.vip","port":63005,"cipher":"aes-256-gcm","password":"dbfe7117-d5f8-49be-867d-d7b1ec4958c8"}
+  - {"type":"ss","name":"菲律宾马尼拉|PH-A2","server":"gy.mmjs.vip","port":63001,"cipher":"aes-256-gcm","password":"dbfe7117-d5f8-49be-867d-d7b1ec4958c8"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -28,82 +176,674 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰香港1
-      - 🇯🇵日本1
-      - 日本²-mojie.ws赞助
-      - 🇯🇵日本1广日2x
+      - US-美国2
+      - US-美国2-沪_1
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 德国-广移双线负载均衡|解锁流媒体
+      - IN-印度_1
+      - 土耳其+Kadir
+      - 菲律宾-V1Comfac
+      - 德国-河移双线负载均衡|解锁流媒体
+      - 澳大利亚-V2VUAU
+      - 澳大利亚-V1VUAU
+      - IN-印度_2
+      - US-美国2-沪_2
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - 🇦🇺澳大利亚|流解
+      - IPLC丨香港04丨20x
+      - 🇭🇰香港1|IEPL|流解|2x
+      - 日本+DMIT
+      - 巴西-V1GCore
+      - 香港+HKT
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 香港-V2DP
+      - 新加坡-V3DP
+      - 挪威-80
+      - 阿根廷+FDC
+      - 香港+Neko
+      - 日本NTT-1号|解锁流媒体
+      - LU-卢森堡2-沪日1x
+      - LU-卢森堡2-沪日1X
+      - 巴西-V2GCore
+      - 香港+Akari
+      - 捷克共和国
+      - 新加坡1-80
+      - 日本+Oracle
+      - 美国-V1Aper
+      - 美国-V2Aper
+      - 沪港丨美国02丨1x
+      - 日本+IDCF
+      - 俄罗斯-V1GCore
+      - 日本+Sphere
+      - US-美国-沪日1x
+      - 日本+Linode
+      - 香港+HGC
+      - JP-日本3
+      - 日本+Softbank
+      - UK-英国
+      - JP-日本2_1
+      - 澳大利亚-V3VUAU
+      - 香港-V3HKT
+      - 台湾+Scloud
+      - JP-日本2_2
+      - 新加坡+Melbicom
+      - 新加坡+Starhub
+      - 沪港丨美国04丨1x
+      - 香港-V2HKT
+      - 台湾+HiNET
+      - 新加坡Az|解锁流媒体
+      - 阿根廷-V2DonWeb
+      - 美国-V3Aper
+      - SG-新加坡3_1
+      - 新加坡+Oracle
+      - default_name
+      - 日本5-80
+      - 日本4-80
+      - 俄罗斯-V2GCore
+      - 🇸🇬新加坡1|流解
+      - 🇯🇵日本2流解
+      - 新加坡+Linode
+      - RU-俄罗斯1X-沪日
+      - 香港-V3DP
+      - SG-新加坡2
+      - 日本NTT-广州移动2负载均衡|解锁流媒体
+      - 随缘直连节点_1
+      - 莞新丨狮城02丨1x
+      - 美国+Apernet
+      - 法国-V1VUFR
+      - RU-俄罗斯1x-沪日
+      - 法国-V2VUFR
+      - 日本1-80
+      - 越南-1号
+      - 菲律宾+Eastern
+      - TR-土耳其1x
+      - 🇿🇦南非|流解
+      - 日本3-80
+      - 日本NTT-河南移动负载均衡|解锁流媒体
+      - 香港4-80
+      - JP-日本1
+      - 香港3-80
+      - 香港1-80
+      - 乌克兰-V2Vik
+      - TW-台湾1_1
+      - TR-土耳其1X
+      - 德国+Oracle
+      - HK-香港原生佛港
+      - HK-原生香港-沪
+      - 印度+Linode
+      - 越南-3号
+      - EE-爱沙尼亚1x
+      - 美国+Linode
+      - 法国-V3VUFR
+      - 乌克兰-V1Vik
+      - 荷兰+LiteServer
+      - 美国+Oracle
+      - 美国+Flexential
+      - 随缘直连节点_2
+      - IEPL丨香港02丨1x
+      - fffffx2
+      - 越南-4号
+      - 沪港丨美国06丨1x
+      - 越南-2号
+      - HKT-香港家宽1_1
+      - 美国+Alchemy
+      - 西班牙+Ncxcloud
+      - SG-新加坡1-2X
+      - 阿根廷-V1DonWeb
+      - 英国+Linode
+      - 多伦多-80
+      - 日本2-80
+      - 巴西-V3GCore
+      - 🇯🇵日本1|流解
+      - 沪港丨菲国02丨1x
+      - UA-乌克兰1X
+      - HK-原生香港2
+      - TW-台湾2_1
+      - HKT-香港家宽1_2
+      - 节点分享频道@fffffx2
+      - 台湾-V2HiNet
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 柬埔寨-mojie.ws赞助
-      - 🇩🇪德国1豫德2x
-      - 美汁源+|+悉尼+|+解锁流媒体
-      - 🇬🇧英国1豫德2x
-      - 🇭🇰香港1广港2x
-      - 🇲🇳蒙古1广港
-      - 香港
-      - 美汁源+超低价月付正在进行中
-      - 美汁源+|+新加坡+|+解锁流媒体
+      - 台湾-V3HiNet
+      - 德国-V1VUDE
+      - 越南|广州移动
+      - 韩国+Vultr
+      - 台湾Hinet|解锁流媒体
+      - 台湾-V1HiNet
+      - 德国-V2VUDE
+      - HK-香港1
+      - 印度-V1DOIN
+      - 印度-V2DOIN
+      - HK-专线IEPL限速测试版
+      - SG-新加坡5
+      - 加拿大+Linode
+      - AU-新加坡解锁2X
+      - TW-台湾1_2
+      - 日本-V2DP
+      - AU-澳大利亚-杭2X
+      - 美国+Madcity
+      - AU-澳大利亚-杭2x
+      - 日本-V3DP
+      - SG-新加坡3_2
+      - US-美国-沪日1X
+      - 新加坡-V2DP
+      - TW-台湾2_2
+      - 韩国-V2VUKR
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - EE-爱沙尼亚1X
+      - US-美国T-1x
+      - HK-原生香港1
+      - SG-2号新加坡(1)
+      - 韩国-V3VUKR
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
+      - 日本NTT-2号|解锁流媒体
+      - 菲律宾-V2Comfac
+      - 香港特别行政区|HK-C2|×1
+      - 菲律宾马尼拉|PH-A2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰香港1
-      - 🇯🇵日本1
-      - 日本²-mojie.ws赞助
-      - 🇯🇵日本1广日2x
+      - US-美国2
+      - US-美国2-沪_1
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 德国-广移双线负载均衡|解锁流媒体
+      - IN-印度_1
+      - 土耳其+Kadir
+      - 菲律宾-V1Comfac
+      - 德国-河移双线负载均衡|解锁流媒体
+      - 澳大利亚-V2VUAU
+      - 澳大利亚-V1VUAU
+      - IN-印度_2
+      - US-美国2-沪_2
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - 🇦🇺澳大利亚|流解
+      - IPLC丨香港04丨20x
+      - 🇭🇰香港1|IEPL|流解|2x
+      - 日本+DMIT
+      - 巴西-V1GCore
+      - 香港+HKT
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 香港-V2DP
+      - 新加坡-V3DP
+      - 挪威-80
+      - 阿根廷+FDC
+      - 香港+Neko
+      - 日本NTT-1号|解锁流媒体
+      - LU-卢森堡2-沪日1x
+      - LU-卢森堡2-沪日1X
+      - 巴西-V2GCore
+      - 香港+Akari
+      - 捷克共和国
+      - 新加坡1-80
+      - 日本+Oracle
+      - 美国-V1Aper
+      - 美国-V2Aper
+      - 沪港丨美国02丨1x
+      - 日本+IDCF
+      - 俄罗斯-V1GCore
+      - 日本+Sphere
+      - US-美国-沪日1x
+      - 日本+Linode
+      - 香港+HGC
+      - JP-日本3
+      - 日本+Softbank
+      - UK-英国
+      - JP-日本2_1
+      - 澳大利亚-V3VUAU
+      - 香港-V3HKT
+      - 台湾+Scloud
+      - JP-日本2_2
+      - 新加坡+Melbicom
+      - 新加坡+Starhub
+      - 沪港丨美国04丨1x
+      - 香港-V2HKT
+      - 台湾+HiNET
+      - 新加坡Az|解锁流媒体
+      - 阿根廷-V2DonWeb
+      - 美国-V3Aper
+      - SG-新加坡3_1
+      - 新加坡+Oracle
+      - default_name
+      - 日本5-80
+      - 日本4-80
+      - 俄罗斯-V2GCore
+      - 🇸🇬新加坡1|流解
+      - 🇯🇵日本2流解
+      - 新加坡+Linode
+      - RU-俄罗斯1X-沪日
+      - 香港-V3DP
+      - SG-新加坡2
+      - 日本NTT-广州移动2负载均衡|解锁流媒体
+      - 随缘直连节点_1
+      - 莞新丨狮城02丨1x
+      - 美国+Apernet
+      - 法国-V1VUFR
+      - RU-俄罗斯1x-沪日
+      - 法国-V2VUFR
+      - 日本1-80
+      - 越南-1号
+      - 菲律宾+Eastern
+      - TR-土耳其1x
+      - 🇿🇦南非|流解
+      - 日本3-80
+      - 日本NTT-河南移动负载均衡|解锁流媒体
+      - 香港4-80
+      - JP-日本1
+      - 香港3-80
+      - 香港1-80
+      - 乌克兰-V2Vik
+      - TW-台湾1_1
+      - TR-土耳其1X
+      - 德国+Oracle
+      - HK-香港原生佛港
+      - HK-原生香港-沪
+      - 印度+Linode
+      - 越南-3号
+      - EE-爱沙尼亚1x
+      - 美国+Linode
+      - 法国-V3VUFR
+      - 乌克兰-V1Vik
+      - 荷兰+LiteServer
+      - 美国+Oracle
+      - 美国+Flexential
+      - 随缘直连节点_2
+      - IEPL丨香港02丨1x
+      - fffffx2
+      - 越南-4号
+      - 沪港丨美国06丨1x
+      - 越南-2号
+      - HKT-香港家宽1_1
+      - 美国+Alchemy
+      - 西班牙+Ncxcloud
+      - SG-新加坡1-2X
+      - 阿根廷-V1DonWeb
+      - 英国+Linode
+      - 多伦多-80
+      - 日本2-80
+      - 巴西-V3GCore
+      - 🇯🇵日本1|流解
+      - 沪港丨菲国02丨1x
+      - UA-乌克兰1X
+      - HK-原生香港2
+      - TW-台湾2_1
+      - HKT-香港家宽1_2
+      - 节点分享频道@fffffx2
+      - 台湾-V2HiNet
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 柬埔寨-mojie.ws赞助
-      - 🇩🇪德国1豫德2x
-      - 美汁源+|+悉尼+|+解锁流媒体
-      - 🇬🇧英国1豫德2x
-      - 🇭🇰香港1广港2x
-      - 🇲🇳蒙古1广港
-      - 香港
-      - 美汁源+超低价月付正在进行中
-      - 美汁源+|+新加坡+|+解锁流媒体
+      - 台湾-V3HiNet
+      - 德国-V1VUDE
+      - 越南|广州移动
+      - 韩国+Vultr
+      - 台湾Hinet|解锁流媒体
+      - 台湾-V1HiNet
+      - 德国-V2VUDE
+      - HK-香港1
+      - 印度-V1DOIN
+      - 印度-V2DOIN
+      - HK-专线IEPL限速测试版
+      - SG-新加坡5
+      - 加拿大+Linode
+      - AU-新加坡解锁2X
+      - TW-台湾1_2
+      - 日本-V2DP
+      - AU-澳大利亚-杭2X
+      - 美国+Madcity
+      - AU-澳大利亚-杭2x
+      - 日本-V3DP
+      - SG-新加坡3_2
+      - US-美国-沪日1X
+      - 新加坡-V2DP
+      - TW-台湾2_2
+      - 韩国-V2VUKR
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - EE-爱沙尼亚1X
+      - US-美国T-1x
+      - HK-原生香港1
+      - SG-2号新加坡(1)
+      - 韩国-V3VUKR
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
+      - 日本NTT-2号|解锁流媒体
+      - 菲律宾-V2Comfac
+      - 香港特别行政区|HK-C2|×1
+      - 菲律宾马尼拉|PH-A2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰香港1
-      - 🇯🇵日本1
-      - 日本²-mojie.ws赞助
-      - 🇯🇵日本1广日2x
+      - US-美国2
+      - US-美国2-沪_1
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 德国-广移双线负载均衡|解锁流媒体
+      - IN-印度_1
+      - 土耳其+Kadir
+      - 菲律宾-V1Comfac
+      - 德国-河移双线负载均衡|解锁流媒体
+      - 澳大利亚-V2VUAU
+      - 澳大利亚-V1VUAU
+      - IN-印度_2
+      - US-美国2-沪_2
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - 🇦🇺澳大利亚|流解
+      - IPLC丨香港04丨20x
+      - 🇭🇰香港1|IEPL|流解|2x
+      - 日本+DMIT
+      - 巴西-V1GCore
+      - 香港+HKT
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 香港-V2DP
+      - 新加坡-V3DP
+      - 挪威-80
+      - 阿根廷+FDC
+      - 香港+Neko
+      - 日本NTT-1号|解锁流媒体
+      - LU-卢森堡2-沪日1x
+      - LU-卢森堡2-沪日1X
+      - 巴西-V2GCore
+      - 香港+Akari
+      - 捷克共和国
+      - 新加坡1-80
+      - 日本+Oracle
+      - 美国-V1Aper
+      - 美国-V2Aper
+      - 沪港丨美国02丨1x
+      - 日本+IDCF
+      - 俄罗斯-V1GCore
+      - 日本+Sphere
+      - US-美国-沪日1x
+      - 日本+Linode
+      - 香港+HGC
+      - JP-日本3
+      - 日本+Softbank
+      - UK-英国
+      - JP-日本2_1
+      - 澳大利亚-V3VUAU
+      - 香港-V3HKT
+      - 台湾+Scloud
+      - JP-日本2_2
+      - 新加坡+Melbicom
+      - 新加坡+Starhub
+      - 沪港丨美国04丨1x
+      - 香港-V2HKT
+      - 台湾+HiNET
+      - 新加坡Az|解锁流媒体
+      - 阿根廷-V2DonWeb
+      - 美国-V3Aper
+      - SG-新加坡3_1
+      - 新加坡+Oracle
+      - default_name
+      - 日本5-80
+      - 日本4-80
+      - 俄罗斯-V2GCore
+      - 🇸🇬新加坡1|流解
+      - 🇯🇵日本2流解
+      - 新加坡+Linode
+      - RU-俄罗斯1X-沪日
+      - 香港-V3DP
+      - SG-新加坡2
+      - 日本NTT-广州移动2负载均衡|解锁流媒体
+      - 随缘直连节点_1
+      - 莞新丨狮城02丨1x
+      - 美国+Apernet
+      - 法国-V1VUFR
+      - RU-俄罗斯1x-沪日
+      - 法国-V2VUFR
+      - 日本1-80
+      - 越南-1号
+      - 菲律宾+Eastern
+      - TR-土耳其1x
+      - 🇿🇦南非|流解
+      - 日本3-80
+      - 日本NTT-河南移动负载均衡|解锁流媒体
+      - 香港4-80
+      - JP-日本1
+      - 香港3-80
+      - 香港1-80
+      - 乌克兰-V2Vik
+      - TW-台湾1_1
+      - TR-土耳其1X
+      - 德国+Oracle
+      - HK-香港原生佛港
+      - HK-原生香港-沪
+      - 印度+Linode
+      - 越南-3号
+      - EE-爱沙尼亚1x
+      - 美国+Linode
+      - 法国-V3VUFR
+      - 乌克兰-V1Vik
+      - 荷兰+LiteServer
+      - 美国+Oracle
+      - 美国+Flexential
+      - 随缘直连节点_2
+      - IEPL丨香港02丨1x
+      - fffffx2
+      - 越南-4号
+      - 沪港丨美国06丨1x
+      - 越南-2号
+      - HKT-香港家宽1_1
+      - 美国+Alchemy
+      - 西班牙+Ncxcloud
+      - SG-新加坡1-2X
+      - 阿根廷-V1DonWeb
+      - 英国+Linode
+      - 多伦多-80
+      - 日本2-80
+      - 巴西-V3GCore
+      - 🇯🇵日本1|流解
+      - 沪港丨菲国02丨1x
+      - UA-乌克兰1X
+      - HK-原生香港2
+      - TW-台湾2_1
+      - HKT-香港家宽1_2
+      - 节点分享频道@fffffx2
+      - 台湾-V2HiNet
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 柬埔寨-mojie.ws赞助
-      - 🇩🇪德国1豫德2x
-      - 美汁源+|+悉尼+|+解锁流媒体
-      - 🇬🇧英国1豫德2x
-      - 🇭🇰香港1广港2x
-      - 🇲🇳蒙古1广港
-      - 香港
-      - 美汁源+超低价月付正在进行中
-      - 美汁源+|+新加坡+|+解锁流媒体
+      - 台湾-V3HiNet
+      - 德国-V1VUDE
+      - 越南|广州移动
+      - 韩国+Vultr
+      - 台湾Hinet|解锁流媒体
+      - 台湾-V1HiNet
+      - 德国-V2VUDE
+      - HK-香港1
+      - 印度-V1DOIN
+      - 印度-V2DOIN
+      - HK-专线IEPL限速测试版
+      - SG-新加坡5
+      - 加拿大+Linode
+      - AU-新加坡解锁2X
+      - TW-台湾1_2
+      - 日本-V2DP
+      - AU-澳大利亚-杭2X
+      - 美国+Madcity
+      - AU-澳大利亚-杭2x
+      - 日本-V3DP
+      - SG-新加坡3_2
+      - US-美国-沪日1X
+      - 新加坡-V2DP
+      - TW-台湾2_2
+      - 韩国-V2VUKR
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - EE-爱沙尼亚1X
+      - US-美国T-1x
+      - HK-原生香港1
+      - SG-2号新加坡(1)
+      - 韩国-V3VUKR
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
+      - 日本NTT-2号|解锁流媒体
+      - 菲律宾-V2Comfac
+      - 香港特别行政区|HK-C2|×1
+      - 菲律宾马尼拉|PH-A2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰香港1
-      - 🇯🇵日本1
-      - 日本²-mojie.ws赞助
-      - 🇯🇵日本1广日2x
+      - US-美国2
+      - US-美国2-沪_1
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 德国-广移双线负载均衡|解锁流媒体
+      - IN-印度_1
+      - 土耳其+Kadir
+      - 菲律宾-V1Comfac
+      - 德国-河移双线负载均衡|解锁流媒体
+      - 澳大利亚-V2VUAU
+      - 澳大利亚-V1VUAU
+      - IN-印度_2
+      - US-美国2-沪_2
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - 🇦🇺澳大利亚|流解
+      - IPLC丨香港04丨20x
+      - 🇭🇰香港1|IEPL|流解|2x
+      - 日本+DMIT
+      - 巴西-V1GCore
+      - 香港+HKT
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 香港-V2DP
+      - 新加坡-V3DP
+      - 挪威-80
+      - 阿根廷+FDC
+      - 香港+Neko
+      - 日本NTT-1号|解锁流媒体
+      - LU-卢森堡2-沪日1x
+      - LU-卢森堡2-沪日1X
+      - 巴西-V2GCore
+      - 香港+Akari
+      - 捷克共和国
+      - 新加坡1-80
+      - 日本+Oracle
+      - 美国-V1Aper
+      - 美国-V2Aper
+      - 沪港丨美国02丨1x
+      - 日本+IDCF
+      - 俄罗斯-V1GCore
+      - 日本+Sphere
+      - US-美国-沪日1x
+      - 日本+Linode
+      - 香港+HGC
+      - JP-日本3
+      - 日本+Softbank
+      - UK-英国
+      - JP-日本2_1
+      - 澳大利亚-V3VUAU
+      - 香港-V3HKT
+      - 台湾+Scloud
+      - JP-日本2_2
+      - 新加坡+Melbicom
+      - 新加坡+Starhub
+      - 沪港丨美国04丨1x
+      - 香港-V2HKT
+      - 台湾+HiNET
+      - 新加坡Az|解锁流媒体
+      - 阿根廷-V2DonWeb
+      - 美国-V3Aper
+      - SG-新加坡3_1
+      - 新加坡+Oracle
+      - default_name
+      - 日本5-80
+      - 日本4-80
+      - 俄罗斯-V2GCore
+      - 🇸🇬新加坡1|流解
+      - 🇯🇵日本2流解
+      - 新加坡+Linode
+      - RU-俄罗斯1X-沪日
+      - 香港-V3DP
+      - SG-新加坡2
+      - 日本NTT-广州移动2负载均衡|解锁流媒体
+      - 随缘直连节点_1
+      - 莞新丨狮城02丨1x
+      - 美国+Apernet
+      - 法国-V1VUFR
+      - RU-俄罗斯1x-沪日
+      - 法国-V2VUFR
+      - 日本1-80
+      - 越南-1号
+      - 菲律宾+Eastern
+      - TR-土耳其1x
+      - 🇿🇦南非|流解
+      - 日本3-80
+      - 日本NTT-河南移动负载均衡|解锁流媒体
+      - 香港4-80
+      - JP-日本1
+      - 香港3-80
+      - 香港1-80
+      - 乌克兰-V2Vik
+      - TW-台湾1_1
+      - TR-土耳其1X
+      - 德国+Oracle
+      - HK-香港原生佛港
+      - HK-原生香港-沪
+      - 印度+Linode
+      - 越南-3号
+      - EE-爱沙尼亚1x
+      - 美国+Linode
+      - 法国-V3VUFR
+      - 乌克兰-V1Vik
+      - 荷兰+LiteServer
+      - 美国+Oracle
+      - 美国+Flexential
+      - 随缘直连节点_2
+      - IEPL丨香港02丨1x
+      - fffffx2
+      - 越南-4号
+      - 沪港丨美国06丨1x
+      - 越南-2号
+      - HKT-香港家宽1_1
+      - 美国+Alchemy
+      - 西班牙+Ncxcloud
+      - SG-新加坡1-2X
+      - 阿根廷-V1DonWeb
+      - 英国+Linode
+      - 多伦多-80
+      - 日本2-80
+      - 巴西-V3GCore
+      - 🇯🇵日本1|流解
+      - 沪港丨菲国02丨1x
+      - UA-乌克兰1X
+      - HK-原生香港2
+      - TW-台湾2_1
+      - HKT-香港家宽1_2
+      - 节点分享频道@fffffx2
+      - 台湾-V2HiNet
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 柬埔寨-mojie.ws赞助
-      - 🇩🇪德国1豫德2x
-      - 美汁源+|+悉尼+|+解锁流媒体
-      - 🇬🇧英国1豫德2x
-      - 🇭🇰香港1广港2x
-      - 🇲🇳蒙古1广港
-      - 香港
-      - 美汁源+超低价月付正在进行中
-      - 美汁源+|+新加坡+|+解锁流媒体
+      - 台湾-V3HiNet
+      - 德国-V1VUDE
+      - 越南|广州移动
+      - 韩国+Vultr
+      - 台湾Hinet|解锁流媒体
+      - 台湾-V1HiNet
+      - 德国-V2VUDE
+      - HK-香港1
+      - 印度-V1DOIN
+      - 印度-V2DOIN
+      - HK-专线IEPL限速测试版
+      - SG-新加坡5
+      - 加拿大+Linode
+      - AU-新加坡解锁2X
+      - TW-台湾1_2
+      - 日本-V2DP
+      - AU-澳大利亚-杭2X
+      - 美国+Madcity
+      - AU-澳大利亚-杭2x
+      - 日本-V3DP
+      - SG-新加坡3_2
+      - US-美国-沪日1X
+      - 新加坡-V2DP
+      - TW-台湾2_2
+      - 韩国-V2VUKR
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - EE-爱沙尼亚1X
+      - US-美国T-1x
+      - HK-原生香港1
+      - SG-2号新加坡(1)
+      - 韩国-V3VUKR
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
+      - 日本NTT-2号|解锁流媒体
+      - 菲律宾-V2Comfac
+      - 香港特别行政区|HK-C2|×1
+      - 菲律宾马尼拉|PH-A2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -123,21 +863,169 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰香港1
-      - 🇯🇵日本1
-      - 日本²-mojie.ws赞助
-      - 🇯🇵日本1广日2x
+      - US-美国2
+      - US-美国2-沪_1
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 德国-广移双线负载均衡|解锁流媒体
+      - IN-印度_1
+      - 土耳其+Kadir
+      - 菲律宾-V1Comfac
+      - 德国-河移双线负载均衡|解锁流媒体
+      - 澳大利亚-V2VUAU
+      - 澳大利亚-V1VUAU
+      - IN-印度_2
+      - US-美国2-沪_2
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - 🇦🇺澳大利亚|流解
+      - IPLC丨香港04丨20x
+      - 🇭🇰香港1|IEPL|流解|2x
+      - 日本+DMIT
+      - 巴西-V1GCore
+      - 香港+HKT
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 香港-V2DP
+      - 新加坡-V3DP
+      - 挪威-80
+      - 阿根廷+FDC
+      - 香港+Neko
+      - 日本NTT-1号|解锁流媒体
+      - LU-卢森堡2-沪日1x
+      - LU-卢森堡2-沪日1X
+      - 巴西-V2GCore
+      - 香港+Akari
+      - 捷克共和国
+      - 新加坡1-80
+      - 日本+Oracle
+      - 美国-V1Aper
+      - 美国-V2Aper
+      - 沪港丨美国02丨1x
+      - 日本+IDCF
+      - 俄罗斯-V1GCore
+      - 日本+Sphere
+      - US-美国-沪日1x
+      - 日本+Linode
+      - 香港+HGC
+      - JP-日本3
+      - 日本+Softbank
+      - UK-英国
+      - JP-日本2_1
+      - 澳大利亚-V3VUAU
+      - 香港-V3HKT
+      - 台湾+Scloud
+      - JP-日本2_2
+      - 新加坡+Melbicom
+      - 新加坡+Starhub
+      - 沪港丨美国04丨1x
+      - 香港-V2HKT
+      - 台湾+HiNET
+      - 新加坡Az|解锁流媒体
+      - 阿根廷-V2DonWeb
+      - 美国-V3Aper
+      - SG-新加坡3_1
+      - 新加坡+Oracle
+      - default_name
+      - 日本5-80
+      - 日本4-80
+      - 俄罗斯-V2GCore
+      - 🇸🇬新加坡1|流解
+      - 🇯🇵日本2流解
+      - 新加坡+Linode
+      - RU-俄罗斯1X-沪日
+      - 香港-V3DP
+      - SG-新加坡2
+      - 日本NTT-广州移动2负载均衡|解锁流媒体
+      - 随缘直连节点_1
+      - 莞新丨狮城02丨1x
+      - 美国+Apernet
+      - 法国-V1VUFR
+      - RU-俄罗斯1x-沪日
+      - 法国-V2VUFR
+      - 日本1-80
+      - 越南-1号
+      - 菲律宾+Eastern
+      - TR-土耳其1x
+      - 🇿🇦南非|流解
+      - 日本3-80
+      - 日本NTT-河南移动负载均衡|解锁流媒体
+      - 香港4-80
+      - JP-日本1
+      - 香港3-80
+      - 香港1-80
+      - 乌克兰-V2Vik
+      - TW-台湾1_1
+      - TR-土耳其1X
+      - 德国+Oracle
+      - HK-香港原生佛港
+      - HK-原生香港-沪
+      - 印度+Linode
+      - 越南-3号
+      - EE-爱沙尼亚1x
+      - 美国+Linode
+      - 法国-V3VUFR
+      - 乌克兰-V1Vik
+      - 荷兰+LiteServer
+      - 美国+Oracle
+      - 美国+Flexential
+      - 随缘直连节点_2
+      - IEPL丨香港02丨1x
+      - fffffx2
+      - 越南-4号
+      - 沪港丨美国06丨1x
+      - 越南-2号
+      - HKT-香港家宽1_1
+      - 美国+Alchemy
+      - 西班牙+Ncxcloud
+      - SG-新加坡1-2X
+      - 阿根廷-V1DonWeb
+      - 英国+Linode
+      - 多伦多-80
+      - 日本2-80
+      - 巴西-V3GCore
+      - 🇯🇵日本1|流解
+      - 沪港丨菲国02丨1x
+      - UA-乌克兰1X
+      - HK-原生香港2
+      - TW-台湾2_1
+      - HKT-香港家宽1_2
+      - 节点分享频道@fffffx2
+      - 台湾-V2HiNet
       - Aries_DO_IN🇮🇳_UDP53_校园网/公共WiFi
-      - 柬埔寨-mojie.ws赞助
-      - 🇩🇪德国1豫德2x
-      - 美汁源+|+悉尼+|+解锁流媒体
-      - 🇬🇧英国1豫德2x
-      - 🇭🇰香港1广港2x
-      - 🇲🇳蒙古1广港
-      - 香港
-      - 美汁源+超低价月付正在进行中
-      - 美汁源+|+新加坡+|+解锁流媒体
+      - 台湾-V3HiNet
+      - 德国-V1VUDE
+      - 越南|广州移动
+      - 韩国+Vultr
+      - 台湾Hinet|解锁流媒体
+      - 台湾-V1HiNet
+      - 德国-V2VUDE
+      - HK-香港1
+      - 印度-V1DOIN
+      - 印度-V2DOIN
+      - HK-专线IEPL限速测试版
+      - SG-新加坡5
+      - 加拿大+Linode
+      - AU-新加坡解锁2X
+      - TW-台湾1_2
+      - 日本-V2DP
+      - AU-澳大利亚-杭2X
+      - 美国+Madcity
+      - AU-澳大利亚-杭2x
+      - 日本-V3DP
+      - SG-新加坡3_2
+      - US-美国-沪日1X
+      - 新加坡-V2DP
+      - TW-台湾2_2
+      - 韩国-V2VUKR
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - EE-爱沙尼亚1X
+      - US-美国T-1x
+      - HK-原生香港1
+      - SG-2号新加坡(1)
+      - 韩国-V3VUKR
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
+      - 日本NTT-2号|解锁流媒体
+      - 菲律宾-V2Comfac
+      - 香港特别行政区|HK-C2|×1
+      - 菲律宾马尼拉|PH-A2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
