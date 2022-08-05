@@ -5,583 +5,727 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SG02-V2-GDGZ, server: gdgz.henet.cyou, port: 30009, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: 挪威-TCP, server: lw.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2-443, server: xjp2.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xjp2.qinghuanyun.top}, udp: true}
-  - {name: _US_美国_21, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 澳大利亞 | Australia | V2, server: australia.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: australia.jcnf.app}, udp: true}
-  - {name: _US_美国_5, server: 38.86.135.27, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US02-SS-GDGZ, server: gdgz.henet.cyou, port: 30016, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: _US_美国_3, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 洛杉矶, server: us1.crunode.top, port: 1200, type: trojan, password: 8087b6af-8b74-3097-9ec6-f688da88073e, sni: us1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 卢森堡 | Luxemburg | V2, server: lsb.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: lsb.jcnf.app}, udp: true}
-  - {name: _GB_英国_3, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US02-V2-直连, server: us02.henet.cyou, port: 20000, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_11, server: 167.88.61.175, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 直连|香港HKT, server: hkt.403w.club, port: 24413, type: vmess, uuid: b2d36a54-28ca-49b0-b475-8c81750b152f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: "@allporter_美国21", server: 38.68.134.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_15, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _US_美国_6, server: 38.68.134.85, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US01-TROJAN-直连, server: us01.henet.cyou, port: 30001, type: trojan, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, sni: us01.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: 标准-新加坡解锁02-湖南中转|v2ray, server: x.v3.2.kiki789.com, port: 29015, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: azure-new04.kiki789.com}, udp: true}
-  - {name: 美国2-TCP, server: us.qinghuanyun.top, port: 80, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_20, server: 216.24.248.122, port: 13643, type: vmess, uuid: 28b3048b-fb4e-4bee-c8f6-6c3310126c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国_2, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 标准-美国GIA02-上海中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23145, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-us02.kiki789.com}, udp: true}
-  - {name: _US_美国_7, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国_1, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国_10, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "@allporter_美国17", server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
-  - {name: _US_美国_2, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _JP_日本_1, server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 入门-香港BGP01-广州中转|V2ray, server: x.v4.1.kiki789.com, port: 23032, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-azhk21.kiki789.com}, udp: true}
-  - {name: _US_美国_18, server: 172.99.188.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港01-CM-3.0, server: ovo.gz.cm.898022.xyz, port: 32123, type: ss, cipher: aes-128-gcm, password: 112238c2-79f2-437f-8235-308a017bc569, udp: true}
-  - {name: 入门-香港HGC03-广州中转|V2ray-解锁, server: x.v4.1.kiki789.com, port: 23141, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-hgc07.kiki789.com}, udp: true}
-  - {name: _CA_加拿大_2, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _CA_加拿大, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大_4, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US02-V2-GDGZ, server: gdgz.henet.cyou, port: 30007, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_14, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 标准-俄罗斯01-广州中转|V2ray, server: x.v4.2.kiki789.com, port: 23148, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-ru02.kiki789.com}, udp: true}
-  - {name: _US_美国_16, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US01-V2-GDGZ, server: gdgz.henet.cyou, port: 30006, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_6 2, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_27, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_24, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大_3, server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 入门-新加坡linode01-湖南中转|v2ray, server: x.v4.1.kiki789.com, port: 23019, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: eqiu-sg01.kiki789.com}, udp: true}
-  - {name: 入门-俄罗斯01-广州中转|V2ray, server: x.v4.2.kiki789.com, port: 23147, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-ru01.kiki789.com}, udp: true}
-  - {name: 入门-台湾hinet02-广州中转|V2ray, server: x.v4.1.kiki789.com, port: 23156, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-newhinet01.kiki789.com}, udp: true}
-  - {name: TW01-TROJAN-直连, server: tw01.henet.cyou, port: 30000, type: trojan, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, sni: tw01.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: 土耳其 | Turkey | V2, server: turkey.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: turkey.jcnf.app}, udp: true}
-  - {name: _US_美国_7 2, server: 38.86.135.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 香港1-80|, server: hk1.qinghuanyun.top, port: 80, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.qinghuanyun.top}, udp: true}
-  - {name: 标准-新加坡linode03-广州中转|V2ray-解锁, server: x.v3.1.kiki789.com, port: 23043, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-linode03.kiki789.com}, udp: true}
-  - {name: 入门-新加坡linode03-湖南中转|V2ray-解锁, server: x.v4.1.kiki789.com, port: 29041, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-linode01.kiki789.com}, udp: true}
-  - {name: 入门-新加坡linode04-广州中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 28042, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-linode02.kiki789.com}, udp: true}
-  - {name: JP01-V2-直连, server: jp01.henet.cyou, port: 20000, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: 标准-香港HGC03-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23142, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-hgc08.kiki789.com}, udp: true}
-  - {name: _JP_日本_5, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 新加坡 | Singapore | V2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: sgp.jcnf.app}, udp: true}
-  - {name: _US_美国_8, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 入门-新加坡解锁02-广东中转|v2ray, server: x.v4.2.kiki789.com, port: 23013, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: azure-new02.kiki789.com}, udp: true}
-  - {name: 标准-台湾hinet02-广州中转|V2ray, server: x.v3.1.kiki789.com, port: 23157, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-newhinet02.kiki789.com}, udp: true}
-  - {name: "@allporter_美国20", server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国1-80|, server: us1.qinghuanyun.top, port: 80, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us1.qinghuanyun.top}, udp: true}
+  - {name: _US_美国, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 恋神加速-US_2, server: 198.211.29.39, port: 67, type: vmess, uuid: c911dc5a-24c9-4a57-96c7-592f19c5e482, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 台湾 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw1, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[沪日]美国1", server: shcu.pbap.cc, port: 44610, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.198.95, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[沪日]美国2•1.25x", server: shcu.pbap.cc, port: 44611, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
   - {name: 标准-新加坡OVH01-广州中转|V2ray, server: 3.x.v4.1.kiki789.com, port: 10444, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-sgovh02.kiki789.com}, udp: true}
-  - {name: _US_美国_16 2, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 标准-新加坡linode04-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23044, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-linode04.kiki789.com}, udp: true}
-  - {name: _US_美国_11 2, server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 标准-美国GIA01-广东中转|V2ray-解锁, server: x.v3.1.kiki789.com, port: 23144, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-us01.kiki789.com}, udp: true}
-  - {name: 香港9-443|中转5, server: hk9.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk9.qinghuanyun.top}, udp: true}
-  - {name: 香港6-80|中转2, server: hk6.qinghuanyun.top, port: 80, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk6.qinghuanyun.top}, udp: true}
-  - {name: 日本01-CM-2.0, server: ovo.gz.cm.898022.xyz, port: 32124, type: ss, cipher: chacha20-ietf-poly1305, password: 112238c2-79f2-437f-8235-308a017bc569, udp: true}
-  - {name: _US_美国_1, server: 167.88.61.175, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 多伦多-TCP, server: dl.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准-新加坡解锁01-广东中转|v2ray, server: x.v3.1.kiki789.com, port: 23014, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: azure-new03.kiki789.com}, udp: true}
-  - {name: 入门-台湾hinet01-广州中转|V2ray, server: x.v4.1.kiki789.com, port: 23038, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-hinet01.kiki789.com}, udp: true}
-  - {name: SG01-V2-直连, server: sg01.henet.cyou, port: 20000, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: SG01-SS-GDGZ, server: gdgz.henet.cyou, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: TW01-SS-GDGZ, server: gdgz.henet.cyou, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: 日本01-CU-2.0, server: ovo.cz.cu.898022.xyz, port: 32124, type: ss, cipher: chacha20-ietf-poly1305, password: 112238c2-79f2-437f-8235-308a017bc569, udp: true}
-  - {name: 标准-香港BGP01-广州中转|V2ray, server: x.v3.1.kiki789.com, port: 23034, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-azhk23.kiki789.com}, udp: true}
-  - {name: _US_美国_12, server: 167.88.61.213, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国_5 2, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 入门-新加坡GIA01-上海中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23153, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-giasg01.kiki789.com}, udp: true}
-  - {name: 日本4-443|, server: rb4.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb4.qinghuanyun.top}, udp: true}
-  - {name: _US_美国_2 2, server: 38.114.114.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 标准-台湾hinet01-广州中转|V2ray, server: x.v3.1.kiki789.com, port: 23939, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-hinet02.kiki789.com}, udp: true}
-  - {name: 香港3-443|, server: hk3.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.qinghuanyun.top}, udp: true}
-  - {name: 入门-新加坡linode02-湖南中转|v2ray, server: x.v4.2.kiki789.com, port: 29020, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: eqiu-sg02.kiki789.com}, udp: true}
-  - {name: HK01-TROJAN-直连, server: hk01.henet.cyou, port: 30000, type: trojan, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, sni: hk01.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_3, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, sni: musashino.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: 入门-香港HGC02-广州中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23138, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-hgc04.kiki789.com}, udp: true}
-  - {name: 标准-香港HGC02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23139, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-hgc05.kiki789.com}, udp: true}
-  - {name: TW01-V2-GDGZ, server: gdgz.henet.cyou, port: 30004, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: JP01-SS-GDGZ, server: gdgz.henet.cyou, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: 标准-日本SAKURA01-江门中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23049, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-softbank03.kiki789.com}, udp: true}
-  - {name: 日本2-80|, server: rb2.qinghuanyun.top, port: 80, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb2.qinghuanyun.top}, udp: true}
-  - {name: 日本3-443|, server: rb3.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rb3.qinghuanyun.top}, udp: true}
-  - {name: 标准-新加坡linode01-湖南中转|v2ray, server: x.v3.1.kiki789.com, port: 23021, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: eqiu-sg03.kiki789.com}, udp: true}
-  - {name: 入门-香港HGC01-江门中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23035, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-hgc01.kiki789.com}, udp: true}
-  - {name: SG02-SS-GDGZ, server: gdgz.henet.cyou, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: IN 02|1x|TR, server: in-02.licom.ml, port: 40000, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-02.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国_2, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国_10 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: SG01-V2-GDGZ, server: gdgz.henet.cyou, port: 30008, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_4, server: 38.143.66.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国_1 2, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国_28, server: 38.114.114.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 标准-新加坡linode02-广东中转|v2ray, server: x.v3.2.kiki789.com, port: 23022, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: eqiu-sg04.kiki789.com}, udp: true}
-  - {name: 标准-新加坡GIA02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23154, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-giasg02.kiki789.com}, udp: true}
-  - {name: _US_美国_3 2, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _FR_法国_1, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP02-SS-GDGZ, server: gdgz.henet.cyou, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: _US_美国_9, server: 38.114.114.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 标准-德国GIA02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23151, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-de02.kiki789.com}, udp: true}
-  - {name: US01-SS-GDGZ, server: gdgz.henet.cyou, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: 新加坡2, server: sg1.crunode.top, port: 1200, type: trojan, password: 8087b6af-8b74-3097-9ec6-f688da88073e, sni: sg1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: 入门-德国GIA01-上海中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23150, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-de01.kiki789.com}, udp: true}
-  - {name: _US_美国_13, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG02-TROJAN-直连, server: sg02.henet.cyou, port: 30000, type: trojan, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, sni: sg02.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: JP01-V2-GDGZ, server: gdgz.henet.cyou, port: 30002, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: JP02-V2-GDGZ, server: gdgz.henet.cyou, port: 30003, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_23, server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US01-V2-直连, server: us01.henet.cyou, port: 20001, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: _US_美国_15 2, server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国_17, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国_30, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国_14 2, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_12 2, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US02-TROJAN-直连, server: us02.henet.cyou, port: 30000, type: trojan, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, sni: us02.henet.cyou, skip-cert-verify: true, udp: true}
-  - {name: HK01-SS-GDGZ, server: gdgz.henet.cyou, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 8f0031e6-878b-4b45-b899-a24053d4f0a5, udp: true}
-  - {name: HK01-V2-GZGZ, server: gdgz.henet.cyou, port: 30001, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
-  - {name: Aries_DO_IN🇮🇳_WS443_免流_Trojan, server: in.do.cl0udf1are.cf, port: 443, type: trojan, password: sPb1Wf6ZzD, sni: in.do.cl0udf1are.cf, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_35, server: 129.150.46.8, port: 36277, type: vmess, uuid: f3d972b0-aa7f-499d-85cd-c0c26f9cc15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.150.46.8}, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 标准-美国GIA02-上海中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23145, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-us02.kiki789.com}, udp: true}
   - {name: _CA_加拿大_1, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国INAP, server: us2.nodegz.top, port: 14001, type: trojan, password: 8087b6af-8b74-3097-9ec6-f688da88073e, sni: us2.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: "@allporter_美国41", server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 韩国2-443, server: hg2.qinghuanyun.top, port: 443, type: vmess, uuid: 06768554-690f-3815-8848-b9f38dcf772b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hg2.qinghuanyun.top}, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 8f0031e6-878b-4b45-b899-a24053d4f0a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: cctv.com}, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "[直连]台湾1•1.25x", server: tw.n.optage.moe, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: tw.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: "[广港]香港3•HGC", server: gdcm.pbap.cc, port: 44601, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.198.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 恋神加速-US_6, server: 92.118.230.201, port: 55389, type: vmess, uuid: 92ced405-df28-4a8d-e615-413b657226e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.198.95, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 8, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国 2, server: 167.88.63.59, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "[沪日]美国2•1.25x 2", server: shcu.pbap.cc, port: 44611, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-TW, server: 45.121.51.234, port: 51219, type: vmess, uuid: 9849621c-caee-4c3b-d32a-111c8e856858, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /de, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[直连]香港4•HKT•1.25x", server: hkt.n.optage.moe, port: 44609, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: hkt.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 9, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 恋神加速-HK_4, server: 35.220.235.175, port: 12252, type: vmess, uuid: 35d11d95-02fc-4830-c95e-07189cb89d12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[广港]印度尼西亚•1.5x", server: gdcm.pbap.cc, port: 44607, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 标准-新加坡linode01-湖南中转|v2ray, server: x.v3.1.kiki789.com, port: 23021, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: eqiu-sg03.kiki789.com}, udp: true}
+  - {name: 恋神加速-US_36, server: 64.112.41.15, port: 23757, type: vmess, uuid: d630d846-b230-432e-97d4-d85c8229336c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 64.112.41.15}, udp: true}
+  - {name: "[直连]法国1•0x", server: fr.n.optage.moe, port: 44612, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: fr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 台湾 C | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw3, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[直连]英国1•0x", server: uk.n.optage.moe, port: 44613, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: uk.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_22, server: 198.211.29.39, port: 53, type: vmess, uuid: e207f44f-7a21-4d58-dc1b-f1e121030cf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.211.29.39}, udp: true}
+  - {name: "[沪日]英国1", server: shcu.pbap.cc, port: 44613, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw2, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[直连]法国1•0x 2", server: fr.n.optage.moe, port: 44612, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: fr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_30, server: 212.50.246.200, port: 10042, type: vmess, uuid: 46c80bc2-6629-4ffc-d0ce-bdac0fc7a4f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]英国1 2", server: shcu.pbap.cc, port: 44613, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_31, server: 212.50.246.200, port: 51740, type: vmess, uuid: 2d1604a6-406f-4405-f316-6fca2cbb3f86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 4, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 恋神加速-SG_2, server: 8.218.91.252, port: 33522, type: vmess, uuid: 418c4b6d-9ff2-4a45-bd3b-ae5bb8704109, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: hy, ws-headers: {Host: 8.218.91.252}, udp: true}
+  - {name: 香港5, server: v26-web.douyinvod.com.enjoenjoenjo111.xyz, port: 20473, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: v26-web.douyinvod.com.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
+  - {name: 香港 D | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hgc, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 印度 | India | V2 2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: india.jcnf.app}, udp: true}
+  - {name: 美国2, server: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, port: 20269, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_7, server: 198.211.29.39, port: 10875, type: vmess, uuid: 6ef2028d-bc5c-46ff-a865-17b95832110a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准-台湾hinet01-广州中转|V2ray, server: x.v3.1.kiki789.com, port: 23939, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-hinet02.kiki789.com}, udp: true}
+  - {name: _JP_日本, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 5, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[沪日]法国1", server: shcu.pbap.cc, port: 44612, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 韓國 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kr, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: _JP_日本 2, server: 85.208.108.58, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 恋神加速-US_24, server: meiguoniuyueo.8ylgz.com, port: 58963, type: vmess, uuid: 4533cb26-7093-4914-f21d-e4babde5bcc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[负载均衡]韩国1", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 3, server: 85.208.108.58, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国_24, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大_4, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[沪日]法国1 2", server: shcu.pbap.cc, port: 44612, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 韓國 A | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /kr, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: _JP_日本 4, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[沪日]荷兰", server: shcu.pbap.cc, port: 44617, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _JP_日本 5, server: 85.208.108.58, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 6, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "[沪日]荷兰 2", server: shcu.pbap.cc, port: 44617, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.198.95, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[直连]香港1•HGC•0x", server: hk.n.optage.moe, port: 44601, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: hk.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: "[直连]荷兰•0x", server: 150.230.23.0, port: 44616, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, skip-cert-verify: true, udp: true}
+  - {name: 标准-香港HGC02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23139, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-hgc05.kiki789.com}, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 恋神加速-SG_1, server: 18.141.146.58, port: 43950, type: vmess, uuid: 2f1dce9c-c5c8-4007-bade-bac837db928d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.141.146.58}, udp: true}
+  - {name: 标准-新加坡GIA02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23154, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-giasg02.kiki789.com}, udp: true}
+  - {name: "[沪日]日本", server: shcu.pbap.cc, port: 44616, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国1, server: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, port: 20251, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.198.95, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 土耳其 | Turkey | V2, server: turkey.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: turkey.jcnf.app}, udp: true}
+  - {name: "[广港]新加坡1•1.5x", server: gdcm.pbap.cc, port: 44605, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]日本 2", server: shcu.pbap.cc, port: 44616, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]韩国", server: shcu.pbap.cc, port: 44600, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[广港]香港5•HKT•1.5x", server: gdcm.pbap.cc, port: 44609, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 土耳其 | Turkey | V2 2, server: turkey.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: turkey.jcnf.app}, udp: true}
+  - {name: _JP_日本 6, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 恋神加速-US_28, server: 20.222.127.46, port: 8000, type: vmess, uuid: 77f63bb7-3f92-4840-a741-39d24248c278, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 16, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[直连]荷兰•0x 2", server: 150.230.23.0, port: 44616, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, skip-cert-verify: true, udp: true}
+  - {name: "[广港]菲律宾马尼拉•1.2x", server: gdcm.pbap.cc, port: 44615, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[广港]台湾1•1.5x", server: gdcm.pbap.cc, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 7, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "[直连]印度尼西亚1•0x", server: id.n.optage.moe, port: 44607, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: id.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: "[广港]台湾1•1.5x 2", server: gdcm.pbap.cc, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港2, server: v26-web.douyinvod.com.enjoenjoenjo111.xyz, port: 20309, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: v26-web.douyinvod.com.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | Singapore | V2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: sgp.jcnf.app}, udp: true}
+  - {name: 恋神加速-US_15, server: 154.214.4.155, port: 57952, type: vmess, uuid: c48e8e02-15c6-4061-c4cc-8cfe625572d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港4, server: v26-web.douyinvod.com.enjoenjoenjo111.xyz, port: 20241, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: v26-web.douyinvod.com.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 瑞士 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[沪日]韩国 2", server: shcu.pbap.cc, port: 44600, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 意大利 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /it, ws-headers: {Host: hk.cf-1.oceancloud.us}, udp: true}
+  - {name: 恋神加速-HK_1, server: 18.167.20.169, port: 8080, type: vmess, uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.167.20.169}, udp: true}
+  - {name: 恋神加速-KR_3, server: lli.poohuuc66.tk, port: 58936, type: vmess, uuid: 923fb377-d3c1-4773-e07b-c677575b5c41, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]尼日尼亚", server: shcu.pbap.cc, port: 44603, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 欢迎使用 Welink345 welink345.233.tw, server: tw.n.optage.moe, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: tw.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]尼日尼亚 2", server: shcu.pbap.cc, port: 44603, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_11, server: 138.2.114.151, port: 25243, type: vmess, uuid: 53fec6d3-ea43-4bbd-e627-13b62a60fd3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[直连]台湾1•1.25x 2", server: tw.n.optage.moe, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: tw.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 德國 01 | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /de, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 恋神加速-KR_1, server: 152.70.235.207, port: 35412, type: vmess, uuid: 70d95308-2a61-4f93-f139-9103d0587fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-CN_9, server: bgp.114514miaomiaowu.com, port: 11004, type: vmess, uuid: cde0c991-00e5-35df-83f5-bd66fcd3b358, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准-美国GIA01-广东中转|V2ray-解锁, server: x.v3.1.kiki789.com, port: 23144, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-us01.kiki789.com}, udp: true}
+  - {name: 恋神加速-US_21, server: 107.182.187.5, port: 35159, type: vmess, uuid: c6ce7985-eb44-4a91-f5b2-f36eca2a4208, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港1, server: v26-web.douyinvod.com.enjoenjoenjo111.xyz, port: 20308, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: v26-web.douyinvod.com.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]土耳其", server: shcu.pbap.cc, port: 44624, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港3, server: v26-web.douyinvod.com.enjoenjoenjo111.xyz, port: 20176, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: v26-web.douyinvod.com.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 B | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw2, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 欢迎使用 Welink345 welink345.233.tw 2, server: tw.n.optage.moe, port: 44608, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: tw.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 香港 D | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hgc, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: "[广港]印度尼西亚•1.5x 2", server: gdcm.pbap.cc, port: 44607, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 卢森堡 | Luxemburg | V2, server: lsb.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: lsb.jcnf.app}, udp: true}
+  - {name: 入门-新加坡GIA01-上海中转|V2ray-解锁, server: x.v4.2.kiki789.com, port: 23153, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-giasg01.kiki789.com}, udp: true}
+  - {name: "[广港]新加坡1•1.5x 2", server: gdcm.pbap.cc, port: 44605, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1, server: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, port: 20453, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 17, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡2, server: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, port: 20454, type: trojan, password: b86bd296-489a-3fc5-87b4-d52f86264431, sni: 2235f8.v.smtcdns.net.enjoenjoenjo111.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | Singapore | V2 2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: sgp.jcnf.app}, udp: true}
+  - {name: 恋神加速-US_17, server: 98.142.137.21, port: 47385, type: vmess, uuid: 342937bb-ad51-40ed-cb22-ff5eb0f7ec63, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 入门-新加坡linode03-湖南中转|V2ray-解锁, server: x.v4.1.kiki789.com, port: 29041, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-linode01.kiki789.com}, udp: true}
+  - {name: 入门-新加坡linode01-湖南中转|v2ray, server: x.v4.1.kiki789.com, port: 23019, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: eqiu-sg01.kiki789.com}, udp: true}
+  - {name: 美国 | USA | V2, server: usa.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zcjd, ws-headers: {Host: usa.jcnf.app}, udp: true}
+  - {name: "[沪日]土耳其 2", server: shcu.pbap.cc, port: 44624, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_26, server: 138.2.114.151, port: 39912, type: vmess, uuid: 4512df87-c2de-446f-fa75-d451c3bb9d24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[广港]菲律宾马尼拉•1.2x 2", server: gdcm.pbap.cc, port: 44615, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-KR_2, server: 152.67.221.228, port: 58742, type: vmess, uuid: 0d31b385-c478-456b-f665-f1d62a91e54c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.67.221.228}, udp: true}
+  - {name: 标准-新加坡linode04-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23044, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-linode04.kiki789.com}, udp: true}
+  - {name: 西班牙 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /es, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: _US_美国 7, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[广港]香港5•HKT•1.5x 2", server: gdcm.pbap.cc, port: 44609, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_32, server: 198.200.51.237, port: 51144, type: vmess, uuid: 5a3e68d5-9ee0-4eea-b4c2-436692179924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_18, server: 173.82.255.49, port: 13727, type: vmess, uuid: 09f26fcb-6e51-428e-d35d-02ad41eeaff3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[广港]泰国曼谷•1.2x", server: gdcm.pbap.cc, port: 44614, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]美国1 2", server: shcu.pbap.cc, port: 44610, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_23, server: 45.11.92.36, port: 30408, type: vmess, uuid: f397c771-9adf-4880-8611-8ac8b9ce24f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 标准-台湾hinet02-广州中转|V2ray, server: x.v3.1.kiki789.com, port: 23157, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-newhinet02.kiki789.com}, udp: true}
+  - {name: "[广港]越南胡志明•1.2x", server: gdcm.pbap.cc, port: 44602, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_16, server: 64.112.42.13, port: 59203, type: vmess, uuid: 97c0e6e8-d15e-49f7-ac83-b1efa27f9518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_20, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /us1, ws-headers: {Host: hk.ntt-1.oceancloud.asia}, udp: true}
+  - {name: Aries_DO_IN🇮🇳_WS443_免流_Trojan, server: in.do.cl0udf1are.cf, port: 443, type: trojan, password: sPb1Wf6ZzD, sni: in.do.cl0udf1are.cf, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-FR, server: 95.179.216.136, port: 15749, type: vmess, uuid: 0de6078f-fee2-42f5-87fc-b7e4a3575755, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-DE, server: mket.shoopcider.com, port: 443, type: vmess, uuid: 611bbdbb-1138-4797-8d9f-f92f595b7c7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mket.shoopcider.com}, udp: true}
+  - {name: "[负载均衡]韩国1 2", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: ocikr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: "[广港]香港3•HGC 2", server: gdcm.pbap.cc, port: 44601, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本 8, server: 85.208.108.58, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 瑞士 A | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ch, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 21, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[广港]越南胡志明•1.2x 2", server: gdcm.pbap.cc, port: 44602, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 印度 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 标准-德国GIA02-广州中转|V2ray-解锁, server: x.v3.2.kiki789.com, port: 23151, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /736e65e6-b0ee-4f84-8285-9e3df85fff5c.live238.m3u8, ws-headers: {Host: xixi-de02.kiki789.com}, udp: true}
+  - {name: "[广港]泰国曼谷•1.2x 2", server: gdcm.pbap.cc, port: 44614, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: gdcm.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[直连]印度尼西亚1•0x 2", server: id.n.optage.moe, port: 44607, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: id.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: 西班牙 A | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /es, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 恋神加速-IR, server: 31.25.89.186, port: 88, type: vmess, uuid: 9a568090-8002-4cfe-bbe9-cb153cbab823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾 C | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tw3, ws-headers: {Host: freewaytunnel.dev}, udp: true}
+  - {name: 入门-俄罗斯01-广州中转|V2ray, server: x.v4.2.kiki789.com, port: 23147, type: vmess, uuid: ad785fc9-7f42-3396-945a-a179c2454bfa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /81bddc1d8-8404-44b1-9c76-25029f9bf429.live238.m3u8, ws-headers: {Host: xixi-ru01.kiki789.com}, udp: true}
+  - {name: 恋神加速-RU_1, server: 185.22.154.188, port: 27799, type: vmess, uuid: 61c8cf74-5117-4f0f-e4af-385821662f24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]加拿大", server: shcu.pbap.cc, port: 44604, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: "[沪日]加拿大 2", server: shcu.pbap.cc, port: 44604, type: trojan, password: 7ddcec79-b080-4f52-ab1f-6832a599fbb5, sni: shcu.pbap.cc, skip-cert-verify: true, udp: true}
+  - {name: 恋神加速-US_14, server: 23.234.215.32, port: 25101, type: vmess, uuid: 07000d79-2f0e-4bca-a4fd-4b801a8b6a9c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 意大利 A | 中继 | Prepaid Users 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /it, ws-headers: {Host: hk.cf-1.oceancloud.us}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -600,604 +744,768 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 直连|香港HKT
-      - 入门-香港BGP01-广州中转|V2ray
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - 入门-台湾hinet02-广州中转|V2ray
-      - 香港1-80|
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - 标准-台湾hinet02-广州中转|V2ray
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 入门-台湾hinet01-广州中转|V2ray
-      - 标准-香港BGP01-广州中转|V2ray
+      - 台湾 A | 中继 | Prepaid Users
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - "[直连]香港4•HKT•1.25x"
+      - "[广港]印度尼西亚•1.5x"
+      - 台湾 C | 中继 | Prepaid Users
+      - 台湾 B | 中继 | Prepaid Users
+      - 香港5
+      - 香港 D | 中继 | Prepaid Users
       - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-香港HGC02-广州中转|V2ray-解锁
+      - "[直连]香港1•HGC•0x"
       - 标准-香港HGC02-广州中转|V2ray-解锁
-      - 入门-香港HGC01-江门中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x"
+      - "[广港]香港5•HKT•1.5x"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 香港4
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[直连]台湾1•1.25x 2"
+      - 香港1
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - "[广港]新加坡1•1.5x 2"
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - "[广港]香港5•HKT•1.5x 2"
+      - "[广港]泰国曼谷•1.2x"
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - "[广港]香港3•HGC 2"
+      - "[广港]越南胡志明•1.2x 2"
+      - "[广港]泰国曼谷•1.2x 2"
+      - 台湾 C | 中继 | Prepaid Users 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1213,146 +1521,182 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG02-V2-GDGZ
-      - 挪威-TCP
-      - 新加坡2-443
-      - _US_美国_21
-      - 澳大利亞 | Australia | V2
-      - _US_美国_5
-      - US02-SS-GDGZ
-      - _US_美国_3
-      - 洛杉矶
-      - 卢森堡 | Luxemburg | V2
-      - _GB_英国_3
-      - US02-V2-直连
-      - _US_美国_11
-      - 直连|香港HKT
-      - _FR_法国
-      - "@allporter_美国21"
-      - _US_美国_15
-      - _US_美国_6
-      - US01-TROJAN-直连
-      - 标准-新加坡解锁02-湖南中转|v2ray
-      - 美国2-TCP
-      - _US_美国_20
-      - _GB_英国_2
-      - 标准-美国GIA02-上海中转|V2ray-解锁
-      - _US_美国_7
-      - _GB_英国_1
-      - _US_美国_10
-      - "@allporter_美国17"
-      - 印度 | India | V2
-      - _US_美国_2
-      - _JP_日本_1
-      - 入门-香港BGP01-广州中转|V2ray
-      - _US_美国_18
-      - 香港01-CM-3.0
-      - 入门-香港HGC03-广州中转|V2ray-解锁
-      - _CA_加拿大_2
+      - _US_美国
+      - 恋神加速-US_2
       - _CA_加拿大
-      - _CA_加拿大_4
-      - US02-V2-GDGZ
-      - _US_美国_14
-      - 标准-俄罗斯01-广州中转|V2ray
-      - _US_美国_16
-      - US01-V2-GDGZ
-      - _US_美国_6 2
-      - _US_美国_27
-      - _US_美国_24
-      - _CA_加拿大_3
-      - 入门-新加坡linode01-湖南中转|v2ray
-      - 入门-俄罗斯01-广州中转|V2ray
-      - 入门-台湾hinet02-广州中转|V2ray
-      - TW01-TROJAN-直连
-      - 土耳其 | Turkey | V2
-      - _US_美国_7 2
-      - 香港1-80|
-      - 标准-新加坡linode03-广州中转|V2ray-解锁
-      - 入门-新加坡linode03-湖南中转|V2ray-解锁
-      - 入门-新加坡linode04-广州中转|V2ray-解锁
-      - JP01-V2-直连
-      - 标准-香港HGC03-广州中转|V2ray-解锁
-      - _JP_日本_5
-      - 新加坡 | Singapore | V2
-      - _US_美国_8
-      - 入门-新加坡解锁02-广东中转|v2ray
-      - 标准-台湾hinet02-广州中转|V2ray
-      - "@allporter_美国20"
-      - 美国1-80|
+      - 台湾 A | 中继 | Prepaid Users
+      - "[沪日]美国1"
+      - _CA_加拿大 2
+      - "[沪日]美国2•1.25x"
       - 标准-新加坡OVH01-广州中转|V2ray
-      - _US_美国_16 2
-      - 标准-新加坡linode04-广州中转|V2ray-解锁
-      - _US_美国_11 2
-      - 标准-美国GIA01-广东中转|V2ray-解锁
-      - 香港9-443|中转5
-      - 香港6-80|中转2
-      - 日本01-CM-2.0
-      - _US_美国_1
-      - 多伦多-TCP
-      - 标准-新加坡解锁01-广东中转|v2ray
-      - 入门-台湾hinet01-广州中转|V2ray
-      - SG01-V2-直连
-      - SG01-SS-GDGZ
-      - TW01-SS-GDGZ
-      - 日本01-CU-2.0
-      - 标准-香港BGP01-广州中转|V2ray
-      - _US_美国_12
-      - _US_美国_5 2
-      - 入门-新加坡GIA01-上海中转|V2ray-解锁
-      - 日本4-443|
-      - _US_美国_2 2
-      - 标准-台湾hinet01-广州中转|V2ray
-      - 香港3-443|
-      - 入门-新加坡linode02-湖南中转|v2ray
-      - HK01-TROJAN-直连
-      - _JP_日本_3
-      - 入门-香港HGC02-广州中转|V2ray-解锁
-      - 标准-香港HGC02-广州中转|V2ray-解锁
-      - TW01-V2-GDGZ
-      - JP01-SS-GDGZ
-      - 标准-日本SAKURA01-江门中转|V2ray-解锁
-      - 日本2-80|
-      - 日本3-443|
-      - 标准-新加坡linode01-湖南中转|v2ray
-      - 入门-香港HGC01-江门中转|V2ray-解锁
-      - SG02-SS-GDGZ
-      - IN 02|1x|TR
-      - _FR_法国_2
-      - _US_美国_10 2
-      - SG01-V2-GDGZ
-      - _US_美国_4
-      - _US_美国_1 2
-      - _US_美国_28
-      - 标准-新加坡linode02-广东中转|v2ray
-      - 标准-新加坡GIA02-广州中转|V2ray-解锁
-      - _US_美国_3 2
-      - _FR_法国_1
-      - JP02-SS-GDGZ
-      - _US_美国_9
-      - 标准-德国GIA02-广州中转|V2ray-解锁
-      - US01-SS-GDGZ
-      - 新加坡2
-      - 入门-德国GIA01-上海中转|V2ray-解锁
-      - _US_美国_13
-      - SG02-TROJAN-直连
-      - JP01-V2-GDGZ
-      - JP02-V2-GDGZ
-      - _US_美国_23
-      - US01-V2-直连
-      - _US_美国_15 2
-      - _US_美国_17
-      - _US_美国_30
-      - _US_美国_14 2
-      - _US_美国_12 2
-      - US02-TROJAN-直连
-      - HK01-SS-GDGZ
-      - HK01-V2-GZGZ
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-US_35
+      - _CA_加拿大 3
+      - 标准-美国GIA02-上海中转|V2ray-解锁
       - _CA_加拿大_1
-      - 美国INAP
-      - "@allporter_美国41"
-      - 韩国2-443
-      - TW01-V2-直连
+      - _CA_加拿大 4
+      - "[直连]台湾1•1.25x"
+      - "[广港]香港3•HGC"
+      - _CA_加拿大 5
+      - 恋神加速-US_6
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _US_美国 2
+      - "[沪日]美国2•1.25x 2"
+      - 恋神加速-TW
+      - 德國 01 | 中继 | Prepaid Users
+      - "[直连]香港4•HKT•1.25x"
+      - _CA_加拿大 9
+      - 恋神加速-HK_4
+      - "[广港]印度尼西亚•1.5x"
+      - 标准-新加坡linode01-湖南中转|v2ray
+      - 恋神加速-US_36
+      - "[直连]法国1•0x"
+      - 台湾 C | 中继 | Prepaid Users
+      - "[直连]英国1•0x"
+      - 恋神加速-US_22
+      - "[沪日]英国1"
+      - 台湾 B | 中继 | Prepaid Users
+      - "[直连]法国1•0x 2"
+      - 恋神加速-US_30
+      - "[沪日]英国1 2"
+      - 恋神加速-US_31
+      - _US_美国 3
+      - _US_美国 4
+      - 恋神加速-SG_2
+      - 香港5
+      - 印度 | India | V2
+      - 香港 D | 中继 | Prepaid Users
+      - 印度 | India | V2 2
+      - 美国2
+      - 恋神加速-US_7
+      - 标准-台湾hinet01-广州中转|V2ray
+      - _JP_日本
+      - _US_美国 5
+      - _CA_加拿大 10
+      - "[沪日]法国1"
+      - 韓國 A | 中继 | Prepaid Users
+      - _JP_日本 2
+      - 恋神加速-US_24
+      - "[负载均衡]韩国1"
+      - _JP_日本 3
+      - _US_美国_24
+      - _CA_加拿大_4
+      - "[沪日]法国1 2"
+      - 韓國 A | 中继 | Prepaid Users 2
+      - _JP_日本 4
+      - "[沪日]荷兰"
+      - _CA_加拿大 11
+      - _JP_日本 5
+      - _US_美国 6
+      - _CA_加拿大 12
+      - "[沪日]荷兰 2"
+      - _CA_加拿大 13
+      - "[直连]香港1•HGC•0x"
+      - "[直连]荷兰•0x"
+      - 标准-香港HGC02-广州中转|V2ray-解锁
+      - _CA_加拿大 14
+      - 恋神加速-SG_1
+      - 标准-新加坡GIA02-广州中转|V2ray-解锁
+      - "[沪日]日本"
+      - 美国1
+      - _CA_加拿大 15
+      - 土耳其 | Turkey | V2
+      - "[广港]新加坡1•1.5x"
+      - "[沪日]日本 2"
+      - "[沪日]韩国"
+      - "[广港]香港5•HKT•1.5x"
+      - 土耳其 | Turkey | V2 2
+      - _JP_日本 6
+      - 恋神加速-US_28
+      - _CA_加拿大 16
+      - "[直连]荷兰•0x 2"
+      - "[广港]菲律宾马尼拉•1.2x"
+      - "[广港]台湾1•1.5x"
+      - _JP_日本 7
+      - "[直连]印度尼西亚1•0x"
+      - "[广港]台湾1•1.5x 2"
+      - 香港2
+      - 新加坡 | Singapore | V2
+      - 恋神加速-US_15
+      - 香港4
+      - 瑞士 A | 中继 | Prepaid Users
+      - "[沪日]韩国 2"
+      - 意大利 A | 中继 | Prepaid Users
+      - 恋神加速-HK_1
+      - 恋神加速-KR_3
+      - "[沪日]尼日尼亚"
+      - 欢迎使用 Welink345 welink345.233.tw
+      - "[沪日]尼日尼亚 2"
+      - 恋神加速-US_11
+      - "[直连]台湾1•1.25x 2"
+      - 德國 01 | 中继 | Prepaid Users 2
+      - 恋神加速-KR_1
+      - 恋神加速-CN_9
+      - 标准-美国GIA01-广东中转|V2ray-解锁
+      - 恋神加速-US_21
+      - 香港1
+      - "[沪日]土耳其"
+      - 香港3
+      - 台湾 B | 中继 | Prepaid Users 2
+      - 欢迎使用 Welink345 welink345.233.tw 2
+      - 香港 D | 中继 | Prepaid Users 2
+      - "[广港]印度尼西亚•1.5x 2"
+      - 卢森堡 | Luxemburg | V2
+      - 入门-新加坡GIA01-上海中转|V2ray-解锁
+      - "[广港]新加坡1•1.5x 2"
+      - 新加坡1
+      - _CA_加拿大 17
+      - 新加坡2
+      - 新加坡 | Singapore | V2 2
+      - 恋神加速-US_17
+      - 入门-新加坡linode03-湖南中转|V2ray-解锁
+      - 入门-新加坡linode01-湖南中转|v2ray
+      - 美国 | USA | V2
+      - "[沪日]土耳其 2"
+      - 恋神加速-US_26
+      - "[广港]菲律宾马尼拉•1.2x 2"
+      - 恋神加速-KR_2
+      - 标准-新加坡linode04-广州中转|V2ray-解锁
+      - 西班牙 A | 中继 | Prepaid Users
+      - _US_美国 7
+      - "[广港]香港5•HKT•1.5x 2"
+      - 恋神加速-US_32
+      - 恋神加速-US_18
+      - "[广港]泰国曼谷•1.2x"
+      - "[沪日]美国1 2"
+      - _FR_法国
+      - 恋神加速-US_23
+      - 标准-台湾hinet02-广州中转|V2ray
+      - "[广港]越南胡志明•1.2x"
+      - 恋神加速-US_16
+      - 恋神加速-US_20
+      - _CA_加拿大 18
+      - 美國 01 | 中继 | Prepaid Users
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 恋神加速-FR
+      - 恋神加速-DE
+      - "[负载均衡]韩国1 2"
+      - "[广港]香港3•HGC 2"
+      - _JP_日本 8
+      - 瑞士 A | 中继 | Prepaid Users 2
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - "[广港]越南胡志明•1.2x 2"
+      - 印度 A | 中继 | Prepaid Users
+      - 标准-德国GIA02-广州中转|V2ray-解锁
+      - "[广港]泰国曼谷•1.2x 2"
+      - "[直连]印度尼西亚1•0x 2"
+      - 西班牙 A | 中继 | Prepaid Users 2
+      - 恋神加速-IR
+      - 台湾 C | 中继 | Prepaid Users 2
+      - 入门-俄罗斯01-广州中转|V2ray
+      - 恋神加速-RU_1
+      - "[沪日]加拿大"
+      - "[沪日]加拿大 2"
+      - 恋神加速-US_14
+      - 意大利 A | 中继 | Prepaid Users 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
