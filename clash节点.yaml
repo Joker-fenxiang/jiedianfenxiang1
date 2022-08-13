@@ -5,87 +5,111 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"trojan","name":"United-States+11","server":"florida.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"florida.missionsec.us"}
-  - {"type":"vmess","name":"ccp","ws-opts":{"path":"/","headers":{"host":"ccp.mjji.net"}},"server":"ccp.mjji.net","port":"80","uuid":"530b2dbc-52b4-40a1-9f80-08150f11e1e5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"United-States+3","server":"hawaii.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"hawaii.missionsec.us"}
-  - {"type":"trojan","name":"香港HKT-河移|解锁流媒体","server":"hnyd.52147.top","port":30180,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"United-States","server":"books.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"books.missionsec.us"}
-  - {"type":"trojan","name":"United-States-L2+2","server":"antechinus.fireplay.io","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"antechinus.fireplay.io"}
-  - {"type":"trojan","name":"United-States+14","server":"pride.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"pride.missionsec.us"}
-  - {"type":"trojan","name":"United-States+12","server":"fresh.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"fresh.missionsec.us"}
-  - {"type":"trojan","name":"United-States+2","server":"nevada.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"nevada.missionsec.us"}
-  - {"type":"trojan","name":"United-States+10","server":"music.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"music.missionsec.us"}
-  - {"type":"ss","name":"US1(IEPL)+-+负载均衡专线","server":"ftp.cn.debian.cdnet.in","port":8070,"cipher":"aes-128-gcm","password":"599bf7cd-cd43-4c1d-b6c6-1c732bece35d"}
-  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"vmess","name":"cc","ws-opts":{"path":"/","headers":{"host":"cc.mjji.net"}},"server":"cc.mjji.net","port":"80","uuid":"59979991-c6de-450c-ea22-13e5bf05023d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率","server":"gzyd1.52147.top","port":30030,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"新加坡-02|","server":"gy.zfnode.org","port":35678,"password":"3a31fc1d-c11a-375b-9361-49794fdbc2b2","udp":true,"skip-cert-verify":true,"sni":"www.856453.xyz"}
-  - {"type":"ss","name":"香港-ByWave+03","server":"210194c475687be6.jijifun.com","port":40012,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"香港-ByWave+04","server":"210194c475687be6.jijifun.com","port":40013,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"trojan","name":"美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率","server":"gzyd2.52147.top","port":30030,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率","server":"hnyd.52147.top","port":30030,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"德国-河移双线负载均衡|解锁流媒体","server":"hnyd.52147.top","port":30080,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"United-Kingdom+2","server":"scottie.golfland.club","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"scottie.golfland.club"}
-  - {"type":"trojan","name":"香港HKT-广移2|解锁流媒体","server":"gzyd2.52147.top","port":30180,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"香港HKT-广移|解锁流媒体","server":"gzyd1.52147.top","port":30180,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"vmess","name":"HK|43.154.162.206","ws-opts":{"path":"/fl7aXN","headers":{"host":"www.ezreal333.fun"}},"server":"119.36.161.40","port":"443","uuid":"1a23caec-d8d6-427f-8501-242cd34663dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK|43.154.91.127","ws-opts":{"path":"/dYydn7sr6G","headers":{"host":"www.ezreal222.fun"}},"server":"119.36.161.40","port":"443","uuid":"57b32141-a106-429f-9c31-1e2ef56c90fb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK|43.154.45.103","ws-opts":{"path":"/sbgeb1ZD7A","headers":{"host":"ezreal666.top"}},"server":"119.36.161.40","port":"443","uuid":"a0ad88f1-75cc-47ea-bff0-592f5f5af11e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK|43.155.102.217","ws-opts":{"path":"/LBtqBsjqS","headers":{"host":"ezreal222.xyz"}},"server":"119.36.161.40","port":"443","uuid":"7fe818f9-2a5c-4a79-904a-52a16b0de2f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"香港-ByWave+01","server":"2e2d7fbdea1afc51.jijifun.com","port":40002,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"新加坡-DP+01","server":"210194c475687be6.jijifun.com","port":40042,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"vmess","name":"🇺🇸「青铜」美国原生家宽","ws-opts":{"path":"/scloudhinet02"},"server":"cs.daxun.cyou","port":"20631","uuid":"75599052-d014-478d-b575-455346f4f660","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇲🇴「白银」澳门BGP中继","ws-opts":{"path":"/schinet02"},"server":"cs.daxun.cyou","port":"20631","uuid":"75599052-d014-478d-b575-455346f4f660","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HK|43.154.24.109","ws-opts":{"path":"/pcmVYD","headers":{"host":"www.ezreal111.top"}},"server":"119.36.161.40","port":"443","uuid":"e24c7789-e49c-409e-be78-917e109739a4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"英国-DP+01","server":"210194c475687be6.jijifun.com","port":40071,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"新加坡-DP+02","server":"2e2d7fbdea1afc51.jijifun.com","port":40043,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"香港-ByWave+02","server":"210194c475687be6.jijifun.com","port":40003,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"trojan","name":"德国-广移双线负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30080,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"Japan+2","server":"caterpie.defun.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"caterpie.defun.us"}
-  - {"type":"vmess","name":"Singapore|流媒体|联通","ws-opts":{"path":"/","headers":{"host":"v3-gray.toutiaovod.comdm.toutiao.com"}},"server":"168.138.174.237","port":"250","uuid":"e65677cf-45b3-4108-c05a-69becdf5f57a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"英国-DP+02","server":"210194c475687be6.jijifun.com","port":40072,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"vmess","name":"HongKong[直连D]-环球1x","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"123456789abcd.xn--h6q53lcvpz7l.club","port":"20944","uuid":"ff4711fd-3c73-4afa-a5f3-3b055e7c6a37","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"美国洛杉矶-1号|解锁流媒体|0.1倍率","server":"45.88.148.234","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"vmess","name":"HK|43.154.29.170","ws-opts":{"path":"/YI4LO","headers":{"host":"www.ezreal333.site"}},"server":"119.36.161.40","port":"443","uuid":"7cd462cd-6d20-4e57-82e5-0a9b2f03b44f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK|43.155.117.118","ws-opts":{"path":"/oSAKFYE7qmuS","headers":{"host":"ezreal111.fun"}},"server":"119.36.161.40","port":"443","uuid":"fbd5e6ef-8a60-425c-9d71-9283ce583b88","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"rn","ws-opts":{"path":"/","headers":{"host":"rn.mjji.net"}},"server":"rn.mjji.net","port":"80","uuid":"8bbb117d-2213-487f-9c1d-4ab54ffbd7a6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HK|43.134.203.50","ws-opts":{"path":"/kUkFOp","headers":{"host":"ezreal222.online"}},"server":"119.36.161.40","port":"443","uuid":"4c92c9f1-0494-4b18-836b-4631fdd70f57","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"英国-DP+03","server":"210194c475687be6.jijifun.com","port":40073,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"日本-DP+02","server":"210194c475687be6.jijifun.com","port":40053,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"trojan","name":"Taiwan","server":"pastry.taiwanesefood.link","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"pastry.taiwanesefood.link"}
-  - {"type":"vmess","name":"HK|43.154.126.50","ws-opts":{"path":"/ka0oNKB8","headers":{"host":"www.ezreal222.icu"}},"server":"119.36.161.40","port":"443","uuid":"135d36cc-7238-4959-ae8b-3eb5629d4455","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"gy","ws-opts":{"path":"/","headers":{"host":"gy.hope.mba"}},"server":"gy.hope.mba","port":"80","uuid":"bea6f36a-4e9e-4684-892b-b42c561da544","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本-HALO+01","server":"2e2d7fbdea1afc51.jijifun.com","port":40052,"cipher":"aes-256-gcm","password":"114514"}
-  - {"type":"ss","name":"🇺🇸美国机场横评35","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"🇯🇵「黄金」日本高级IEPL","ws-opts":{"path":"/schinet01"},"server":"cs.daxun.cyou","port":"20631","uuid":"75599052-d014-478d-b575-455346f4f660","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"rcp","ws-opts":{"path":"/","headers":{"host":"rcp.mjji.net"}},"server":"rcp.mjji.net","port":"80","uuid":"db5e996d-2e2e-4ce7-8ead-693b7ed37c4e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"台湾Hinet|解锁流媒体","server":"hinet.52147.top","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"Japan","server":"metapod.defun.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"metapod.defun.us"}
-  - {"type":"vmess","name":"CDN-KR","ws-opts":{"path":"/heroo","headers":{"host":"hero.km77.tk"}},"server":"150.230.254.2","port":"443","uuid":"7ceec232-694a-4fb9-9759-280a08b14b25","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"HimarsgRPC","server":"himarsforever.accesscam.org","port":443,"password":"f1b04cd7-e110-4fd1-930b-7ecb551caf32","udp":true,"skip-cert-verify":true,"sni":"Himarsforever.accesscam.org"}
-  - {"type":"trojan","name":"日本NTT-广州移动负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30130,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"新加坡Az|解锁流媒体","server":"20.24.44.110","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"台湾Hinet-广州移动|解锁流媒体","server":"gzyd1.52147.top","port":30010,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"香港HKT-河移|解锁流媒体","server":"hnyd.52147.top","port":30180,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"香港隧道3X","server":"cn.cmcmyd.986888.xyz","port":62510,"cipher":"aes-256-gcm","password":"a8cbad84-ac6f-4644-a790-3ad5ad12a031"}
+  - {"type":"trojan","name":"I.[4倍].HK.HKT⇠BGP:VC36414","server":"yqy36414.melissauvc.com","port":36414,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"trojan","name":"香港HKT-广移|解锁流媒体","server":"gzyd1.52147.top","port":30180,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"??香港01|沪港中继","server":"cn.shcua.986888.xyz","port":56505,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"ss","name":"??韩国01|沪日中继","server":"cn.shcua.986888.xyz","port":24714,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"ss","name":"??日本01|沪日中继","server":"cn.shcua.986888.xyz","port":24710,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"ss","name":"??狮城01|沪港中继","server":"cn.shcua.986888.xyz","port":24610,"cipher":"aes-256-gcm","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"日本NTT-广州移动负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30130,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"I+.TW.新北⇠HiNet:VC33112","server":"yqy33112.melissauvc.com","port":33142,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"US_14","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.75737292.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"??美国02|沪港中继","server":"cn.shcua.986888.xyz","port":24612,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"ss","name":"??美国01|沪日中继","server":"cn.shcua.986888.xyz","port":24712,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"ss","name":"美国优化隧道3X","server":"cn.shcua.986888.xyz","port":30556,"cipher":"aes-256-gcm","password":"a8cbad84-ac6f-4644-a790-3ad5ad12a031"}
+  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率","server":"gzyd2.52147.top","port":30030,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率","server":"gzyd1.52147.top","port":30030,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"US_8","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.92968827.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_6","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.37154754.xyz"}},"server":"119.36.161.40","port":"443","uuid":"b9ca995e-14fc-4df0-bc93-0f3875900e80","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"香港HKT|解锁流媒体","server":"hkt.52147.top","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"??日本02|湘日中继","server":"cn.hncu.986888.xyz","port":24711,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"trojan","name":"德国-广移双线负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30080,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"I+.[3倍]TW.台北⇠HiNet:VC32111","server":"yqy32111.melissauvc.com","port":32141,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
   - {"type":"vmess","name":"曰本|vino","server":"80.96.156.187","port":"80","uuid":"176ce8c0-726a-420a-f531-8747cf0d79e7","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"印度|India|V2","ws-opts":{"path":"/zcjd"},"server":"india.jcnf.app","port":"443","uuid":"c753e8a8-e180-4e76-a486-c917273d718b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰「钻石」香港高级IPLC","ws-opts":{"path":"/scloudhinet01"},"server":"cs.daxun.cyou","port":"20631","uuid":"75599052-d014-478d-b575-455346f4f660","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"strangegRPC","server":"strange.accesscam.org","port":443,"password":"b058e091-d8d4-45d1-9209-8f227d52cd83","udp":true,"skip-cert-verify":true,"sni":"strange.accesscam.org"}
-  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"日本NTT-1号|解锁流媒体","server":"203.138.98.199","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"香港HKT-广移2|解锁流媒体","server":"gzyd2.52147.top","port":30180,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"ss","name":"??狮城02|广港中继","server":"gy.bzcv.cn","port":24611,"cipher":"aes-256-gcm","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"trojan","name":"新加坡Az|解锁流媒体","server":"20.24.44.110","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"I.[4倍].HK.HKT⇠BGP:RC36114","server":"yqy36114.melissauvc.com","port":36114,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"vmess","name":"HK|43.154.29.170","ws-opts":{"path":"/YI4LO","headers":{"host":"www.ezreal333.site"}},"server":"119.36.161.40","port":"443","uuid":"7cd462cd-6d20-4e57-82e5-0a9b2f03b44f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"德国-河移双线负载均衡|解锁流媒体","server":"hnyd.52147.top","port":30080,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"I+.[3倍]TW.台北⇠HiNet:VC31213","server":"yqy31213.melissauvc.com","port":31243,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"ss","name":"美国极速002B","server":"mm002.zhuan666.top","port":11507,"cipher":"chacha20-ietf-poly1305","password":"93ba6570-c202-4fe3-969d-09d334b8f94c"}
+  - {"type":"trojan","name":"美国洛杉矶-1号|解锁流媒体|0.1倍率","server":"45.88.148.234","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美国西雅图-3号|解锁流媒体|0.1倍率","server":"212.90.123.130","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"I.[4倍]TW.台北⇠HiNet:VC32118","server":"yqy32118.melissauvc.com","port":32148,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"ss","name":"美国极速001B","server":"mm001.zhuan666.top","port":11506,"cipher":"chacha20-ietf-poly1305","password":"93ba6570-c202-4fe3-969d-09d334b8f94c"}
+  - {"type":"vmess","name":"HK|43.154.162.206","ws-opts":{"path":"/fl7aXN","headers":{"host":"www.ezreal333.fun"}},"server":"119.36.161.40","port":"443","uuid":"1a23caec-d8d6-427f-8501-242cd34663dc","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"I.TW.新北⇠HiNet:VC33117","server":"yqy33117.melissauvc.com","port":33147,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"荷兰NL_1","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.99684777.xyz"}},"server":"42.186.175.8","port":"443","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"??狮城03|湘日中继","server":"cn.hncu.986888.xyz","port":52005,"cipher":"aes-256-gcm","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"vmess","name":"@allporter_美国49","ws-opts":{"path":"/Telegram@BDovo_qaq","headers":{"host":"bissen.114514cn.me"}},"server":"104.23.102.53","port":"443","uuid":"5c84e109-4772-4efb-a1cb-7b09d5a1791e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"荷兰NL_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.98282587.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"@allporter_美国37","server":"167.88.63.79","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"美国圣何塞-2号|解锁流媒体|0.1倍率","server":"45.82.253.234","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"荷兰NL_6","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.93147341.xyz"}},"server":"42.186.175.8","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇩🇪","server":"193.108.118.30","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇺🇸US_1390","server":"167.88.61.50","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率","server":"hnyd.52147.top","port":30030,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"荷兰NL_3","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.33371648.xyz"}},"server":"42.186.175.8","port":"443","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"@allporter_美国58","server":"172.99.190.149","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"vmess","name":"荷兰NL_2","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16885679.xyz"}},"server":"42.186.175.8","port":"443","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"I+.TW.新北⇠HiNet:VC33218","server":"yqy33218.melissauvc.com","port":33248,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"ss","name":"🇺🇸US_1089","server":"172.99.188.71","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"ss","name":"@allporter_美国99","server":"172.99.190.149","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"vmess","name":"HK|43.154.45.103","ws-opts":{"path":"/sbgeb1ZD7A","headers":{"host":"ezreal666.top"}},"server":"119.36.161.40","port":"443","uuid":"a0ad88f1-75cc-47ea-bff0-592f5f5af11e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"美国极速004B","server":"mm004.zhuan666.top","port":11509,"cipher":"chacha20-ietf-poly1305","password":"93ba6570-c202-4fe3-969d-09d334b8f94c"}
+  - {"type":"ss","name":"??美国03|湘日中继","server":"cn.hncu.986888.xyz","port":24713,"cipher":"chacha20-ietf-poly1305","password":"8ecb3c0f-185b-4a29-bbc6-649345b032ce"}
+  - {"type":"vmess","name":"HK|43.155.102.217","ws-opts":{"path":"/LBtqBsjqS","headers":{"host":"ezreal222.xyz"}},"server":"119.36.161.40","port":"443","uuid":"7fe818f9-2a5c-4a79-904a-52a16b0de2f4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"台湾哔站002B","server":"t002.zhuan666.top","port":11312,"cipher":"chacha20-ietf-poly1305","password":"93ba6570-c202-4fe3-969d-09d334b8f94c"}
+  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"美国隧道3X","server":"gy.bzcv.cn","port":28741,"cipher":"aes-256-gcm","password":"a8cbad84-ac6f-4644-a790-3ad5ad12a031"}
+  - {"type":"trojan","name":"I.[4倍]TW.台北⇠HiNet:VC31118","server":"yqy31118.melissauvc.com","port":31148,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"HK|43.154.24.109","ws-opts":{"path":"/pcmVYD","headers":{"host":"www.ezreal111.top"}},"server":"119.36.161.40","port":"443","uuid":"e24c7789-e49c-409e-be78-917e109739a4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🏁ZZ_1529","server":"169.197.141.5","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸US_1161","server":"167.88.61.175","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"US_16","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.13655303.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HK|43.154.126.50","ws-opts":{"path":"/ka0oNKB8","headers":{"host":"www.ezreal222.icu"}},"server":"119.36.161.40","port":"443","uuid":"135d36cc-7238-4959-ae8b-3eb5629d4455","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US(TG频道@fffffx2)","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"美国01","server":"rr011.zhuan666.top","port":11211,"cipher":"chacha20-ietf-poly1305","password":"93ba6570-c202-4fe3-969d-09d334b8f94c"}
+  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_18","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.17171391.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US_130","ws-opts":{"path":"/fsfsdf","headers":{"host":"20.213.122.245"}},"server":"20.213.122.245","port":"34563","uuid":"448e3e22-3f10-40f1-dc0f-c64b7c440f10","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"日本NTT-1号|解锁流媒体","server":"203.138.98.199","port":28443,"password":"28cc373c-0da8-45b0-a423-256c72fe232d","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"KR","server":"130.162.130.6","port":"80","uuid":"88755735-8091-4742-9f92-f87662fc883b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇺🇸US_1004","server":"167.88.61.2","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"32.官网：http://a.luxury","server":"yqy2352.melissauvc.com","port":2352,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"vmess","name":"新加坡高速免em5B","ws-opts":{"path":"/","headers":{"host":"baidu.com"}},"server":"rm005.zhuan666.top","port":"11803","uuid":"93ba6570-c202-4fe3-969d-09d334b8f94c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"HK|43.155.113.83","ws-opts":{"path":"/C8N5gq","headers":{"host":"ezreal333.icu"}},"server":"119.36.161.40","port":"443","uuid":"1037d420-cf69-4e89-bdaa-176d996ca877","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HK|43.154.43.215","ws-opts":{"path":"/cEYdT4NYs","headers":{"host":"ezreal222.site"}},"server":"119.36.161.40","port":"443","uuid":"c093becf-c78b-4d12-9f7a-e2442a9966b2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"台湾Hinet-广州移动|解锁流媒体","server":"gzyd1.52147.top","port":30010,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"美国西雅图-3号|解锁流媒体|0.1倍率","server":"212.90.123.130","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"United-States+9","server":"texas.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"texas.missionsec.us"}
-  - {"type":"trojan","name":"United-States+8","server":"hacks.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"hacks.missionsec.us"}
-  - {"type":"trojan","name":"United-States+13","server":"gifts.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"gifts.missionsec.us"}
-  - {"type":"trojan","name":"Singapore+2","server":"settings.fireplay.io","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"settings.fireplay.io"}
-  - {"type":"trojan","name":"United-States+4","server":"movies.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"movies.missionsec.us"}
-  - {"type":"trojan","name":"United-States+7","server":"editors.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"editors.missionsec.us"}
-  - {"type":"trojan","name":"美国圣何塞-2号|解锁流媒体|0.1倍率","server":"45.82.253.234","port":28443,"password":"c3a2639c-bb97-41ee-82a7-aa872980fd49","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
-  - {"type":"trojan","name":"United-States+6","server":"kansas.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"kansas.missionsec.us"}
-  - {"type":"trojan","name":"United-Kingdom","server":"stallings.defun.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"stallings.defun.us"}
-  - {"type":"trojan","name":"United-States-L2","server":"cuttlefish.fireplay.io","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true,"sni":"cuttlefish.fireplay.io"}
+  - {"type":"ss","name":"@allporter_美国920","server":"38.114.114.69","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"vmess","name":"免流","server":"112.45.34.12","port":"80","uuid":"92d43d21-7093-4f46-abc2-1050a5017a29","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"37.长期套餐覆盖IPLC专线","server":"yqy2357.melissauvc.com","port":2357,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"ss","name":"🇺🇸US_1054","server":"38.68.135.18","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"HK|43.155.117.118","ws-opts":{"path":"/oSAKFYE7qmuS","headers":{"host":"ezreal111.fun"}},"server":"119.36.161.40","port":"443","uuid":"fbd5e6ef-8a60-425c-9d71-9283ce583b88","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇺🇸US_1152","server":"38.75.136.21","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"trojan","name":"I+.SG⇠广州:VC38116","server":"yqy38116.melissauvc.com","port":38116,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"ss","name":"🇺🇸US_1389","server":"172.99.190.39","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇺🇸US_1108","server":"38.68.135.19","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"trojan","name":"I.[4倍]TW.台北⇠HiNet:VC31117","server":"yqy31117.melissauvc.com","port":31147,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"ip4125306560.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"HimarsgRPC","server":"himarsforever.accesscam.org","port":443,"password":"f1b04cd7-e110-4fd1-930b-7ecb551caf32","udp":true,"skip-cert-verify":true,"sni":"Himarsforever.accesscam.org"}
+  - {"type":"ss","name":"🇺🇸US_1084","server":"167.88.63.82","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"@allporter_美国78","server":"167.88.63.82","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸US_1141","server":"38.75.136.102","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇺🇸","server":"38.91.101.159","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"trojan","name":"36.中继中转隧道线路覆盖","server":"yqy2356.melissauvc.com","port":2356,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"trojan","name":"35.包括SSR和Trojan","server":"yqy2355.melissauvc.com","port":2355,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
+  - {"type":"trojan","name":"I.SG⇠广州:VC38115","server":"yqy38115.melissauvc.com","port":38115,"password":"1ef8373f-900e-30a5-aa53-99a813651ad2","udp":true,"skip-cert-verify":true,"sni":"cdn-debian.org"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -94,346 +118,442 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - United-States+11
-      - ccp
-      - United-States+3
-      - 香港HKT-河移|解锁流媒体
-      - United-States
-      - United-States-L2+2
-      - United-States+14
-      - United-States+12
-      - United-States+2
-      - United-States+10
-      - US1(IEPL)+-+负载均衡专线
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - cc
-      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
-      - 新加坡-02|
-      - 香港-ByWave+03
-      - 香港-ByWave+04
-      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
-      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
-      - 德国-河移双线负载均衡|解锁流媒体
-      - United-Kingdom+2
-      - 香港HKT-广移2|解锁流媒体
-      - 香港HKT-广移|解锁流媒体
-      - HK|43.154.162.206
-      - HK|43.154.91.127
-      - HK|43.154.45.103
-      - HK|43.155.102.217
-      - 香港-ByWave+01
-      - 新加坡-DP+01
-      - 🇺🇸「青铜」美国原生家宽
-      - 🇲🇴「白银」澳门BGP中继
-      - HK|43.154.24.109
-      - 英国-DP+01
-      - 新加坡-DP+02
-      - 香港-ByWave+02
-      - 德国-广移双线负载均衡|解锁流媒体
-      - Japan+2
-      - Singapore|流媒体|联通
-      - 英国-DP+02
-      - HongKong[直连D]-环球1x
-      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
-      - HK|43.154.29.170
-      - HK|43.155.117.118
-      - rn
-      - HK|43.134.203.50
-      - 英国-DP+03
-      - 日本-DP+02
-      - Taiwan
-      - HK|43.154.126.50
-      - gy
-      - 日本-HALO+01
-      - 🇺🇸美国机场横评35
-      - 🇯🇵「黄金」日本高级IEPL
-      - rcp
-      - 台湾Hinet|解锁流媒体
-      - Japan
-      - CDN-KR
-      - HimarsgRPC
-      - 日本NTT-广州移动负载均衡|解锁流媒体
-      - 新加坡Az|解锁流媒体
-      - 曰本|vino
-      - 印度|India|V2
-      - 🇭🇰「钻石」香港高级IPLC
-      - strangegRPC
-      - 越南-4号
-      - 日本NTT-1号|解锁流媒体
-      - 越南-2号
-      - HK|43.155.113.83
-      - HK|43.154.43.215
       - 台湾Hinet-广州移动|解锁流媒体
+      - 香港HKT-河移|解锁流媒体
+      - 香港隧道3X
+      - I.[4倍].HK.HKT⇠BGP:VC36414
+      - 香港HKT-广移|解锁流媒体
+      - '??香港01|沪港中继'
+      - '??韩国01|沪日中继'
+      - '??日本01|沪日中继'
+      - '??狮城01|沪港中继'
+      - 越南-4号
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - I+.TW.新北⇠HiNet:VC33112
+      - US_14
+      - '??美国02|沪港中继'
+      - '??美国01|沪日中继'
+      - 美国优化隧道3X
+      - US_10
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - US_4
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - US_8
+      - US_6
+      - 香港HKT|解锁流媒体
+      - '??日本02|湘日中继'
+      - 德国-广移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC32111
+      - 曰本|vino
+      - 香港HKT-广移2|解锁流媒体
+      - 越南-2号
+      - '??狮城02|广港中继'
+      - 新加坡Az|解锁流媒体
+      - I.[4倍].HK.HKT⇠BGP:RC36114
+      - HK|43.154.29.170
+      - 德国-河移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC31213
+      - 美国极速002B
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - 美国西雅图-3号|解锁流媒体|0.1倍率
-      - United-States+9
-      - United-States+8
-      - United-States+13
-      - Singapore+2
-      - United-States+4
-      - United-States+7
+      - I.[4倍]TW.台北⇠HiNet:VC32118
+      - 美国极速001B
+      - HK|43.154.162.206
+      - I.TW.新北⇠HiNet:VC33117
+      - 荷兰NL_1
+      - '??狮城03|湘日中继'
+      - '@allporter_美国49'
+      - 荷兰NL_4
+      - '@allporter_美国37'
       - 美国圣何塞-2号|解锁流媒体|0.1倍率
-      - United-States+6
-      - United-Kingdom
-      - United-States-L2
+      - 荷兰NL_6
+      - 🇩🇪
+      - 🇺🇸US_1390
+      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
+      - 荷兰NL_3
+      - '@allporter_美国58'
+      - 荷兰NL_2
+      - I+.TW.新北⇠HiNet:VC33218
+      - 🇺🇸US_1089
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - '@allporter_美国99'
+      - HK|43.154.45.103
+      - 美国极速004B
+      - '??美国03|湘日中继'
+      - HK|43.155.102.217
+      - 台湾哔站002B
+      - US_15
+      - 美国隧道3X
+      - I.[4倍]TW.台北⇠HiNet:VC31118
+      - HK|43.154.24.109
+      - 🏁ZZ_1529
+      - 🇺🇸US_1161
+      - US_16
+      - HK|43.154.126.50
+      - US_12
+      - US(TG频道@fffffx2)
+      - 美国01
+      - US_9
+      - US_18
+      - 🇺🇸US_130
+      - 日本NTT-1号|解锁流媒体
+      - KR
+      - 🇺🇸US_1004
+      - 32.官网：http://a.luxury
+      - 新加坡高速免em5B
+      - US_5
+      - HK|43.155.113.83
+      - '@allporter_美国920'
+      - 免流
+      - 37.长期套餐覆盖IPLC专线
+      - 🇺🇸US_1054
+      - HK|43.155.117.118
+      - 🇺🇸US_1152
+      - I+.SG⇠广州:VC38116
+      - 🇺🇸US_1389
+      - 🇺🇸US_1108
+      - I.[4倍]TW.台北⇠HiNet:VC31117
+      - US_7
+      - HimarsgRPC
+      - 🇺🇸US_1084
+      - US_17
+      - '@allporter_美国78'
+      - 🇺🇸US_1141
+      - 🇺🇸
+      - 36.中继中转隧道线路覆盖
+      - 35.包括SSR和Trojan
+      - I.SG⇠广州:VC38115
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - United-States+11
-      - ccp
-      - United-States+3
-      - 香港HKT-河移|解锁流媒体
-      - United-States
-      - United-States-L2+2
-      - United-States+14
-      - United-States+12
-      - United-States+2
-      - United-States+10
-      - US1(IEPL)+-+负载均衡专线
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - cc
-      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
-      - 新加坡-02|
-      - 香港-ByWave+03
-      - 香港-ByWave+04
-      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
-      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
-      - 德国-河移双线负载均衡|解锁流媒体
-      - United-Kingdom+2
-      - 香港HKT-广移2|解锁流媒体
-      - 香港HKT-广移|解锁流媒体
-      - HK|43.154.162.206
-      - HK|43.154.91.127
-      - HK|43.154.45.103
-      - HK|43.155.102.217
-      - 香港-ByWave+01
-      - 新加坡-DP+01
-      - 🇺🇸「青铜」美国原生家宽
-      - 🇲🇴「白银」澳门BGP中继
-      - HK|43.154.24.109
-      - 英国-DP+01
-      - 新加坡-DP+02
-      - 香港-ByWave+02
-      - 德国-广移双线负载均衡|解锁流媒体
-      - Japan+2
-      - Singapore|流媒体|联通
-      - 英国-DP+02
-      - HongKong[直连D]-环球1x
-      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
-      - HK|43.154.29.170
-      - HK|43.155.117.118
-      - rn
-      - HK|43.134.203.50
-      - 英国-DP+03
-      - 日本-DP+02
-      - Taiwan
-      - HK|43.154.126.50
-      - gy
-      - 日本-HALO+01
-      - 🇺🇸美国机场横评35
-      - 🇯🇵「黄金」日本高级IEPL
-      - rcp
-      - 台湾Hinet|解锁流媒体
-      - Japan
-      - CDN-KR
-      - HimarsgRPC
-      - 日本NTT-广州移动负载均衡|解锁流媒体
-      - 新加坡Az|解锁流媒体
-      - 曰本|vino
-      - 印度|India|V2
-      - 🇭🇰「钻石」香港高级IPLC
-      - strangegRPC
-      - 越南-4号
-      - 日本NTT-1号|解锁流媒体
-      - 越南-2号
-      - HK|43.155.113.83
-      - HK|43.154.43.215
       - 台湾Hinet-广州移动|解锁流媒体
+      - 香港HKT-河移|解锁流媒体
+      - 香港隧道3X
+      - I.[4倍].HK.HKT⇠BGP:VC36414
+      - 香港HKT-广移|解锁流媒体
+      - '??香港01|沪港中继'
+      - '??韩国01|沪日中继'
+      - '??日本01|沪日中继'
+      - '??狮城01|沪港中继'
+      - 越南-4号
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - I+.TW.新北⇠HiNet:VC33112
+      - US_14
+      - '??美国02|沪港中继'
+      - '??美国01|沪日中继'
+      - 美国优化隧道3X
+      - US_10
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - US_4
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - US_8
+      - US_6
+      - 香港HKT|解锁流媒体
+      - '??日本02|湘日中继'
+      - 德国-广移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC32111
+      - 曰本|vino
+      - 香港HKT-广移2|解锁流媒体
+      - 越南-2号
+      - '??狮城02|广港中继'
+      - 新加坡Az|解锁流媒体
+      - I.[4倍].HK.HKT⇠BGP:RC36114
+      - HK|43.154.29.170
+      - 德国-河移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC31213
+      - 美国极速002B
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - 美国西雅图-3号|解锁流媒体|0.1倍率
-      - United-States+9
-      - United-States+8
-      - United-States+13
-      - Singapore+2
-      - United-States+4
-      - United-States+7
+      - I.[4倍]TW.台北⇠HiNet:VC32118
+      - 美国极速001B
+      - HK|43.154.162.206
+      - I.TW.新北⇠HiNet:VC33117
+      - 荷兰NL_1
+      - '??狮城03|湘日中继'
+      - '@allporter_美国49'
+      - 荷兰NL_4
+      - '@allporter_美国37'
       - 美国圣何塞-2号|解锁流媒体|0.1倍率
-      - United-States+6
-      - United-Kingdom
-      - United-States-L2
+      - 荷兰NL_6
+      - 🇩🇪
+      - 🇺🇸US_1390
+      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
+      - 荷兰NL_3
+      - '@allporter_美国58'
+      - 荷兰NL_2
+      - I+.TW.新北⇠HiNet:VC33218
+      - 🇺🇸US_1089
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - '@allporter_美国99'
+      - HK|43.154.45.103
+      - 美国极速004B
+      - '??美国03|湘日中继'
+      - HK|43.155.102.217
+      - 台湾哔站002B
+      - US_15
+      - 美国隧道3X
+      - I.[4倍]TW.台北⇠HiNet:VC31118
+      - HK|43.154.24.109
+      - 🏁ZZ_1529
+      - 🇺🇸US_1161
+      - US_16
+      - HK|43.154.126.50
+      - US_12
+      - US(TG频道@fffffx2)
+      - 美国01
+      - US_9
+      - US_18
+      - 🇺🇸US_130
+      - 日本NTT-1号|解锁流媒体
+      - KR
+      - 🇺🇸US_1004
+      - 32.官网：http://a.luxury
+      - 新加坡高速免em5B
+      - US_5
+      - HK|43.155.113.83
+      - '@allporter_美国920'
+      - 免流
+      - 37.长期套餐覆盖IPLC专线
+      - 🇺🇸US_1054
+      - HK|43.155.117.118
+      - 🇺🇸US_1152
+      - I+.SG⇠广州:VC38116
+      - 🇺🇸US_1389
+      - 🇺🇸US_1108
+      - I.[4倍]TW.台北⇠HiNet:VC31117
+      - US_7
+      - HimarsgRPC
+      - 🇺🇸US_1084
+      - US_17
+      - '@allporter_美国78'
+      - 🇺🇸US_1141
+      - 🇺🇸
+      - 36.中继中转隧道线路覆盖
+      - 35.包括SSR和Trojan
+      - I.SG⇠广州:VC38115
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - United-States+11
-      - ccp
-      - United-States+3
-      - 香港HKT-河移|解锁流媒体
-      - United-States
-      - United-States-L2+2
-      - United-States+14
-      - United-States+12
-      - United-States+2
-      - United-States+10
-      - US1(IEPL)+-+负载均衡专线
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - cc
-      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
-      - 新加坡-02|
-      - 香港-ByWave+03
-      - 香港-ByWave+04
-      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
-      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
-      - 德国-河移双线负载均衡|解锁流媒体
-      - United-Kingdom+2
-      - 香港HKT-广移2|解锁流媒体
-      - 香港HKT-广移|解锁流媒体
-      - HK|43.154.162.206
-      - HK|43.154.91.127
-      - HK|43.154.45.103
-      - HK|43.155.102.217
-      - 香港-ByWave+01
-      - 新加坡-DP+01
-      - 🇺🇸「青铜」美国原生家宽
-      - 🇲🇴「白银」澳门BGP中继
-      - HK|43.154.24.109
-      - 英国-DP+01
-      - 新加坡-DP+02
-      - 香港-ByWave+02
-      - 德国-广移双线负载均衡|解锁流媒体
-      - Japan+2
-      - Singapore|流媒体|联通
-      - 英国-DP+02
-      - HongKong[直连D]-环球1x
-      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
-      - HK|43.154.29.170
-      - HK|43.155.117.118
-      - rn
-      - HK|43.134.203.50
-      - 英国-DP+03
-      - 日本-DP+02
-      - Taiwan
-      - HK|43.154.126.50
-      - gy
-      - 日本-HALO+01
-      - 🇺🇸美国机场横评35
-      - 🇯🇵「黄金」日本高级IEPL
-      - rcp
-      - 台湾Hinet|解锁流媒体
-      - Japan
-      - CDN-KR
-      - HimarsgRPC
-      - 日本NTT-广州移动负载均衡|解锁流媒体
-      - 新加坡Az|解锁流媒体
-      - 曰本|vino
-      - 印度|India|V2
-      - 🇭🇰「钻石」香港高级IPLC
-      - strangegRPC
-      - 越南-4号
-      - 日本NTT-1号|解锁流媒体
-      - 越南-2号
-      - HK|43.155.113.83
-      - HK|43.154.43.215
       - 台湾Hinet-广州移动|解锁流媒体
+      - 香港HKT-河移|解锁流媒体
+      - 香港隧道3X
+      - I.[4倍].HK.HKT⇠BGP:VC36414
+      - 香港HKT-广移|解锁流媒体
+      - '??香港01|沪港中继'
+      - '??韩国01|沪日中继'
+      - '??日本01|沪日中继'
+      - '??狮城01|沪港中继'
+      - 越南-4号
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - I+.TW.新北⇠HiNet:VC33112
+      - US_14
+      - '??美国02|沪港中继'
+      - '??美国01|沪日中继'
+      - 美国优化隧道3X
+      - US_10
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - US_4
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - US_8
+      - US_6
+      - 香港HKT|解锁流媒体
+      - '??日本02|湘日中继'
+      - 德国-广移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC32111
+      - 曰本|vino
+      - 香港HKT-广移2|解锁流媒体
+      - 越南-2号
+      - '??狮城02|广港中继'
+      - 新加坡Az|解锁流媒体
+      - I.[4倍].HK.HKT⇠BGP:RC36114
+      - HK|43.154.29.170
+      - 德国-河移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC31213
+      - 美国极速002B
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - 美国西雅图-3号|解锁流媒体|0.1倍率
-      - United-States+9
-      - United-States+8
-      - United-States+13
-      - Singapore+2
-      - United-States+4
-      - United-States+7
+      - I.[4倍]TW.台北⇠HiNet:VC32118
+      - 美国极速001B
+      - HK|43.154.162.206
+      - I.TW.新北⇠HiNet:VC33117
+      - 荷兰NL_1
+      - '??狮城03|湘日中继'
+      - '@allporter_美国49'
+      - 荷兰NL_4
+      - '@allporter_美国37'
       - 美国圣何塞-2号|解锁流媒体|0.1倍率
-      - United-States+6
-      - United-Kingdom
-      - United-States-L2
+      - 荷兰NL_6
+      - 🇩🇪
+      - 🇺🇸US_1390
+      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
+      - 荷兰NL_3
+      - '@allporter_美国58'
+      - 荷兰NL_2
+      - I+.TW.新北⇠HiNet:VC33218
+      - 🇺🇸US_1089
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - '@allporter_美国99'
+      - HK|43.154.45.103
+      - 美国极速004B
+      - '??美国03|湘日中继'
+      - HK|43.155.102.217
+      - 台湾哔站002B
+      - US_15
+      - 美国隧道3X
+      - I.[4倍]TW.台北⇠HiNet:VC31118
+      - HK|43.154.24.109
+      - 🏁ZZ_1529
+      - 🇺🇸US_1161
+      - US_16
+      - HK|43.154.126.50
+      - US_12
+      - US(TG频道@fffffx2)
+      - 美国01
+      - US_9
+      - US_18
+      - 🇺🇸US_130
+      - 日本NTT-1号|解锁流媒体
+      - KR
+      - 🇺🇸US_1004
+      - 32.官网：http://a.luxury
+      - 新加坡高速免em5B
+      - US_5
+      - HK|43.155.113.83
+      - '@allporter_美国920'
+      - 免流
+      - 37.长期套餐覆盖IPLC专线
+      - 🇺🇸US_1054
+      - HK|43.155.117.118
+      - 🇺🇸US_1152
+      - I+.SG⇠广州:VC38116
+      - 🇺🇸US_1389
+      - 🇺🇸US_1108
+      - I.[4倍]TW.台北⇠HiNet:VC31117
+      - US_7
+      - HimarsgRPC
+      - 🇺🇸US_1084
+      - US_17
+      - '@allporter_美国78'
+      - 🇺🇸US_1141
+      - 🇺🇸
+      - 36.中继中转隧道线路覆盖
+      - 35.包括SSR和Trojan
+      - I.SG⇠广州:VC38115
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - United-States+11
-      - ccp
-      - United-States+3
-      - 香港HKT-河移|解锁流媒体
-      - United-States
-      - United-States-L2+2
-      - United-States+14
-      - United-States+12
-      - United-States+2
-      - United-States+10
-      - US1(IEPL)+-+负载均衡专线
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - cc
-      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
-      - 新加坡-02|
-      - 香港-ByWave+03
-      - 香港-ByWave+04
-      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
-      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
-      - 德国-河移双线负载均衡|解锁流媒体
-      - United-Kingdom+2
-      - 香港HKT-广移2|解锁流媒体
-      - 香港HKT-广移|解锁流媒体
-      - HK|43.154.162.206
-      - HK|43.154.91.127
-      - HK|43.154.45.103
-      - HK|43.155.102.217
-      - 香港-ByWave+01
-      - 新加坡-DP+01
-      - 🇺🇸「青铜」美国原生家宽
-      - 🇲🇴「白银」澳门BGP中继
-      - HK|43.154.24.109
-      - 英国-DP+01
-      - 新加坡-DP+02
-      - 香港-ByWave+02
-      - 德国-广移双线负载均衡|解锁流媒体
-      - Japan+2
-      - Singapore|流媒体|联通
-      - 英国-DP+02
-      - HongKong[直连D]-环球1x
-      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
-      - HK|43.154.29.170
-      - HK|43.155.117.118
-      - rn
-      - HK|43.134.203.50
-      - 英国-DP+03
-      - 日本-DP+02
-      - Taiwan
-      - HK|43.154.126.50
-      - gy
-      - 日本-HALO+01
-      - 🇺🇸美国机场横评35
-      - 🇯🇵「黄金」日本高级IEPL
-      - rcp
-      - 台湾Hinet|解锁流媒体
-      - Japan
-      - CDN-KR
-      - HimarsgRPC
-      - 日本NTT-广州移动负载均衡|解锁流媒体
-      - 新加坡Az|解锁流媒体
-      - 曰本|vino
-      - 印度|India|V2
-      - 🇭🇰「钻石」香港高级IPLC
-      - strangegRPC
-      - 越南-4号
-      - 日本NTT-1号|解锁流媒体
-      - 越南-2号
-      - HK|43.155.113.83
-      - HK|43.154.43.215
       - 台湾Hinet-广州移动|解锁流媒体
+      - 香港HKT-河移|解锁流媒体
+      - 香港隧道3X
+      - I.[4倍].HK.HKT⇠BGP:VC36414
+      - 香港HKT-广移|解锁流媒体
+      - '??香港01|沪港中继'
+      - '??韩国01|沪日中继'
+      - '??日本01|沪日中继'
+      - '??狮城01|沪港中继'
+      - 越南-4号
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - I+.TW.新北⇠HiNet:VC33112
+      - US_14
+      - '??美国02|沪港中继'
+      - '??美国01|沪日中继'
+      - 美国优化隧道3X
+      - US_10
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - US_4
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - US_8
+      - US_6
+      - 香港HKT|解锁流媒体
+      - '??日本02|湘日中继'
+      - 德国-广移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC32111
+      - 曰本|vino
+      - 香港HKT-广移2|解锁流媒体
+      - 越南-2号
+      - '??狮城02|广港中继'
+      - 新加坡Az|解锁流媒体
+      - I.[4倍].HK.HKT⇠BGP:RC36114
+      - HK|43.154.29.170
+      - 德国-河移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC31213
+      - 美国极速002B
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - 美国西雅图-3号|解锁流媒体|0.1倍率
-      - United-States+9
-      - United-States+8
-      - United-States+13
-      - Singapore+2
-      - United-States+4
-      - United-States+7
+      - I.[4倍]TW.台北⇠HiNet:VC32118
+      - 美国极速001B
+      - HK|43.154.162.206
+      - I.TW.新北⇠HiNet:VC33117
+      - 荷兰NL_1
+      - '??狮城03|湘日中继'
+      - '@allporter_美国49'
+      - 荷兰NL_4
+      - '@allporter_美国37'
       - 美国圣何塞-2号|解锁流媒体|0.1倍率
-      - United-States+6
-      - United-Kingdom
-      - United-States-L2
+      - 荷兰NL_6
+      - 🇩🇪
+      - 🇺🇸US_1390
+      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
+      - 荷兰NL_3
+      - '@allporter_美国58'
+      - 荷兰NL_2
+      - I+.TW.新北⇠HiNet:VC33218
+      - 🇺🇸US_1089
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - '@allporter_美国99'
+      - HK|43.154.45.103
+      - 美国极速004B
+      - '??美国03|湘日中继'
+      - HK|43.155.102.217
+      - 台湾哔站002B
+      - US_15
+      - 美国隧道3X
+      - I.[4倍]TW.台北⇠HiNet:VC31118
+      - HK|43.154.24.109
+      - 🏁ZZ_1529
+      - 🇺🇸US_1161
+      - US_16
+      - HK|43.154.126.50
+      - US_12
+      - US(TG频道@fffffx2)
+      - 美国01
+      - US_9
+      - US_18
+      - 🇺🇸US_130
+      - 日本NTT-1号|解锁流媒体
+      - KR
+      - 🇺🇸US_1004
+      - 32.官网：http://a.luxury
+      - 新加坡高速免em5B
+      - US_5
+      - HK|43.155.113.83
+      - '@allporter_美国920'
+      - 免流
+      - 37.长期套餐覆盖IPLC专线
+      - 🇺🇸US_1054
+      - HK|43.155.117.118
+      - 🇺🇸US_1152
+      - I+.SG⇠广州:VC38116
+      - 🇺🇸US_1389
+      - 🇺🇸US_1108
+      - I.[4倍]TW.台北⇠HiNet:VC31117
+      - US_7
+      - HimarsgRPC
+      - 🇺🇸US_1084
+      - US_17
+      - '@allporter_美国78'
+      - 🇺🇸US_1141
+      - 🇺🇸
+      - 36.中继中转隧道线路覆盖
+      - 35.包括SSR和Trojan
+      - I.SG⇠广州:VC38115
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -453,87 +573,111 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - United-States+11
-      - ccp
-      - United-States+3
-      - 香港HKT-河移|解锁流媒体
-      - United-States
-      - United-States-L2+2
-      - United-States+14
-      - United-States+12
-      - United-States+2
-      - United-States+10
-      - US1(IEPL)+-+负载均衡专线
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - cc
-      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
-      - 新加坡-02|
-      - 香港-ByWave+03
-      - 香港-ByWave+04
-      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
-      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
-      - 德国-河移双线负载均衡|解锁流媒体
-      - United-Kingdom+2
-      - 香港HKT-广移2|解锁流媒体
-      - 香港HKT-广移|解锁流媒体
-      - HK|43.154.162.206
-      - HK|43.154.91.127
-      - HK|43.154.45.103
-      - HK|43.155.102.217
-      - 香港-ByWave+01
-      - 新加坡-DP+01
-      - 🇺🇸「青铜」美国原生家宽
-      - 🇲🇴「白银」澳门BGP中继
-      - HK|43.154.24.109
-      - 英国-DP+01
-      - 新加坡-DP+02
-      - 香港-ByWave+02
-      - 德国-广移双线负载均衡|解锁流媒体
-      - Japan+2
-      - Singapore|流媒体|联通
-      - 英国-DP+02
-      - HongKong[直连D]-环球1x
-      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
-      - HK|43.154.29.170
-      - HK|43.155.117.118
-      - rn
-      - HK|43.134.203.50
-      - 英国-DP+03
-      - 日本-DP+02
-      - Taiwan
-      - HK|43.154.126.50
-      - gy
-      - 日本-HALO+01
-      - 🇺🇸美国机场横评35
-      - 🇯🇵「黄金」日本高级IEPL
-      - rcp
-      - 台湾Hinet|解锁流媒体
-      - Japan
-      - CDN-KR
-      - HimarsgRPC
-      - 日本NTT-广州移动负载均衡|解锁流媒体
-      - 新加坡Az|解锁流媒体
-      - 曰本|vino
-      - 印度|India|V2
-      - 🇭🇰「钻石」香港高级IPLC
-      - strangegRPC
-      - 越南-4号
-      - 日本NTT-1号|解锁流媒体
-      - 越南-2号
-      - HK|43.155.113.83
-      - HK|43.154.43.215
       - 台湾Hinet-广州移动|解锁流媒体
+      - 香港HKT-河移|解锁流媒体
+      - 香港隧道3X
+      - I.[4倍].HK.HKT⇠BGP:VC36414
+      - 香港HKT-广移|解锁流媒体
+      - '??香港01|沪港中继'
+      - '??韩国01|沪日中继'
+      - '??日本01|沪日中继'
+      - '??狮城01|沪港中继'
+      - 越南-4号
+      - 日本NTT-广州移动负载均衡|解锁流媒体
+      - I+.TW.新北⇠HiNet:VC33112
+      - US_14
+      - '??美国02|沪港中继'
+      - '??美国01|沪日中继'
+      - 美国优化隧道3X
+      - US_10
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - US_4
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - US_8
+      - US_6
+      - 香港HKT|解锁流媒体
+      - '??日本02|湘日中继'
+      - 德国-广移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC32111
+      - 曰本|vino
+      - 香港HKT-广移2|解锁流媒体
+      - 越南-2号
+      - '??狮城02|广港中继'
+      - 新加坡Az|解锁流媒体
+      - I.[4倍].HK.HKT⇠BGP:RC36114
+      - HK|43.154.29.170
+      - 德国-河移双线负载均衡|解锁流媒体
+      - I+.[3倍]TW.台北⇠HiNet:VC31213
+      - 美国极速002B
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - 美国西雅图-3号|解锁流媒体|0.1倍率
-      - United-States+9
-      - United-States+8
-      - United-States+13
-      - Singapore+2
-      - United-States+4
-      - United-States+7
+      - I.[4倍]TW.台北⇠HiNet:VC32118
+      - 美国极速001B
+      - HK|43.154.162.206
+      - I.TW.新北⇠HiNet:VC33117
+      - 荷兰NL_1
+      - '??狮城03|湘日中继'
+      - '@allporter_美国49'
+      - 荷兰NL_4
+      - '@allporter_美国37'
       - 美国圣何塞-2号|解锁流媒体|0.1倍率
-      - United-States+6
-      - United-Kingdom
-      - United-States-L2
+      - 荷兰NL_6
+      - 🇩🇪
+      - 🇺🇸US_1390
+      - 美国圣何塞-河南移动负载均衡|解锁流媒体|0.1倍率
+      - 荷兰NL_3
+      - '@allporter_美国58'
+      - 荷兰NL_2
+      - I+.TW.新北⇠HiNet:VC33218
+      - 🇺🇸US_1089
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - '@allporter_美国99'
+      - HK|43.154.45.103
+      - 美国极速004B
+      - '??美国03|湘日中继'
+      - HK|43.155.102.217
+      - 台湾哔站002B
+      - US_15
+      - 美国隧道3X
+      - I.[4倍]TW.台北⇠HiNet:VC31118
+      - HK|43.154.24.109
+      - 🏁ZZ_1529
+      - 🇺🇸US_1161
+      - US_16
+      - HK|43.154.126.50
+      - US_12
+      - US(TG频道@fffffx2)
+      - 美国01
+      - US_9
+      - US_18
+      - 🇺🇸US_130
+      - 日本NTT-1号|解锁流媒体
+      - KR
+      - 🇺🇸US_1004
+      - 32.官网：http://a.luxury
+      - 新加坡高速免em5B
+      - US_5
+      - HK|43.155.113.83
+      - '@allporter_美国920'
+      - 免流
+      - 37.长期套餐覆盖IPLC专线
+      - 🇺🇸US_1054
+      - HK|43.155.117.118
+      - 🇺🇸US_1152
+      - I+.SG⇠广州:VC38116
+      - 🇺🇸US_1389
+      - 🇺🇸US_1108
+      - I.[4倍]TW.台北⇠HiNet:VC31117
+      - US_7
+      - HimarsgRPC
+      - 🇺🇸US_1084
+      - US_17
+      - '@allporter_美国78'
+      - 🇺🇸US_1141
+      - 🇺🇸
+      - 36.中继中转隧道线路覆盖
+      - 35.包括SSR和Trojan
+      - I.SG⇠广州:VC38115
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
