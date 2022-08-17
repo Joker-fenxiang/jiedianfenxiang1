@@ -5,97 +5,83 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"vmess","name":"HGC-新加坡3_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"9f627b7a-ea76-4104-8c19-e06a45a9b84c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇺🇸美国机场横评68","server":"38.121.43.71","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"trojan","name":"日本³","server":"sgd1.crunode.top","port":1200,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"sgd1.crunode.top"}
-  - {"type":"vmess","name":"US(TG频道@fffffx2)","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"荷兰NL_6","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.93147341.xyz"}},"server":"42.186.175.8","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-俄罗斯3_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"f954872a-da74-44e6-a16f-25d2329962ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"荷兰NL_3","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.33371648.xyz"}},"server":"42.186.175.8","port":"443","uuid":"ebec2adf-e940-446f-bed4-d8c91143b54a","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇦加拿大机场横评69","server":"196.247.59.154","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"HGC-新加坡3_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"3da13674-ffc6-4b56-a612-7bbf49e55d42","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo原-生","ws-opts":{"path":"/jp.acec.cloud?ed=2048","headers":{"host":"jp.acec.cloud"}},"server":"cloudflare.catcdndev.tk","port":"443","uuid":"59c60d7e-4eac-4aaf-b329-e71cf6140b09","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-俄罗斯3_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"0859797f-cc2d-4822-8797-cbcdffe811b4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-俄罗斯3_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"03015192-0f78-4893-b8c3-c44fc7f8dd80","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-俄罗斯3_4","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"398a2d86-347d-47d1-aca0-4de7e80af0a3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"9f627b7a-ea76-4104-8c19-e06a45a9b84c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国01|联移优化|AWS出口_1","server":"us1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"trojan","name":"洛杉矶","server":"us1.crunode.top","port":1200,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"us1.crunode.top"}
-  - {"type":"vmess","name":"HGC-俄罗斯3_5","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"eacc7c95-df25-4912-aaa7-d6c092a7b44b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇯🇵日本机场横评21","server":"85.208.108.94","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"HGC-俄罗斯3_6","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"96d3b82d-1a30-4ec4-b90a-73c95e5770fa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本01|联移优化|AWS出口_1","server":"jp1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"vless","name":"5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"5bfdb362-543c-49bc-8be0-30f28639dde1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jparm.fineyoo.cf"}}
-  - {"type":"ss","name":"美国02|联移优化|AWS出口","server":"us2.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"trojan","name":"美国INAP","server":"us2.nodegz.top","port":14001,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"us2.nodegz.top"}
-  - {"type":"vless","name":"10.韩国KR（春川）_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"fa085013-9f31-42a2-a802-4c668c9ea60e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/987","servername":"amdkr.ptuu.ml"}}
-  - {"type":"vmess","name":"US_14","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.75737292.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"12372db9-5a7a-4dc7-e1d7-ac63088c6807","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jparm.fineyoo.ml"}}
-  - {"type":"vless","name":"17.英国UK_伦敦IBM「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"ab48d74d-27bf-45ec-a577-b821c9a79577","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"PATH","servername":"ukibm.ptuu.ga"}}
-  - {"type":"vless","name":"9.韩国KR（春川）_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"e779e019-22d8-43c9-cff6-4ccb57760802","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/408","servername":"amdkr.ptuu.ga"}}
-  - {"type":"ss","name":"🇺🇸美国机场横评116","server":"169.197.141.5","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"vmess","name":"US_16","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.13655303.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"14.新加坡SG_AMD_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"250ec026-8662-477f-ead6-fc9573a1eb14","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"sgamd.ptuu.tk"}}
-  - {"type":"vmess","name":"HGC-新加坡3_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"03015192-0f78-4893-b8c3-c44fc7f8dd80","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"39f893e0-b11b-45b3-f66e-364311d4a44e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jpamd.fineyoo.ml"}}
-  - {"type":"ss","name":"新加坡01|联移优化|AWS出口_1","server":"sg1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"20997c3f-9bd1-4fd3-8689-8cdd4304dac5"}
+  - {"type":"trojan","name":"香港HKT-广移|解锁流媒体","server":"gzyd1.52147.top","port":30180,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
   - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"新加坡02|联移优化|AWS出口_1","server":"sg2.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"20997c3f-9bd1-4fd3-8689-8cdd4304dac5"}
-  - {"type":"vmess","name":"12.新加坡SG_ARM_2_Oracle「解锁Netflix」","ws-opts":{"path":"/ray","headers":{"host":"sgarm.ptuu.ml"}},"server":"42.186.175.8","port":"443","uuid":"2962b6dc-8de5-40c2-f5fb-5039f72d9a95","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-俄罗斯3_7","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15015","uuid":"3da13674-ffc6-4b56-a612-7bbf49e55d42","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"27cbdb73-b99d-4986-e875-6e586a5e2621","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jpamd.fineyoo.cf"}}
-  - {"type":"vmess","name":"US_18","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.17171391.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-捷克3_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"398a2d86-347d-47d1-aca0-4de7e80af0a3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-新加坡3_4","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"0859797f-cc2d-4822-8797-cbcdffe811b4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"0859797f-cc2d-4822-8797-cbcdffe811b4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_4","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"03015192-0f78-4893-b8c3-c44fc7f8dd80","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"新加坡02|联移优化|AWS出口_2","server":"sg2.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"ss","name":"新加坡01|联移优化|AWS出口_2","server":"sg1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-新加坡3_5","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"f954872a-da74-44e6-a16f-25d2329962ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-新加坡3_6","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"96d3b82d-1a30-4ec4-b90a-73c95e5770fa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"韩国01|联移优化|AWS出口_1","server":"kr1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"db25e4b6-7eff-4724-a387-e1fc971a2579"}
-  - {"type":"vmess","name":"uitsrt1号_tcp","server":"xui.uitsrt.monster","port":"56232","uuid":"19c69c01-ed4c-4b93-ed84-1b59d14ecc97","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ss","name":"@allporter_美国913","server":"38.121.43.71","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"vmess","name":"HGC-新加坡3_7","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"eacc7c95-df25-4912-aaa7-d6c092a7b44b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"uitsrt2号_ws","ws-opts":{"path":"/ray","headers":{"host":"xui.uitsrt.monster"}},"server":"xui.uitsrt.monster","port":"35183","uuid":"eb031585-3f6a-4081-bca5-0761ce4c6fe9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"89680ad4-3c61-40af-889b-a349781fcd3e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"usamd.ptuu.gq"}}
-  - {"type":"vless","name":"4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"bd17a583-a966-4ba3-bc5f-0d9c782f7e83","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"usamd.ptuu.tk"}}
-  - {"type":"vmess","name":"荷兰NL_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.98282587.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-新加坡3_8","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"a10b9adc-de89-4e53-be57-875467b2a1a7","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇺🇸美国机场横评72","server":"38.121.43.71","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"42.186.175.8","port":"443","uuid":"c19b138c-6e30-43b4-f66d-a94c6e869d12","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳中国机场横评140","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"HGC-新加坡3_9","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"28de13bb-f027-4f6a-ae12-1711895001f8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"日本01|联移优化|AWS出口_2","server":"jp1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"20997c3f-9bd1-4fd3-8689-8cdd4304dac5"}
-  - {"type":"vmess","name":"HongKong[直连C]-环球1x","ws-opts":{"path":"/images","headers":{"host":"v.qq.com"}},"server":"123456789abcd.xn--h6q53lcvpz7l.club","port":"20943","uuid":"e278c68f-4716-4798-a9c6-1f91d74499d8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"韩国01|联移优化|AWS出口_2","server":"kr1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"20997c3f-9bd1-4fd3-8689-8cdd4304dac5"}
-  - {"type":"vless","name":"16.美国US_达拉斯IBM「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"e22b5c17-bc0b-47d7-8d3d-62090d174765","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"PATH","servername":"usibm.ptuu.tk"}}
-  - {"type":"vmess","name":"HGC-捷克3_5","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"96d3b82d-1a30-4ec4-b90a-73c95e5770fa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_6","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"a10b9adc-de89-4e53-be57-875467b2a1a7","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"新加坡2","server":"sg1.crunode.top","port":1200,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"sg1.crunode.top"}
-  - {"type":"vmess","name":"荷兰NL_1","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.99684777.xyz"}},"server":"42.186.175.8","port":"443","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-捷克3_7","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"eacc7c95-df25-4912-aaa7-d6c092a7b44b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"俄罗斯","server":"ru1.nodegz.top","port":1200,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"ru1.nodegz.top"}
-  - {"type":"vmess","name":"HGC-捷克3_8","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"72ec022e-fc3e-494b-874c-0af1726cd116","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_9","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"f954872a-da74-44e6-a16f-25d2329962ad","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-新加坡3_10","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"398a2d86-347d-47d1-aca0-4de7e80af0a3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HGC-捷克3_10","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"3da13674-ffc6-4b56-a612-7bbf49e55d42","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"13.新加坡SG_AMD_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"acc3b448-85bc-402c-dcf3-119eec3cba66","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"sgamd.ptuu.ga"}}
-  - {"type":"vmess","name":"US_6","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.37154754.xyz"}},"server":"119.36.161.40","port":"443","uuid":"b9ca995e-14fc-4df0-bc93-0f3875900e80","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"[LV2·原生]香港B3|中转_1","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
+  - {"type":"vmess","name":"HGC-新加坡3_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"3da13674-ffc6-4b56-a612-7bbf49e55d42","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"洛杉矶ip4","ws-opts":{"path":"/ray"},"server":"lg4.free4444.xyz","port":"443","uuid":"fd0c0fca-599a-4ca7-931c-beec46d4f71b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"[LV2·原生]香港B3|中转_2","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
+  - {"type":"trojan","name":"[LV2·原生]香港B1|中转","server":"pp1.zhengzhongfeizhu.xyz","port":32000,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"vless","name":"9.韩国KR（春川）_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"e779e019-22d8-43c9-cff6-4ccb57760802","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/408","servername":"amdkr.ptuu.ga"}}
   - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"10.韩国KR（春川）_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"fa085013-9f31-42a2-a802-4c668c9ea60e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/987","servername":"amdkr.ptuu.ml"}}
+  - {"type":"vmess","name":"荷兰NL_1","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.99684777.xyz"}},"server":"42.186.175.8","port":"443","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sgarm1","server":"138.2.87.179","port":"12345","uuid":"f9808c79-eb35-4b18-d2bf-9c698966232c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vless","name":"5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"5bfdb362-543c-49bc-8be0-30f28639dde1","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jparm.fineyoo.cf"}}
+  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"[LV2·原生]香港B3|中转_3","server":"pp1.zhengzhongfeizhu.xyz","port":32002,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"ip3884414509.mobgslb.tbcache.com"}
+  - {"type":"vless","name":"6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"12372db9-5a7a-4dc7-e1d7-ac63088c6807","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jparm.fineyoo.ml"}}
+  - {"type":"vmess","name":"US_6","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.37154754.xyz"}},"server":"119.36.161.40","port":"443","uuid":"b9ca995e-14fc-4df0-bc93-0f3875900e80","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HGC-新加坡3_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"9f627b7a-ea76-4104-8c19-e06a45a9b84c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"新加坡Az|解锁流媒体","server":"20.24.44.110","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"US_14","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.75737292.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HGC-捷克3_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"03015192-0f78-4893-b8c3-c44fc7f8dd80","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HGC-捷克3_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"72ec022e-fc3e-494b-874c-0af1726cd116","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"德国-广移双线负载均衡|解锁流媒体","server":"gzyd1.52147.top","port":30080,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"香港HKT-广移2|解锁流媒体","server":"gzyd2.52147.top","port":30180,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"US_16","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.13655303.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"[LV2·原生]香港04|IEPL专线|3倍率_1","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34003,"password":"eb2f8154-ff58-3b99-b393-28c8eecdbe64","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"[LV2·原生]香港02|IEPL专线|3倍率","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34001,"password":"2f606ee8-3cfa-30b2-a191-f88efe912f5c","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|","server":"hj001.xiba1.xyz","port":20780,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"trojan","name":"香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|","server":"azhj001.xiba1.xyz","port":20724,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"vmess","name":"HGC-捷克3_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"28de13bb-f027-4f6a-ae12-1711895001f8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_18","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.17171391.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HGC-捷克3_4","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"398a2d86-347d-47d1-aca0-4de7e80af0a3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"39f893e0-b11b-45b3-f66e-364311d4a44e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"jpamd.fineyoo.ml"}}
+  - {"type":"trojan","name":"香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|","server":"hj001.xiba1.xyz","port":20782,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"trojan","name":"香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|","server":"hj001.xiba1.xyz","port":20779,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"trojan","name":"[LV2·原生]香港01|IEPL专线|3倍率","server":"pp1.zhengzhongfeizhu.xyz","port":34000,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|","server":"hj001.xiba1.xyz","port":20781,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"vmess","name":"HGC-捷克3_5","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"eacc7c95-df25-4912-aaa7-d6c092a7b44b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vless","name":"3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"89680ad4-3c61-40af-889b-a349781fcd3e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"usamd.ptuu.gq"}}
+  - {"type":"trojan","name":"香港HKT|解锁流媒体","server":"hkt.52147.top","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|","server":"azhj001.xiba1.xyz","port":20726,"password":"c3ff8b82-6a68-36fa-a668-4c665feb2ef3","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"vless","name":"16.美国US_达拉斯IBM「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"e22b5c17-bc0b-47d7-8d3d-62090d174765","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"PATH","servername":"usibm.ptuu.tk"}}
+  - {"type":"trojan","name":"[LV2·原生]香港04|IEPL专线|3倍率_2","server":"iiiieeepppplll.zhengzhongfeizhu.xyz","port":34003,"password":"177501cc-f0c2-3cc3-b9a7-8c1e8e27655f","udp":true,"skip-cert-verify":true,"sni":"111-47-215-139.nhost.00cdn.com"}
+  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"越南-4号","server":"103.173.255.234","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
   - {"type":"vmess","name":"11.新加坡SG_ARM_1_Oracle「解锁Netflix」","ws-opts":{"path":"/ray","headers":{"host":"sgarm.ptuu.cf"}},"server":"42.186.175.8","port":"443","uuid":"a928a26c-2adb-45fe-e57d-8a27dade309e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"台湾Hinet|解锁流媒体","server":"hinet.52147.top","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美国西雅图-3号|解锁流媒体|0.1倍率","server":"212.90.123.130","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"trojan","name":"越南-3号","server":"103.173.255.228","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"🇨🇳中国机场横评140","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"荷兰NL_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.98282587.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"12.新加坡SG_ARM_2_Oracle「解锁Netflix」","ws-opts":{"path":"/ray","headers":{"host":"sgarm.ptuu.ml"}},"server":"42.186.175.8","port":"443","uuid":"2962b6dc-8de5-40c2-f5fb-5039f72d9a95","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"42.186.175.8","port":"443","uuid":"c19b138c-6e30-43b4-f66d-a94c6e869d12","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"13.新加坡SG_AMD_1_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"acc3b448-85bc-402c-dcf3-119eec3cba66","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"sgamd.ptuu.ga"}}
+  - {"type":"vmess","name":"HGC-捷克3_6","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"9f627b7a-ea76-4104-8c19-e06a45a9b84c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"bd17a583-a966-4ba3-bc5f-0d9c782f7e83","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/123","servername":"usamd.ptuu.tk"}}
+  - {"type":"vmess","name":"HGC-捷克3_7","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"3da13674-ffc6-4b56-a612-7bbf49e55d42","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"日本NTT-2号|解锁流媒体","server":"202.8.9.27","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美国圣何塞-2号|解锁流媒体|0.1倍率","server":"45.82.253.234","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率","server":"gzyd1.52147.top","port":30030,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"trojan","name":"美国洛杉矶-1号|解锁流媒体|0.1倍率","server":"45.88.148.234","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
   - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"HGC-捷克3_11","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"28de13bb-f027-4f6a-ae12-1711895001f8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"@allporter_美国14","server":"38.121.43.71","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"HGC-新加坡3_11","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"72ec022e-fc3e-494b-874c-0af1726cd116","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"美国01|联移优化|AWS出口_2","server":"us1.pre.xccvc.ml","port":10082,"cipher":"aes-256-gcm","password":"20997c3f-9bd1-4fd3-8689-8cdd4304dac5"}
-  - {"type":"trojan","name":"新加坡-cv2.work赞助","server":"sg1.nodegz.top","port":1400,"password":"f0521113-222b-3cf3-996a-d2f362b9f970","udp":true,"skip-cert-verify":true,"sni":"sg1.nodegz.top"}
+  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"HGC-捷克3_8","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"0859797f-cc2d-4822-8797-cbcdffe811b4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HGC-新加坡3_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"28de13bb-f027-4f6a-ae12-1711895001f8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"香港HKT-河移|解锁流媒体","server":"hnyd.52147.top","port":30180,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vless","name":"17.英国UK_伦敦IBM「解锁Netflix」","server":"42.186.175.8","port":443,"uuid":"ab48d74d-27bf-45ec-a577-b821c9a79577","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"PATH","servername":"ukibm.ptuu.ga"}}
+  - {"type":"vmess","name":"HGC-捷克3_9","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15017","uuid":"f954872a-da74-44e6-a16f-25d2329962ad","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率","server":"gzyd2.52147.top","port":30030,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true,"sni":"www.download.windowsupdate1.com"}
+  - {"type":"vmess","name":"HGC-新加坡3_4","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"Apple.com"}},"server":"v2-tcp.shop","port":"15027","uuid":"398a2d86-347d-47d1-aca0-4de7e80af0a3","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -104,386 +90,330 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - HGC-新加坡3_1
-      - 🇺🇸美国机场横评68
-      - 日本³
-      - US(TG频道@fffffx2)
       - 荷兰NL_6
-      - HGC-俄罗斯3_1
-      - 荷兰NL_3
-      - 🇨🇦加拿大机场横评69
-      - HGC-新加坡3_2
-      - Tokyo原-生
-      - HGC-俄罗斯3_2
-      - HGC-俄罗斯3_3
-      - HGC-俄罗斯3_4
-      - HGC-捷克3_1
-      - 美国01|联移优化|AWS出口_1
-      - 洛杉矶
-      - HGC-俄罗斯3_5
-      - 🇯🇵日本机场横评21
-      - HGC-俄罗斯3_6
-      - 日本01|联移优化|AWS出口_1
-      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
-      - 美国02|联移优化|AWS出口
-      - 美国INAP
-      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
-      - US_14
-      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
-      - 17.英国UK_伦敦IBM「解锁Netflix」
-      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
-      - 🇺🇸美国机场横评116
-      - US_10
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - US_16
-      - 14.新加坡SG_AMD_2_Oracle「解锁Netflix」
-      - HGC-新加坡3_3
-      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
-      - 新加坡01|联移优化|AWS出口_1
+      - 香港HKT-广移|解锁流媒体
       - US_9
-      - 新加坡02|联移优化|AWS出口_1
-      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
-      - HGC-俄罗斯3_7
-      - 7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」
-      - US_18
-      - US_5
-      - HGC-捷克3_2
-      - HGC-新加坡3_4
-      - HGC-捷克3_3
-      - HGC-捷克3_4
-      - 新加坡02|联移优化|AWS出口_2
-      - 新加坡01|联移优化|AWS出口_2
-      - US_7
-      - HGC-新加坡3_5
-      - HGC-新加坡3_6
-      - 韩国01|联移优化|AWS出口_1
-      - uitsrt1号_tcp
-      - '@allporter_美国913'
-      - HGC-新加坡3_7
-      - uitsrt2号_ws
-      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
-      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
-      - 荷兰NL_4
-      - HGC-新加坡3_8
-      - 🇺🇸美国机场横评72
-      - US_17
-      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
-      - 🇨🇳中国机场横评140
-      - HGC-新加坡3_9
-      - 日本01|联移优化|AWS出口_2
-      - HongKong[直连C]-环球1x
-      - US_4
-      - 韩国01|联移优化|AWS出口_2
-      - 16.美国US_达拉斯IBM「解锁Netflix」
-      - HGC-捷克3_5
-      - HGC-捷克3_6
-      - 新加坡2
-      - 荷兰NL_1
-      - HGC-捷克3_7
-      - 俄罗斯
-      - HGC-捷克3_8
-      - HGC-捷克3_9
-      - HGC-新加坡3_10
-      - HGC-捷克3_10
-      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
-      - US_6
+      - '[LV2·原生]香港B3|中转_1'
+      - HGC-新加坡3_1
+      - 洛杉矶ip4
+      - '[LV2·原生]香港B3|中转_2'
+      - '[LV2·原生]香港B1|中转'
+      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
       - US_15
+      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
+      - 荷兰NL_1
+      - US_10
+      - sgarm1
+      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
+      - US_5
+      - '[LV2·原生]香港B3|中转_3'
+      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
+      - US_6
+      - HGC-新加坡3_2
+      - US_4
+      - 新加坡Az|解锁流媒体
+      - US_14
+      - HGC-捷克3_1
+      - HGC-捷克3_2
+      - 德国-广移双线负载均衡|解锁流媒体
+      - 香港HKT-广移2|解锁流媒体
+      - US_16
+      - '[LV2·原生]香港04|IEPL专线|3倍率_1'
+      - '[LV2·原生]香港02|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - HGC-捷克3_3
+      - US_18
+      - HGC-捷克3_4
+      - US_7
+      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
+      - 香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - '[LV2·原生]香港01|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - HGC-捷克3_5
+      - 越南-1号
+      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
+      - 香港HKT|解锁流媒体
+      - 香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - 16.美国US_达拉斯IBM「解锁Netflix」
+      - '[LV2·原生]香港04|IEPL专线|3倍率_2'
+      - 越南-2号
+      - 越南-4号
       - 11.新加坡SG_ARM_1_Oracle「解锁Netflix」
+      - 台湾Hinet|解锁流媒体
+      - 美国西雅图-3号|解锁流媒体|0.1倍率
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 越南-3号
+      - 🇨🇳中国机场横评140
+      - 荷兰NL_4
+      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
+      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
+      - US
+      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
+      - HGC-捷克3_6
+      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
+      - HGC-捷克3_7
+      - 日本NTT-2号|解锁流媒体
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - US_12
-      - HGC-捷克3_11
-      - '@allporter_美国14'
-      - HGC-新加坡3_11
-      - 美国01|联移优化|AWS出口_2
-      - 新加坡-cv2.work赞助
+      - US_17
+      - HGC-捷克3_8
+      - HGC-新加坡3_3
+      - 香港HKT-河移|解锁流媒体
+      - 17.英国UK_伦敦IBM「解锁Netflix」
+      - HGC-捷克3_9
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - HGC-新加坡3_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HGC-新加坡3_1
-      - 🇺🇸美国机场横评68
-      - 日本³
-      - US(TG频道@fffffx2)
       - 荷兰NL_6
-      - HGC-俄罗斯3_1
-      - 荷兰NL_3
-      - 🇨🇦加拿大机场横评69
-      - HGC-新加坡3_2
-      - Tokyo原-生
-      - HGC-俄罗斯3_2
-      - HGC-俄罗斯3_3
-      - HGC-俄罗斯3_4
-      - HGC-捷克3_1
-      - 美国01|联移优化|AWS出口_1
-      - 洛杉矶
-      - HGC-俄罗斯3_5
-      - 🇯🇵日本机场横评21
-      - HGC-俄罗斯3_6
-      - 日本01|联移优化|AWS出口_1
-      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
-      - 美国02|联移优化|AWS出口
-      - 美国INAP
-      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
-      - US_14
-      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
-      - 17.英国UK_伦敦IBM「解锁Netflix」
-      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
-      - 🇺🇸美国机场横评116
-      - US_10
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - US_16
-      - 14.新加坡SG_AMD_2_Oracle「解锁Netflix」
-      - HGC-新加坡3_3
-      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
-      - 新加坡01|联移优化|AWS出口_1
+      - 香港HKT-广移|解锁流媒体
       - US_9
-      - 新加坡02|联移优化|AWS出口_1
-      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
-      - HGC-俄罗斯3_7
-      - 7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」
-      - US_18
-      - US_5
-      - HGC-捷克3_2
-      - HGC-新加坡3_4
-      - HGC-捷克3_3
-      - HGC-捷克3_4
-      - 新加坡02|联移优化|AWS出口_2
-      - 新加坡01|联移优化|AWS出口_2
-      - US_7
-      - HGC-新加坡3_5
-      - HGC-新加坡3_6
-      - 韩国01|联移优化|AWS出口_1
-      - uitsrt1号_tcp
-      - '@allporter_美国913'
-      - HGC-新加坡3_7
-      - uitsrt2号_ws
-      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
-      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
-      - 荷兰NL_4
-      - HGC-新加坡3_8
-      - 🇺🇸美国机场横评72
-      - US_17
-      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
-      - 🇨🇳中国机场横评140
-      - HGC-新加坡3_9
-      - 日本01|联移优化|AWS出口_2
-      - HongKong[直连C]-环球1x
-      - US_4
-      - 韩国01|联移优化|AWS出口_2
-      - 16.美国US_达拉斯IBM「解锁Netflix」
-      - HGC-捷克3_5
-      - HGC-捷克3_6
-      - 新加坡2
-      - 荷兰NL_1
-      - HGC-捷克3_7
-      - 俄罗斯
-      - HGC-捷克3_8
-      - HGC-捷克3_9
-      - HGC-新加坡3_10
-      - HGC-捷克3_10
-      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
-      - US_6
+      - '[LV2·原生]香港B3|中转_1'
+      - HGC-新加坡3_1
+      - 洛杉矶ip4
+      - '[LV2·原生]香港B3|中转_2'
+      - '[LV2·原生]香港B1|中转'
+      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
       - US_15
+      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
+      - 荷兰NL_1
+      - US_10
+      - sgarm1
+      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
+      - US_5
+      - '[LV2·原生]香港B3|中转_3'
+      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
+      - US_6
+      - HGC-新加坡3_2
+      - US_4
+      - 新加坡Az|解锁流媒体
+      - US_14
+      - HGC-捷克3_1
+      - HGC-捷克3_2
+      - 德国-广移双线负载均衡|解锁流媒体
+      - 香港HKT-广移2|解锁流媒体
+      - US_16
+      - '[LV2·原生]香港04|IEPL专线|3倍率_1'
+      - '[LV2·原生]香港02|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - HGC-捷克3_3
+      - US_18
+      - HGC-捷克3_4
+      - US_7
+      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
+      - 香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - '[LV2·原生]香港01|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - HGC-捷克3_5
+      - 越南-1号
+      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
+      - 香港HKT|解锁流媒体
+      - 香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - 16.美国US_达拉斯IBM「解锁Netflix」
+      - '[LV2·原生]香港04|IEPL专线|3倍率_2'
+      - 越南-2号
+      - 越南-4号
       - 11.新加坡SG_ARM_1_Oracle「解锁Netflix」
+      - 台湾Hinet|解锁流媒体
+      - 美国西雅图-3号|解锁流媒体|0.1倍率
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 越南-3号
+      - 🇨🇳中国机场横评140
+      - 荷兰NL_4
+      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
+      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
+      - US
+      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
+      - HGC-捷克3_6
+      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
+      - HGC-捷克3_7
+      - 日本NTT-2号|解锁流媒体
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - US_12
-      - HGC-捷克3_11
-      - '@allporter_美国14'
-      - HGC-新加坡3_11
-      - 美国01|联移优化|AWS出口_2
-      - 新加坡-cv2.work赞助
+      - US_17
+      - HGC-捷克3_8
+      - HGC-新加坡3_3
+      - 香港HKT-河移|解锁流媒体
+      - 17.英国UK_伦敦IBM「解锁Netflix」
+      - HGC-捷克3_9
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - HGC-新加坡3_4
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HGC-新加坡3_1
-      - 🇺🇸美国机场横评68
-      - 日本³
-      - US(TG频道@fffffx2)
       - 荷兰NL_6
-      - HGC-俄罗斯3_1
-      - 荷兰NL_3
-      - 🇨🇦加拿大机场横评69
-      - HGC-新加坡3_2
-      - Tokyo原-生
-      - HGC-俄罗斯3_2
-      - HGC-俄罗斯3_3
-      - HGC-俄罗斯3_4
-      - HGC-捷克3_1
-      - 美国01|联移优化|AWS出口_1
-      - 洛杉矶
-      - HGC-俄罗斯3_5
-      - 🇯🇵日本机场横评21
-      - HGC-俄罗斯3_6
-      - 日本01|联移优化|AWS出口_1
-      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
-      - 美国02|联移优化|AWS出口
-      - 美国INAP
-      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
-      - US_14
-      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
-      - 17.英国UK_伦敦IBM「解锁Netflix」
-      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
-      - 🇺🇸美国机场横评116
-      - US_10
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - US_16
-      - 14.新加坡SG_AMD_2_Oracle「解锁Netflix」
-      - HGC-新加坡3_3
-      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
-      - 新加坡01|联移优化|AWS出口_1
+      - 香港HKT-广移|解锁流媒体
       - US_9
-      - 新加坡02|联移优化|AWS出口_1
-      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
-      - HGC-俄罗斯3_7
-      - 7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」
-      - US_18
-      - US_5
-      - HGC-捷克3_2
-      - HGC-新加坡3_4
-      - HGC-捷克3_3
-      - HGC-捷克3_4
-      - 新加坡02|联移优化|AWS出口_2
-      - 新加坡01|联移优化|AWS出口_2
-      - US_7
-      - HGC-新加坡3_5
-      - HGC-新加坡3_6
-      - 韩国01|联移优化|AWS出口_1
-      - uitsrt1号_tcp
-      - '@allporter_美国913'
-      - HGC-新加坡3_7
-      - uitsrt2号_ws
-      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
-      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
-      - 荷兰NL_4
-      - HGC-新加坡3_8
-      - 🇺🇸美国机场横评72
-      - US_17
-      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
-      - 🇨🇳中国机场横评140
-      - HGC-新加坡3_9
-      - 日本01|联移优化|AWS出口_2
-      - HongKong[直连C]-环球1x
-      - US_4
-      - 韩国01|联移优化|AWS出口_2
-      - 16.美国US_达拉斯IBM「解锁Netflix」
-      - HGC-捷克3_5
-      - HGC-捷克3_6
-      - 新加坡2
-      - 荷兰NL_1
-      - HGC-捷克3_7
-      - 俄罗斯
-      - HGC-捷克3_8
-      - HGC-捷克3_9
-      - HGC-新加坡3_10
-      - HGC-捷克3_10
-      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
-      - US_6
+      - '[LV2·原生]香港B3|中转_1'
+      - HGC-新加坡3_1
+      - 洛杉矶ip4
+      - '[LV2·原生]香港B3|中转_2'
+      - '[LV2·原生]香港B1|中转'
+      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
       - US_15
+      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
+      - 荷兰NL_1
+      - US_10
+      - sgarm1
+      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
+      - US_5
+      - '[LV2·原生]香港B3|中转_3'
+      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
+      - US_6
+      - HGC-新加坡3_2
+      - US_4
+      - 新加坡Az|解锁流媒体
+      - US_14
+      - HGC-捷克3_1
+      - HGC-捷克3_2
+      - 德国-广移双线负载均衡|解锁流媒体
+      - 香港HKT-广移2|解锁流媒体
+      - US_16
+      - '[LV2·原生]香港04|IEPL专线|3倍率_1'
+      - '[LV2·原生]香港02|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - HGC-捷克3_3
+      - US_18
+      - HGC-捷克3_4
+      - US_7
+      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
+      - 香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - '[LV2·原生]香港01|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - HGC-捷克3_5
+      - 越南-1号
+      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
+      - 香港HKT|解锁流媒体
+      - 香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - 16.美国US_达拉斯IBM「解锁Netflix」
+      - '[LV2·原生]香港04|IEPL专线|3倍率_2'
+      - 越南-2号
+      - 越南-4号
       - 11.新加坡SG_ARM_1_Oracle「解锁Netflix」
+      - 台湾Hinet|解锁流媒体
+      - 美国西雅图-3号|解锁流媒体|0.1倍率
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 越南-3号
+      - 🇨🇳中国机场横评140
+      - 荷兰NL_4
+      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
+      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
+      - US
+      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
+      - HGC-捷克3_6
+      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
+      - HGC-捷克3_7
+      - 日本NTT-2号|解锁流媒体
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - US_12
-      - HGC-捷克3_11
-      - '@allporter_美国14'
-      - HGC-新加坡3_11
-      - 美国01|联移优化|AWS出口_2
-      - 新加坡-cv2.work赞助
+      - US_17
+      - HGC-捷克3_8
+      - HGC-新加坡3_3
+      - 香港HKT-河移|解锁流媒体
+      - 17.英国UK_伦敦IBM「解锁Netflix」
+      - HGC-捷克3_9
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - HGC-新加坡3_4
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - HGC-新加坡3_1
-      - 🇺🇸美国机场横评68
-      - 日本³
-      - US(TG频道@fffffx2)
       - 荷兰NL_6
-      - HGC-俄罗斯3_1
-      - 荷兰NL_3
-      - 🇨🇦加拿大机场横评69
-      - HGC-新加坡3_2
-      - Tokyo原-生
-      - HGC-俄罗斯3_2
-      - HGC-俄罗斯3_3
-      - HGC-俄罗斯3_4
-      - HGC-捷克3_1
-      - 美国01|联移优化|AWS出口_1
-      - 洛杉矶
-      - HGC-俄罗斯3_5
-      - 🇯🇵日本机场横评21
-      - HGC-俄罗斯3_6
-      - 日本01|联移优化|AWS出口_1
-      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
-      - 美国02|联移优化|AWS出口
-      - 美国INAP
-      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
-      - US_14
-      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
-      - 17.英国UK_伦敦IBM「解锁Netflix」
-      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
-      - 🇺🇸美国机场横评116
-      - US_10
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - US_16
-      - 14.新加坡SG_AMD_2_Oracle「解锁Netflix」
-      - HGC-新加坡3_3
-      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
-      - 新加坡01|联移优化|AWS出口_1
+      - 香港HKT-广移|解锁流媒体
       - US_9
-      - 新加坡02|联移优化|AWS出口_1
-      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
-      - HGC-俄罗斯3_7
-      - 7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」
-      - US_18
-      - US_5
-      - HGC-捷克3_2
-      - HGC-新加坡3_4
-      - HGC-捷克3_3
-      - HGC-捷克3_4
-      - 新加坡02|联移优化|AWS出口_2
-      - 新加坡01|联移优化|AWS出口_2
-      - US_7
-      - HGC-新加坡3_5
-      - HGC-新加坡3_6
-      - 韩国01|联移优化|AWS出口_1
-      - uitsrt1号_tcp
-      - '@allporter_美国913'
-      - HGC-新加坡3_7
-      - uitsrt2号_ws
-      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
-      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
-      - 荷兰NL_4
-      - HGC-新加坡3_8
-      - 🇺🇸美国机场横评72
-      - US_17
-      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
-      - 🇨🇳中国机场横评140
-      - HGC-新加坡3_9
-      - 日本01|联移优化|AWS出口_2
-      - HongKong[直连C]-环球1x
-      - US_4
-      - 韩国01|联移优化|AWS出口_2
-      - 16.美国US_达拉斯IBM「解锁Netflix」
-      - HGC-捷克3_5
-      - HGC-捷克3_6
-      - 新加坡2
-      - 荷兰NL_1
-      - HGC-捷克3_7
-      - 俄罗斯
-      - HGC-捷克3_8
-      - HGC-捷克3_9
-      - HGC-新加坡3_10
-      - HGC-捷克3_10
-      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
-      - US_6
+      - '[LV2·原生]香港B3|中转_1'
+      - HGC-新加坡3_1
+      - 洛杉矶ip4
+      - '[LV2·原生]香港B3|中转_2'
+      - '[LV2·原生]香港B1|中转'
+      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
       - US_15
+      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
+      - 荷兰NL_1
+      - US_10
+      - sgarm1
+      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
+      - US_5
+      - '[LV2·原生]香港B3|中转_3'
+      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
+      - US_6
+      - HGC-新加坡3_2
+      - US_4
+      - 新加坡Az|解锁流媒体
+      - US_14
+      - HGC-捷克3_1
+      - HGC-捷克3_2
+      - 德国-广移双线负载均衡|解锁流媒体
+      - 香港HKT-广移2|解锁流媒体
+      - US_16
+      - '[LV2·原生]香港04|IEPL专线|3倍率_1'
+      - '[LV2·原生]香港02|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - HGC-捷克3_3
+      - US_18
+      - HGC-捷克3_4
+      - US_7
+      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
+      - 香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - '[LV2·原生]香港01|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - HGC-捷克3_5
+      - 越南-1号
+      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
+      - 香港HKT|解锁流媒体
+      - 香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - 16.美国US_达拉斯IBM「解锁Netflix」
+      - '[LV2·原生]香港04|IEPL专线|3倍率_2'
+      - 越南-2号
+      - 越南-4号
       - 11.新加坡SG_ARM_1_Oracle「解锁Netflix」
+      - 台湾Hinet|解锁流媒体
+      - 美国西雅图-3号|解锁流媒体|0.1倍率
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 越南-3号
+      - 🇨🇳中国机场横评140
+      - 荷兰NL_4
+      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
+      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
+      - US
+      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
+      - HGC-捷克3_6
+      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
+      - HGC-捷克3_7
+      - 日本NTT-2号|解锁流媒体
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - US_12
-      - HGC-捷克3_11
-      - '@allporter_美国14'
-      - HGC-新加坡3_11
-      - 美国01|联移优化|AWS出口_2
-      - 新加坡-cv2.work赞助
+      - US_17
+      - HGC-捷克3_8
+      - HGC-新加坡3_3
+      - 香港HKT-河移|解锁流媒体
+      - 17.英国UK_伦敦IBM「解锁Netflix」
+      - HGC-捷克3_9
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - HGC-新加坡3_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -503,97 +433,83 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - HGC-新加坡3_1
-      - 🇺🇸美国机场横评68
-      - 日本³
-      - US(TG频道@fffffx2)
       - 荷兰NL_6
-      - HGC-俄罗斯3_1
-      - 荷兰NL_3
-      - 🇨🇦加拿大机场横评69
-      - HGC-新加坡3_2
-      - Tokyo原-生
-      - HGC-俄罗斯3_2
-      - HGC-俄罗斯3_3
-      - HGC-俄罗斯3_4
-      - HGC-捷克3_1
-      - 美国01|联移优化|AWS出口_1
-      - 洛杉矶
-      - HGC-俄罗斯3_5
-      - 🇯🇵日本机场横评21
-      - HGC-俄罗斯3_6
-      - 日本01|联移优化|AWS出口_1
-      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
-      - 美国02|联移优化|AWS出口
-      - 美国INAP
-      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
-      - US_14
-      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
-      - 17.英国UK_伦敦IBM「解锁Netflix」
-      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
-      - 🇺🇸美国机场横评116
-      - US_10
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - US_16
-      - 14.新加坡SG_AMD_2_Oracle「解锁Netflix」
-      - HGC-新加坡3_3
-      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
-      - 新加坡01|联移优化|AWS出口_1
+      - 香港HKT-广移|解锁流媒体
       - US_9
-      - 新加坡02|联移优化|AWS出口_1
-      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
-      - HGC-俄罗斯3_7
-      - 7.日本JP（大阪）AMD_1_Oracle「解锁Netflix」
-      - US_18
-      - US_5
-      - HGC-捷克3_2
-      - HGC-新加坡3_4
-      - HGC-捷克3_3
-      - HGC-捷克3_4
-      - 新加坡02|联移优化|AWS出口_2
-      - 新加坡01|联移优化|AWS出口_2
-      - US_7
-      - HGC-新加坡3_5
-      - HGC-新加坡3_6
-      - 韩国01|联移优化|AWS出口_1
-      - uitsrt1号_tcp
-      - '@allporter_美国913'
-      - HGC-新加坡3_7
-      - uitsrt2号_ws
-      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
-      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
-      - 荷兰NL_4
-      - HGC-新加坡3_8
-      - 🇺🇸美国机场横评72
-      - US_17
-      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
-      - 🇨🇳中国机场横评140
-      - HGC-新加坡3_9
-      - 日本01|联移优化|AWS出口_2
-      - HongKong[直连C]-环球1x
-      - US_4
-      - 韩国01|联移优化|AWS出口_2
-      - 16.美国US_达拉斯IBM「解锁Netflix」
-      - HGC-捷克3_5
-      - HGC-捷克3_6
-      - 新加坡2
-      - 荷兰NL_1
-      - HGC-捷克3_7
-      - 俄罗斯
-      - HGC-捷克3_8
-      - HGC-捷克3_9
-      - HGC-新加坡3_10
-      - HGC-捷克3_10
-      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
-      - US_6
+      - '[LV2·原生]香港B3|中转_1'
+      - HGC-新加坡3_1
+      - 洛杉矶ip4
+      - '[LV2·原生]香港B3|中转_2'
+      - '[LV2·原生]香港B1|中转'
+      - 9.韩国KR（春川）_1_Oracle「解锁Netflix」
       - US_15
+      - 10.韩国KR（春川）_2_Oracle「解锁Netflix」
+      - 荷兰NL_1
+      - US_10
+      - sgarm1
+      - 5.日本JP（大阪）ARM_1_Oracle「解锁Netflix」
+      - US_5
+      - '[LV2·原生]香港B3|中转_3'
+      - 6.日本JP（大阪）ARM_2_Oracle「解锁Netflix」
+      - US_6
+      - HGC-新加坡3_2
+      - US_4
+      - 新加坡Az|解锁流媒体
+      - US_14
+      - HGC-捷克3_1
+      - HGC-捷克3_2
+      - 德国-广移双线负载均衡|解锁流媒体
+      - 香港HKT-广移2|解锁流媒体
+      - US_16
+      - '[LV2·原生]香港04|IEPL专线|3倍率_1'
+      - '[LV2·原生]香港02|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+L+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+G+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - HGC-捷克3_3
+      - US_18
+      - HGC-捷克3_4
+      - US_7
+      - 8.日本JP（大阪）AMD_2_Oracle「解锁Netflix」
+      - 香港+|+Trojan+|+N+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - 香港+|+Trojan+|+K+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - '[LV2·原生]香港01|IEPL专线|3倍率'
+      - 香港+|+Trojan+|+M+|+0.2x+|+白銀+|+港區流媒體解鎖+|
+      - HGC-捷克3_5
+      - 越南-1号
+      - 3.美国US（凤凰城）AMD_1_Oracle「解锁Netflix」
+      - 香港HKT|解锁流媒体
+      - 香港+|+Trojan+|+I+|+0.8x+|+黃金+|+港區流媒體解鎖+|
+      - 16.美国US_达拉斯IBM「解锁Netflix」
+      - '[LV2·原生]香港04|IEPL专线|3倍率_2'
+      - 越南-2号
+      - 越南-4号
       - 11.新加坡SG_ARM_1_Oracle「解锁Netflix」
+      - 台湾Hinet|解锁流媒体
+      - 美国西雅图-3号|解锁流媒体|0.1倍率
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 越南-3号
+      - 🇨🇳中国机场横评140
+      - 荷兰NL_4
+      - 12.新加坡SG_ARM_2_Oracle「解锁Netflix」
+      - 1.美国US（凤凰城）ARM_1_Oracle「解锁Netflix」
+      - US
+      - 13.新加坡SG_AMD_1_Oracle「解锁Netflix」
+      - HGC-捷克3_6
+      - 4.美国US（凤凰城）AMD_2_Oracle「解锁Netflix」
+      - HGC-捷克3_7
+      - 日本NTT-2号|解锁流媒体
+      - 美国圣何塞-2号|解锁流媒体|0.1倍率
+      - 美国圣何塞-广州移动负载均衡|解锁流媒体|0.1倍率
+      - 美国洛杉矶-1号|解锁流媒体|0.1倍率
       - US_12
-      - HGC-捷克3_11
-      - '@allporter_美国14'
-      - HGC-新加坡3_11
-      - 美国01|联移优化|AWS出口_2
-      - 新加坡-cv2.work赞助
+      - US_17
+      - HGC-捷克3_8
+      - HGC-新加坡3_3
+      - 香港HKT-河移|解锁流媒体
+      - 17.英国UK_伦敦IBM「解锁Netflix」
+      - HGC-捷克3_9
+      - 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1倍率
+      - HGC-新加坡3_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
