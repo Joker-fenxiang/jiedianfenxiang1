@@ -5,152 +5,63 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"vmess","name":"V2|美国B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"45194","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|墨西哥B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25006","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|澳大利亚B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25008","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|越南B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25016","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|澳大利亚A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"25008","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|越南A01|IDC","server":"node.a.access.in.nyapi.buzz","port":"25016","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|印度A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"25004","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|澳大利亚A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"25008","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|阿根廷A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"25002","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|泰国A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"45758","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TG频道:@hkaa0|新加坡|自建","ws-opts":{"path":"/howdy"},"server":"v2ray1.udpgw.com","port":"443","uuid":"fdf51d53-bc6e-4724-9ca0-527af8111b25","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|印度A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"25004","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰香港03|原生解锁","ws-opts":{"path":"/rocket","headers":{"host":"cn03.downloadmovie.cn"}},"server":"cn03.downloadmovie.cn","port":"65027","uuid":"d47d635c-3527-32c7-b49a-cedbd8fbfa28","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|印度A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"25004","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|泰国A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"45758","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|澳大利亚A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"25008","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|墨西哥A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"25006","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|韩国B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"25009","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|日本A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45184","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰香港|1X|流媒体|中转","server":"gy.bzcv.cn","port":"19001","uuid":"114e15c9-bba0-4290-9406-30f2370bd218","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"V2|日本B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"45184","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰香港|流媒体|直连|1X","ws-opts":{"path":"/hk","headers":{"host":"hk.unioreo.pp.ua"}},"server":"hk.unioreo.pp.ua","port":"443","uuid":"114e15c9-bba0-4290-9406-30f2370bd218","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|日本A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45184","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国06|原生解锁IPV6","ws-opts":{"path":"/rocket","headers":{"host":"unicom02.downloadmovie.cn"}},"server":"unicom02.downloadmovie.cn","port":"65012","uuid":"d47d635c-3527-32c7-b49a-cedbd8fbfa28","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|台湾B01|原生解锁","server":"node.b.access.in.nyapi.buzz","port":"45394","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|英国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45413","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|台湾A01|原生解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45394","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|新加坡B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"45149","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美国05|原生解锁IPV6","ws-opts":{"path":"/rocket","headers":{"host":"unicom01.downloadmovie.cn"}},"server":"unicom01.downloadmovie.cn","port":"65011","uuid":"d47d635c-3527-32c7-b49a-cedbd8fbfa28","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"45239","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45239","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|英国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45413","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|墨西哥A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"25006","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|墨西哥A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"25006","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|日本A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45184","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|菲律宾A01|IDC","server":"node.a.access.in.nyapi.buzz","port":"25018","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|新加坡A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45149","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45239","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|新加坡A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45149","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|台湾A01|原生解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45394","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|台湾A01|原生解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45394","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|韩国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"25009","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|新加坡A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45149","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港B01|原生解锁","server":"node.b.access.in.nyapi.buzz","port":"45250","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|英国B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":"45413","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|原生解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45250","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|土耳其B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25012","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|原生解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45250","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇦加拿大|1X|中转","server":"cn.hzcm.986888.xyz","port":"43426","uuid":"114e15c9-bba0-4290-9406-30f2370bd218","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"V2|韩国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"25009","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|土耳其A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":"25012","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45239","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|香港A01|原生解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45250","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|韩国A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":"25009","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|美国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":"45194","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|美国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":"45194","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|菲律宾B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25018","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|阿根廷B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25002","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|美国A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":"45194","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|泰国B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"45758","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|泰国A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"45758","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|阿根廷A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"25002","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|印度B01|IDC","server":"node.b.access.in.nyapi.buzz","port":"25004","uuid":"ec1b7dff-b004-47d8-acfe-be1dfef94972","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"V1IEPL|NL1_1","server":"i1.go001.buzz","port":31902,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|DE1_1","server":"i2.go001.buzz","port":31906,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"V1Vmess|USB1_1","server":"120-241-236-214.nhost.00cdn.com","port":"31622","uuid":"e13a0a61-87ae-3537-972b-8698afa8daa6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|DE1_2","server":"i2.go001.buzz","port":31906,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|GB1","server":"i1.go001.buzz","port":31905,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|CA1_1","server":"i2.go001.buzz","port":31908,"cipher":"aes-256-gcm","password":"NHQq3B"}
   - {"type":"vmess","name":"US","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|阿根廷A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"25002","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"V1IEPL|US1_1","server":"i1.go001.buzz","port":31601,"cipher":"aes-256-gcm","password":"EhfSib"}
   - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"V2|土耳其A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":"25012","uuid":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V2|土耳其A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":"25012","uuid":"4fa08312-782a-472f-a16d-7f4420e14e8c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰香港04|原生解锁","ws-opts":{"path":"/rocket","headers":{"host":"cn04.downloadmovie.cn"}},"server":"cn04.downloadmovie.cn","port":"65028","uuid":"d47d635c-3527-32c7-b49a-cedbd8fbfa28","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"SS|南非A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25022,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|英国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":45324,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|墨西哥B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25007,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|墨西哥A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25007,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|泰国A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25001,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|墨西哥A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25007,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|澳大利亚A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25011,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|英国B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":45324,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|菲律宾A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25019,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|日本A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":45183,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|墨西哥A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25007,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|英国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":45324,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|英国A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":45324,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|菲律宾B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25019,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|菲律宾A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25019,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|香港A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":45240,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"台湾IEPL5倍率","server":"120.233.7.150","port":53028,"cipher":"chacha20-ietf-poly1305","password":"0e44acf2-6d6b-4e1b-bfa0-800e7d4ff04c"}
-  - {"type":"ss","name":"SS|日本B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":45183,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|香港B01|原生解锁","server":"node.b.access.in.nyapi.buzz","port":45251,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|香港B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":45240,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|香港A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":45240,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|香港A01|原生解锁_1","server":"node.a.access.in.nyapi.buzz","port":45251,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|日本A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":45183,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|阿根廷B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25003,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|美国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":45190,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|土耳其A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25013,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|新加坡A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":45144,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|土耳其A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25013,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|日本A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":45183,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|新加坡B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":45144,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|香港A01|原生解锁_2","server":"node.a.access.in.nyapi.buzz","port":45251,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|土耳其B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25013,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|新加坡A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":45144,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|美国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":45190,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|韩国A01|IDC|解锁_1","server":"node.a.access.in.nyapi.buzz","port":25010,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|阿根廷A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25003,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|越南A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25017,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|香港A01|原生解锁_3","server":"node.a.access.in.nyapi.buzz","port":45251,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|香港A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":45240,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|土耳其A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25013,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|新加坡A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":45144,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|韩国B01|IDC|解锁","server":"node.b.access.in.nyapi.buzz","port":25010,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|韩国A01|IDC|解锁_2","server":"node.a.access.in.nyapi.buzz","port":25010,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|南非B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25022,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|阿根廷A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25003,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|阿根廷A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25003,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|美国A01|IDC|解锁_3","server":"node.a.access.in.nyapi.buzz","port":45190,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|菲律宾A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25019,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|泰国B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25001,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|泰国A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25001,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|南非A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25022,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|印度A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25005,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|俄罗斯B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25015,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|越南B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25017,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|印度A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25005,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|印度B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25005,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|泰国A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25001,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|俄罗斯A01|IDC_1","server":"node.a.access.in.nyapi.buzz","port":25015,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|俄罗斯A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25015,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|俄罗斯A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25015,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|越南A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25017,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|澳大利亚B01|IDC","server":"node.b.access.in.nyapi.buzz","port":25011,"cipher":"chacha20-ietf-poly1305","password":"ec1b7dff-b004-47d8-acfe-be1dfef94972"}
-  - {"type":"ss","name":"SS|南非A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25022,"cipher":"chacha20-ietf-poly1305","password":"da805ade-3806-44f1-aa1a-8ca5df8bfc3f"}
-  - {"type":"ss","name":"SS|越南A01|IDC_3","server":"node.a.access.in.nyapi.buzz","port":25017,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
-  - {"type":"ss","name":"SS|澳大利亚A01|IDC_2","server":"node.a.access.in.nyapi.buzz","port":25011,"cipher":"chacha20-ietf-poly1305","password":"4fa08312-782a-472f-a16d-7f4420e14e8c"}
+  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"V1IEPL|HK1","server":"i2.go001.buzz","port":31101,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|CA1_2","server":"i2.go001.buzz","port":31908,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"V1Vmess|USB1_2","server":"120-241-236-214.nhost.00cdn.com","port":"31622","uuid":"4792ca6c-1f96-3c33-a06f-adbd17c0354d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"V1IEPL|IN1_1","server":"i1.go001.buzz","port":31909,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|HK2_1","server":"i1.go001.buzz","port":31102,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"V1Vmess|Auto_1","server":"120-241-236-214.nhost.00cdn.com","port":"31001","uuid":"e13a0a61-87ae-3537-972b-8698afa8daa6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|IN1_2","server":"i1.go001.buzz","port":31909,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|SG1_1","server":"i1.go001.buzz","port":31401,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|TW1_1","server":"i1.go001.buzz","port":31201,"cipher":"aes-256-gcm","password":"EhfSib"}
   - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"trojan","name":"🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|","server":"azgy001.xibai6.top","port":20789,"password":"4091102c-533b-368e-baeb-d50159884a54","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
-  - {"type":"trojan","name":"🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|","server":"azgy001.xibai6.top","port":20792,"password":"4091102c-533b-368e-baeb-d50159884a54","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
-  - {"type":"trojan","name":"TG频道:@hkaa0|美国|自建","server":"us-trojan.bonds.id","port":443,"password":"fc39ffa0-2040-11ed-a1ff-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|","server":"azgy001.xibai6.top","port":20784,"password":"4091102c-533b-368e-baeb-d50159884a54","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"ss","name":"V1IEPL|TW1_2","server":"i1.go001.buzz","port":31201,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|SG1_2","server":"i1.go001.buzz","port":31401,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|KR1_1","server":"i2.go001.buzz","port":31501,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"V1IEPL|TR1_1","server":"i1.go001.buzz","port":31901,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"V1Vmess|HKB1_1","server":"120-241-236-214.nhost.00cdn.com","port":"31121","uuid":"4792ca6c-1f96-3c33-a06f-adbd17c0354d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"V1Vmess|USA1","server":"120-241-236-214.nhost.00cdn.com","port":"31612","uuid":"4792ca6c-1f96-3c33-a06f-adbd17c0354d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|JP2Native_1","server":"i1.go001.buzz","port":31302,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|JP1_1","server":"i2.go001.buzz","port":31301,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|HK2_2","server":"i1.go001.buzz","port":31102,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|JP2Native_2","server":"i1.go001.buzz","port":31302,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|JP1_2","server":"i2.go001.buzz","port":31301,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|KR1_2","server":"i2.go001.buzz","port":31501,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"V1Vmess|JPB1_1","server":"120-241-236-214.nhost.00cdn.com","port":"31321","uuid":"4792ca6c-1f96-3c33-a06f-adbd17c0354d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|TR1_2","server":"i1.go001.buzz","port":31901,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"V1Vmess|JPB1_2","server":"120-241-236-214.nhost.00cdn.com","port":"31321","uuid":"e13a0a61-87ae-3537-972b-8698afa8daa6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"V1Vmess|Auto_2","server":"120-241-236-214.nhost.00cdn.com","port":"31001","uuid":"4792ca6c-1f96-3c33-a06f-adbd17c0354d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|RU1_1","server":"i2.go001.buzz","port":31701,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"cd69.cdn.node.a.ddns-ounk.xyz"}},"server":"cd69.cdn.node.a.ddns-ounk.xyz","port":"13666","uuid":"de4cf0f4-89a8-366f-8cc3-df02722588d0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"cd69.cdn.node.a.ddns-ounk.xyz"}},"server":"cd69.cdn.node.a.ddns-ounk.xyz","port":"13503","uuid":"de4cf0f4-89a8-366f-8cc3-df02722588d0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"cd69.cdn.node.a.ddns-ounk.xyz"}},"server":"cd69.cdn.node.a.ddns-ounk.xyz","port":"13669","uuid":"de4cf0f4-89a8-366f-8cc3-df02722588d0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"V1IEPL|AAUTO","server":"i1.go001.buzz","port":31000,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"V1Vmess|TWB1","server":"120-241-236-214.nhost.00cdn.com","port":"31221","uuid":"e13a0a61-87ae-3537-972b-8698afa8daa6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|US1_2","server":"i1.go001.buzz","port":31601,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|RU1_2","server":"i2.go001.buzz","port":31701,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"vmess","name":"[V2]美国洛杉矶A03","ws-opts":{"path":"/usa3","headers":{"host":"baidu.com"}},"server":"baicao.hjspyto.cn","port":"32500","uuid":"c58b5a1f-af92-3108-997e-ca513b1c9747","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"V1Vmess|HKB1_2","server":"120-241-236-214.nhost.00cdn.com","port":"31121","uuid":"e13a0a61-87ae-3537-972b-8698afa8daa6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"V1IEPL|FR1_1","server":"i1.go001.buzz","port":31907,"cipher":"aes-256-gcm","password":"NHQq3B"}
+  - {"type":"ss","name":"V1IEPL|FR1_2","server":"i1.go001.buzz","port":31907,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"ss","name":"V1IEPL|NL1_2","server":"i1.go001.buzz","port":31902,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"V1IEPL|CH1","server":"i2.go001.buzz","port":31903,"cipher":"aes-256-gcm","password":"EhfSib"}
+  - {"type":"vmess","name":"V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8","headers":{"host":"cd69.cdn.node.a.ddns-ounk.xyz"}},"server":"cd69.cdn.node.a.ddns-ounk.xyz","port":"13665","uuid":"de4cf0f4-89a8-366f-8cc3-df02722588d0","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -159,606 +70,250 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - V2|美国B01|IDC|解锁
-      - V2|墨西哥B01|IDC
-      - V2|澳大利亚B01|IDC
-      - V2|越南B01|IDC
-      - V2|澳大利亚A01|IDC_1
-      - V2|越南A01|IDC
-      - V2|印度A01|IDC_1
-      - V2|澳大利亚A01|IDC_2
-      - V2|阿根廷A01|IDC_1
-      - V2|泰国A01|IDC_1
-      - TG频道:@hkaa0|新加坡|自建
-      - V2|印度A01|IDC_2
-      - US_17
-      - 🇭🇰香港03|原生解锁
-      - V2|印度A01|IDC_3
-      - V2|泰国A01|IDC_2
-      - V2|澳大利亚A01|IDC_3
-      - V2|墨西哥A01|IDC_1
-      - US_15
-      - US_10
-      - V2|韩国B01|IDC|解锁
-      - V2|日本A01|IDC|解锁_1
-      - US_4
-      - 🇭🇰香港|1X|流媒体|中转
-      - V2|日本B01|IDC|解锁
-      - US_9
-      - 🇭🇰香港|流媒体|直连|1X
-      - V2|日本A01|IDC|解锁_2
-      - 🇺🇸美国06|原生解锁IPV6
-      - V2|台湾B01|原生解锁
-      - V2|英国A01|IDC|解锁_1
-      - V2|台湾A01|原生解锁_1
-      - V2|新加坡B01|IDC|解锁
-      - 🇺🇸美国05|原生解锁IPV6
-      - V2|香港B01|IDC|解锁
-      - V2|香港A01|IDC|解锁_1
-      - V2|英国A01|IDC|解锁_2
-      - V2|墨西哥A01|IDC_2
-      - V2|墨西哥A01|IDC_3
-      - V2|日本A01|IDC|解锁_3
-      - V2|菲律宾A01|IDC
-      - V2|新加坡A01|IDC|解锁_1
-      - V2|香港A01|IDC|解锁_2
-      - V2|新加坡A01|IDC|解锁_2
-      - V2|台湾A01|原生解锁_2
-      - V2|台湾A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_1
-      - V2|新加坡A01|IDC|解锁_3
-      - V2|香港B01|原生解锁
-      - V2|英国B01|IDC|解锁
-      - V2|香港A01|原生解锁_1
-      - V2|土耳其B01|IDC
-      - V2|香港A01|原生解锁_2
-      - 🇨🇦加拿大|1X|中转
-      - V2|韩国A01|IDC|解锁_2
-      - US_5
-      - V2|土耳其A01|IDC_1
-      - V2|香港A01|IDC|解锁_3
-      - V2|香港A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_3
-      - V2|美国A01|IDC|解锁_1
-      - V2|美国A01|IDC|解锁_2
-      - V2|菲律宾B01|IDC
-      - V2|阿根廷B01|IDC
-      - V2|美国A01|IDC|解锁_3
-      - V2|泰国B01|IDC
-      - V2|泰国A01|IDC_3
-      - US_7
-      - V2|阿根廷A01|IDC_2
-      - V2|印度B01|IDC
+      - V1IEPL|NL1_1
+      - V1IEPL|DE1_1
+      - V1Vmess|USB1_1
+      - V1IEPL|DE1_2
+      - V1IEPL|GB1
+      - V1IEPL|CA1_1
       - US
-      - V2|阿根廷A01|IDC_3
+      - V1IEPL|US1_1
       - US_12
-      - V2|土耳其A01|IDC_2
-      - V2|土耳其A01|IDC_3
-      - 🇭🇰香港04|原生解锁
-      - SS|南非A01|IDC_1
-      - SS|英国A01|IDC|解锁_1
-      - SS|墨西哥B01|IDC
-      - SS|墨西哥A01|IDC_1
-      - SS|泰国A01|IDC_1
-      - SS|墨西哥A01|IDC_2
-      - SS|澳大利亚A01|IDC_1
-      - SS|英国B01|IDC|解锁
-      - SS|菲律宾A01|IDC_1
-      - SS|日本A01|IDC|解锁_1
-      - SS|墨西哥A01|IDC_3
-      - SS|英国A01|IDC|解锁_2
-      - SS|英国A01|IDC|解锁_3
-      - SS|菲律宾B01|IDC
-      - SS|菲律宾A01|IDC_2
-      - SS|香港A01|IDC|解锁_1
-      - 台湾IEPL5倍率
-      - SS|日本B01|IDC|解锁
-      - SS|香港B01|原生解锁
-      - SS|香港B01|IDC|解锁
-      - SS|香港A01|IDC|解锁_2
-      - SS|香港A01|原生解锁_1
-      - SS|日本A01|IDC|解锁_2
-      - SS|阿根廷B01|IDC
-      - SS|美国A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_1
-      - SS|新加坡A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_2
-      - SS|日本A01|IDC|解锁_3
-      - SS|新加坡B01|IDC|解锁
-      - SS|香港A01|原生解锁_2
-      - SS|土耳其B01|IDC
-      - SS|新加坡A01|IDC|解锁_2
-      - SS|美国A01|IDC|解锁_2
-      - SS|韩国A01|IDC|解锁_1
-      - SS|阿根廷A01|IDC_1
-      - SS|越南A01|IDC_1
-      - SS|香港A01|原生解锁_3
-      - SS|香港A01|IDC|解锁_3
-      - SS|土耳其A01|IDC_3
-      - SS|新加坡A01|IDC|解锁_3
-      - SS|韩国B01|IDC|解锁
-      - SS|韩国A01|IDC|解锁_2
-      - SS|南非B01|IDC
-      - SS|阿根廷A01|IDC_2
-      - SS|阿根廷A01|IDC_3
-      - SS|美国A01|IDC|解锁_3
-      - SS|菲律宾A01|IDC_3
-      - SS|泰国B01|IDC
-      - SS|泰国A01|IDC_2
-      - SS|南非A01|IDC_2
-      - SS|印度A01|IDC_1
-      - SS|俄罗斯B01|IDC
-      - SS|越南B01|IDC
-      - SS|印度A01|IDC_2
-      - SS|印度B01|IDC
-      - SS|泰国A01|IDC_3
-      - SS|俄罗斯A01|IDC_1
-      - SS|俄罗斯A01|IDC_2
-      - SS|俄罗斯A01|IDC_3
-      - SS|越南A01|IDC_2
-      - SS|澳大利亚B01|IDC
-      - SS|南非A01|IDC_3
-      - SS|越南A01|IDC_3
-      - SS|澳大利亚A01|IDC_2
+      - US_7
+      - V1IEPL|HK1
+      - V1IEPL|CA1_2
+      - V1Vmess|USB1_2
+      - US_5
+      - V1IEPL|IN1_1
+      - V1IEPL|HK2_1
+      - V1Vmess|Auto_1
+      - V1IEPL|IN1_2
+      - V1IEPL|SG1_1
+      - V1IEPL|TW1_1
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - 🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - TG频道:@hkaa0|美国|自建
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|
+      - V1IEPL|TW1_2
+      - V1IEPL|SG1_2
+      - V1IEPL|KR1_1
+      - US_15
+      - V1IEPL|TR1_1
+      - V1Vmess|HKB1_1
+      - V1Vmess|USA1
+      - V1IEPL|JP2Native_1
+      - V1IEPL|JP1_1
+      - V1IEPL|HK2_2
+      - V1IEPL|JP2Native_2
+      - V1IEPL|JP1_2
+      - V1IEPL|KR1_2
+      - US_9
+      - V1Vmess|JPB1_1
+      - V1IEPL|TR1_2
+      - US_4
+      - V1Vmess|JPB1_2
+      - V1Vmess|Auto_2
+      - V1IEPL|RU1_1
+      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray
+      - US_10
+      - V1IEPL|AAUTO
+      - V1Vmess|TWB1
+      - V1IEPL|US1_2
+      - V1IEPL|RU1_2
+      - '[V2]美国洛杉矶A03'
+      - V1Vmess|HKB1_2
+      - V1IEPL|FR1_1
+      - V1IEPL|FR1_2
+      - V1IEPL|NL1_2
+      - US_17
+      - V1IEPL|CH1
+      - V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - V2|美国B01|IDC|解锁
-      - V2|墨西哥B01|IDC
-      - V2|澳大利亚B01|IDC
-      - V2|越南B01|IDC
-      - V2|澳大利亚A01|IDC_1
-      - V2|越南A01|IDC
-      - V2|印度A01|IDC_1
-      - V2|澳大利亚A01|IDC_2
-      - V2|阿根廷A01|IDC_1
-      - V2|泰国A01|IDC_1
-      - TG频道:@hkaa0|新加坡|自建
-      - V2|印度A01|IDC_2
-      - US_17
-      - 🇭🇰香港03|原生解锁
-      - V2|印度A01|IDC_3
-      - V2|泰国A01|IDC_2
-      - V2|澳大利亚A01|IDC_3
-      - V2|墨西哥A01|IDC_1
-      - US_15
-      - US_10
-      - V2|韩国B01|IDC|解锁
-      - V2|日本A01|IDC|解锁_1
-      - US_4
-      - 🇭🇰香港|1X|流媒体|中转
-      - V2|日本B01|IDC|解锁
-      - US_9
-      - 🇭🇰香港|流媒体|直连|1X
-      - V2|日本A01|IDC|解锁_2
-      - 🇺🇸美国06|原生解锁IPV6
-      - V2|台湾B01|原生解锁
-      - V2|英国A01|IDC|解锁_1
-      - V2|台湾A01|原生解锁_1
-      - V2|新加坡B01|IDC|解锁
-      - 🇺🇸美国05|原生解锁IPV6
-      - V2|香港B01|IDC|解锁
-      - V2|香港A01|IDC|解锁_1
-      - V2|英国A01|IDC|解锁_2
-      - V2|墨西哥A01|IDC_2
-      - V2|墨西哥A01|IDC_3
-      - V2|日本A01|IDC|解锁_3
-      - V2|菲律宾A01|IDC
-      - V2|新加坡A01|IDC|解锁_1
-      - V2|香港A01|IDC|解锁_2
-      - V2|新加坡A01|IDC|解锁_2
-      - V2|台湾A01|原生解锁_2
-      - V2|台湾A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_1
-      - V2|新加坡A01|IDC|解锁_3
-      - V2|香港B01|原生解锁
-      - V2|英国B01|IDC|解锁
-      - V2|香港A01|原生解锁_1
-      - V2|土耳其B01|IDC
-      - V2|香港A01|原生解锁_2
-      - 🇨🇦加拿大|1X|中转
-      - V2|韩国A01|IDC|解锁_2
-      - US_5
-      - V2|土耳其A01|IDC_1
-      - V2|香港A01|IDC|解锁_3
-      - V2|香港A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_3
-      - V2|美国A01|IDC|解锁_1
-      - V2|美国A01|IDC|解锁_2
-      - V2|菲律宾B01|IDC
-      - V2|阿根廷B01|IDC
-      - V2|美国A01|IDC|解锁_3
-      - V2|泰国B01|IDC
-      - V2|泰国A01|IDC_3
-      - US_7
-      - V2|阿根廷A01|IDC_2
-      - V2|印度B01|IDC
+      - V1IEPL|NL1_1
+      - V1IEPL|DE1_1
+      - V1Vmess|USB1_1
+      - V1IEPL|DE1_2
+      - V1IEPL|GB1
+      - V1IEPL|CA1_1
       - US
-      - V2|阿根廷A01|IDC_3
+      - V1IEPL|US1_1
       - US_12
-      - V2|土耳其A01|IDC_2
-      - V2|土耳其A01|IDC_3
-      - 🇭🇰香港04|原生解锁
-      - SS|南非A01|IDC_1
-      - SS|英国A01|IDC|解锁_1
-      - SS|墨西哥B01|IDC
-      - SS|墨西哥A01|IDC_1
-      - SS|泰国A01|IDC_1
-      - SS|墨西哥A01|IDC_2
-      - SS|澳大利亚A01|IDC_1
-      - SS|英国B01|IDC|解锁
-      - SS|菲律宾A01|IDC_1
-      - SS|日本A01|IDC|解锁_1
-      - SS|墨西哥A01|IDC_3
-      - SS|英国A01|IDC|解锁_2
-      - SS|英国A01|IDC|解锁_3
-      - SS|菲律宾B01|IDC
-      - SS|菲律宾A01|IDC_2
-      - SS|香港A01|IDC|解锁_1
-      - 台湾IEPL5倍率
-      - SS|日本B01|IDC|解锁
-      - SS|香港B01|原生解锁
-      - SS|香港B01|IDC|解锁
-      - SS|香港A01|IDC|解锁_2
-      - SS|香港A01|原生解锁_1
-      - SS|日本A01|IDC|解锁_2
-      - SS|阿根廷B01|IDC
-      - SS|美国A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_1
-      - SS|新加坡A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_2
-      - SS|日本A01|IDC|解锁_3
-      - SS|新加坡B01|IDC|解锁
-      - SS|香港A01|原生解锁_2
-      - SS|土耳其B01|IDC
-      - SS|新加坡A01|IDC|解锁_2
-      - SS|美国A01|IDC|解锁_2
-      - SS|韩国A01|IDC|解锁_1
-      - SS|阿根廷A01|IDC_1
-      - SS|越南A01|IDC_1
-      - SS|香港A01|原生解锁_3
-      - SS|香港A01|IDC|解锁_3
-      - SS|土耳其A01|IDC_3
-      - SS|新加坡A01|IDC|解锁_3
-      - SS|韩国B01|IDC|解锁
-      - SS|韩国A01|IDC|解锁_2
-      - SS|南非B01|IDC
-      - SS|阿根廷A01|IDC_2
-      - SS|阿根廷A01|IDC_3
-      - SS|美国A01|IDC|解锁_3
-      - SS|菲律宾A01|IDC_3
-      - SS|泰国B01|IDC
-      - SS|泰国A01|IDC_2
-      - SS|南非A01|IDC_2
-      - SS|印度A01|IDC_1
-      - SS|俄罗斯B01|IDC
-      - SS|越南B01|IDC
-      - SS|印度A01|IDC_2
-      - SS|印度B01|IDC
-      - SS|泰国A01|IDC_3
-      - SS|俄罗斯A01|IDC_1
-      - SS|俄罗斯A01|IDC_2
-      - SS|俄罗斯A01|IDC_3
-      - SS|越南A01|IDC_2
-      - SS|澳大利亚B01|IDC
-      - SS|南非A01|IDC_3
-      - SS|越南A01|IDC_3
-      - SS|澳大利亚A01|IDC_2
+      - US_7
+      - V1IEPL|HK1
+      - V1IEPL|CA1_2
+      - V1Vmess|USB1_2
+      - US_5
+      - V1IEPL|IN1_1
+      - V1IEPL|HK2_1
+      - V1Vmess|Auto_1
+      - V1IEPL|IN1_2
+      - V1IEPL|SG1_1
+      - V1IEPL|TW1_1
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - 🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - TG频道:@hkaa0|美国|自建
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|
+      - V1IEPL|TW1_2
+      - V1IEPL|SG1_2
+      - V1IEPL|KR1_1
+      - US_15
+      - V1IEPL|TR1_1
+      - V1Vmess|HKB1_1
+      - V1Vmess|USA1
+      - V1IEPL|JP2Native_1
+      - V1IEPL|JP1_1
+      - V1IEPL|HK2_2
+      - V1IEPL|JP2Native_2
+      - V1IEPL|JP1_2
+      - V1IEPL|KR1_2
+      - US_9
+      - V1Vmess|JPB1_1
+      - V1IEPL|TR1_2
+      - US_4
+      - V1Vmess|JPB1_2
+      - V1Vmess|Auto_2
+      - V1IEPL|RU1_1
+      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray
+      - US_10
+      - V1IEPL|AAUTO
+      - V1Vmess|TWB1
+      - V1IEPL|US1_2
+      - V1IEPL|RU1_2
+      - '[V2]美国洛杉矶A03'
+      - V1Vmess|HKB1_2
+      - V1IEPL|FR1_1
+      - V1IEPL|FR1_2
+      - V1IEPL|NL1_2
+      - US_17
+      - V1IEPL|CH1
+      - V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - V2|美国B01|IDC|解锁
-      - V2|墨西哥B01|IDC
-      - V2|澳大利亚B01|IDC
-      - V2|越南B01|IDC
-      - V2|澳大利亚A01|IDC_1
-      - V2|越南A01|IDC
-      - V2|印度A01|IDC_1
-      - V2|澳大利亚A01|IDC_2
-      - V2|阿根廷A01|IDC_1
-      - V2|泰国A01|IDC_1
-      - TG频道:@hkaa0|新加坡|自建
-      - V2|印度A01|IDC_2
-      - US_17
-      - 🇭🇰香港03|原生解锁
-      - V2|印度A01|IDC_3
-      - V2|泰国A01|IDC_2
-      - V2|澳大利亚A01|IDC_3
-      - V2|墨西哥A01|IDC_1
-      - US_15
-      - US_10
-      - V2|韩国B01|IDC|解锁
-      - V2|日本A01|IDC|解锁_1
-      - US_4
-      - 🇭🇰香港|1X|流媒体|中转
-      - V2|日本B01|IDC|解锁
-      - US_9
-      - 🇭🇰香港|流媒体|直连|1X
-      - V2|日本A01|IDC|解锁_2
-      - 🇺🇸美国06|原生解锁IPV6
-      - V2|台湾B01|原生解锁
-      - V2|英国A01|IDC|解锁_1
-      - V2|台湾A01|原生解锁_1
-      - V2|新加坡B01|IDC|解锁
-      - 🇺🇸美国05|原生解锁IPV6
-      - V2|香港B01|IDC|解锁
-      - V2|香港A01|IDC|解锁_1
-      - V2|英国A01|IDC|解锁_2
-      - V2|墨西哥A01|IDC_2
-      - V2|墨西哥A01|IDC_3
-      - V2|日本A01|IDC|解锁_3
-      - V2|菲律宾A01|IDC
-      - V2|新加坡A01|IDC|解锁_1
-      - V2|香港A01|IDC|解锁_2
-      - V2|新加坡A01|IDC|解锁_2
-      - V2|台湾A01|原生解锁_2
-      - V2|台湾A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_1
-      - V2|新加坡A01|IDC|解锁_3
-      - V2|香港B01|原生解锁
-      - V2|英国B01|IDC|解锁
-      - V2|香港A01|原生解锁_1
-      - V2|土耳其B01|IDC
-      - V2|香港A01|原生解锁_2
-      - 🇨🇦加拿大|1X|中转
-      - V2|韩国A01|IDC|解锁_2
-      - US_5
-      - V2|土耳其A01|IDC_1
-      - V2|香港A01|IDC|解锁_3
-      - V2|香港A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_3
-      - V2|美国A01|IDC|解锁_1
-      - V2|美国A01|IDC|解锁_2
-      - V2|菲律宾B01|IDC
-      - V2|阿根廷B01|IDC
-      - V2|美国A01|IDC|解锁_3
-      - V2|泰国B01|IDC
-      - V2|泰国A01|IDC_3
-      - US_7
-      - V2|阿根廷A01|IDC_2
-      - V2|印度B01|IDC
+      - V1IEPL|NL1_1
+      - V1IEPL|DE1_1
+      - V1Vmess|USB1_1
+      - V1IEPL|DE1_2
+      - V1IEPL|GB1
+      - V1IEPL|CA1_1
       - US
-      - V2|阿根廷A01|IDC_3
+      - V1IEPL|US1_1
       - US_12
-      - V2|土耳其A01|IDC_2
-      - V2|土耳其A01|IDC_3
-      - 🇭🇰香港04|原生解锁
-      - SS|南非A01|IDC_1
-      - SS|英国A01|IDC|解锁_1
-      - SS|墨西哥B01|IDC
-      - SS|墨西哥A01|IDC_1
-      - SS|泰国A01|IDC_1
-      - SS|墨西哥A01|IDC_2
-      - SS|澳大利亚A01|IDC_1
-      - SS|英国B01|IDC|解锁
-      - SS|菲律宾A01|IDC_1
-      - SS|日本A01|IDC|解锁_1
-      - SS|墨西哥A01|IDC_3
-      - SS|英国A01|IDC|解锁_2
-      - SS|英国A01|IDC|解锁_3
-      - SS|菲律宾B01|IDC
-      - SS|菲律宾A01|IDC_2
-      - SS|香港A01|IDC|解锁_1
-      - 台湾IEPL5倍率
-      - SS|日本B01|IDC|解锁
-      - SS|香港B01|原生解锁
-      - SS|香港B01|IDC|解锁
-      - SS|香港A01|IDC|解锁_2
-      - SS|香港A01|原生解锁_1
-      - SS|日本A01|IDC|解锁_2
-      - SS|阿根廷B01|IDC
-      - SS|美国A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_1
-      - SS|新加坡A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_2
-      - SS|日本A01|IDC|解锁_3
-      - SS|新加坡B01|IDC|解锁
-      - SS|香港A01|原生解锁_2
-      - SS|土耳其B01|IDC
-      - SS|新加坡A01|IDC|解锁_2
-      - SS|美国A01|IDC|解锁_2
-      - SS|韩国A01|IDC|解锁_1
-      - SS|阿根廷A01|IDC_1
-      - SS|越南A01|IDC_1
-      - SS|香港A01|原生解锁_3
-      - SS|香港A01|IDC|解锁_3
-      - SS|土耳其A01|IDC_3
-      - SS|新加坡A01|IDC|解锁_3
-      - SS|韩国B01|IDC|解锁
-      - SS|韩国A01|IDC|解锁_2
-      - SS|南非B01|IDC
-      - SS|阿根廷A01|IDC_2
-      - SS|阿根廷A01|IDC_3
-      - SS|美国A01|IDC|解锁_3
-      - SS|菲律宾A01|IDC_3
-      - SS|泰国B01|IDC
-      - SS|泰国A01|IDC_2
-      - SS|南非A01|IDC_2
-      - SS|印度A01|IDC_1
-      - SS|俄罗斯B01|IDC
-      - SS|越南B01|IDC
-      - SS|印度A01|IDC_2
-      - SS|印度B01|IDC
-      - SS|泰国A01|IDC_3
-      - SS|俄罗斯A01|IDC_1
-      - SS|俄罗斯A01|IDC_2
-      - SS|俄罗斯A01|IDC_3
-      - SS|越南A01|IDC_2
-      - SS|澳大利亚B01|IDC
-      - SS|南非A01|IDC_3
-      - SS|越南A01|IDC_3
-      - SS|澳大利亚A01|IDC_2
+      - US_7
+      - V1IEPL|HK1
+      - V1IEPL|CA1_2
+      - V1Vmess|USB1_2
+      - US_5
+      - V1IEPL|IN1_1
+      - V1IEPL|HK2_1
+      - V1Vmess|Auto_1
+      - V1IEPL|IN1_2
+      - V1IEPL|SG1_1
+      - V1IEPL|TW1_1
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - 🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - TG频道:@hkaa0|美国|自建
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|
+      - V1IEPL|TW1_2
+      - V1IEPL|SG1_2
+      - V1IEPL|KR1_1
+      - US_15
+      - V1IEPL|TR1_1
+      - V1Vmess|HKB1_1
+      - V1Vmess|USA1
+      - V1IEPL|JP2Native_1
+      - V1IEPL|JP1_1
+      - V1IEPL|HK2_2
+      - V1IEPL|JP2Native_2
+      - V1IEPL|JP1_2
+      - V1IEPL|KR1_2
+      - US_9
+      - V1Vmess|JPB1_1
+      - V1IEPL|TR1_2
+      - US_4
+      - V1Vmess|JPB1_2
+      - V1Vmess|Auto_2
+      - V1IEPL|RU1_1
+      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray
+      - US_10
+      - V1IEPL|AAUTO
+      - V1Vmess|TWB1
+      - V1IEPL|US1_2
+      - V1IEPL|RU1_2
+      - '[V2]美国洛杉矶A03'
+      - V1Vmess|HKB1_2
+      - V1IEPL|FR1_1
+      - V1IEPL|FR1_2
+      - V1IEPL|NL1_2
+      - US_17
+      - V1IEPL|CH1
+      - V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - V2|美国B01|IDC|解锁
-      - V2|墨西哥B01|IDC
-      - V2|澳大利亚B01|IDC
-      - V2|越南B01|IDC
-      - V2|澳大利亚A01|IDC_1
-      - V2|越南A01|IDC
-      - V2|印度A01|IDC_1
-      - V2|澳大利亚A01|IDC_2
-      - V2|阿根廷A01|IDC_1
-      - V2|泰国A01|IDC_1
-      - TG频道:@hkaa0|新加坡|自建
-      - V2|印度A01|IDC_2
-      - US_17
-      - 🇭🇰香港03|原生解锁
-      - V2|印度A01|IDC_3
-      - V2|泰国A01|IDC_2
-      - V2|澳大利亚A01|IDC_3
-      - V2|墨西哥A01|IDC_1
-      - US_15
-      - US_10
-      - V2|韩国B01|IDC|解锁
-      - V2|日本A01|IDC|解锁_1
-      - US_4
-      - 🇭🇰香港|1X|流媒体|中转
-      - V2|日本B01|IDC|解锁
-      - US_9
-      - 🇭🇰香港|流媒体|直连|1X
-      - V2|日本A01|IDC|解锁_2
-      - 🇺🇸美国06|原生解锁IPV6
-      - V2|台湾B01|原生解锁
-      - V2|英国A01|IDC|解锁_1
-      - V2|台湾A01|原生解锁_1
-      - V2|新加坡B01|IDC|解锁
-      - 🇺🇸美国05|原生解锁IPV6
-      - V2|香港B01|IDC|解锁
-      - V2|香港A01|IDC|解锁_1
-      - V2|英国A01|IDC|解锁_2
-      - V2|墨西哥A01|IDC_2
-      - V2|墨西哥A01|IDC_3
-      - V2|日本A01|IDC|解锁_3
-      - V2|菲律宾A01|IDC
-      - V2|新加坡A01|IDC|解锁_1
-      - V2|香港A01|IDC|解锁_2
-      - V2|新加坡A01|IDC|解锁_2
-      - V2|台湾A01|原生解锁_2
-      - V2|台湾A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_1
-      - V2|新加坡A01|IDC|解锁_3
-      - V2|香港B01|原生解锁
-      - V2|英国B01|IDC|解锁
-      - V2|香港A01|原生解锁_1
-      - V2|土耳其B01|IDC
-      - V2|香港A01|原生解锁_2
-      - 🇨🇦加拿大|1X|中转
-      - V2|韩国A01|IDC|解锁_2
-      - US_5
-      - V2|土耳其A01|IDC_1
-      - V2|香港A01|IDC|解锁_3
-      - V2|香港A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_3
-      - V2|美国A01|IDC|解锁_1
-      - V2|美国A01|IDC|解锁_2
-      - V2|菲律宾B01|IDC
-      - V2|阿根廷B01|IDC
-      - V2|美国A01|IDC|解锁_3
-      - V2|泰国B01|IDC
-      - V2|泰国A01|IDC_3
-      - US_7
-      - V2|阿根廷A01|IDC_2
-      - V2|印度B01|IDC
+      - V1IEPL|NL1_1
+      - V1IEPL|DE1_1
+      - V1Vmess|USB1_1
+      - V1IEPL|DE1_2
+      - V1IEPL|GB1
+      - V1IEPL|CA1_1
       - US
-      - V2|阿根廷A01|IDC_3
+      - V1IEPL|US1_1
       - US_12
-      - V2|土耳其A01|IDC_2
-      - V2|土耳其A01|IDC_3
-      - 🇭🇰香港04|原生解锁
-      - SS|南非A01|IDC_1
-      - SS|英国A01|IDC|解锁_1
-      - SS|墨西哥B01|IDC
-      - SS|墨西哥A01|IDC_1
-      - SS|泰国A01|IDC_1
-      - SS|墨西哥A01|IDC_2
-      - SS|澳大利亚A01|IDC_1
-      - SS|英国B01|IDC|解锁
-      - SS|菲律宾A01|IDC_1
-      - SS|日本A01|IDC|解锁_1
-      - SS|墨西哥A01|IDC_3
-      - SS|英国A01|IDC|解锁_2
-      - SS|英国A01|IDC|解锁_3
-      - SS|菲律宾B01|IDC
-      - SS|菲律宾A01|IDC_2
-      - SS|香港A01|IDC|解锁_1
-      - 台湾IEPL5倍率
-      - SS|日本B01|IDC|解锁
-      - SS|香港B01|原生解锁
-      - SS|香港B01|IDC|解锁
-      - SS|香港A01|IDC|解锁_2
-      - SS|香港A01|原生解锁_1
-      - SS|日本A01|IDC|解锁_2
-      - SS|阿根廷B01|IDC
-      - SS|美国A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_1
-      - SS|新加坡A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_2
-      - SS|日本A01|IDC|解锁_3
-      - SS|新加坡B01|IDC|解锁
-      - SS|香港A01|原生解锁_2
-      - SS|土耳其B01|IDC
-      - SS|新加坡A01|IDC|解锁_2
-      - SS|美国A01|IDC|解锁_2
-      - SS|韩国A01|IDC|解锁_1
-      - SS|阿根廷A01|IDC_1
-      - SS|越南A01|IDC_1
-      - SS|香港A01|原生解锁_3
-      - SS|香港A01|IDC|解锁_3
-      - SS|土耳其A01|IDC_3
-      - SS|新加坡A01|IDC|解锁_3
-      - SS|韩国B01|IDC|解锁
-      - SS|韩国A01|IDC|解锁_2
-      - SS|南非B01|IDC
-      - SS|阿根廷A01|IDC_2
-      - SS|阿根廷A01|IDC_3
-      - SS|美国A01|IDC|解锁_3
-      - SS|菲律宾A01|IDC_3
-      - SS|泰国B01|IDC
-      - SS|泰国A01|IDC_2
-      - SS|南非A01|IDC_2
-      - SS|印度A01|IDC_1
-      - SS|俄罗斯B01|IDC
-      - SS|越南B01|IDC
-      - SS|印度A01|IDC_2
-      - SS|印度B01|IDC
-      - SS|泰国A01|IDC_3
-      - SS|俄罗斯A01|IDC_1
-      - SS|俄罗斯A01|IDC_2
-      - SS|俄罗斯A01|IDC_3
-      - SS|越南A01|IDC_2
-      - SS|澳大利亚B01|IDC
-      - SS|南非A01|IDC_3
-      - SS|越南A01|IDC_3
-      - SS|澳大利亚A01|IDC_2
+      - US_7
+      - V1IEPL|HK1
+      - V1IEPL|CA1_2
+      - V1Vmess|USB1_2
+      - US_5
+      - V1IEPL|IN1_1
+      - V1IEPL|HK2_1
+      - V1Vmess|Auto_1
+      - V1IEPL|IN1_2
+      - V1IEPL|SG1_1
+      - V1IEPL|TW1_1
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - 🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - TG频道:@hkaa0|美国|自建
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|
+      - V1IEPL|TW1_2
+      - V1IEPL|SG1_2
+      - V1IEPL|KR1_1
+      - US_15
+      - V1IEPL|TR1_1
+      - V1Vmess|HKB1_1
+      - V1Vmess|USA1
+      - V1IEPL|JP2Native_1
+      - V1IEPL|JP1_1
+      - V1IEPL|HK2_2
+      - V1IEPL|JP2Native_2
+      - V1IEPL|JP1_2
+      - V1IEPL|KR1_2
+      - US_9
+      - V1Vmess|JPB1_1
+      - V1IEPL|TR1_2
+      - US_4
+      - V1Vmess|JPB1_2
+      - V1Vmess|Auto_2
+      - V1IEPL|RU1_1
+      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray
+      - US_10
+      - V1IEPL|AAUTO
+      - V1Vmess|TWB1
+      - V1IEPL|US1_2
+      - V1IEPL|RU1_2
+      - '[V2]美国洛杉矶A03'
+      - V1Vmess|HKB1_2
+      - V1IEPL|FR1_1
+      - V1IEPL|FR1_2
+      - V1IEPL|NL1_2
+      - US_17
+      - V1IEPL|CH1
+      - V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -778,152 +333,63 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - V2|美国B01|IDC|解锁
-      - V2|墨西哥B01|IDC
-      - V2|澳大利亚B01|IDC
-      - V2|越南B01|IDC
-      - V2|澳大利亚A01|IDC_1
-      - V2|越南A01|IDC
-      - V2|印度A01|IDC_1
-      - V2|澳大利亚A01|IDC_2
-      - V2|阿根廷A01|IDC_1
-      - V2|泰国A01|IDC_1
-      - TG频道:@hkaa0|新加坡|自建
-      - V2|印度A01|IDC_2
-      - US_17
-      - 🇭🇰香港03|原生解锁
-      - V2|印度A01|IDC_3
-      - V2|泰国A01|IDC_2
-      - V2|澳大利亚A01|IDC_3
-      - V2|墨西哥A01|IDC_1
-      - US_15
-      - US_10
-      - V2|韩国B01|IDC|解锁
-      - V2|日本A01|IDC|解锁_1
-      - US_4
-      - 🇭🇰香港|1X|流媒体|中转
-      - V2|日本B01|IDC|解锁
-      - US_9
-      - 🇭🇰香港|流媒体|直连|1X
-      - V2|日本A01|IDC|解锁_2
-      - 🇺🇸美国06|原生解锁IPV6
-      - V2|台湾B01|原生解锁
-      - V2|英国A01|IDC|解锁_1
-      - V2|台湾A01|原生解锁_1
-      - V2|新加坡B01|IDC|解锁
-      - 🇺🇸美国05|原生解锁IPV6
-      - V2|香港B01|IDC|解锁
-      - V2|香港A01|IDC|解锁_1
-      - V2|英国A01|IDC|解锁_2
-      - V2|墨西哥A01|IDC_2
-      - V2|墨西哥A01|IDC_3
-      - V2|日本A01|IDC|解锁_3
-      - V2|菲律宾A01|IDC
-      - V2|新加坡A01|IDC|解锁_1
-      - V2|香港A01|IDC|解锁_2
-      - V2|新加坡A01|IDC|解锁_2
-      - V2|台湾A01|原生解锁_2
-      - V2|台湾A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_1
-      - V2|新加坡A01|IDC|解锁_3
-      - V2|香港B01|原生解锁
-      - V2|英国B01|IDC|解锁
-      - V2|香港A01|原生解锁_1
-      - V2|土耳其B01|IDC
-      - V2|香港A01|原生解锁_2
-      - 🇨🇦加拿大|1X|中转
-      - V2|韩国A01|IDC|解锁_2
-      - US_5
-      - V2|土耳其A01|IDC_1
-      - V2|香港A01|IDC|解锁_3
-      - V2|香港A01|原生解锁_3
-      - V2|韩国A01|IDC|解锁_3
-      - V2|美国A01|IDC|解锁_1
-      - V2|美国A01|IDC|解锁_2
-      - V2|菲律宾B01|IDC
-      - V2|阿根廷B01|IDC
-      - V2|美国A01|IDC|解锁_3
-      - V2|泰国B01|IDC
-      - V2|泰国A01|IDC_3
-      - US_7
-      - V2|阿根廷A01|IDC_2
-      - V2|印度B01|IDC
+      - V1IEPL|NL1_1
+      - V1IEPL|DE1_1
+      - V1Vmess|USB1_1
+      - V1IEPL|DE1_2
+      - V1IEPL|GB1
+      - V1IEPL|CA1_1
       - US
-      - V2|阿根廷A01|IDC_3
+      - V1IEPL|US1_1
       - US_12
-      - V2|土耳其A01|IDC_2
-      - V2|土耳其A01|IDC_3
-      - 🇭🇰香港04|原生解锁
-      - SS|南非A01|IDC_1
-      - SS|英国A01|IDC|解锁_1
-      - SS|墨西哥B01|IDC
-      - SS|墨西哥A01|IDC_1
-      - SS|泰国A01|IDC_1
-      - SS|墨西哥A01|IDC_2
-      - SS|澳大利亚A01|IDC_1
-      - SS|英国B01|IDC|解锁
-      - SS|菲律宾A01|IDC_1
-      - SS|日本A01|IDC|解锁_1
-      - SS|墨西哥A01|IDC_3
-      - SS|英国A01|IDC|解锁_2
-      - SS|英国A01|IDC|解锁_3
-      - SS|菲律宾B01|IDC
-      - SS|菲律宾A01|IDC_2
-      - SS|香港A01|IDC|解锁_1
-      - 台湾IEPL5倍率
-      - SS|日本B01|IDC|解锁
-      - SS|香港B01|原生解锁
-      - SS|香港B01|IDC|解锁
-      - SS|香港A01|IDC|解锁_2
-      - SS|香港A01|原生解锁_1
-      - SS|日本A01|IDC|解锁_2
-      - SS|阿根廷B01|IDC
-      - SS|美国A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_1
-      - SS|新加坡A01|IDC|解锁_1
-      - SS|土耳其A01|IDC_2
-      - SS|日本A01|IDC|解锁_3
-      - SS|新加坡B01|IDC|解锁
-      - SS|香港A01|原生解锁_2
-      - SS|土耳其B01|IDC
-      - SS|新加坡A01|IDC|解锁_2
-      - SS|美国A01|IDC|解锁_2
-      - SS|韩国A01|IDC|解锁_1
-      - SS|阿根廷A01|IDC_1
-      - SS|越南A01|IDC_1
-      - SS|香港A01|原生解锁_3
-      - SS|香港A01|IDC|解锁_3
-      - SS|土耳其A01|IDC_3
-      - SS|新加坡A01|IDC|解锁_3
-      - SS|韩国B01|IDC|解锁
-      - SS|韩国A01|IDC|解锁_2
-      - SS|南非B01|IDC
-      - SS|阿根廷A01|IDC_2
-      - SS|阿根廷A01|IDC_3
-      - SS|美国A01|IDC|解锁_3
-      - SS|菲律宾A01|IDC_3
-      - SS|泰国B01|IDC
-      - SS|泰国A01|IDC_2
-      - SS|南非A01|IDC_2
-      - SS|印度A01|IDC_1
-      - SS|俄罗斯B01|IDC
-      - SS|越南B01|IDC
-      - SS|印度A01|IDC_2
-      - SS|印度B01|IDC
-      - SS|泰国A01|IDC_3
-      - SS|俄罗斯A01|IDC_1
-      - SS|俄罗斯A01|IDC_2
-      - SS|俄罗斯A01|IDC_3
-      - SS|越南A01|IDC_2
-      - SS|澳大利亚B01|IDC
-      - SS|南非A01|IDC_3
-      - SS|越南A01|IDC_3
-      - SS|澳大利亚A01|IDC_2
+      - US_7
+      - V1IEPL|HK1
+      - V1IEPL|CA1_2
+      - V1Vmess|USB1_2
+      - US_5
+      - V1IEPL|IN1_1
+      - V1IEPL|HK2_1
+      - V1Vmess|Auto_1
+      - V1IEPL|IN1_2
+      - V1IEPL|SG1_1
+      - V1IEPL|TW1_1
       - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F2|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - 🇺🇲美国|25倍率|簽到可免費使用|體驗節點|F5|官網|ninihao.cc|体验节点不等于付费节点效果喔|
-      - TG频道:@hkaa0|美国|自建
-      - 🇺🇲美国|2.5倍率|簽到可免費使用|體驗節點|F1|官網|ninihao.cc|体验节点不等于付费节点效果喔|
+      - V1IEPL|TW1_2
+      - V1IEPL|SG1_2
+      - V1IEPL|KR1_1
+      - US_15
+      - V1IEPL|TR1_1
+      - V1Vmess|HKB1_1
+      - V1Vmess|USA1
+      - V1IEPL|JP2Native_1
+      - V1IEPL|JP1_1
+      - V1IEPL|HK2_2
+      - V1IEPL|JP2Native_2
+      - V1IEPL|JP1_2
+      - V1IEPL|KR1_2
+      - US_9
+      - V1Vmess|JPB1_1
+      - V1IEPL|TR1_2
+      - US_4
+      - V1Vmess|JPB1_2
+      - V1Vmess|Auto_2
+      - V1IEPL|RU1_1
+      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3503|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3669|广东X-香港HKT|解锁|x1.5|V2ray
+      - US_10
+      - V1IEPL|AAUTO
+      - V1Vmess|TWB1
+      - V1IEPL|US1_2
+      - V1IEPL|RU1_2
+      - '[V2]美国洛杉矶A03'
+      - V1Vmess|HKB1_2
+      - V1IEPL|FR1_1
+      - V1IEPL|FR1_2
+      - V1IEPL|NL1_2
+      - US_17
+      - V1IEPL|CH1
+      - V4-中转3665|广东X-香港HKT|解锁|x1.5|V2ray
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
