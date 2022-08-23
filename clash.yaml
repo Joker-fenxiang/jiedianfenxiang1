@@ -5,37 +5,48 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"vmess","name":"挪威-443","ws-opts":{"path":"/"},"server":"51.13.65.25","port":"443","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"@allporter_韩国3","server":"amdkr.ptuu.ml","port":443,"uuid":"fa0850139f3142a2a8024c668c9ea60e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/987","servername":"amdkr.ptuu.ml"}}
-  - {"type":"vmess","name":"🇺🇲洛杉矶备用","ws-opts":{"path":"/"},"server":"20.25.80.152","port":"10020","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Trojan台湾","server":"www.cjf0423.ga","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.ga"}
-  - {"type":"vmess","name":"美国01","ws-opts":{"path":"/us01"},"server":"us01.jjzgy.live","port":"10550","uuid":"cf55ef14-cec1-4e88-a57e-4a1df36200a0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Trojan美国🇺🇸","server":"www.cjf0423.ml","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.ml"}
-  - {"type":"vmess","name":"🇸🇬新加坡2-443","ws-opts":{"path":"/"},"server":"20.228.237.18","port":"443","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Trojan新加坡🇸🇬","server":"www.cjf0423.tk","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.tk"}
-  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰LV1|香港7-80","ws-opts":{"path":"/"},"server":"20.205.119.14","port":"80","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇯🇵LV1|日本2-80","ws-opts":{"path":"/"},"server":"20.78.36.238","port":"80","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇲LV1|美国2","ws-opts":{"path":"/"},"server":"20.239.174.93","port":"10030","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰香港1-443-备用","ws-opts":{"path":"/"},"server":"20.239.197.114","port":"443","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰香港5-80","ws-opts":{"path":"/"},"server":"20.239.163.111","port":"80","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇲LV1|美国1","ws-opts":{"path":"/"},"server":"20.228.174.18","port":"10040","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰LV1|香港3-443","ws-opts":{"path":"/"},"server":"20.239.163.108","port":"443","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇭🇰LV1|香港1","ws-opts":{"path":"/"},"server":"20.239.193.194","port":"80","uuid":"eb2658a6-1bc8-3ee3-84d0-32fbe8718247","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"香港¹-mojie.ws热情赞助","server":"hk1a2.nodegz.top","port":22000,"password":"67ac07b6-2630-39b3-9dd3-4d661f1e1ad6","udp":true,"skip-cert-verify":true,"sni":"hk1a2.nodegz.top"}
-  - {"type":"trojan","name":"新加坡-1-Trojan","server":"trojannmfan8.ripwallllc.com","port":443,"password":"7f0dcf73-bc93-4038-b683-c4728f06e7d7","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"新加坡01|Netflix解锁|1.0","ws-opts":{"path":"/soda"},"server":"azcdn-videofs01.acfunvideo.bilicdn.net","port":"10010","uuid":"64f47958-e824-35bd-b6cc-71729de4474e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"试用-日本01","ws-opts":{"path":"/free01"},"server":"free01.jjzgy.live","port":"10550","uuid":"cf55ef14-cec1-4e88-a57e-4a1df36200a0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"韩国🇰🇷春川｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"905","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"US","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"韩国-1-Trojan","server":"trojannmfan6.ripwallllc.com","port":443,"password":"7f0dcf73-bc93-4038-b683-c4728f06e7d7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"美國綜合_1","server":"us.tcpbbr.net","port":443,"password":"80bcf4f2-12f7-11ed-bb74-f23c9164ca5d","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Trojan美国🇺🇸","server":"www.cjf0423.ml","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.ml"}
+  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"vmess","name":"距离下次重置剩余：8天","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"美國綜合_2","server":"us.tcpbbr.net","port":443,"password":"80bcf4f2-12f7-11ed-bb74-f23c9164ca5d","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"003日本|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a03-jp1.moontoday.uk"}},"server":"a03-jp1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"印度🇮🇳｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"906","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡🇸🇬","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"xjpdo.356930.xyz"}},"server":"xjpdo.356930.xyz","port":"1008","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本🇯🇵｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgwrbdj.356930.xyz"}},"server":"jgwrbdj.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"爱尔兰🇮🇪柏林｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1008","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"80︱1Gdps︱美国1号","ws-opts":{"path":"/"},"server":"su1.chaoxn.top","port":"80","uuid":"49d7b427-d472-47cb-8c28-015a5553092f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新泽西州纽瓦克🇺🇸","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode08.356930.xyz"}},"server":"ode08.356930.xyz","port":"1000","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国🇺🇸旧金山｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"902","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Trojan新加坡🇸🇬","server":"www.cjf0423.tk","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.tk"}
+  - {"type":"vmess","name":"剩余流量：79.97GB","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"加利福尼亚州弗里蒙特🇺🇸","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode06.356930.xyz"}},"server":"ode06.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"爱尔兰🇮🇪柏林｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"arl.356930.xyz"}},"server":"arl.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"西班牙🇪🇸马德里｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"xby.356930.xyz"}},"server":"xby.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡🇸🇬|高速节点","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"awscs.356930.xyz"}},"server":"awscs.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"001香港|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"西班牙🇪🇸｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1007","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"米兰｜Arm","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgw03.356930.xyz"}},"server":"jgw03.356930.xyz","port":"1000","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"荷兰🇳🇱｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1009","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰香港丝袜奶茶02-D","server":"20.239.185.238","port":12339,"password":"6150c97e-ed9e-4759-9134-90aa5352d638","udp":true,"skip-cert-verify":true,"sni":"20-187-95-105.nhost.00cdn.com"}
+  - {"type":"vmess","name":"加拿大🇨🇦｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"901","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"澳大利亚悉尼🇦🇺","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode07.356930.xyz"}},"server":"ode07.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"新加坡🇸🇬｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"903","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"香港🇭🇰｜高速｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"az20005.356930.xyz"}},"server":"az20005.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"美国🇺🇸旧金山","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"dojjs.356930.xyz"}},"server":"dojjs.356930.xyz","port":"1007","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡🇸🇬｜备用","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode02.356930.xyz"}},"server":"ode02.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"印度🇮🇳","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"doyd.356930.xyz"}},"server":"doyd.356930.xyz","port":"1009","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"002台湾|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a02-tw2.moontoday.uk"}},"server":"a02-tw2.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,146 +55,190 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 挪威-443
-      - '@allporter_韩国3'
-      - 🇺🇲洛杉矶备用
-      - Trojan台湾
-      - 美国01
-      - US_15
-      - US_10
-      - Trojan美国🇺🇸
-      - 🇸🇬新加坡2-443
-      - US_4
-      - Trojan新加坡🇸🇬
-      - US_9
-      - 🇭🇰LV1|香港7-80
-      - 🇯🇵LV1|日本2-80
-      - 🇺🇲LV1|美国2
-      - US_7
-      - 🇭🇰香港1-443-备用
-      - 🇭🇰香港5-80
-      - 🇺🇲LV1|美国1
-      - 🇭🇰LV1|香港3-443
-      - 🇭🇰LV1|香港1
-      - 香港¹-mojie.ws热情赞助
-      - 新加坡-1-Trojan
-      - 新加坡01|Netflix解锁|1.0
-      - US_12
-      - US_17
-      - 试用-日本01
+      - 韩国🇰🇷春川｜中转｜3X
       - US
-      - 韩国-1-Trojan
+      - 美國綜合_1
+      - Trojan美国🇺🇸
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 距离下次重置剩余：8天
       - US_5
+      - 美國綜合_2
+      - 003日本|直接不中转|月神云
+      - 印度🇮🇳｜中转｜3X
+      - 新加坡🇸🇬
+      - 日本🇯🇵｜解锁Netflix
+      - 爱尔兰🇮🇪柏林｜中转｜3X
+      - 80︱1Gdps︱美国1号
+      - 新泽西州纽瓦克🇺🇸
+      - US_10
+      - 美国🇺🇸旧金山｜中转｜3X
+      - US_15
+      - Trojan新加坡🇸🇬
+      - 剩余流量：79.97GB
+      - 加利福尼亚州弗里蒙特🇺🇸
+      - US_4
+      - 爱尔兰🇮🇪柏林｜解锁Netflix
+      - 西班牙🇪🇸马德里｜解锁Netflix
+      - US_9
+      - US_12
+      - 新加坡🇸🇬|高速节点
+      - US_17
+      - 001香港|直接不中转|月神云
+      - 西班牙🇪🇸｜中转｜3X
+      - 米兰｜Arm
+      - 荷兰🇳🇱｜中转｜3X
+      - 🇭🇰香港丝袜奶茶02-D
+      - 加拿大🇨🇦｜中转｜3X
+      - 澳大利亚悉尼🇦🇺
+      - 新加坡🇸🇬｜中转｜3X
+      - 香港🇭🇰｜高速｜3X
+      - 美国🇺🇸旧金山
+      - US_7
+      - 新加坡🇸🇬｜备用
+      - 印度🇮🇳
+      - 002台湾|直接不中转|月神云
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 挪威-443
-      - '@allporter_韩国3'
-      - 🇺🇲洛杉矶备用
-      - Trojan台湾
-      - 美国01
-      - US_15
-      - US_10
-      - Trojan美国🇺🇸
-      - 🇸🇬新加坡2-443
-      - US_4
-      - Trojan新加坡🇸🇬
-      - US_9
-      - 🇭🇰LV1|香港7-80
-      - 🇯🇵LV1|日本2-80
-      - 🇺🇲LV1|美国2
-      - US_7
-      - 🇭🇰香港1-443-备用
-      - 🇭🇰香港5-80
-      - 🇺🇲LV1|美国1
-      - 🇭🇰LV1|香港3-443
-      - 🇭🇰LV1|香港1
-      - 香港¹-mojie.ws热情赞助
-      - 新加坡-1-Trojan
-      - 新加坡01|Netflix解锁|1.0
-      - US_12
-      - US_17
-      - 试用-日本01
+      - 韩国🇰🇷春川｜中转｜3X
       - US
-      - 韩国-1-Trojan
+      - 美國綜合_1
+      - Trojan美国🇺🇸
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 距离下次重置剩余：8天
       - US_5
+      - 美國綜合_2
+      - 003日本|直接不中转|月神云
+      - 印度🇮🇳｜中转｜3X
+      - 新加坡🇸🇬
+      - 日本🇯🇵｜解锁Netflix
+      - 爱尔兰🇮🇪柏林｜中转｜3X
+      - 80︱1Gdps︱美国1号
+      - 新泽西州纽瓦克🇺🇸
+      - US_10
+      - 美国🇺🇸旧金山｜中转｜3X
+      - US_15
+      - Trojan新加坡🇸🇬
+      - 剩余流量：79.97GB
+      - 加利福尼亚州弗里蒙特🇺🇸
+      - US_4
+      - 爱尔兰🇮🇪柏林｜解锁Netflix
+      - 西班牙🇪🇸马德里｜解锁Netflix
+      - US_9
+      - US_12
+      - 新加坡🇸🇬|高速节点
+      - US_17
+      - 001香港|直接不中转|月神云
+      - 西班牙🇪🇸｜中转｜3X
+      - 米兰｜Arm
+      - 荷兰🇳🇱｜中转｜3X
+      - 🇭🇰香港丝袜奶茶02-D
+      - 加拿大🇨🇦｜中转｜3X
+      - 澳大利亚悉尼🇦🇺
+      - 新加坡🇸🇬｜中转｜3X
+      - 香港🇭🇰｜高速｜3X
+      - 美国🇺🇸旧金山
+      - US_7
+      - 新加坡🇸🇬｜备用
+      - 印度🇮🇳
+      - 002台湾|直接不中转|月神云
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 挪威-443
-      - '@allporter_韩国3'
-      - 🇺🇲洛杉矶备用
-      - Trojan台湾
-      - 美国01
-      - US_15
-      - US_10
-      - Trojan美国🇺🇸
-      - 🇸🇬新加坡2-443
-      - US_4
-      - Trojan新加坡🇸🇬
-      - US_9
-      - 🇭🇰LV1|香港7-80
-      - 🇯🇵LV1|日本2-80
-      - 🇺🇲LV1|美国2
-      - US_7
-      - 🇭🇰香港1-443-备用
-      - 🇭🇰香港5-80
-      - 🇺🇲LV1|美国1
-      - 🇭🇰LV1|香港3-443
-      - 🇭🇰LV1|香港1
-      - 香港¹-mojie.ws热情赞助
-      - 新加坡-1-Trojan
-      - 新加坡01|Netflix解锁|1.0
-      - US_12
-      - US_17
-      - 试用-日本01
+      - 韩国🇰🇷春川｜中转｜3X
       - US
-      - 韩国-1-Trojan
+      - 美國綜合_1
+      - Trojan美国🇺🇸
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 距离下次重置剩余：8天
       - US_5
+      - 美國綜合_2
+      - 003日本|直接不中转|月神云
+      - 印度🇮🇳｜中转｜3X
+      - 新加坡🇸🇬
+      - 日本🇯🇵｜解锁Netflix
+      - 爱尔兰🇮🇪柏林｜中转｜3X
+      - 80︱1Gdps︱美国1号
+      - 新泽西州纽瓦克🇺🇸
+      - US_10
+      - 美国🇺🇸旧金山｜中转｜3X
+      - US_15
+      - Trojan新加坡🇸🇬
+      - 剩余流量：79.97GB
+      - 加利福尼亚州弗里蒙特🇺🇸
+      - US_4
+      - 爱尔兰🇮🇪柏林｜解锁Netflix
+      - 西班牙🇪🇸马德里｜解锁Netflix
+      - US_9
+      - US_12
+      - 新加坡🇸🇬|高速节点
+      - US_17
+      - 001香港|直接不中转|月神云
+      - 西班牙🇪🇸｜中转｜3X
+      - 米兰｜Arm
+      - 荷兰🇳🇱｜中转｜3X
+      - 🇭🇰香港丝袜奶茶02-D
+      - 加拿大🇨🇦｜中转｜3X
+      - 澳大利亚悉尼🇦🇺
+      - 新加坡🇸🇬｜中转｜3X
+      - 香港🇭🇰｜高速｜3X
+      - 美国🇺🇸旧金山
+      - US_7
+      - 新加坡🇸🇬｜备用
+      - 印度🇮🇳
+      - 002台湾|直接不中转|月神云
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 挪威-443
-      - '@allporter_韩国3'
-      - 🇺🇲洛杉矶备用
-      - Trojan台湾
-      - 美国01
-      - US_15
-      - US_10
-      - Trojan美国🇺🇸
-      - 🇸🇬新加坡2-443
-      - US_4
-      - Trojan新加坡🇸🇬
-      - US_9
-      - 🇭🇰LV1|香港7-80
-      - 🇯🇵LV1|日本2-80
-      - 🇺🇲LV1|美国2
-      - US_7
-      - 🇭🇰香港1-443-备用
-      - 🇭🇰香港5-80
-      - 🇺🇲LV1|美国1
-      - 🇭🇰LV1|香港3-443
-      - 🇭🇰LV1|香港1
-      - 香港¹-mojie.ws热情赞助
-      - 新加坡-1-Trojan
-      - 新加坡01|Netflix解锁|1.0
-      - US_12
-      - US_17
-      - 试用-日本01
+      - 韩国🇰🇷春川｜中转｜3X
       - US
-      - 韩国-1-Trojan
+      - 美國綜合_1
+      - Trojan美国🇺🇸
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 距离下次重置剩余：8天
       - US_5
+      - 美國綜合_2
+      - 003日本|直接不中转|月神云
+      - 印度🇮🇳｜中转｜3X
+      - 新加坡🇸🇬
+      - 日本🇯🇵｜解锁Netflix
+      - 爱尔兰🇮🇪柏林｜中转｜3X
+      - 80︱1Gdps︱美国1号
+      - 新泽西州纽瓦克🇺🇸
+      - US_10
+      - 美国🇺🇸旧金山｜中转｜3X
+      - US_15
+      - Trojan新加坡🇸🇬
+      - 剩余流量：79.97GB
+      - 加利福尼亚州弗里蒙特🇺🇸
+      - US_4
+      - 爱尔兰🇮🇪柏林｜解锁Netflix
+      - 西班牙🇪🇸马德里｜解锁Netflix
+      - US_9
+      - US_12
+      - 新加坡🇸🇬|高速节点
+      - US_17
+      - 001香港|直接不中转|月神云
+      - 西班牙🇪🇸｜中转｜3X
+      - 米兰｜Arm
+      - 荷兰🇳🇱｜中转｜3X
+      - 🇭🇰香港丝袜奶茶02-D
+      - 加拿大🇨🇦｜中转｜3X
+      - 澳大利亚悉尼🇦🇺
+      - 新加坡🇸🇬｜中转｜3X
+      - 香港🇭🇰｜高速｜3X
+      - 美国🇺🇸旧金山
+      - US_7
+      - 新加坡🇸🇬｜备用
+      - 印度🇮🇳
+      - 002台湾|直接不中转|月神云
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -203,37 +258,48 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 挪威-443
-      - '@allporter_韩国3'
-      - 🇺🇲洛杉矶备用
-      - Trojan台湾
-      - 美国01
-      - US_15
-      - US_10
-      - Trojan美国🇺🇸
-      - 🇸🇬新加坡2-443
-      - US_4
-      - Trojan新加坡🇸🇬
-      - US_9
-      - 🇭🇰LV1|香港7-80
-      - 🇯🇵LV1|日本2-80
-      - 🇺🇲LV1|美国2
-      - US_7
-      - 🇭🇰香港1-443-备用
-      - 🇭🇰香港5-80
-      - 🇺🇲LV1|美国1
-      - 🇭🇰LV1|香港3-443
-      - 🇭🇰LV1|香港1
-      - 香港¹-mojie.ws热情赞助
-      - 新加坡-1-Trojan
-      - 新加坡01|Netflix解锁|1.0
-      - US_12
-      - US_17
-      - 试用-日本01
+      - 韩国🇰🇷春川｜中转｜3X
       - US
-      - 韩国-1-Trojan
+      - 美國綜合_1
+      - Trojan美国🇺🇸
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - 距离下次重置剩余：8天
       - US_5
+      - 美國綜合_2
+      - 003日本|直接不中转|月神云
+      - 印度🇮🇳｜中转｜3X
+      - 新加坡🇸🇬
+      - 日本🇯🇵｜解锁Netflix
+      - 爱尔兰🇮🇪柏林｜中转｜3X
+      - 80︱1Gdps︱美国1号
+      - 新泽西州纽瓦克🇺🇸
+      - US_10
+      - 美国🇺🇸旧金山｜中转｜3X
+      - US_15
+      - Trojan新加坡🇸🇬
+      - 剩余流量：79.97GB
+      - 加利福尼亚州弗里蒙特🇺🇸
+      - US_4
+      - 爱尔兰🇮🇪柏林｜解锁Netflix
+      - 西班牙🇪🇸马德里｜解锁Netflix
+      - US_9
+      - US_12
+      - 新加坡🇸🇬|高速节点
+      - US_17
+      - 001香港|直接不中转|月神云
+      - 西班牙🇪🇸｜中转｜3X
+      - 米兰｜Arm
+      - 荷兰🇳🇱｜中转｜3X
+      - 🇭🇰香港丝袜奶茶02-D
+      - 加拿大🇨🇦｜中转｜3X
+      - 澳大利亚悉尼🇦🇺
+      - 新加坡🇸🇬｜中转｜3X
+      - 香港🇭🇰｜高速｜3X
+      - 美国🇺🇸旧金山
+      - US_7
+      - 新加坡🇸🇬｜备用
+      - 印度🇮🇳
+      - 002台湾|直接不中转|月神云
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
