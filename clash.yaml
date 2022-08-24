@@ -5,48 +5,75 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"vmess","name":"韩国🇰🇷春川｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"905","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"USAAMDCFT","ws-opts":{"path":"/CFT","headers":{"host":"d3t9roc5d76enu.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"bd3079a5-604f-484a-9d1d-6c3b72350263","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⒔V2RAY[vip1]广移-中转-日本","server":"15.mxyun1.top","port":"41115","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"USAARMORG","ws-opts":{"path":"/cft"},"server":"155.248.193.101","port":"80","uuid":"468fabcf-7b0d-433b-8182-6b23bc3342ff","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⑭V2RAY[vip2]广移-中转-新加坡","server":"40.mxyun2.top","port":"42240","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本","server":"36.mxyun2.top","port":"42036","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒗V2RAY[vip1]北京BGP-中转-日本","server":"18.mxyun1.top","port":"41118","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"US","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25055502.xyz"}},"server":"119.36.161.40","port":"443","uuid":"2a23dbd5-09cf-4aa8-a835-3230728c4973","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"美國綜合_1","server":"us.tcpbbr.net","port":443,"password":"80bcf4f2-12f7-11ed-bb74-f23c9164ca5d","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Trojan美国🇺🇸","server":"www.cjf0423.ml","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.ml"}
-  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
-  - {"type":"vmess","name":"距离下次重置剩余：8天","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"美國綜合_2","server":"us.tcpbbr.net","port":443,"password":"80bcf4f2-12f7-11ed-bb74-f23c9164ca5d","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"003日本|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a03-jp1.moontoday.uk"}},"server":"a03-jp1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"印度🇮🇳｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"906","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡🇸🇬","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"xjpdo.356930.xyz"}},"server":"xjpdo.356930.xyz","port":"1008","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本🇯🇵｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgwrbdj.356930.xyz"}},"server":"jgwrbdj.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"爱尔兰🇮🇪柏林｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1008","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"80︱1Gdps︱美国1号","ws-opts":{"path":"/"},"server":"su1.chaoxn.top","port":"80","uuid":"49d7b427-d472-47cb-8c28-015a5553092f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新泽西州纽瓦克🇺🇸","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode08.356930.xyz"}},"server":"ode08.356930.xyz","port":"1000","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国🇺🇸旧金山｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"902","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Trojan新加坡🇸🇬","server":"www.cjf0423.tk","port":443,"password":"111111","udp":true,"skip-cert-verify":true,"sni":"www.cjf0423.tk"}
-  - {"type":"vmess","name":"剩余流量：79.97GB","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"加利福尼亚州弗里蒙特🇺🇸","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode06.356930.xyz"}},"server":"ode06.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"爱尔兰🇮🇪柏林｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"arl.356930.xyz"}},"server":"arl.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"西班牙🇪🇸马德里｜解锁Netflix","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"xby.356930.xyz"}},"server":"xby.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡🇸🇬|高速节点","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"awscs.356930.xyz"}},"server":"awscs.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本","server":"49.mxyun2.top","port":"43349","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒑V2RAY[vip1]广移-中转-韩国","server":"12.mxyun1.top","port":"41112","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒕V2RAY[vip1]电信-中转-日本","server":"16.mxyun1.top","port":"41116","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"㉔V2RAY[vip2]電信-中转-日本","server":"52.mxyun2.top","port":"42252","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"INDARMCFT","ws-opts":{"path":"/cft","headers":{"host":"dqyv0w4ipfj6d.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"6bf41a92-018a-41ff-914c-243e22deab6c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"③V2RAY[vip2]IPLC专线-游戏|深圳|日本","server":"28.mxyun2.top","port":"42228","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒊[vip1]广移-中转-日本","server":"5.mxyun1.top","port":"41205","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"KORAMD","ws-opts":{"path":"/cft"},"server":"152.67.210.14","port":"80","uuid":"d77a9154-237b-49fa-ec44-4d8c40ede124","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"②V2RAY[vip2]上海cn2-中转-新加坡","server":"27.mxyun2.top","port":"41127","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑲V2RAY[vip2]北京BGP-中转-日本","server":"45.mxyun2.top","port":"42245","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒋[vip1]广移-中转-日本","server":"6.mxyun1.top","port":"41206","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒎V2RAY[vip1]北京BGP-中转-日本","server":"9.mxyun1.top","port":"41109","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒘V2RAY[vip1]北京BGP-中转-日本","server":"19.mxyun1.top","port":"41119","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒛[vip1]广移-中转-AWS-日本","server":"25.mxyun1.top","port":"41225","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑪V2RAY[vip2]广移-中转-韩国","server":"37.mxyun2.top","port":"42237","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国","server":"34.mxyun2.top","port":"42034","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"JPNAWSORG","ws-opts":{"path":"/cft"},"server":"35.78.171.85","port":"80","uuid":"2d54f5c9-ad6d-418b-dd39-5b9fa0782698","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"US_17","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.82865755.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"001香港|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a01-hk1.moontoday.uk"}},"server":"a01-hk1.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"西班牙🇪🇸｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1007","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"米兰｜Arm","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgw03.356930.xyz"}},"server":"jgw03.356930.xyz","port":"1000","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"荷兰🇳🇱｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"1009","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇭🇰香港丝袜奶茶02-D","server":"20.239.185.238","port":12339,"password":"6150c97e-ed9e-4759-9134-90aa5352d638","udp":true,"skip-cert-verify":true,"sni":"20-187-95-105.nhost.00cdn.com"}
-  - {"type":"vmess","name":"加拿大🇨🇦｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"901","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"澳大利亚悉尼🇦🇺","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode07.356930.xyz"}},"server":"ode07.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡🇸🇬｜中转｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"azzz.356930.xyz"}},"server":"azzz.356930.xyz","port":"903","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港🇭🇰｜高速｜3X","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"az20005.356930.xyz"}},"server":"az20005.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国🇺🇸旧金山","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"dojjs.356930.xyz"}},"server":"dojjs.356930.xyz","port":"1007","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Aries_DO_IN🇮🇳_WS443_免流_Trojan","server":"in.do.cl0udf1are.cf","port":443,"password":"sPb1Wf6ZzD","udp":true,"skip-cert-verify":true,"sni":"do.0330.cf"}
+  - {"type":"vmess","name":"US_5","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.90081199.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"USARNDCFT","ws-opts":{"path":"/cft","headers":{"host":"d3ly24s121o4pg.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"c3e59386-7bed-43df-90d5-a31bf5d89a6f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP","server":"50.mxyun2.top","port":"43350","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"INDAMD","ws-opts":{"path":"/cft"},"server":"150.230.133.129","port":"80","uuid":"fe7aa206-c38d-4e6e-a0ae-6f08d7c61175","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⑫V2RAY[vip2]广移-中转-韩国","server":"38.mxyun2.top","port":"42238","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒏V2RAY[vip1]广移-中转-日本","server":"10.mxyun1.top","port":"41110","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US_15","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.77096318.xyz"}},"server":"119.36.161.40","port":"443","uuid":"08fc4943-4c7a-4a69-9265-fb961eaea917","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"⒒V2RAY[vip1]上海cn2-中转-美国","server":"13.mxyun1.top","port":"41113","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US_4","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.56252413.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"INDARMORG","ws-opts":{"path":"/cft"},"server":"152.70.66.166","port":"80","uuid":"6bf41a92-018a-41ff-914c-243e22deab6c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"USAAMD","ws-opts":{"path":"/CFT"},"server":"155.248.209.49","port":"80","uuid":"bd3079a5-604f-484a-9d1d-6c3b72350263","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"INDAMDOLD","server":"150.230.133.129","port":"8888","uuid":"8e26e83e-ca4c-4a0d-a184-06f8992e55f9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒐V2RAY[vip1]广移-中转-韩国","server":"11.mxyun1.top","port":"41111","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US_10","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.42768395.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US_9","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"KORAMDCFT","ws-opts":{"path":"/cft","headers":{"host":"drc2zb6mv43c.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"d77a9154-237b-49fa-ec44-4d8c40ede124","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Aries_DigitalOcean_SG🇸🇬_CloudFlare","ws-opts":{"path":"/aries","headers":{"host":"sg.do.justu.ml"}},"server":"124.156.143.241","port":"80","uuid":"3cfa2dd2-41cd-4260-dc61-21c8a2446e21","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"JPNAWSCFT","ws-opts":{"path":"/cft","headers":{"host":"dr05cowfu4a1a.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"2d54f5c9-ad6d-418b-dd39-5b9fa0782698","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⒉V2RAY[vip1]上海-中转-香港","server":"4.mxyun1.top","port":"41204","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"KORAMDOLD","server":"152.67.210.14","port":"8888","uuid":"6a75c420-4d52-4460-bf52-75c7a156d89e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒓V2RAY[vip1]北京BGP-中转-美国","server":"14.mxyun1.top","port":"41114","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"US_12","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11930324.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"JPNAWSCF","ws-opts":{"path":"/cft","headers":{"host":"awsec2tk.diablochen.ga"}},"server":"awsec2tk.diablochen.ga","port":"80","uuid":"2d54f5c9-ad6d-418b-dd39-5b9fa0782698","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HKGAWSCFT","ws-opts":{"path":"/cft","headers":{"host":"d1waj2fu7wa8gb.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"54282a06-2263-4370-885b-6736fec1cb1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⒈V2RAY[vip1]上海BGP-中转-台湾","server":"3.mxyun1.top","port":"41203","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"USAARMCFT","ws-opts":{"path":"/cft","headers":{"host":"d3payd60567898.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"468fabcf-7b0d-433b-8182-6b23bc3342ff","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⒚V2RAY[vip1]北京BGP-中转-日本","server":"21.mxyun1.top","port":"41121","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"「🇸🇬」EMO|金灵子x5","server":"n25.emovpn.xyz","port":1247,"cipher":"chacha20-ietf-poly1305","password":"ddd420d6-a1c5-445f-aa13-1ac9c3f7827b"}
   - {"type":"vmess","name":"US_7","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.16929298.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"新加坡🇸🇬｜备用","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"ode02.356930.xyz"}},"server":"ode02.356930.xyz","port":"443","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度🇮🇳","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"doyd.356930.xyz"}},"server":"doyd.356930.xyz","port":"1009","uuid":"eb9dae7a-f3a5-4a1e-93c1-90d3ab830f8b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"002台湾|直接不中转|月神云","ws-opts":{"path":"/moontoday","headers":{"host":"a02-tw2.moontoday.uk"}},"server":"a02-tw2.moontoday.uk","port":"443","uuid":"145e21ac-ab0c-4f89-b68c-e61149095ef3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"①V2RAY[vip2]上海BGP-中转-台湾","server":"26.mxyun2.top","port":"41126","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑱V2RAY[vip2]北京BGP-中转-日本","server":"44.mxyun2.top","port":"42244","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"KORARMCFT","ws-opts":{"path":"/CFT","headers":{"host":"d6py50p3b7er2.cloudfront.net"}},"server":"13.32.61.56","port":"80","uuid":"546f3da1-ad6f-4711-a184-2eba797fa802","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⑥V2RAY[vip2]北京BGP-中转-韩国","server":"32.mxyun2.top","port":"41132","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"④V2RAY[vip2]电信-中转-新加坡","server":"29.mxyun2.top","port":"41129","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡","server":"53.mxyun2.top","port":"42253","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑬V2RAY[vip2]广移-中转-日本","server":"39.mxyun2.top","port":"42239","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"HKGAWSCF","ws-opts":{"path":"/cft","headers":{"host":"awsec2hk.diablochen.ga"}},"server":"awsec2hk.diablochen.ga","port":"80","uuid":"54282a06-2263-4370-885b-6736fec1cb1f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"⒍[vip1]广移-中转-新加坡","server":"8.mxyun1.top","port":"41208","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡","server":"54.mxyun2.top","port":"42254","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国","server":"48.mxyun2.top","port":"43348","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP","server":"51.mxyun2.top","port":"43351","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⒌[vip1]广移-中转-日本","server":"7.mxyun1.top","port":"41207","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"⑰V2RAY[vip2]北京BGP-中转-新加坡","server":"43.mxyun2.top","port":"42243","uuid":"4bae39ae-8e06-3fab-a719-32e14dfd3de0","alterId":"2","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -55,190 +82,298 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 韩国🇰🇷春川｜中转｜3X
+      - USAAMDCFT
+      - ⒔V2RAY[vip1]广移-中转-日本
+      - USAARMORG
+      - ⑭V2RAY[vip2]广移-中转-新加坡
+      - ⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒗V2RAY[vip1]北京BGP-中转-日本
       - US
-      - 美國綜合_1
-      - Trojan美国🇺🇸
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 距离下次重置剩余：8天
-      - US_5
-      - 美國綜合_2
-      - 003日本|直接不中转|月神云
-      - 印度🇮🇳｜中转｜3X
-      - 新加坡🇸🇬
-      - 日本🇯🇵｜解锁Netflix
-      - 爱尔兰🇮🇪柏林｜中转｜3X
-      - 80︱1Gdps︱美国1号
-      - 新泽西州纽瓦克🇺🇸
-      - US_10
-      - 美国🇺🇸旧金山｜中转｜3X
-      - US_15
-      - Trojan新加坡🇸🇬
-      - 剩余流量：79.97GB
-      - 加利福尼亚州弗里蒙特🇺🇸
-      - US_4
-      - 爱尔兰🇮🇪柏林｜解锁Netflix
-      - 西班牙🇪🇸马德里｜解锁Netflix
-      - US_9
-      - US_12
-      - 新加坡🇸🇬|高速节点
+      - ㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒑V2RAY[vip1]广移-中转-韩国
+      - ⒕V2RAY[vip1]电信-中转-日本
+      - ㉔V2RAY[vip2]電信-中转-日本
+      - INDARMCFT
+      - ③V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒊[vip1]广移-中转-日本
+      - KORAMD
+      - ②V2RAY[vip2]上海cn2-中转-新加坡
+      - ⑲V2RAY[vip2]北京BGP-中转-日本
+      - ⒋[vip1]广移-中转-日本
+      - ⒎V2RAY[vip1]北京BGP-中转-日本
+      - ⒘V2RAY[vip1]北京BGP-中转-日本
+      - ⒛[vip1]广移-中转-AWS-日本
+      - ⑪V2RAY[vip2]广移-中转-韩国
+      - ⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国
+      - JPNAWSORG
       - US_17
-      - 001香港|直接不中转|月神云
-      - 西班牙🇪🇸｜中转｜3X
-      - 米兰｜Arm
-      - 荷兰🇳🇱｜中转｜3X
-      - 🇭🇰香港丝袜奶茶02-D
-      - 加拿大🇨🇦｜中转｜3X
-      - 澳大利亚悉尼🇦🇺
-      - 新加坡🇸🇬｜中转｜3X
-      - 香港🇭🇰｜高速｜3X
-      - 美国🇺🇸旧金山
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - US_5
+      - USARNDCFT
+      - ㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - INDAMD
+      - ⑫V2RAY[vip2]广移-中转-韩国
+      - ⒏V2RAY[vip1]广移-中转-日本
+      - US_15
+      - ⒒V2RAY[vip1]上海cn2-中转-美国
+      - US_4
+      - INDARMORG
+      - USAAMD
+      - INDAMDOLD
+      - ⒐V2RAY[vip1]广移-中转-韩国
+      - US_10
+      - US_9
+      - KORAMDCFT
+      - Aries_DigitalOcean_SG🇸🇬_CloudFlare
+      - JPNAWSCFT
+      - ⒉V2RAY[vip1]上海-中转-香港
+      - KORAMDOLD
+      - ⒓V2RAY[vip1]北京BGP-中转-美国
+      - US_12
+      - JPNAWSCF
+      - HKGAWSCFT
+      - ⒈V2RAY[vip1]上海BGP-中转-台湾
+      - USAARMCFT
+      - ⒚V2RAY[vip1]北京BGP-中转-日本
+      - 「🇸🇬」EMO|金灵子x5
       - US_7
-      - 新加坡🇸🇬｜备用
-      - 印度🇮🇳
-      - 002台湾|直接不中转|月神云
+      - ①V2RAY[vip2]上海BGP-中转-台湾
+      - ⑱V2RAY[vip2]北京BGP-中转-日本
+      - KORARMCFT
+      - ⑥V2RAY[vip2]北京BGP-中转-韩国
+      - ④V2RAY[vip2]电信-中转-新加坡
+      - ㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑬V2RAY[vip2]广移-中转-日本
+      - HKGAWSCF
+      - ⒍[vip1]广移-中转-新加坡
+      - ㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国
+      - ㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - ⒌[vip1]广移-中转-日本
+      - ⑰V2RAY[vip2]北京BGP-中转-新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 韩国🇰🇷春川｜中转｜3X
+      - USAAMDCFT
+      - ⒔V2RAY[vip1]广移-中转-日本
+      - USAARMORG
+      - ⑭V2RAY[vip2]广移-中转-新加坡
+      - ⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒗V2RAY[vip1]北京BGP-中转-日本
       - US
-      - 美國綜合_1
-      - Trojan美国🇺🇸
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 距离下次重置剩余：8天
-      - US_5
-      - 美國綜合_2
-      - 003日本|直接不中转|月神云
-      - 印度🇮🇳｜中转｜3X
-      - 新加坡🇸🇬
-      - 日本🇯🇵｜解锁Netflix
-      - 爱尔兰🇮🇪柏林｜中转｜3X
-      - 80︱1Gdps︱美国1号
-      - 新泽西州纽瓦克🇺🇸
-      - US_10
-      - 美国🇺🇸旧金山｜中转｜3X
-      - US_15
-      - Trojan新加坡🇸🇬
-      - 剩余流量：79.97GB
-      - 加利福尼亚州弗里蒙特🇺🇸
-      - US_4
-      - 爱尔兰🇮🇪柏林｜解锁Netflix
-      - 西班牙🇪🇸马德里｜解锁Netflix
-      - US_9
-      - US_12
-      - 新加坡🇸🇬|高速节点
+      - ㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒑V2RAY[vip1]广移-中转-韩国
+      - ⒕V2RAY[vip1]电信-中转-日本
+      - ㉔V2RAY[vip2]電信-中转-日本
+      - INDARMCFT
+      - ③V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒊[vip1]广移-中转-日本
+      - KORAMD
+      - ②V2RAY[vip2]上海cn2-中转-新加坡
+      - ⑲V2RAY[vip2]北京BGP-中转-日本
+      - ⒋[vip1]广移-中转-日本
+      - ⒎V2RAY[vip1]北京BGP-中转-日本
+      - ⒘V2RAY[vip1]北京BGP-中转-日本
+      - ⒛[vip1]广移-中转-AWS-日本
+      - ⑪V2RAY[vip2]广移-中转-韩国
+      - ⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国
+      - JPNAWSORG
       - US_17
-      - 001香港|直接不中转|月神云
-      - 西班牙🇪🇸｜中转｜3X
-      - 米兰｜Arm
-      - 荷兰🇳🇱｜中转｜3X
-      - 🇭🇰香港丝袜奶茶02-D
-      - 加拿大🇨🇦｜中转｜3X
-      - 澳大利亚悉尼🇦🇺
-      - 新加坡🇸🇬｜中转｜3X
-      - 香港🇭🇰｜高速｜3X
-      - 美国🇺🇸旧金山
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - US_5
+      - USARNDCFT
+      - ㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - INDAMD
+      - ⑫V2RAY[vip2]广移-中转-韩国
+      - ⒏V2RAY[vip1]广移-中转-日本
+      - US_15
+      - ⒒V2RAY[vip1]上海cn2-中转-美国
+      - US_4
+      - INDARMORG
+      - USAAMD
+      - INDAMDOLD
+      - ⒐V2RAY[vip1]广移-中转-韩国
+      - US_10
+      - US_9
+      - KORAMDCFT
+      - Aries_DigitalOcean_SG🇸🇬_CloudFlare
+      - JPNAWSCFT
+      - ⒉V2RAY[vip1]上海-中转-香港
+      - KORAMDOLD
+      - ⒓V2RAY[vip1]北京BGP-中转-美国
+      - US_12
+      - JPNAWSCF
+      - HKGAWSCFT
+      - ⒈V2RAY[vip1]上海BGP-中转-台湾
+      - USAARMCFT
+      - ⒚V2RAY[vip1]北京BGP-中转-日本
+      - 「🇸🇬」EMO|金灵子x5
       - US_7
-      - 新加坡🇸🇬｜备用
-      - 印度🇮🇳
-      - 002台湾|直接不中转|月神云
+      - ①V2RAY[vip2]上海BGP-中转-台湾
+      - ⑱V2RAY[vip2]北京BGP-中转-日本
+      - KORARMCFT
+      - ⑥V2RAY[vip2]北京BGP-中转-韩国
+      - ④V2RAY[vip2]电信-中转-新加坡
+      - ㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑬V2RAY[vip2]广移-中转-日本
+      - HKGAWSCF
+      - ⒍[vip1]广移-中转-新加坡
+      - ㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国
+      - ㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - ⒌[vip1]广移-中转-日本
+      - ⑰V2RAY[vip2]北京BGP-中转-新加坡
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 韩国🇰🇷春川｜中转｜3X
+      - USAAMDCFT
+      - ⒔V2RAY[vip1]广移-中转-日本
+      - USAARMORG
+      - ⑭V2RAY[vip2]广移-中转-新加坡
+      - ⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒗V2RAY[vip1]北京BGP-中转-日本
       - US
-      - 美國綜合_1
-      - Trojan美国🇺🇸
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 距离下次重置剩余：8天
-      - US_5
-      - 美國綜合_2
-      - 003日本|直接不中转|月神云
-      - 印度🇮🇳｜中转｜3X
-      - 新加坡🇸🇬
-      - 日本🇯🇵｜解锁Netflix
-      - 爱尔兰🇮🇪柏林｜中转｜3X
-      - 80︱1Gdps︱美国1号
-      - 新泽西州纽瓦克🇺🇸
-      - US_10
-      - 美国🇺🇸旧金山｜中转｜3X
-      - US_15
-      - Trojan新加坡🇸🇬
-      - 剩余流量：79.97GB
-      - 加利福尼亚州弗里蒙特🇺🇸
-      - US_4
-      - 爱尔兰🇮🇪柏林｜解锁Netflix
-      - 西班牙🇪🇸马德里｜解锁Netflix
-      - US_9
-      - US_12
-      - 新加坡🇸🇬|高速节点
+      - ㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒑V2RAY[vip1]广移-中转-韩国
+      - ⒕V2RAY[vip1]电信-中转-日本
+      - ㉔V2RAY[vip2]電信-中转-日本
+      - INDARMCFT
+      - ③V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒊[vip1]广移-中转-日本
+      - KORAMD
+      - ②V2RAY[vip2]上海cn2-中转-新加坡
+      - ⑲V2RAY[vip2]北京BGP-中转-日本
+      - ⒋[vip1]广移-中转-日本
+      - ⒎V2RAY[vip1]北京BGP-中转-日本
+      - ⒘V2RAY[vip1]北京BGP-中转-日本
+      - ⒛[vip1]广移-中转-AWS-日本
+      - ⑪V2RAY[vip2]广移-中转-韩国
+      - ⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国
+      - JPNAWSORG
       - US_17
-      - 001香港|直接不中转|月神云
-      - 西班牙🇪🇸｜中转｜3X
-      - 米兰｜Arm
-      - 荷兰🇳🇱｜中转｜3X
-      - 🇭🇰香港丝袜奶茶02-D
-      - 加拿大🇨🇦｜中转｜3X
-      - 澳大利亚悉尼🇦🇺
-      - 新加坡🇸🇬｜中转｜3X
-      - 香港🇭🇰｜高速｜3X
-      - 美国🇺🇸旧金山
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - US_5
+      - USARNDCFT
+      - ㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - INDAMD
+      - ⑫V2RAY[vip2]广移-中转-韩国
+      - ⒏V2RAY[vip1]广移-中转-日本
+      - US_15
+      - ⒒V2RAY[vip1]上海cn2-中转-美国
+      - US_4
+      - INDARMORG
+      - USAAMD
+      - INDAMDOLD
+      - ⒐V2RAY[vip1]广移-中转-韩国
+      - US_10
+      - US_9
+      - KORAMDCFT
+      - Aries_DigitalOcean_SG🇸🇬_CloudFlare
+      - JPNAWSCFT
+      - ⒉V2RAY[vip1]上海-中转-香港
+      - KORAMDOLD
+      - ⒓V2RAY[vip1]北京BGP-中转-美国
+      - US_12
+      - JPNAWSCF
+      - HKGAWSCFT
+      - ⒈V2RAY[vip1]上海BGP-中转-台湾
+      - USAARMCFT
+      - ⒚V2RAY[vip1]北京BGP-中转-日本
+      - 「🇸🇬」EMO|金灵子x5
       - US_7
-      - 新加坡🇸🇬｜备用
-      - 印度🇮🇳
-      - 002台湾|直接不中转|月神云
+      - ①V2RAY[vip2]上海BGP-中转-台湾
+      - ⑱V2RAY[vip2]北京BGP-中转-日本
+      - KORARMCFT
+      - ⑥V2RAY[vip2]北京BGP-中转-韩国
+      - ④V2RAY[vip2]电信-中转-新加坡
+      - ㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑬V2RAY[vip2]广移-中转-日本
+      - HKGAWSCF
+      - ⒍[vip1]广移-中转-新加坡
+      - ㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国
+      - ㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - ⒌[vip1]广移-中转-日本
+      - ⑰V2RAY[vip2]北京BGP-中转-新加坡
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 韩国🇰🇷春川｜中转｜3X
+      - USAAMDCFT
+      - ⒔V2RAY[vip1]广移-中转-日本
+      - USAARMORG
+      - ⑭V2RAY[vip2]广移-中转-新加坡
+      - ⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒗V2RAY[vip1]北京BGP-中转-日本
       - US
-      - 美國綜合_1
-      - Trojan美国🇺🇸
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 距离下次重置剩余：8天
-      - US_5
-      - 美國綜合_2
-      - 003日本|直接不中转|月神云
-      - 印度🇮🇳｜中转｜3X
-      - 新加坡🇸🇬
-      - 日本🇯🇵｜解锁Netflix
-      - 爱尔兰🇮🇪柏林｜中转｜3X
-      - 80︱1Gdps︱美国1号
-      - 新泽西州纽瓦克🇺🇸
-      - US_10
-      - 美国🇺🇸旧金山｜中转｜3X
-      - US_15
-      - Trojan新加坡🇸🇬
-      - 剩余流量：79.97GB
-      - 加利福尼亚州弗里蒙特🇺🇸
-      - US_4
-      - 爱尔兰🇮🇪柏林｜解锁Netflix
-      - 西班牙🇪🇸马德里｜解锁Netflix
-      - US_9
-      - US_12
-      - 新加坡🇸🇬|高速节点
+      - ㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒑V2RAY[vip1]广移-中转-韩国
+      - ⒕V2RAY[vip1]电信-中转-日本
+      - ㉔V2RAY[vip2]電信-中转-日本
+      - INDARMCFT
+      - ③V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒊[vip1]广移-中转-日本
+      - KORAMD
+      - ②V2RAY[vip2]上海cn2-中转-新加坡
+      - ⑲V2RAY[vip2]北京BGP-中转-日本
+      - ⒋[vip1]广移-中转-日本
+      - ⒎V2RAY[vip1]北京BGP-中转-日本
+      - ⒘V2RAY[vip1]北京BGP-中转-日本
+      - ⒛[vip1]广移-中转-AWS-日本
+      - ⑪V2RAY[vip2]广移-中转-韩国
+      - ⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国
+      - JPNAWSORG
       - US_17
-      - 001香港|直接不中转|月神云
-      - 西班牙🇪🇸｜中转｜3X
-      - 米兰｜Arm
-      - 荷兰🇳🇱｜中转｜3X
-      - 🇭🇰香港丝袜奶茶02-D
-      - 加拿大🇨🇦｜中转｜3X
-      - 澳大利亚悉尼🇦🇺
-      - 新加坡🇸🇬｜中转｜3X
-      - 香港🇭🇰｜高速｜3X
-      - 美国🇺🇸旧金山
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - US_5
+      - USARNDCFT
+      - ㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - INDAMD
+      - ⑫V2RAY[vip2]广移-中转-韩国
+      - ⒏V2RAY[vip1]广移-中转-日本
+      - US_15
+      - ⒒V2RAY[vip1]上海cn2-中转-美国
+      - US_4
+      - INDARMORG
+      - USAAMD
+      - INDAMDOLD
+      - ⒐V2RAY[vip1]广移-中转-韩国
+      - US_10
+      - US_9
+      - KORAMDCFT
+      - Aries_DigitalOcean_SG🇸🇬_CloudFlare
+      - JPNAWSCFT
+      - ⒉V2RAY[vip1]上海-中转-香港
+      - KORAMDOLD
+      - ⒓V2RAY[vip1]北京BGP-中转-美国
+      - US_12
+      - JPNAWSCF
+      - HKGAWSCFT
+      - ⒈V2RAY[vip1]上海BGP-中转-台湾
+      - USAARMCFT
+      - ⒚V2RAY[vip1]北京BGP-中转-日本
+      - 「🇸🇬」EMO|金灵子x5
       - US_7
-      - 新加坡🇸🇬｜备用
-      - 印度🇮🇳
-      - 002台湾|直接不中转|月神云
+      - ①V2RAY[vip2]上海BGP-中转-台湾
+      - ⑱V2RAY[vip2]北京BGP-中转-日本
+      - KORARMCFT
+      - ⑥V2RAY[vip2]北京BGP-中转-韩国
+      - ④V2RAY[vip2]电信-中转-新加坡
+      - ㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑬V2RAY[vip2]广移-中转-日本
+      - HKGAWSCF
+      - ⒍[vip1]广移-中转-新加坡
+      - ㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国
+      - ㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - ⒌[vip1]广移-中转-日本
+      - ⑰V2RAY[vip2]北京BGP-中转-新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,48 +393,75 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 韩国🇰🇷春川｜中转｜3X
+      - USAAMDCFT
+      - ⒔V2RAY[vip1]广移-中转-日本
+      - USAARMORG
+      - ⑭V2RAY[vip2]广移-中转-新加坡
+      - ⑩V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒗V2RAY[vip1]北京BGP-中转-日本
       - US
-      - 美國綜合_1
-      - Trojan美国🇺🇸
-      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
-      - 距离下次重置剩余：8天
-      - US_5
-      - 美國綜合_2
-      - 003日本|直接不中转|月神云
-      - 印度🇮🇳｜中转｜3X
-      - 新加坡🇸🇬
-      - 日本🇯🇵｜解锁Netflix
-      - 爱尔兰🇮🇪柏林｜中转｜3X
-      - 80︱1Gdps︱美国1号
-      - 新泽西州纽瓦克🇺🇸
-      - US_10
-      - 美国🇺🇸旧金山｜中转｜3X
-      - US_15
-      - Trojan新加坡🇸🇬
-      - 剩余流量：79.97GB
-      - 加利福尼亚州弗里蒙特🇺🇸
-      - US_4
-      - 爱尔兰🇮🇪柏林｜解锁Netflix
-      - 西班牙🇪🇸马德里｜解锁Netflix
-      - US_9
-      - US_12
-      - 新加坡🇸🇬|高速节点
+      - ㉑V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒑V2RAY[vip1]广移-中转-韩国
+      - ⒕V2RAY[vip1]电信-中转-日本
+      - ㉔V2RAY[vip2]電信-中转-日本
+      - INDARMCFT
+      - ③V2RAY[vip2]IPLC专线-游戏|深圳|日本
+      - ⒊[vip1]广移-中转-日本
+      - KORAMD
+      - ②V2RAY[vip2]上海cn2-中转-新加坡
+      - ⑲V2RAY[vip2]北京BGP-中转-日本
+      - ⒋[vip1]广移-中转-日本
+      - ⒎V2RAY[vip1]北京BGP-中转-日本
+      - ⒘V2RAY[vip1]北京BGP-中转-日本
+      - ⒛[vip1]广移-中转-AWS-日本
+      - ⑪V2RAY[vip2]广移-中转-韩国
+      - ⑧V2RAY[vip2]IPLC专线-游戏|深圳|韩国
+      - JPNAWSORG
       - US_17
-      - 001香港|直接不中转|月神云
-      - 西班牙🇪🇸｜中转｜3X
-      - 米兰｜Arm
-      - 荷兰🇳🇱｜中转｜3X
-      - 🇭🇰香港丝袜奶茶02-D
-      - 加拿大🇨🇦｜中转｜3X
-      - 澳大利亚悉尼🇦🇺
-      - 新加坡🇸🇬｜中转｜3X
-      - 香港🇭🇰｜高速｜3X
-      - 美国🇺🇸旧金山
+      - Aries_DO_IN🇮🇳_WS443_免流_Trojan
+      - US_5
+      - USARNDCFT
+      - ㉒V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - INDAMD
+      - ⑫V2RAY[vip2]广移-中转-韩国
+      - ⒏V2RAY[vip1]广移-中转-日本
+      - US_15
+      - ⒒V2RAY[vip1]上海cn2-中转-美国
+      - US_4
+      - INDARMORG
+      - USAAMD
+      - INDAMDOLD
+      - ⒐V2RAY[vip1]广移-中转-韩国
+      - US_10
+      - US_9
+      - KORAMDCFT
+      - Aries_DigitalOcean_SG🇸🇬_CloudFlare
+      - JPNAWSCFT
+      - ⒉V2RAY[vip1]上海-中转-香港
+      - KORAMDOLD
+      - ⒓V2RAY[vip1]北京BGP-中转-美国
+      - US_12
+      - JPNAWSCF
+      - HKGAWSCFT
+      - ⒈V2RAY[vip1]上海BGP-中转-台湾
+      - USAARMCFT
+      - ⒚V2RAY[vip1]北京BGP-中转-日本
+      - 「🇸🇬」EMO|金灵子x5
       - US_7
-      - 新加坡🇸🇬｜备用
-      - 印度🇮🇳
-      - 002台湾|直接不中转|月神云
+      - ①V2RAY[vip2]上海BGP-中转-台湾
+      - ⑱V2RAY[vip2]北京BGP-中转-日本
+      - KORARMCFT
+      - ⑥V2RAY[vip2]北京BGP-中转-韩国
+      - ④V2RAY[vip2]电信-中转-新加坡
+      - ㉕V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑬V2RAY[vip2]广移-中转-日本
+      - HKGAWSCF
+      - ⒍[vip1]广移-中转-新加坡
+      - ㉖V2RAY[vip2]IPLC专线-游戏|深圳|新加坡
+      - ⑳V2RAY[vip2]IPLC专线-游戏|深圳|美国
+      - ㉓V2RAY[vip2]IPLC专线-游戏|新加坡原生IP
+      - ⒌[vip1]广移-中转-日本
+      - ⑰V2RAY[vip2]北京BGP-中转-新加坡
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
