@@ -5,106 +5,24 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"vmess","name":"日本优选原生IP03|解锁流媒体|1x","ws-opts":{"path":"/JPZZ03","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇬🇧英国→广港-活动→0.1倍-流媒体","server":"gzct.daodecloud.com","port":27638,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"印度DO联通","server":"cm.buyrocket.xyz","port":21682,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"美国西雅图|解锁流媒体","ws-opts":{"path":"/guolicheng/us3?ed=2048","headers":{"host":"us3.guolicheng.cyou"}},"server":"172.67.206.188","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本优选原生IP02|解锁流媒体|1x","ws-opts":{"path":"/JPZZ02","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Scloud台湾01|三网优化|解锁流媒体|1x","ws-opts":{"path":"/schinet01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇩🇪德国→直连→0.2倍-流媒体","ws-opts":{"path":"/"},"server":"192.145.44.206","port":"57517","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾hinet02|优选原生IP|1x","ws-opts":{"path":"/hinet04","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本优选原生IP01|解锁流媒体|1x","ws-opts":{"path":"/JPZZ01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Scloud台湾05—可下载","ws-opts":{"path":"/scloudhinet05","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Scloud台湾04|解锁流媒体|1x","ws-opts":{"path":"/scloudhinet02","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇺🇸美国→海港-活动→0.1倍-流媒体","server":"hnct.daodecloud.com","port":15456,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"vmess","name":"美国圣何塞|解锁流媒体","ws-opts":{"path":"/guolicheng/us2?ed=2048","headers":{"host":"us2.guolicheng.cyou"}},"server":"172.67.206.133","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本原生IP|解锁流媒体|1x","ws-opts":{"path":"/jp01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国洛杉矶|解锁流媒体","ws-opts":{"path":"/guolicheng/us1?ed=2048","headers":{"host":"us1.guolicheng.cyou"}},"server":"172.67.206.33","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"美国洛杉矶-江移|解锁流媒体","server":"223.111.202.148","port":30010,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"东京|解锁流媒体|1x","ws-opts":{"path":"/dj01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国洛杉矶-中转|1x","ws-opts":{"path":"/daxun/us1","headers":{"host":"www.baidu.com"}},"server":"165.154.241.29","port":"48888","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本03|三网优化|1x","ws-opts":{"path":"linodejp03"},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v3｜新加坡03｜主力","server":"sg1.buyrocket.xyz","port":21635,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"香港HGC-2号线路|解锁流媒体","ws-opts":{"path":"/guolicheng/hkhgc?ed=2048","headers":{"host":"hkhgc.guolicheng.cyou"}},"server":"172.67.183.170","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"SJP—新加坡|优选原生IP|1x","ws-opts":{"path":"/singapore01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"新加坡06|解锁流媒体","server":"cm.newhua99.top","port":21696,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"v3｜美国02主力","server":"us2.newhua99.xyz","port":21625,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"🇨🇳香港→CMI三网→2.8倍-流媒体","ws-opts":{"path":"/"},"server":"hk-cmi.tencent.cfd","port":"64973","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度|三网优化|注册游戏|1x","ws-opts":{"path":"/yd01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国|解锁流媒体|1x","ws-opts":{"path":"/usa04","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"default_name_5","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"198.41.212.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"香港HKT-江移|解锁流媒体","server":"223.111.202.148","port":30100,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"新加坡02|三网优化|解锁流媒体|1x","ws-opts":{"path":"/doxjp03","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"韩国|解锁流媒体|1x","ws-opts":{"path":"/jgwhg01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"德国-江移|解锁流媒体","server":"223.111.202.148","port":30070,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"trojan","name":"法国-江移|解锁流媒体","server":"223.111.202.148","port":30080,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"ss","name":"🇬🇧英国→海港-活动→0.1倍-流媒体","server":"hnct.daodecloud.com","port":29671,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"v3｜美国01主力","server":"us1.buyrocket.xyz","port":21624,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"trojan","name":"美国西雅图-江移|解锁流媒体","server":"223.111.202.148","port":30030,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"ss","name":"🇸🇬新加坡→海港-活动-0.1倍-流媒体","server":"hnct.daodecloud.com","port":40496,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"vmess","name":"日本02|三网优化|1x","ws-opts":{"path":"/linodejp02","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇯🇵日本→海港→1.7倍-流媒体","server":"124.225.24.191","port":10192,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"vmess","name":"香港BGP02|优选原生IP|1x","ws-opts":{"path":"/BGP02","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"新加坡03|解锁流媒体","server":"cm.newhua99.top","port":21697,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"🇸🇬新加坡→海港-1.7倍-流媒体","server":"124.225.24.191","port":10155,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"trojan","name":"美国圣何塞-江移|解锁流媒体","server":"223.111.202.148","port":30020,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"ss","name":"v3｜新加坡02｜主力","server":"sg2.buyrocket.xyz","port":21630,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"台湾Hinet-1号线路|解锁流媒体","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}},"server":"172.67.205.208","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇳香港HKT→海港→2.2倍-流媒体","server":"124.225.24.191","port":10374,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"马来西亚02|解锁流媒体","server":"cm.buyrocket.xyz","port":21691,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"🇸🇬新加坡→广港-活动-0.1倍-流媒体","server":"gzct.daodecloud.com","port":25087,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"新加坡02|解锁流媒体","server":"cm.newhua99.top","port":21698,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"🇦🇺澳洲→直连→0.5倍-流媒体","ws-opts":{"path":"/"},"server":"au.tencent.cfd","port":"63154","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}},"server":"172.67.204.188","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"德国|三网优化|1x","ws-opts":{"path":"/dg01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇯🇵日本→广港-活动→0.1倍-流媒体","server":"gzct.daodecloud.com","port":44807,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"美国DO04|解锁流媒体","server":"cu.newhua99.top","port":21689,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"🇯🇵日本→直连→0.5倍-流媒体","ws-opts":{"path":"/"},"server":"jp.tencent.cfd","port":"60115","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港HGC-1号线路|解锁流媒体","ws-opts":{"path":"/guolicheng/hkhgc?ed=2048","headers":{"host":"hkhgc.guolicheng.cyou"}},"server":"172.67.205.183","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"新加坡05|解锁流媒体","server":"cu.newhua99.top","port":21696,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"🇯🇵日本→海港-活动→0.1倍-流媒体","server":"hnct.daodecloud.com","port":32411,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"trojan","name":"香港HKT|防失联直连|1x","server":"download2hkt.windowsupdate.lol","port":443,"password":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","udp":true,"skip-cert-verify":true,"sni":"dc3-download.windowsupdate1.com"}
-  - {"type":"ss","name":"美国01|解锁流媒体","server":"us1.buyrocket.xyz","port":21688,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"台湾Hinet-2号线路|解锁流媒体","ws-opts":{"path":"/guolicheng/hinet?ed=2048","headers":{"host":"hinet.guolicheng.cyou"}},"server":"172.67.189.188","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"德国|解锁流媒体","ws-opts":{"path":"/guolicheng/de?ed=2048","headers":{"host":"de.guolicheng.cyou"}},"server":"172.67.206.208","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"v3｜日本02主力","server":"jp2.buyrocket.xyz","port":21628,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"新加坡01|解锁流媒体","server":"cu.newhua99.top","port":21698,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"新加坡01|三网优化|解锁流媒体|1x","ws-opts":{"path":"/doxjp06","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇮🇳印度→广港-活动→0.1倍-流媒体","server":"gzct.daodecloud.com","port":42205,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"v3｜香港03主力","server":"cu.buyrocket.xyz","port":21612,"cipher":"chacha20-ietf-poly1305","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"🇸🇬新加坡→直连→0.5倍-流媒体","ws-opts":{"path":"/"},"server":"sg.tencent.cfd","port":"64177","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"法国|解锁流媒体","ws-opts":{"path":"/guolicheng/fr?ed=2048","headers":{"host":"fr.guolicheng.cyou"}},"server":"172.67.206.118","port":"443","uuid":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Scloud台湾06-原生IP","ws-opts":{"path":"/scloudhinet06","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Scloud台湾02|三网优化|解锁流媒体|1x","ws-opts":{"path":"/schinet02","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v3｜日本03主力","server":"jp1.buyrocket.xyz","port":21629,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"香港BGP01|优选原生IP|1x","ws-opts":{"path":"/BGP01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v3｜新加坡01｜主力","server":"cu.buyrocket.xyz","port":21629,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"新加坡04|解锁流媒体","server":"cu.newhua99.top","port":21697,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"trojan","name":"香港HKIX-江移|解锁流媒体","server":"223.111.202.148","port":30040,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"英国|三网优化|1x","ws-opts":{"path":"/UK03","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v3｜台湾02主力","server":"cu.buyrocket.xyz","port":21619,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"ss","name":"v3｜香港01主力","server":"cu.buyrocket.xyz","port":21610,"cipher":"chacha20-ietf-poly1305","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"新加坡04|三网优化|解锁流媒体|1x","ws-opts":{"path":"/doxjp04","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇮🇳印度→直连→0.5倍-流媒体","ws-opts":{"path":"/"},"server":"in.tencent.cfd","port":"62597","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"v3｜日本01主力","server":"jp1.buyrocket.xyz","port":21627,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
-  - {"type":"vmess","name":"Scould台湾03|解锁流媒体|1x","ws-opts":{"path":"/scloudhinet01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡05|三网优化|解锁流媒体|1x","ws-opts":{"path":"/doxjp05","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"香港HGC-江移|解锁流媒体","server":"223.111.202.148","port":30060,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"香港BGP03|优选原生IP|1x","ws-opts":{"path":"/BGP03","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"澳大利亚|三网优化|1x","ws-opts":{"path":"/AUS01"},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港HGC-高速中转|1x","ws-opts":{"path":"/daxun/hkhgc","headers":{"host":"www.baidu.com"}},"server":"165.154.241.29","port":"48888","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇺🇸美国→广港-活动→0.1倍-流媒体","server":"gzct.daodecloud.com","port":45945,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"vmess","name":"🇺🇸美西→GIA/9929→6.6倍-流媒体","ws-opts":{"path":"/"},"server":"us-gia.tencent.cfd","port":"63795","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Scloud台湾07—原生IP","ws-opts":{"path":"/scloudhinet07","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"台湾Hinet-江移|解锁流媒体","server":"223.111.202.148","port":30050,"password":"edb71f68-f3b8-4b95-9653-91a42c5c03bf","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"vmess","name":"马来西亚03|优选原生IP|1x","ws-opts":{"path":"/mlxy01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"香港HKT-中转|1x","server":"cs.daxun.cyou","port":48002,"password":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","udp":true,"skip-cert-verify":true,"sni":"dc3-download.windowsupdate1.com"}
-  - {"type":"vmess","name":"新加坡03|三网优化|解锁流媒体|1x","ws-opts":{"path":"/doxjp01","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸美西Atl→直连→1倍-流媒体","ws-opts":{"path":"/"},"server":"us-atl.tencent.cfd","port":"64913","uuid":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国圣何塞-中转|1x","ws-opts":{"path":"/daxun/us2","headers":{"host":"www.baidu.com"}},"server":"165.154.241.29","port":"48888","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"加拿大|三网优化|1x","ws-opts":{"path":"/canada1","headers":{"host":"www.baidu.com"}},"server":"gz.daxun.cyou","port":"20631","uuid":"5d07a7bd-3696-4bc2-ab37-e7082c86f5cb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇮🇳印度→海港-活动→0.1倍-流媒体","server":"hnct.daodecloud.com","port":47531,"cipher":"chacha20-ietf-poly1305","password":"7a8a2158-ed62-4364-8ba9-937f0ab9d6f0"}
-  - {"type":"ss","name":"v3｜美国03主力","server":"us1.newhua99.xyz","port":21626,"cipher":"aes-128-gcm","password":"cd1f14ca-e71e-4682-a58d-a50bb2ad49ce"}
+  - {"type":"trojan","name":"韩国-Trojan","server":"sk01.awcloud.top","port":443,"password":"1a283480-59e2-408a-99cb-dbbb6902a7ff","udp":true,"skip-cert-verify":true,"sni":"sk01.awcloud.top"}
+  - {"type":"trojan","name":"SEXOO美国No.1","server":"us1.sexoo.xyz","port":60666,"password":"c5d0dae8-3c93-480c-9b6e-1bbf57536abf","udp":true,"skip-cert-verify":true,"sni":"us1.sexoo.xyz"}
+  - {"type":"vmess","name":"🇭🇰HK｜07","ws-opts":{"path":"/"},"server":"hk07.wbsts.top","port":"9682","uuid":"e5363613-621b-4d12-817a-f3637a1e422d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳HàNội03-NKPVPN(LQ)","ws-opts":{"path":"/nkpvpn.site","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"103.147.126.120","port":"80","uuid":"c863dd9d-55f2-4615-b1a1-549da098722e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬VGR-SING(1)(LQ)","ws-opts":{"path":"/vpngiare.net","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"159.223.34.15","port":"80","uuid":"3102c0c7-ef08-442f-aa5e-220dacad1038","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"SEXOO首尔No.1","server":"kr1.sexoo.xyz","port":60666,"password":"c5d0dae8-3c93-480c-9b6e-1bbf57536abf","udp":true,"skip-cert-verify":true,"sni":"kr1.sexoo.xyz"}
+  - {"type":"trojan","name":"新加坡02","server":"zz-1.jfjs.cc","port":33126,"password":"282dfe35-67c1-4a80-a0be-14ac41382d9b","udp":true,"skip-cert-verify":true,"sni":"sg1.jfjs.cc"}
+  - {"type":"vmess","name":"🇭🇰HK｜04","ws-opts":{"path":"/"},"server":"hk04.wbsts.top","port":"9682","uuid":"e5363613-621b-4d12-817a-f3637a1e422d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK｜06","ws-opts":{"path":"/"},"server":"hk06.wbsts.top","port":"9682","uuid":"e5363613-621b-4d12-817a-f3637a1e422d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK｜08","ws-opts":{"path":"/"},"server":"hk08.wbsts.top","port":"9682","uuid":"e5363613-621b-4d12-817a-f3637a1e422d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"SEXOO香港No.1","server":"hk1.sexoo.xyz","port":60667,"password":"c5d0dae8-3c93-480c-9b6e-1bbf57536abf","udp":true,"skip-cert-verify":true,"sni":"hk1.sexoo.xyz"}
+  - {"type":"vmess","name":"🇭🇰HK｜02","ws-opts":{"path":"/"},"server":"hk02.wbsts.top","port":"9682","uuid":"e5363613-621b-4d12-817a-f3637a1e422d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳HàNội02-NKPVPN-GAME(LQ)","ws-opts":{"path":"/nkpvpn.site","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"103.147.126.86","port":"80","uuid":"c863dd9d-55f2-4615-b1a1-549da098722e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇯🇵V0-日本3","server":"gyjp3.333003.xyz","port":16914,"cipher":"aes-256-gcm","password":"6367e137-7366-44e4-a7a1-eba23a6d1e93"}
+  - {"type":"trojan","name":"SEXOO新加坡No.1","server":"sg1.sexoo.xyz","port":60666,"password":"c5d0dae8-3c93-480c-9b6e-1bbf57536abf","udp":true,"skip-cert-verify":true,"sni":"sg1.sexoo.xyz"}
+  - {"type":"vmess","name":"liteheberg","ws-opts":{"path":"/"},"server":"68ba0323-a51b-489b-8125-9294f9622720.misc.cf","port":"80","uuid":"68ba0323-a51b-489b-8125-9294f9622720","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"新加坡01","server":"zz-2.jfjs.cc","port":33126,"password":"282dfe35-67c1-4a80-a0be-14ac41382d9b","udp":true,"skip-cert-verify":true,"sni":"sg1.jfjs.cc"}
+  - {"type":"trojan","name":"🇨🇳V0-台湾","server":"gytw.333003.xyz","port":12839,"password":"6367e137-7366-44e4-a7a1-eba23a6d1e93","udp":true,"skip-cert-verify":true,"sni":"gminguo.333003.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -115,422 +33,94 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -550,318 +140,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - 日本优选原生IP03|解锁流媒体|1x
-      - 🇬🇧英国→广港-活动→0.1倍-流媒体
-      - 印度DO联通
-      - 美国西雅图|解锁流媒体
-      - 日本优选原生IP02|解锁流媒体|1x
-      - Scloud台湾01|三网优化|解锁流媒体|1x
-      - 🇩🇪德国→直连→0.2倍-流媒体
-      - 台湾hinet02|优选原生IP|1x
-      - 日本优选原生IP01|解锁流媒体|1x
-      - Scloud台湾05—可下载
-      - Scloud台湾04|解锁流媒体|1x
-      - 🇺🇸美国→海港-活动→0.1倍-流媒体
-      - 美国圣何塞|解锁流媒体
-      - 日本原生IP|解锁流媒体|1x
-      - 美国洛杉矶|解锁流媒体
-      - 美国洛杉矶-江移|解锁流媒体
-      - 东京|解锁流媒体|1x
-      - 美国洛杉矶-中转|1x
-      - 日本03|三网优化|1x
-      - v3｜新加坡03｜主力
-      - 香港HGC-2号线路|解锁流媒体
-      - SJP—新加坡|优选原生IP|1x
-      - 新加坡06|解锁流媒体
-      - v3｜美国02主力
-      - 🇨🇳香港→CMI三网→2.8倍-流媒体
-      - 印度|三网优化|注册游戏|1x
-      - 美国|解锁流媒体|1x
-      - default_name_5
-      - 香港HKT-江移|解锁流媒体
-      - 新加坡02|三网优化|解锁流媒体|1x
-      - 韩国|解锁流媒体|1x
-      - 德国-江移|解锁流媒体
-      - 法国-江移|解锁流媒体
-      - 🇬🇧英国→海港-活动→0.1倍-流媒体
-      - v3｜美国01主力
-      - 美国西雅图-江移|解锁流媒体
-      - 🇸🇬新加坡→海港-活动-0.1倍-流媒体
-      - 日本02|三网优化|1x
-      - 🇯🇵日本→海港→1.7倍-流媒体
-      - 香港BGP02|优选原生IP|1x
-      - 新加坡03|解锁流媒体
-      - 🇸🇬新加坡→海港-1.7倍-流媒体
-      - 美国圣何塞-江移|解锁流媒体
-      - v3｜新加坡02｜主力
-      - 台湾Hinet-1号线路|解锁流媒体
-      - 🇨🇳香港HKT→海港→2.2倍-流媒体
-      - 马来西亚02|解锁流媒体
-      - 🇸🇬新加坡→广港-活动-0.1倍-流媒体
-      - 新加坡02|解锁流媒体
-      - 🇦🇺澳洲→直连→0.5倍-流媒体
-      - 官网:https://guolicheng.cc|TG:https://t.me/Goguolichengo
-      - 德国|三网优化|1x
-      - 🇯🇵日本→广港-活动→0.1倍-流媒体
-      - 美国DO04|解锁流媒体
-      - 🇯🇵日本→直连→0.5倍-流媒体
-      - 香港HGC-1号线路|解锁流媒体
-      - 新加坡05|解锁流媒体
-      - 🇯🇵日本→海港-活动→0.1倍-流媒体
-      - 香港HKT|防失联直连|1x
-      - 美国01|解锁流媒体
-      - 台湾Hinet-2号线路|解锁流媒体
-      - 德国|解锁流媒体
-      - v3｜日本02主力
-      - 新加坡01|解锁流媒体
-      - 新加坡01|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→广港-活动→0.1倍-流媒体
-      - v3｜香港03主力
-      - 🇸🇬新加坡→直连→0.5倍-流媒体
-      - 法国|解锁流媒体
-      - Scloud台湾06-原生IP
-      - Scloud台湾02|三网优化|解锁流媒体|1x
-      - v3｜日本03主力
-      - 香港BGP01|优选原生IP|1x
-      - v3｜新加坡01｜主力
-      - 新加坡04|解锁流媒体
-      - 香港HKIX-江移|解锁流媒体
-      - 英国|三网优化|1x
-      - v3｜台湾02主力
-      - v3｜香港01主力
-      - 新加坡04|三网优化|解锁流媒体|1x
-      - 🇮🇳印度→直连→0.5倍-流媒体
-      - v3｜日本01主力
-      - Scould台湾03|解锁流媒体|1x
-      - 新加坡05|三网优化|解锁流媒体|1x
-      - 香港HGC-江移|解锁流媒体
-      - 香港BGP03|优选原生IP|1x
-      - 澳大利亚|三网优化|1x
-      - 香港HGC-高速中转|1x
-      - 🇺🇸美国→广港-活动→0.1倍-流媒体
-      - 🇺🇸美西→GIA/9929→6.6倍-流媒体
-      - Scloud台湾07—原生IP
-      - 台湾Hinet-江移|解锁流媒体
-      - 马来西亚03|优选原生IP|1x
-      - 香港HKT-中转|1x
-      - 新加坡03|三网优化|解锁流媒体|1x
-      - 🇺🇸美西Atl→直连→1倍-流媒体
-      - 美国圣何塞-中转|1x
-      - 加拿大|三网优化|1x
-      - 🇮🇳印度→海港-活动→0.1倍-流媒体
-      - v3｜美国03主力
+      - 韩国-Trojan
+      - SEXOO美国No.1
+      - 🇭🇰HK｜07
+      - 🇻🇳HàNội03-NKPVPN(LQ)
+      - 🇸🇬VGR-SING(1)(LQ)
+      - SEXOO首尔No.1
+      - 新加坡02
+      - 🇭🇰HK｜04
+      - 🇭🇰HK｜06
+      - 🇭🇰HK｜08
+      - SEXOO香港No.1
+      - 🇭🇰HK｜02
+      - 🇻🇳HàNội02-NKPVPN-GAME(LQ)
+      - 🇯🇵V0-日本3
+      - SEXOO新加坡No.1
+      - liteheberg
+      - 新加坡01
+      - 🇨🇳V0-台湾
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
