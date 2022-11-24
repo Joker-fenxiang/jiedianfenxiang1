@@ -5,84 +5,31 @@ mode: Rule
 log-level: info
 external-controller: ':9090'
 proxies:
-  - {"type":"trojan","name":"印度-Trojan","server":"in01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"in01.awcloud.top"}
-  - {"type":"vmess","name":"V4-中转3567|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13567","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3311|广东H-台湾|解锁|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"mjk6.cdn.node.a.ddns-ounk.com","port":"13311","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾01{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25233","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3360|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13360","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾②{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25232","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾02{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25233","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3561|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13561","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"台湾①{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25232","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"俄罗斯①{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25230","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度02{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25216","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"俄罗斯-Trojan","server":"ru01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"ru01.awcloud.top"}
-  - {"type":"vmess","name":"德国01{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25241","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3379|广东K-新加坡|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"13379","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本06{优化2|V2ray}","ws-opts":{"path":"/"},"server":"jp2.awslcn.cc","port":"25219","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转2942|广东K-新加坡|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"12942","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3308|广东H-台湾|解锁|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"mjk6.cdn.node.a.ddns-ounk.com","port":"13308","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"英国-Trojan","server":"uk01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"uk01.awcloud.top"}
-  - {"type":"vmess","name":"V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"cd69.cdn.node.a.ddns-ounk.com","port":"13345","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3563|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13563","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"美国-Trojan","server":"us01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"us01.awcloud.top"}
-  - {"type":"vmess","name":"香港03{优化1|V2ray}","ws-opts":{"path":"/"},"server":"hk1.awslcn.cc","port":"25248","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转2923|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"51200","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本02{优化2|V2ray}","ws-opts":{"path":"/"},"server":"jp2.awslcn.cc","port":"25237","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡01{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25245","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"12987","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3569|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13569","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3368|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13368","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3559|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13559","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3377|广东K-新加坡|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"13377","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡02{优化1|V2ray}","ws-opts":{"path":"/"},"server":"sg1.awslcn.cc","port":"25243","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"德国-Trojan","server":"de01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"de01.awcloud.top"}
-  - {"type":"vmess","name":"美国04{优化1|V2ray}","ws-opts":{"path":"/"},"server":"us1.awslcn.cc","port":"25255","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡04{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25246","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3364|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13364","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡08{优化1|V2ray}","ws-opts":{"path":"/"},"server":"sg1.awslcn.cc","port":"25245","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"韩国01{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25218","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3361|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13361","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡03{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25221","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3375|广东K-新加坡|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"13375","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3477|上海移动-香港|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"meq886.cdn.node.a.ddns-ounk.com","port":"13477","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"12989","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3577|广东K-新加坡|x2.0|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"13577","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"tata12.cdn.node.a.ddns-ounk.com","port":"13546","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3508|上海移动-香港|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"meq886.cdn.node.a.ddns-ounk.com","port":"13508","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3588|广东K-新加坡|x1.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"qgd6.cdn.node.a.ddns-ounk.com","port":"13588","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本03{优化1|V2ray}","ws-opts":{"path":"/"},"server":"jp1.awslcn.cc","port":"25220","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本05{优化1|V2ray}","ws-opts":{"path":"/"},"server":"jp1.awslcn.cc","port":"25219","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡06{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25253","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇻🇳HANOI06(LQ)","ws-opts":{"path":"/skypn.fun","headers":{"host":"dl.kgvn.garenanow.com"}},"server":"hn6.skypn.fun","port":"80","uuid":"3bec32a8-2aa0-428c-bc69-66279604e684","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"cd69.cdn.node.a.ddns-ounk.com","port":"13666","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"韩国02{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25218","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本01{优化1|V2ray}","ws-opts":{"path":"/"},"server":"jp1.awslcn.cc","port":"25237","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3663|广东M-美国|解锁|x2.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"bb29cs.cdn.node.a.ddns-ounk.com","port":"13663","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"新加坡07{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25254","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"日本-Trojan","server":"jp01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"jp01.awcloud.top"}
-  - {"type":"vmess","name":"马来02{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25228","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港02{优化2|V2ray}","ws-opts":{"path":"/"},"server":"hk2.awslcn.cc","port":"25242","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3542|广东-香港HKT|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"cd69.cdn.node.a.ddns-ounk.com","port":"13542","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3660|广东M-美国|解锁|x2.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"bb29cs.cdn.node.a.ddns-ounk.com","port":"13660","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3565|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13565","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国02{优化2|V2ray}","ws-opts":{"path":"/"},"server":"us2.awslcn.cc","port":"25239","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"香港01{优化1|V2ray}","ws-opts":{"path":"/"},"server":"hk1.awslcn.cc","port":"25242","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国01{优化1|V2ray}","ws-opts":{"path":"/"},"server":"us1.awslcn.cc","port":"25239","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"美国03{优化1|V2ray}","ws-opts":{"path":"/"},"server":"us1.awslcn.cc","port":"25238","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"新加坡-Trojan①","server":"sg01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"sg01.awcloud.top"}
-  - {"type":"vmess","name":"V4-中转3688|广东G-新加坡|x2.0|V2ray","ws-opts":{"path":"/6d22-4232-9e87-9670c18b4a60.v1..live04.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"13688","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"马来01{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25228","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"英国{联通|V2ray}","ws-opts":{"path":"/"},"server":"cu.awslcn.cc","port":"25240","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"马来-Trojan","server":"my01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"my01.awcloud.top"}
-  - {"type":"vmess","name":"V4-中转2920|广东G-新加坡|x2.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"51197","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"r97q.cdn.node.a.ddns-ounk.com","port":"12988","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"日本04{优化2|V2ray}","ws-opts":{"path":"/"},"server":"jp2.awslcn.cc","port":"25220","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"印度01{移动|V2ray}","ws-opts":{"path":"/"},"server":"cm.awslcn.cc","port":"25216","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"韩国-Trojan","server":"sk01.awcloud.top","port":443,"password":"59e806eb-8f89-4c37-a961-86ee23211300","udp":true,"skip-cert-verify":true,"sni":"sk01.awcloud.top"}
-  - {"type":"vmess","name":"新加坡05{优化2|V2ray}","ws-opts":{"path":"/"},"server":"sg2.awslcn.cc","port":"25252","uuid":"59e806eb-8f89-4c37-a961-86ee23211300","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V3-中转3664|广东M-美国|解锁|x2.5|V2ray","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8"},"server":"bb29cs.cdn.node.a.ddns-ounk.com","port":"13664","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"V4-中转3667|广东X-香港HKT|x1.5|V2ray","ws-opts":{"path":"/2294-44e2-a528-d9fb1adaa35f.v4..live01.m3u8"},"server":"cd69.cdn.node.a.ddns-ounk.com","port":"13667","uuid":"b308347a-7f23-329d-bc7a-746e01cfbc1e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Heroku-3_2","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"003kkou.pages.dev"}},"server":"167.99.73.50","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"流量站-美国2","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"mg2.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Heroku-1_5","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"001frg.pages.dev"}},"server":"167.71.218.212","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"流量站-香港6-分流-江苏","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"a.189.cn"}},"server":"hk6.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"流量站-香港3","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"hk3.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Heroku-2_5","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"002hngh.pages.dev"}},"server":"167.71.220.57","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"流量站-香港4-分流-广东","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"a.189.cn"}},"server":"hk4.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"日本--AWS--CF源节点","ws-opts":{"path":"/ws"},"server":"jp-aws.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"流量站-日本2","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"jp2.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"流量站-香港2","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"hk2.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇭🇰香港01|1x","server":"p1.bxy-fun1.com","port":11407,"cipher":"chacha20-ietf-poly1305","password":"d7bee830-09aa-43b2-8945-3b341b8787db"}
+  - {"type":"vmess","name":"流量站-美国3(解锁奈飞)","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"mg3.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Heroku-3_1","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"003kkou.pages.dev"}},"server":"167.99.73.48","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬新加坡CloudFlare中转","ws-opts":{"path":"/ILOVEGENSHINMINECRAFT"},"server":"cdnsg.gm1919810.live","port":"2052","uuid":"35a90665-3238-4426-f616-ff4cc0536af9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"新加坡--AWS--CF源节点","ws-opts":{"path":"/ws"},"server":"sg-aws.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Heroku-5_5","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"005dgdf.pages.dev"}},"server":"167.114.67.25","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇬🇧英国01|1x","server":"p1.bxy-fun2.com","port":20471,"cipher":"chacha20-ietf-poly1305","password":"d7bee830-09aa-43b2-8945-3b341b8787db"}
+  - {"type":"vmess","name":"韩国--AWS--CF源节点","ws-opts":{"path":"/ws"},"server":"kr-aws.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇸🇬狮城03|1x","server":"p1.bxy-fun3.com","port":24105,"cipher":"chacha20-ietf-poly1305","password":"d7bee830-09aa-43b2-8945-3b341b8787db"}
+  - {"type":"vmess","name":"新加坡--oracle【流媒体】--CF源节点","ws-opts":{"path":"/ws"},"server":"sg-oci-cf.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国--LAX【流媒体】--CF源节点","ws-opts":{"path":"/ws"},"server":"us-lax.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"美国--SEA【流媒体】--CF源节点","ws-opts":{"path":"/ws"},"server":"us-sea.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Heroku-1_3","ws-opts":{"path":"/65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm","headers":{"host":"001frg.pages.dev"}},"server":"167.71.210.59","port":"443","uuid":"65218fe8-d9c2-4e07-95bb-cb6e379a440b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"香港--Coloris--CF源节点","ws-opts":{"path":"/ws"},"server":"hk-coloris.world-in-cdn.top","port":"2083","uuid":"49b6740e-2f48-4ea5-9485-ad3e0a70f615","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"流量站-美国1","ws-opts":{"path":"/TS/recharge/tzUrl.html","headers":{"host":"gd.189.cn"}},"server":"mg1.mlcat.ml","port":"80","uuid":"e5f388f9-dfc6-4259-8a26-02ca1bcd516e","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -93,334 +40,122 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -440,252 +175,93 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - 印度-Trojan
-      - V4-中转3567|广东G-新加坡|x2.0|V2ray
-      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
-      - 台湾01{移动|V2ray}
-      - V4-中转3360|广东G-新加坡|x2.5|V2ray
-      - 台湾②{联通|V2ray}
-      - 台湾02{联通|V2ray}
-      - V4-中转3561|广东G-新加坡|x2.0|V2ray
-      - 台湾①{移动|V2ray}
-      - 俄罗斯①{移动|V2ray}
-      - 印度02{联通|V2ray}
-      - 俄罗斯-Trojan
-      - 德国01{移动|V2ray}
-      - V3-中转3379|广东K-新加坡|x1.5|V2ray
-      - 日本06{优化2|V2ray}
-      - V3-中转2942|广东K-新加坡|x1.5|V2ray
-      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
-      - 英国-Trojan
-      - V3-中转3345|广东X-香港HKT|解锁|x2.0|V2ray
-      - V4-中转3563|广东G-新加坡|x2.0|V2ray
-      - 美国-Trojan
-      - 香港03{优化1|V2ray}
-      - V4-中转2923|广东G-新加坡|x2.5|V2ray
-      - 日本02{优化2|V2ray}
-      - 新加坡01{优化2|V2ray}
-      - V4-中转2987|广东G-新加坡|解锁|x2.0|V2ray
-      - V4-中转3569|广东G-新加坡|x2.0|V2ray
-      - V4-中转3368|广东G-新加坡|x2.5|V2ray
-      - V4-中转3559|广东G-新加坡|x2.0|V2ray
-      - V3-中转3377|广东K-新加坡|x1.5|V2ray
-      - 新加坡02{优化1|V2ray}
-      - 德国-Trojan
-      - 美国04{优化1|V2ray}
-      - 新加坡04{优化2|V2ray}
-      - V4-中转3364|广东G-新加坡|x2.5|V2ray
-      - 新加坡08{优化1|V2ray}
-      - 韩国01{移动|V2ray}
-      - V4-中转3361|广东G-新加坡|x2.5|V2ray
-      - 新加坡03{优化2|V2ray}
-      - V3-中转3375|广东K-新加坡|x1.5|V2ray
-      - V3-中转3477|上海移动-香港|x1.5|V2ray
-      - V4-中转2989|广东G-新加坡|解锁|x2.0|V2ray
-      - V3-中转3577|广东K-新加坡|x2.0|V2ray
-      - V3中转3546|广东W-香港HKT|解锁|x1.5|V2ray
-      - V3-中转3508|上海移动-香港|x1.5|V2ray
-      - V3-中转3588|广东K-新加坡|x1.5|V2ray
-      - 日本03{优化1|V2ray}
-      - 日本05{优化1|V2ray}
-      - 新加坡06{优化2|V2ray}
-      - 🇻🇳HANOI06(LQ)
-      - V4-中转3666|广东X-香港HKT|解锁|x1.5|V2ray
-      - 韩国02{联通|V2ray}
-      - 日本01{优化1|V2ray}
-      - V3-中转3663|广东M-美国|解锁|x2.5|V2ray
-      - 新加坡07{优化2|V2ray}
-      - 日本-Trojan
-      - 马来02{联通|V2ray}
-      - 香港02{优化2|V2ray}
-      - V4-中转3542|广东-香港HKT|x2.0|V2ray
-      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3565|广东G-新加坡|x2.0|V2ray
-      - 美国02{优化2|V2ray}
-      - 香港01{优化1|V2ray}
-      - 美国01{优化1|V2ray}
-      - 美国03{优化1|V2ray}
-      - 新加坡-Trojan①
-      - V4-中转3688|广东G-新加坡|x2.0|V2ray
-      - 马来01{移动|V2ray}
-      - 英国{联通|V2ray}
-      - 马来-Trojan
-      - V4-中转2920|广东G-新加坡|x2.5|V2ray
-      - V4-中转2988|广东G-新加坡|解锁|x2.0|V2ray
-      - 日本04{优化2|V2ray}
-      - 印度01{移动|V2ray}
-      - 韩国-Trojan
-      - 新加坡05{优化2|V2ray}
-      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
-      - V4-中转3667|广东X-香港HKT|x1.5|V2ray
+      - Heroku-3_2
+      - 流量站-美国2
+      - Heroku-1_5
+      - 流量站-香港6-分流-江苏
+      - 流量站-香港3
+      - Heroku-2_5
+      - 流量站-香港4-分流-广东
+      - 日本--AWS--CF源节点
+      - 流量站-日本2
+      - 流量站-香港2
+      - 🇭🇰香港01|1x
+      - 流量站-美国3(解锁奈飞)
+      - Heroku-3_1
+      - 🇸🇬新加坡CloudFlare中转
+      - 新加坡--AWS--CF源节点
+      - Heroku-5_5
+      - 🇬🇧英国01|1x
+      - 韩国--AWS--CF源节点
+      - 🇸🇬狮城03|1x
+      - 新加坡--oracle【流媒体】--CF源节点
+      - 美国--LAX【流媒体】--CF源节点
+      - 美国--SEA【流媒体】--CF源节点
+      - Heroku-1_3
+      - 香港--Coloris--CF源节点
+      - 流量站-美国1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
